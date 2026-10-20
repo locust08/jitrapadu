@@ -1,0 +1,12 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:1
+#EXT-X-PLAYLIST-TYPE:VOD
+#EXTINF:10,
+https://www.figma.com/blobs/us/download/figma-videos-production/video/TEAM/1251009386367438440/d125144aa21ec139b7843145bbb27a275b62c946/hlsOutputs/d125144aa21ec139b7843145bbb27a275b62c946hls_abr_1_00001.ts
+#EXTINF:10,
+https://www.figma.com/blobs/us/download/figma-videos-production/video/TEAM/1251009386367438440/d125144aa21ec139b7843145bbb27a275b62c946/hlsOutputs/d125144aa21ec139b7843145bbb27a275b62c946hls_abr_1_00002.ts
+#EXTINF:1,
+https://www.figma.com/blobs/us/download/figma-videos-production/video/TEAM/1251009386367438440/d125144aa21ec139b7843145bbb27a275b62c946/hlsOutputs/d125144aa21ec139b7843145bbb27a275b62c946hls_abr_1_00003.ts
+#EXT-X-ENDLIST

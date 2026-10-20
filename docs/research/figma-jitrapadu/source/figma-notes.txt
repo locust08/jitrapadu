@@ -1,0 +1,182 @@
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Color / Text / Primary: #102033, Typography / H4: Font(family: "Inter", style: Semi Bold, size: 24, weight: 600, lineHeight: 32, letterSpacing: -0.30000001192092896), Color / Brand / Primary Hover: #0068D8, Typography / H6: Font(family: "Inter", style: Semi Bold, size: 18, weight: 600, lineHeight: 26, letterSpacing: 0), Color/Brand/Primary: #007CF8, Typography / H2: Font(family: "Inter", style: Bold, size: 48, weight: 700, lineHeight: 58, letterSpacing: -1.2000000476837158), Color / Text / Secondary: #495667, Typography / Body / Large: Font(family: "Inter", style: Regular, size: 18, weight: 400, lineHeight: 30, letterSpacing: 0), Color / Background / Primary: #FFFFFF, Color / Border / Default: #DDE4EC, Typography/Button: Font(family: "Inter", style: Semi Bold, size: 16, weight: 600, lineHeight: 20, letterSpacing: 0.10000000149011612), Color / Text / Inverse: #FFFFFF, Typography / H5: Font(family: "Inter", style: Semi Bold, size: 20, weight: 600, lineHeight: 28, letterSpacing: -0.20000000298023224), Typography/H1: Font(family: "Inter", style: Bold, size: 68, weight: 700, lineHeight: 76, letterSpacing: -1.7999999523162842), Color / Background / Secondary: #F7F9FC, Typography / H3: Font(family: "Inter", style: Semi Bold, size: 32, weight: 600, lineHeight: 40, letterSpacing: -0.6000000238418579), V2/Branding Color/White: #FFFFFF, Color / Border / Strong: #C5CED8, Colors/Border/Separator Line: #B0D0C1, Typography/Body/Regular: Font(family: "Inter", style: Regular, size: 16, weight: 400, lineHeight: 26, letterSpacing: 0), Colors/Green/Light :active: #B0D0C1.
+
+The generated code contains image and SVG URL constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.
+
+IMPORTANT: This design contains authored shader fills and/or effects. Implementing these shaders is part of the requested task, including static, subtle, and decorative shaders. Do NOT omit them, approximate them with CSS or other techniques, or ask whether the user wants them implemented later.
+
+The <ShaderEffect> and <ShaderFill> components require the Figma shader runtime library. Before implementing the shader-backed elements:
+1. Read the shader-runtime-index MCP resource at file://shader-runtime-index.json/.
+2. For EVERY filename returned, read file:///shader-runtime/{filename} using the shader-runtime-file MCP resource template. Preserve the THREE slashes after file:. Example: file:///shader-runtime/components/ShaderFill.tsx. shader-runtime-file is a template name, NOT a URI path.
+3. Copy the runtime and each of the following design-specific shader source files VERBATIM, preserving their paths and resolving all imports.
+4. Keep <ShaderFill> and <ShaderEffect> connected to the rendered component, preserving shader parameters, opacity, and effect order.
+
+If a resource read fails, rediscover its exact URI with resources/list or resources/templates/list and retry. Do NOT infer that resource reads are unsupported from a failed request to a guessed URI. If a required file remains unavailable, report the exact blocked resource without substituting an approximation.
+
+HTML-in-Canvas is a browser API that lets a canvas capture rendered DOM elements as input to graphics rendering. The supplied <ShaderEffect> runtime uses it to apply WebGPU shaders to HTML content. <ShaderFill> renders a shader-generated fill using WebGPU and does NOT require HTML-in-Canvas. The supplied runtime already implements the integration: copy it verbatim and use the provided components; you do not need to recreate it. API specification: https://github.com/WICG/html-in-canvas. If the target browser lacks a required API, preserve the shader implementation and explain the compatibility limitation. Do NOT replace it with CSS or omit it.
+
+Before declaring completion, verify that the provided runtime and shader modules exist, are imported, and are used by the rendered component.
+
+// lib/custom-effects/CodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615.ts
+// @ts-nocheck
+
+// Property metadata is only used in Figma Design, so this is a no-op.
+function defineProperties(
+  _component: unknown,
+  _properties: unknown,
+): void {}
+
+export default function Effect() { }
+export function setup(device, frame) {
+    var wgsl = `diagnostic(off,derivative_uniformity);
+
+struct Uniforms {
+  pattern: vec4f,
+  color: vec4f,
+  transform: vec4f,
+  geometry: vec4f,
+};
+
+@group(0) @binding(0) var<uniform> u: Uniforms;
+
+struct VsIn { @location(0) pos: vec2f, @location(1) uv: vec2f, };
+struct VsOut { @builtin(position) position: vec4f, @location(0) uv: vec2f, };
+
+fn shapeDistance(p: vec2f, shape: i32) -> f32 {
+  if (shape == 0) { return max(p.y, (sqrt(3.0) * abs(p.x) - p.y) * 0.5); }
+  if (shape == 1) { return length(p); }
+  return max(abs(p.x), abs(p.y));
+}
+
+@vertex fn vs_main(in: VsIn) -> VsOut {
+  var out: VsOut;
+  out.position = vec4f(in.pos, 0.0, 1.0);
+  out.uv = in.uv;
+  return out;
+}
+
+@fragment fn fs_main(in: VsOut) -> @location(0) vec4f {
+  let shape = i32(u.pattern.x + 0.5);
+  let ringCount = u.pattern.y;
+  let falloff = u.pattern.z;
+  let inverseFalloff = u.pattern.w >= 0.5;
+  let color = u.color;
+  let zoom = max(u.transform.x, 0.0001);
+  let cosine = u.transform.y;
+  let sine = u.transform.z;
+  let offset = u.transform.w;
+  let aspect = u.geometry.x;
+  let centerUv = u.geometry.yz / 100.0;
+  var position = (in.uv - centerUv) / zoom;
+  position.x *= aspect;
+  let rotatedPosition = vec2f(cosine * position.x - sine * position.y, sine * position.x + cosine * position.y);
+  let distance = shapeDistance(rotatedPosition, shape);
+  let scaledDistance = distance * ringCount;
+  let ringPosition = fract(scaledDistance + offset);
+  let blendWidth = min(fwidth(scaledDistance) * 1.5, 0.2499);
+  let leadingEdge = smoothstep(0.0, blendWidth, ringPosition);
+  let trailingEdge = smoothstep(0.5 - blendWidth, 0.5, ringPosition);
+  let band = leadingEdge * (1.0 - trailingEdge);
+  let normalFalloff = exp(-distance * falloff);
+  var fade = normalFalloff;
+  if (inverseFalloff) { fade = 1.0 - normalFalloff; }
+  let alpha = band * fade * color.a;
+  return vec4f(color.rgb, alpha);
+}
+`;
+    frame.state.module = device.createShaderModule({ code: wgsl });
+    frame.state.pipeline = null;
+    frame.state.pipelineFormat = null;
+    frame.state.bindGroup = null;
+    frame.state.quad = device.createBuffer({ size: 6 * 4 * 4, usage: GPUBufferUsage.VERTEX, mappedAtCreation: true });
+    new Float32Array(frame.state.quad.getMappedRange()).set([
+        -1, -1, 0, 1, 1, -1, 1, 1, -1, 1, 0, 0,
+        -1, 1, 0, 0, 1, -1, 1, 1, 1, 1, 1, 0,
+    ]);
+    frame.state.quad.unmap();
+    frame.state.uniformBuf = device.createBuffer({ size: 64, usage: GPUBufferUsage.UNIFORM | GPUBufferUsage.COPY_DST });
+    frame.state.uniformData = new Float32Array(16);
+}
+export function render(device, frame) {
+    var params = frame.params || {};
+    function finiteNumber(value, fallback) { var number = Number(value); return Number.isFinite(number) ? number : fallback; }
+    function clampedNumber(name, fallback, min, max) { var value = finiteNumber(params[name], fallback); return Math.min(max, Math.max(min, value)); }
+    function booleanParam(name, fallback) { if (typeof params[name] === "boolean")
+        return params[name] ? 1 : 0; return fallback ? 1 : 0; }
+    function selectParam(name, count, fallback) { var value = Math.round(Number(params[name])); return Number.isFinite(value) && value >= 0 && value < count ? value : fallback; }
+    function colorParam(name, fallback) {
+        var value = params[name] || {};
+        return [
+            Math.min(1, Math.max(0, finiteNumber(value.r, fallback[0]))),
+            Math.min(1, Math.max(0, finiteNumber(value.g, fallback[1]))),
+            Math.min(1, Math.max(0, finiteNumber(value.b, fallback[2]))),
+            Math.min(1, Math.max(0, finiteNumber(value.a, fallback[3]))),
+        ];
+    }
+    function transformParam(name, fallback) {
+        var value = params[name] || {};
+        return { x: finiteNumber(value.x, fallback.x), y: finiteNumber(value.y, fallback.y), radius: Math.min(250, Math.max(0.1, finiteNumber(value.radius, fallback.radius))), angle: finiteNumber(value.angle, fallback.angle) };
+    }
+    var width = Math.max(1, finiteNumber(frame.output.width, 1));
+    var height = Math.max(1, finiteNumber(frame.output.height, 1));
+    var aspect = width / height;
+    var transform = transformParam("transform", { x: 50, y: 50, radius: 50, angle: 0 });
+    var zoom = transform.radius / 50;
+    var rotation = -transform.angle * Math.PI / 180;
+    var cosine = Math.cos(rotation);
+    var sine = Math.sin(rotation);
+    var color = colorParam("color", [1, 1, 1, 1]);
+    var uniforms = frame.state.uniformData;
+    uniforms.set([
+        selectParam("shape", 3, 0), clampedNumber("ringCount", 20, 1, 30), clampedNumber("falloff", 1, 0, 5), booleanParam("inverseFalloff", false),
+        color[0], color[1], color[2], color[3],
+        zoom, cosine, sine, clampedNumber("offset", 0, 0, 1),
+        aspect, transform.x, transform.y, 0,
+    ]);
+    device.queue.writeBuffer(frame.state.uniformBuf, 0, uniforms);
+    var outputFormat = frame.output.format;
+    if (frame.state.pipeline == null || frame.state.pipelineFormat !== outputFormat) {
+        frame.state.pipeline = device.createRenderPipeline({
+            layout: "auto",
+            vertex: { module: frame.state.module, entryPoint: "vs_main", buffers: [{ arrayStride: 16, attributes: [{ shaderLocation: 0, format: "float32x2", offset: 0 }, { shaderLocation: 1, format: "float32x2", offset: 8 }] }] },
+            fragment: { module: frame.state.module, entryPoint: "fs_main", targets: [{ format: outputFormat }] },
+            primitive: { topology: "triangle-list" },
+        });
+        frame.state.pipelineFormat = outputFormat;
+        frame.state.bindGroup = device.createBindGroup({ layout: frame.state.pipeline.getBindGroupLayout(0), entries: [{ binding: 0, resource: { buffer: frame.state.uniformBuf } }] });
+    }
+    var encoder = device.createCommandEncoder();
+    var pass = encoder.beginRenderPass({ colorAttachments: [{ view: frame.output.createView(), loadOp: "clear", clearValue: { r: 0, g: 0, b: 0, a: 0 }, storeOp: "store" }] });
+    pass.setPipeline(frame.state.pipeline);
+    pass.setBindGroup(0, frame.state.bindGroup);
+    pass.setVertexBuffer(0, frame.state.quad);
+    pass.draw(6);
+    pass.end();
+    device.queue.submit([encoder.finish()]);
+}
+defineProperties(Effect, {
+    shape: { type: "number", label: "Shape", defaultValue: 0, control: "select", options: [{ value: 0, label: "Triangle" }, { value: 1, label: "Circle" }, { value: 2, label: "Square" }] },
+    ringCount: { type: "number", label: "Ring count", defaultValue: 20, control: "slider", min: 1, max: 30, step: 1 },
+    falloff: { type: "number", label: "Falloff", defaultValue: 1, control: "slider", min: 0, max: 5, step: 0.1 },
+    inverseFalloff: { type: "boolean", label: "Inverse falloff", defaultValue: false },
+    color: { type: "color", label: "Color", defaultValue: { r: 1, g: 1, b: 1, a: 1 } },
+    offset: { type: "number", label: "Offset", defaultValue: 0, control: "slider", min: 0, max: 1, step: 0.01 },
+    transform: { type: "point-angle-radius", label: "Transform", defaultValue: { x: 50, y: 50, radius: 50, angle: 0 }, control: "point-angle-radius", mode: "canvas_and_ui", positionUnit: "%", radiusUnit: "%", minRadius: 0.1, maxRadius: 250 },
+});
+
+export const manifest = {
+  "name": "Concentric patterns",
+  "version": 2,
+  "isAnimated": false,
+  "usesMouse": false
+}
+

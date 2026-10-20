@@ -1,0 +1,65 @@
+/* About layouts use normal flow; absolute positioning is limited to image/shader layers. */
+.about-page { width:100%; height:auto; position:relative; background:#fff; color:#102033; }
+.about-page .about-section { position:relative; padding:64px 24px; }
+.about-page .about-heading,.about-page .about-section-heading { display:flex; flex-direction:column; gap:24px; min-width:0; width:auto; }
+.about-page .about-section-heading { text-align:center; align-items:center; margin-bottom:40px; }
+.about-page [class*="text-[48px]"] { font-size:32px; line-height:40px; letter-spacing:-.8px; width:auto; min-width:0; }
+.about-page [class*="text-[48px]"] p { line-height:inherit; }
+.about-page [class*="text-[18px]"] { font-size:16px; line-height:26px; }
+.about-page [class*="text-[18px]"] p { line-height:26px; }
+.about-page [class*="text-[32px]"] { font-size:24px; line-height:32px; }
+.about-page [class*="text-[32px]"] p { line-height:inherit; }
+.about-page p { white-space:normal; min-width:0; overflow-wrap:break-word; }
+.about-page .about-body { font-size:16px; line-height:26px; color:#495667; width:auto; min-width:0; }
+.about-page .about-body p+p { margin-top:24px; }
+.about-page .about-hero { position:relative; height:clamp(380px,42vw,650px); overflow:hidden; display:flex; align-items:flex-end; padding:40px 24px; }
+.about-page .about-hero-art { position:absolute; inset:0; }
+.about-page .about-hero-art>div,.about-page .about-hero-art>div>div { width:100%; height:100%; }
+.about-page .about-hero-shade { position:absolute; inset:35% 0 0; background:linear-gradient(transparent,rgba(0,0,0,.58)); }
+.about-page .about-hero-title { position:relative; max-width:900px; z-index:1; }
+.about-page .about-hero-title p { font-size:38px; line-height:46px; letter-spacing:-1px; width:auto; min-width:0; }
+.about-page .about-intro,.about-page .about-intro-content,.about-page .about-intro-photos,.about-page .about-intro-side { display:grid; gap:32px; }
+.about-page .about-intro-main-photo,.about-page .about-intro-small-photo { position:relative; overflow:hidden; border-radius:12px; min-height:280px; aspect-ratio:1.3; }
+.about-page .about-purpose { display:grid; grid-template-columns:minmax(0,1fr); }
+.about-page .about-purpose-panel { position:relative; min-width:0; width:100%; height:500px; }
+.about-page .about-purpose-panel [data-purpose-overlay] { padding:32px; }
+.about-page .about-purpose-panel [data-purpose-description] { font-size:20px; line-height:28px; }
+.about-page .about-values-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:24px; }
+.about-page .about-values-grid>div { width:auto; height:auto; min-width:0; min-height:354px; }
+.about-page .about-team { background:#f7f9fc; }
+.about-page .about-team-heading { display:grid; gap:32px; margin-bottom:40px; }
+.about-page .about-team-heading>div { width:auto; min-width:0; }
+.about-page .about-team-photos { display:grid; gap:24px; }
+.about-page .about-team-photo { position:relative; width:auto; min-width:0; height:320px; border-radius:16px; overflow:hidden; }
+.about-page .about-certificates { display:grid; gap:40px; isolation:isolate; }
+.about-page .about-section-art { position:absolute; inset:0; overflow:hidden; z-index:-1; pointer-events:none; }
+.about-page .about-section-art>div { position:absolute; inset:0; width:100%; height:100%; }
+.about-page .about-certificate-grid { display:grid; grid-template-columns:minmax(0,1fr); gap:20px; }
+.about-page .about-certificate-grid>div { min-width:0; width:auto; }
+.about-page .about-certificate-grid>div>div:first-child { height:auto; aspect-ratio: .7; width:100%; }
+.about-page .about-certificate-grid p { white-space:normal; font-size:18px; line-height:26px; }
+.about-page .about-achievements { display:grid; gap:40px; background:#007cf8; color:#fff; }
+.about-page .about-achievement-list { display:flex; flex-direction:column; gap:32px; width:auto; }
+.about-page .about-achievement-list>div { overflow:visible; }
+.about-page .about-achievement-list>div>div { min-width:0; }
+.about-page .about-achievement-list p { white-space:normal; }
+.about-page .about-milestones { isolation:isolate; }
+.about-page .about-milestone-heading { display:flex; flex-direction:column; gap:32px; margin-bottom:48px; }
+.about-page .about-milestone-arrows { display:flex; gap:20px; align-items:center; flex-shrink:0; }
+.about-page .about-milestone-track { position:relative; display:flex; gap:32px; align-items:flex-start; width:100%; overflow-x:auto; overscroll-behavior-inline:contain; scroll-snap-type:x mandatory; scrollbar-width:none; }
+.about-page .about-milestone-track>div { width:min(82vw,417.5px); min-width:0; flex-shrink:0; scroll-snap-align:start; }
+.about-page .about-milestone-track>div>p { width:100%; }
+.about-page .about-milestone-track>div>div { width:100%; }
+.about-page .about-milestone-track>div>div>div:last-child { display:flex; flex-direction:column; align-items:center; width:100%; }
+.about-page .about-milestone-track>div>div>div:last-child>div { margin:0; }
+.about-page .about-milestone-track>div>div>div:last-child>div:last-child { width:100%; height:340px; }
+.about-page .about-milestone-track::before { content:""; position:absolute; top:88px; left:0; right:0; height:1px; background:#c5ced8; z-index:-1; }
+@media(min-width:640px) { .about-page .about-values-grid,.about-page .about-certificate-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .about-page .about-intro-photos { grid-template-columns:repeat(2,minmax(0,1fr)); } .about-page .about-intro-main-photo { height:100%; aspect-ratio:auto; } .about-page .about-team-photos { grid-template-columns:1fr 2fr 1fr; } .about-page .about-team-photo { height:clamp(320px,30vw,578px); } }
+@media(min-width:768px) { .about-page .about-section { padding:80px 40px; } .about-page [class*="text-[48px]"] { font-size:48px; line-height:58px; letter-spacing:-1.2px; } .about-page [class*="text-[18px]"] { font-size:18px; line-height:30px; } .about-page [class*="text-[18px]"] p { line-height:30px; } .about-page .about-body { font-size:18px; line-height:30px; } .about-page .about-hero { padding:64px 40px; } .about-page .about-hero-title p { font-size:clamp(48px,4vw,68px); line-height:1.12; letter-spacing:-1.8px; } .about-page .about-purpose { grid-template-columns:repeat(2,minmax(0,1fr)); } .about-page .about-purpose-panel { height:clamp(500px,37vw,700px); } .about-page .about-purpose-panel [data-purpose-overlay] { padding:clamp(40px,5vw,100px); } .about-page .about-purpose-panel [data-purpose-description] { font-size:24px; line-height:32px; } .about-page .about-milestone-heading { flex-direction:row; align-items:flex-end; justify-content:space-between; gap:48px; } .about-page .about-milestone-heading .about-heading { max-width:800px; } .about-page .about-milestone-track { gap:80px; } }
+@media(min-width:1024px) { .about-page .about-intro,.about-page .about-team-heading,.about-page .about-certificates,.about-page .about-achievements { grid-template-columns:minmax(0,.58fr) minmax(0,1fr); gap:clamp(40px,6vw,150px); } .about-page .about-certificate-heading { align-self:start; position:sticky; top:140px; } .about-page .about-certificate-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } .about-page .about-values-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+@media(min-width:1440px) { .about-page .about-section { padding:80px 50px; } .about-page .about-hero { padding:80px 50px; } .about-page [class*="text-[32px]"] { font-size:32px; line-height:40px; } }
+
+.about-page .about-milestone-content { position:relative; min-width:0; }
+.about-page .about-milestone-line { position:absolute; top:88px; left:0; width:100%; height:1px; }
+.about-page .about-intro-content,.about-page .about-intro-photos,.about-page .about-intro-side { min-width:0; }
+.about-page .about-intro-main-photo,.about-page .about-intro-small-photo { width:100%; max-width:100%; min-width:0; }

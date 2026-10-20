@@ -1,0 +1,2056 @@
+<canvas id="2:3" name="V1" x="0" y="0" width="0" height="0">
+  <frame id="2:83" name="Design System Foundations" x="0" y="0" width="1440" height="2400">
+    <text id="2:84" name="Jitrapadu Design System" x="64" y="64" width="794" height="76" />
+    <frame id="2:85" name="Colour Styles" x="64" y="196" width="1312" height="580">
+      <frame id="2:86" name="Color / Brand / Primary" x="0" y="0" width="240" height="130">
+        <rounded-rectangle id="2:87" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:88" name="Brand / Primary" x="0" y="92" width="90" height="18" />
+      </frame>
+      <frame id="2:89" name="Color / Brand / Primary Hover" x="260" y="0" width="240" height="130">
+        <rounded-rectangle id="2:90" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:91" name="Brand / Primary Hover" x="0" y="92" width="128" height="18" />
+      </frame>
+      <frame id="2:92" name="Color / Brand / Primary Light" x="520" y="0" width="240" height="130">
+        <rounded-rectangle id="2:93" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:94" name="Brand / Primary Light" x="0" y="92" width="122" height="18" />
+      </frame>
+      <frame id="2:95" name="Color / Brand / Navy" x="780" y="0" width="240" height="130">
+        <rounded-rectangle id="2:96" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:97" name="Brand / Navy" x="0" y="92" width="75" height="18" />
+      </frame>
+      <frame id="2:98" name="Color / Brand / Navy Dark" x="1040" y="0" width="240" height="130">
+        <rounded-rectangle id="2:99" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:100" name="Brand / Navy Dark" x="0" y="92" width="105" height="18" />
+      </frame>
+      <frame id="2:101" name="Color / Text / Primary" x="0" y="150" width="240" height="130">
+        <rounded-rectangle id="2:102" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:103" name="Text / Primary" x="0" y="92" width="81" height="18" />
+      </frame>
+      <frame id="2:104" name="Color / Text / Secondary" x="260" y="150" width="240" height="130">
+        <rounded-rectangle id="2:105" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:106" name="Text / Secondary" x="0" y="92" width="99" height="18" />
+      </frame>
+      <frame id="2:107" name="Color / Text / Muted" x="520" y="150" width="240" height="130">
+        <rounded-rectangle id="2:108" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:109" name="Text / Muted" x="0" y="92" width="73" height="18" />
+      </frame>
+      <frame id="2:110" name="Color / Text / Inverse" x="780" y="150" width="240" height="130">
+        <rounded-rectangle id="2:111" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:112" name="Text / Inverse" x="0" y="92" width="78" height="18" />
+      </frame>
+      <frame id="2:113" name="Color / Background / Primary" x="1040" y="150" width="240" height="130">
+        <rounded-rectangle id="2:114" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:115" name="Background / Primary" x="0" y="92" width="125" height="18" />
+      </frame>
+      <frame id="2:116" name="Color / Background / Secondary" x="0" y="300" width="240" height="130">
+        <rounded-rectangle id="2:117" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:118" name="Background / Secondary" x="0" y="92" width="142" height="18" />
+      </frame>
+      <frame id="2:119" name="Color / Background / Dark" x="260" y="300" width="240" height="130">
+        <rounded-rectangle id="2:120" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:121" name="Background / Dark" x="0" y="92" width="107" height="18" />
+      </frame>
+      <frame id="2:122" name="Color / Background / Blue" x="520" y="300" width="240" height="130">
+        <rounded-rectangle id="2:123" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:124" name="Background / Blue" x="0" y="92" width="105" height="18" />
+      </frame>
+      <frame id="2:125" name="Color / Border / Default" x="780" y="300" width="240" height="130">
+        <rounded-rectangle id="2:126" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:127" name="Border / Default" x="0" y="92" width="92" height="18" />
+      </frame>
+      <frame id="2:128" name="Color / Border / Strong" x="1040" y="300" width="240" height="130">
+        <rounded-rectangle id="2:129" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:130" name="Border / Strong" x="0" y="92" width="89" height="18" />
+      </frame>
+      <frame id="2:131" name="Color / Border / Dark" x="0" y="450" width="240" height="130">
+        <rounded-rectangle id="2:132" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:133" name="Border / Dark" x="0" y="92" width="77" height="18" />
+      </frame>
+      <frame id="2:134" name="Color / State / Success" x="260" y="450" width="240" height="130">
+        <rounded-rectangle id="2:135" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:136" name="State / Success" x="0" y="92" width="91" height="18" />
+      </frame>
+      <frame id="2:137" name="Color / State / Error" x="520" y="450" width="240" height="130">
+        <rounded-rectangle id="2:138" name="Swatch" x="0" y="0" width="240" height="82" />
+        <text id="2:139" name="State / Error" x="0" y="92" width="70" height="18" />
+      </frame>
+    </frame>
+    <frame id="2:140" name="Typography Styles" x="64" y="832" width="1312" height="1262">
+      <text id="2:141" name="Display / Large — The quick brown fox" x="0" y="0" width="1402" height="88" />
+      <text id="2:142" name="H1 — The quick brown fox" x="0" y="110" width="816" height="76" />
+      <text id="2:143" name="H2 — The quick brown fox" x="0" y="208" width="585" height="58" />
+      <text id="2:144" name="H3 — The quick brown fox" x="0" y="288" width="393" height="40" />
+      <text id="2:145" name="H4 — The quick brown fox" x="0" y="350" width="299" height="32" />
+      <text id="2:146" name="H5 — The quick brown fox" x="0" y="404" width="249" height="28" />
+      <text id="2:147" name="H6 — The quick brown fox" x="0" y="454" width="229" height="26" />
+      <text id="2:148" name="Body / Large — The quick brown fox" x="0" y="502" width="310" height="30" />
+      <text id="2:149" name="Body / Regular — The quick brown fox" x="0" y="554" width="290" height="26" />
+      <text id="2:150" name="Body / Small — The quick brown fox" x="0" y="602" width="239" height="22" />
+      <text id="2:151" name="Label / Large — The quick brown fox" x="0" y="646" width="281" height="22" />
+      <text id="2:152" name="Label / Regular — The quick brown fox" x="0" y="690" width="261" height="20" />
+      <text id="2:153" name="Button — The quick brown fox" x="0" y="732" width="236" height="20" />
+      <text id="2:154" name="Caption — The quick brown fox" x="0" y="774" width="181" height="18" />
+      <text id="2:155" name="Eyebrow — The quick brown fox" x="0" y="814" width="280" height="18" />
+      <text id="2:156" name="Mobile / H1 — The quick brown fox" x="0" y="854" width="645" height="48" />
+      <text id="2:157" name="Mobile / H2 — The quick brown fox" x="0" y="924" width="525" height="40" />
+      <text id="2:158" name="Mobile / H3 — The quick brown fox" x="0" y="986" width="438" height="34" />
+      <text id="2:159" name="Mobile / H4 — The quick brown fox" x="0" y="1042" width="371" height="30" />
+      <text id="2:160" name="Mobile / H5 — The quick brown fox" x="0" y="1094" width="303" height="26" />
+      <text id="2:161" name="Mobile / H6 — The quick brown fox" x="0" y="1142" width="270" height="24" />
+      <text id="2:162" name="Mobile / Body / Large — The quick brown fox" x="0" y="1188" width="362" height="28" />
+      <text id="2:163" name="Mobile / Body / Regular — The quick brown fox" x="0" y="1238" width="333" height="24" />
+    </frame>
+  </frame>
+  <frame id="1:2064" name="Home" x="3948" y="1467" width="1920" height="6903">
+    <frame id="1:2063" name="Group 1" x="0" y="0" width="1920" height="945">
+      <rounded-rectangle id="1:2048" name="video bg" x="0" y="0" width="1920" height="945" />
+      <rounded-rectangle id="273:684" name="overlay" x="0" y="0" width="1920" height="945" />
+      <rounded-rectangle id="409:402" name="tower" x="1088" y="127" width="255" height="818" />
+      <rounded-rectangle id="252:760" name="tower" x="817" y="0" width="286" height="945" hidden="true" />
+      <rounded-rectangle id="1:2073" name="Rectangle 2" x="0" y="660" width="1920" height="285" hidden="true" />
+      <frame id="1:2059" name="Frame 2147225192" x="52" y="297" width="745" height="232">
+        <text id="1:2055" name="We Are The XPERTS in Telecom Steel Infrastructure" x="0" y="0" width="745" height="32" />
+        <text id="1:2056" name="Engineering Excellence, Powering Innovation" x="0" y="32" width="745" height="200" />
+      </frame>
+    </frame>
+    <text id="1:2057" name="Jitrapadu Engineering Sdn Bhd delivers turnkey telecommunication infrastructure, steel tower solutions, smart poles, rapid deployment systems and custom steel fabrication for Malaysia’s growing connectivity needs. From engineering design to in-house fabrication, deployment and project handover, we help telcos, infrastructure owners and project partners build stronger, safer and future-ready networks." x="1206" y="713" width="664" height="182" />
+    <frame id="18:2076" name="Group 2" x="0" y="945" width="1920" height="1017">
+      <rounded-rectangle id="14:721" name="Rectangle 7" x="0" y="945" width="1920" height="1017" />
+      <rounded-rectangle id="26:2264" name="Rectangle 8" x="50" y="1025" width="900" height="608" hidden="true" />
+      <frame id="1:2068" name="Frame" x="50" y="1025" width="1820" height="857">
+        <frame id="50:309" name="Frame 2147225195" x="0" y="0" width="593" height="144">
+          <text id="1:2069" name="ABOUT US" x="0" y="0" width="78" height="18" />
+          <text id="1:2070" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="592" height="116" hidden="true" />
+          <text id="103:496" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="593" height="116" />
+        </frame>
+        <frame id="60:484" name="Frame 2147225197" x="767" y="0" width="1053" height="857">
+          <frame id="60:599" name="Frame 2147225198" x="0" y="0" width="1053" height="210">
+            <text id="60:597" name="Building the Future of Malaysia’s Connectivity" x="0" y="0" width="1053" height="58" hidden="true" />
+            <text id="1:2071" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures. Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&amp;D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs." x="0" y="0" width="1053" height="210" />
+          </frame>
+          <frame id="60:541" name="Frame 2147225196" x="0" y="250" width="1053" height="521">
+            <frame id="60:542" name="Frame" x="0" y="0" width="337.6666564941406" height="252">
+              <frame id="184:1031" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1045" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1046" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1047" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:548" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+                <text id="60:549" name="Turnkey" x="0" y="0" width="92" height="32" />
+                <text id="60:550" name="End-to-end project support." x="0" y="36" width="289.6666564941406" height="30" />
+              </frame>
+            </frame>
+            <frame id="60:551" name="Frame" x="357.6666564941406" y="0" width="337.6666564941406" height="252">
+              <frame id="184:1023" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1049" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1050" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1051" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:557" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+                <text id="60:558" name="In-House" x="0" y="0" width="105" height="32" />
+                <text id="60:559" name="Fabricated at our Klang facility." x="0" y="36" width="289.6666564941406" height="30" />
+              </frame>
+            </frame>
+            <frame id="60:560" name="Frame" x="715.3333129882812" y="0" width="337.6666564941406" height="252">
+              <frame id="184:1027" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1053" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1054" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1055" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:566" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+                <text id="60:567" name="Local" x="0" y="0" width="61" height="32" />
+                <text id="60:568" name="Made in Malaysia by local professionals." x="0" y="36" width="289.6666564941406" height="60" />
+              </frame>
+            </frame>
+            <frame id="60:569" name="Frame" x="0" y="269" width="337.6666564941406" height="252">
+              <frame id="184:1015" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1065" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1066" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1067" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:575" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+                <text id="60:576" name="Reliable" x="0" y="0" width="90" height="32" />
+                <text id="60:577" name="Built to recognised engineering standards." x="0" y="36" width="289.6666564941406" height="60" />
+              </frame>
+            </frame>
+            <frame id="60:578" name="Frame" x="357.6666564941406" y="269" width="337.6666564941406" height="252">
+              <frame id="184:1035" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1061" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1062" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1063" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:584" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+                <text id="60:585" name="Proven" x="0" y="0" width="80" height="32" />
+                <text id="60:586" name="Experienced across telco rollout projects." x="0" y="36" width="289.6666564941406" height="60" />
+              </frame>
+            </frame>
+            <frame id="60:587" name="Frame" x="715.3333129882812" y="269" width="337.6666564941406" height="252">
+              <frame id="184:1019" name="Frame" x="24" y="24" width="100" height="100">
+                <frame id="184:1057" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                  <rounded-rectangle id="184:1058" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                  <rounded-rectangle id="184:1059" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+                </frame>
+              </frame>
+              <frame id="60:593" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+                <text id="60:594" name="Innovative" x="0" y="0" width="118" height="32" />
+                <text id="60:595" name="Driven by R&amp;D and practical deployment needs." x="0" y="36" width="289.6666564941406" height="60" />
+              </frame>
+            </frame>
+          </frame>
+          <instance id="50:305" name="Button" x="0" y="811" width="158" height="46" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="31:343" name="Group 5" x="0" y="2662" width="1920" height="810">
+      <rounded-rectangle id="31:344" name="Rectangle 7" x="0" y="2662" width="1920" height="810" />
+      <rounded-rectangle id="31:345" name="Rectangle 8" x="950" y="2742" width="900" height="650" />
+      <frame id="31:346" name="Frame" x="1000" y="2918" width="870" height="298">
+        <frame id="129:1470" name="Frame 2147225195" x="0" y="0" width="593" height="144">
+          <text id="129:1471" name="Our Factory" x="0" y="0" width="107" height="18" />
+          <text id="129:1472" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="592" height="116" hidden="true" />
+          <text id="129:1473" name="Built locally. Delivered with control." x="0" y="28" width="593" height="116" />
+        </frame>
+        <frame id="129:1475" name="Frame 2147225198" x="0" y="168" width="870" height="60">
+          <text id="129:1476" name="Building the Future of Malaysia’s Connectivity" x="0" y="0" width="1053" height="58" hidden="true" />
+          <text id="129:1477" name="Our in-house factory in Klang gives us better control over fabrication quality, production timelines and project delivery, from steel processing to finished structure." x="0" y="0" width="870" height="60" />
+        </frame>
+        <instance id="129:1479" name="Button" x="0" y="252" width="215" height="46" />
+      </frame>
+      <frame id="259:783" name="Frame 2147225235" x="80" y="3018" width="361" height="344">
+        <frame id="259:775" name="Frame" x="0" y="0" width="361" height="166">
+          <text id="259:776" name="60+" x="32" y="32" width="297" height="58" />
+          <text id="259:777" name="Skilled Workers" x="32" y="106" width="297" height="28" />
+        </frame>
+        <frame id="259:779" name="Frame" x="0" y="178" width="361" height="166">
+          <text id="259:780" name="350–500 Tons" x="32" y="32" width="297" height="58" />
+          <text id="259:781" name="Production Capacity per Month" x="32" y="106" width="297" height="28" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="31:303" name="Group 4" x="0" y="1962" width="1920" height="700">
+      <rounded-rectangle id="31:304" name="Rectangle 7" x="0" y="1962" width="1920" height="700" />
+      <frame id="31:329" name="Frame 2147225194" x="0" y="1962" width="1920" height="700">
+        <instance id="154:715" name="Card - Solution" x="0" y="0" width="640" height="700" />
+        <instance id="154:725" name="Card - Solution 2" x="640" y="0" width="640" height="700" />
+        <instance id="154:730" name="Card - Solution 3" x="1280" y="0" width="640" height="700" />
+      </frame>
+    </frame>
+    <frame id="55:1281" name="Group 7" x="0" y="4306" width="1920" height="1504">
+      <rounded-rectangle id="55:1282" name="Rectangle 7" x="0" y="4306" width="1920" height="1504" />
+      <frame id="55:1296" name="Frame" x="525" y="4388" width="870" height="142">
+        <text id="55:1297" name="Industries We Serve" x="0" y="0" width="870" height="58" />
+        <text id="55:1298" name="Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond." x="0" y="82" width="870" height="60" />
+      </frame>
+      <frame id="130:1538" name="Frame 2147225196" x="50" y="4580" width="1820" height="1150">
+        <frame id="130:1539" name="Frame" x="0" y="0" width="573.3333129882812" height="550" />
+        <frame id="130:1542" name="Frame" x="623.3333129882812" y="0" width="573.3333740234375" height="550" />
+        <frame id="130:1545" name="Frame" x="1246.666748046875" y="0" width="573.3333740234375" height="550" />
+        <frame id="130:1548" name="Frame" x="-0.000030517578125" y="600" width="573.3333740234375" height="550" />
+        <frame id="130:1551" name="Frame" x="623.333251953125" y="600" width="573.3333740234375" height="550" />
+        <frame id="130:1554" name="Frame" x="1246.6666259765625" y="600" width="573.3333740234375" height="550" />
+      </frame>
+    </frame>
+    <frame id="40:1307" name="partners" x="-280" y="3472" width="2410" height="834">
+      <rounded-rectangle id="40:1308" name="Rectangle 7" x="0" y="3472" width="1920" height="834" />
+      <frame id="40:1408" name="Frame" x="525" y="3554" width="870" height="142">
+        <text id="40:1409" name="Trusted by Industry Partners" x="0" y="0" width="870" height="58" />
+        <text id="40:1410" name="Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond." x="0" y="82" width="870" height="60" />
+      </frame>
+      <frame id="103:528" name="Logo" x="-70" y="3746" width="440" height="240">
+        <rounded-rectangle id="103:553" name="Telekom Malaysia" x="139" y="80" width="163" height="80" />
+      </frame>
+      <frame id="103:530" name="Logo" x="-280" y="3986" width="440" height="240">
+        <rounded-rectangle id="105:573" name="DCA Malaysia" x="115" y="75" width="211" height="90" />
+      </frame>
+      <frame id="103:532" name="Logo" x="370" y="3746" width="440" height="240">
+        <rounded-rectangle id="105:556" name="MCMC" x="160" y="70" width="121" height="100" />
+      </frame>
+      <frame id="103:534" name="Logo" x="160" y="3986" width="440" height="240">
+        <rounded-rectangle id="105:576" name=" D’Harmony Telco Infra Sdn Bhd" x="47" y="75" width="347" height="90" />
+      </frame>
+      <frame id="103:536" name="Logo" x="810" y="3746" width="440" height="240">
+        <rounded-rectangle id="105:559" name="Digital Nasional" x="68" y="70" width="304" height="100" />
+      </frame>
+      <frame id="103:538" name="Logo" x="600" y="3986" width="440" height="240">
+        <rounded-rectangle id="105:579" name="Celcom Digi" x="74" y="75" width="293" height="90" />
+      </frame>
+      <frame id="103:540" name="Logo" x="1250" y="3746" width="440" height="240">
+        <rounded-rectangle id="105:562" name="Civil Aviation Authority of Malaysia" x="149" y="50" width="143" height="140" />
+      </frame>
+      <frame id="103:542" name="Logo" x="1040" y="3986" width="440" height="240">
+        <rounded-rectangle id="105:582" name="Maxis" x="64" y="75" width="312" height="90" />
+      </frame>
+      <frame id="103:544" name="Logo" x="1690" y="3746" width="440" height="240">
+        <rounded-rectangle id="105:570" name="Majlis Keselamatan Negara" x="150" y="50" width="140" height="140" />
+      </frame>
+      <frame id="103:546" name="Logo" x="1480" y="3986" width="440" height="240">
+        <rounded-rectangle id="105:588" name="Umobile" x="150" y="50" width="140" height="140" />
+      </frame>
+    </frame>
+    <instance id="133:1178" name="Footer with CTA" x="0" y="5810" width="1920" height="1093" />
+    <instance id="14:702" name="Header" x="0" y="0" width="1920" height="109" />
+  </frame>
+  <frame id="406:1410" name="Group 1" x="6056" y="1467" width="600" height="872">
+    <rounded-rectangle id="406:1411" name="video bg" x="6056" y="1467" width="600" height="872" />
+    <rounded-rectangle id="406:1412" name="overlay" x="6056" y="1467" width="600" height="872" />
+    <rounded-rectangle id="406:1413" name="tower" x="6056" y="1526" width="248" height="813" hidden="true" />
+    <rounded-rectangle id="406:1414" name="Rectangle 2" x="6056" y="2127" width="1920" height="285" hidden="true" />
+    <frame id="406:1415" name="Frame 2147225192" x="6098" y="1518" width="432" height="160">
+      <text id="406:1416" name="We Are The XPERTS in Telecom Steel Infrastructure" x="0" y="0" width="432" height="64" />
+      <text id="406:1417" name="Engineering Excellence, Powering Innovation" x="0" y="64" width="432" height="96" />
+    </frame>
+    <text id="406:1418" name="Jitrapadu Engineering Sdn Bhd delivers turnkey telecommunication infrastructure, steel tower solutions, smart poles, rapid deployment systems and custom steel fabrication for Malaysia’s growing connectivity needs. From engineering design to in-house fabrication, deployment and project handover, we help telcos, infrastructure owners and project partners build stronger, safer and future-ready networks." x="6285" y="1725" width="330" height="364" />
+    <rounded-rectangle id="409:404" name="tower" x="6247" y="1725" width="191" height="614" />
+  </frame>
+  <text id="406:1420" name="Mobile View" x="6084" y="1328" width="500" height="96" />
+  <frame id="281:685" name="Group 21" x="18511" y="1786" width="1920" height="1017">
+    <rounded-rectangle id="281:686" name="Rectangle 7" x="18511" y="1786" width="1920" height="1017" />
+    <rounded-rectangle id="281:687" name="Rectangle 8" x="18561" y="1866" width="900" height="608" hidden="true" />
+    <frame id="281:688" name="Frame" x="18561" y="1866" width="1820" height="857">
+      <frame id="281:689" name="Frame 2147225195" x="0" y="0" width="593" height="144">
+        <text id="281:690" name="ABOUT US" x="0" y="0" width="78" height="18" />
+        <text id="281:691" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="592" height="116" hidden="true" />
+        <text id="281:692" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="593" height="116" />
+      </frame>
+      <frame id="281:693" name="Frame 2147225197" x="767" y="0" width="1053" height="857">
+        <frame id="281:694" name="Frame 2147225198" x="0" y="0" width="1053" height="210">
+          <text id="281:695" name="Building the Future of Malaysia’s Connectivity" x="0" y="0" width="1053" height="58" hidden="true" />
+          <text id="281:696" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures. Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&amp;D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs." x="0" y="0" width="1053" height="210" />
+        </frame>
+        <frame id="281:697" name="Frame 2147225196" x="0" y="250" width="1053" height="521">
+          <frame id="281:698" name="Frame" x="0" y="0" width="337.6666564941406" height="252">
+            <frame id="281:699" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:700" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:701" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:702" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:703" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+              <text id="281:704" name="Turnkey" x="0" y="0" width="92" height="32" />
+              <text id="281:705" name="End-to-end project support." x="0" y="36" width="289.6666564941406" height="30" />
+            </frame>
+          </frame>
+          <frame id="281:706" name="Frame" x="357.6666564941406" y="0" width="337.6666564941406" height="252">
+            <frame id="281:707" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:708" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:709" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:710" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:711" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+              <text id="281:712" name="In-House" x="0" y="0" width="105" height="32" />
+              <text id="281:713" name="Fabricated at our Klang facility." x="0" y="36" width="289.6666564941406" height="30" />
+            </frame>
+          </frame>
+          <frame id="281:714" name="Frame" x="715.3333129882812" y="0" width="337.6666564941406" height="252">
+            <frame id="281:715" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:716" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:717" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:718" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:719" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:720" name="Local" x="0" y="0" width="61" height="32" />
+              <text id="281:721" name="Made in Malaysia by local professionals." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:722" name="Frame" x="0" y="269" width="337.6666564941406" height="252">
+            <frame id="281:723" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:724" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:725" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:726" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:727" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:728" name="Reliable" x="0" y="0" width="90" height="32" />
+              <text id="281:729" name="Built to recognised engineering standards." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:730" name="Frame" x="357.6666564941406" y="269" width="337.6666564941406" height="252">
+            <frame id="281:731" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:732" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:733" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:734" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:735" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:736" name="Proven" x="0" y="0" width="80" height="32" />
+              <text id="281:737" name="Experienced across telco rollout projects." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:738" name="Frame" x="715.3333129882812" y="269" width="337.6666564941406" height="252">
+            <frame id="281:739" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:740" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:741" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:742" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:743" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:744" name="Innovative" x="0" y="0" width="118" height="32" />
+              <text id="281:745" name="Driven by R&amp;D and practical deployment needs." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+        </frame>
+        <instance id="281:746" name="Button" x="0" y="811" width="158" height="46" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="281:749" name="Group 22" x="18511" y="2803" width="1920" height="1103">
+    <rounded-rectangle id="281:750" name="Rectangle 7" x="18511" y="2803" width="1920" height="1017" />
+    <rounded-rectangle id="281:751" name="Rectangle 8" x="18561" y="2883" width="900" height="608" hidden="true" />
+    <frame id="281:752" name="Frame" x="18561" y="2883" width="1820" height="1023">
+      <frame id="281:753" name="Frame 2147225195" x="0" y="0" width="593" height="144">
+        <text id="281:754" name="ABOUT US" x="0" y="0" width="78" height="18" />
+        <text id="281:755" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="592" height="116" hidden="true" />
+        <text id="281:756" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="593" height="116" />
+      </frame>
+      <frame id="281:757" name="Frame 2147225197" x="767" y="0" width="1053" height="1023">
+        <frame id="281:758" name="Frame 2147225198" x="0" y="0" width="1053" height="154">
+          <text id="281:759" name="Building the Future of Malaysia’s Connectivity" x="0" y="0" width="1053" height="58" hidden="true" />
+          <text id="281:760" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures. Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&amp;D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs." x="0" y="0" width="1053" height="154" />
+        </frame>
+        <frame id="281:813" name="Frame 2147225199" x="0" y="194" width="1053" height="182">
+          <text id="281:814" name="Building the Future of Malaysia’s Connectivity" x="0" y="0" width="1053" height="58" hidden="true" />
+          <text id="281:815" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures. Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&amp;D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs." x="0" y="0" width="1053" height="182" />
+        </frame>
+        <frame id="281:761" name="Frame 2147225196" x="0" y="416" width="1053" height="521">
+          <frame id="281:762" name="Frame" x="0" y="0" width="337.6666564941406" height="252">
+            <frame id="281:763" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:764" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:765" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:766" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:767" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+              <text id="281:768" name="Turnkey" x="0" y="0" width="92" height="32" />
+              <text id="281:769" name="End-to-end project support." x="0" y="36" width="289.6666564941406" height="30" />
+            </frame>
+          </frame>
+          <frame id="281:770" name="Frame" x="357.6666564941406" y="0" width="337.6666564941406" height="252">
+            <frame id="281:771" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:772" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:773" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:774" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:775" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="66">
+              <text id="281:776" name="In-House" x="0" y="0" width="105" height="32" />
+              <text id="281:777" name="Fabricated at our Klang facility." x="0" y="36" width="289.6666564941406" height="30" />
+            </frame>
+          </frame>
+          <frame id="281:778" name="Frame" x="715.3333129882812" y="0" width="337.6666564941406" height="252">
+            <frame id="281:779" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:780" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:781" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:782" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:783" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:784" name="Local" x="0" y="0" width="61" height="32" />
+              <text id="281:785" name="Made in Malaysia by local professionals." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:786" name="Frame" x="0" y="269" width="337.6666564941406" height="252">
+            <frame id="281:787" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:788" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:789" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:790" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:791" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:792" name="Reliable" x="0" y="0" width="90" height="32" />
+              <text id="281:793" name="Built to recognised engineering standards." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:794" name="Frame" x="357.6666564941406" y="269" width="337.6666564941406" height="252">
+            <frame id="281:795" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:796" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:797" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:798" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:799" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:800" name="Proven" x="0" y="0" width="80" height="32" />
+              <text id="281:801" name="Experienced across telco rollout projects." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+          <frame id="281:802" name="Frame" x="715.3333129882812" y="269" width="337.6666564941406" height="252">
+            <frame id="281:803" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="281:804" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="281:805" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="281:806" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="281:807" name="Frame 2147225193" x="24" y="132" width="289.6666564941406" height="96">
+              <text id="281:808" name="Innovative" x="0" y="0" width="118" height="32" />
+              <text id="281:809" name="Driven by R&amp;D and practical deployment needs." x="0" y="36" width="289.6666564941406" height="60" />
+            </frame>
+          </frame>
+        </frame>
+        <instance id="281:810" name="Button" x="0" y="977" width="158" height="46" />
+      </frame>
+    </frame>
+  </frame>
+  <rounded-rectangle id="252:761" name="Rectangle 36" x="3855" y="29589" width="1920" height="945" />
+  <rounded-rectangle id="407:394" name="Rectangle 40" x="3855" y="30694" width="1920" height="945" />
+  <rounded-rectangle id="257:769" name="Rectangle 38" x="3855" y="28552" width="1920" height="945" />
+  <rounded-rectangle id="257:771" name="Rectangle 39" x="5843" y="28552" width="1920" height="945" />
+  <rounded-rectangle id="252:762" name="Rectangle 37" x="3855" y="27464" width="1920" height="945" />
+  <rounded-rectangle id="103:549" name="clients list for homepage" x="5918" y="5193" width="1742" height="719" />
+  <rounded-rectangle id="60:600" name="Rectangle 1" x="5843" y="27404" width="1920" height="945" />
+  <frame id="60:415" name="Group 2" x="16143" y="4059" width="1920" height="768">
+    <rounded-rectangle id="60:416" name="Rectangle 7" x="16143" y="4059" width="1920" height="768" />
+    <rounded-rectangle id="60:417" name="Rectangle 8" x="16193" y="4139" width="900" height="608" hidden="true" />
+    <frame id="60:418" name="Frame" x="17143" y="4189" width="870" height="508">
+      <frame id="60:419" name="Frame 2147225195" x="0" y="0" width="870" height="144">
+        <text id="60:420" name="ABOUT US" x="0" y="0" width="78" height="18" />
+        <text id="60:421" name="Building the Future of Malaysia’s Connectivity" x="0" y="28" width="870" height="116" />
+      </frame>
+      <text id="60:422" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures. Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&amp;D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs." x="0" y="168" width="870" height="270" />
+      <instance id="60:423" name="Button" x="0" y="462" width="158" height="46" />
+    </frame>
+  </frame>
+  <frame id="60:424" name="Group 3" x="16143" y="4827" width="1920" height="806">
+    <rounded-rectangle id="60:425" name="Rectangle 7" x="16143" y="4827" width="1920" height="806" />
+    <text id="60:426" name="Why Choose Jitrapadu" x="16847" y="4909" width="512" height="58" />
+    <frame id="60:427" name="Frame 2147225196" x="16423" y="5030" width="1360" height="523">
+      <frame id="60:428" name="Frame" x="0" y="0" width="440" height="238">
+        <frame id="60:429" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:430" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:434" name="Frame 2147225193" x="30" y="134" width="380" height="74">
+          <text id="60:435" name="Turnkey" x="0" y="0" width="92" height="32" />
+          <text id="60:436" name="End-to-end project support." x="0" y="44" width="380" height="30" />
+        </frame>
+      </frame>
+      <frame id="60:437" name="Frame" x="460" y="0" width="440" height="238">
+        <frame id="60:438" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:439" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:443" name="Frame 2147225193" x="30" y="134" width="380" height="74">
+          <text id="60:444" name="In-House" x="0" y="0" width="105" height="32" />
+          <text id="60:445" name="Fabricated at our Klang facility." x="0" y="44" width="380" height="30" />
+        </frame>
+      </frame>
+      <frame id="60:446" name="Frame" x="920" y="0" width="440" height="238">
+        <frame id="60:447" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:448" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:452" name="Frame 2147225193" x="30" y="134" width="380" height="74">
+          <text id="60:453" name="Local" x="0" y="0" width="61" height="32" />
+          <text id="60:454" name="Made in Malaysia by local professionals." x="0" y="44" width="380" height="30" />
+        </frame>
+      </frame>
+      <frame id="60:455" name="Frame" x="0" y="255" width="440" height="268">
+        <frame id="60:456" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:457" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:461" name="Frame 2147225193" x="30" y="134" width="380" height="74">
+          <text id="60:462" name="Reliable" x="0" y="0" width="90" height="32" />
+          <text id="60:463" name="Built to recognised engineering standards." x="0" y="44" width="380" height="30" />
+        </frame>
+      </frame>
+      <frame id="60:464" name="Frame" x="460" y="255" width="440" height="268">
+        <frame id="60:465" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:466" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:470" name="Frame 2147225193" x="30" y="134" width="380" height="74">
+          <text id="60:471" name="Proven" x="0" y="0" width="80" height="32" />
+          <text id="60:472" name="Experienced across telco rollout projects." x="0" y="44" width="380" height="30" />
+        </frame>
+      </frame>
+      <frame id="60:473" name="Frame" x="920" y="255" width="440" height="268">
+        <frame id="60:474" name="Frame" x="30" y="30" width="80" height="80">
+          <frame id="60:475" name="International Standard" x="15" y="15" width="50" height="50" />
+        </frame>
+        <frame id="60:479" name="Frame 2147225193" x="30" y="134" width="380" height="104">
+          <text id="60:480" name="Innovative" x="0" y="0" width="118" height="32" />
+          <text id="60:481" name="Driven by R&amp;D and practical deployment needs." x="0" y="44" width="380" height="60" />
+        </frame>
+      </frame>
+    </frame>
+  </frame>
+  <frame id="14:725" name="About Us" x="8163" y="1467" width="1920" height="9164">
+    <frame id="14:726" name="Group 1" x="0" y="0" width="1920" height="650">
+      <rounded-rectangle id="14:727" name="Rectangle 1" x="1920" y="0" width="1920" height="650" />
+      <rounded-rectangle id="14:728" name="Rectangle 2" x="0" y="330" width="1920" height="320" />
+      <frame id="14:729" name="Frame 2147225192" x="50" y="418" width="898" height="152">
+        <text id="14:730" name="About Us" x="0" y="0" width="898" height="18" hidden="true" />
+        <text id="14:731" name="About Jitrapadu Engineering Sdn Bhd" x="0" y="0" width="898" height="152" />
+        <text id="120:487" name="A reusable page shell built from the shared Jitrapadu header, navigation, typography, colour and footer system." x="0" y="176" width="699" height="64" hidden="true" />
+      </frame>
+    </frame>
+    <frame id="214:839" name="Group 21" x="0" y="650" width="1920" height="964">
+      <rounded-rectangle id="14:733" name="Rectangle 7" x="0" y="650" width="1920" height="964" />
+      <frame id="14:734" name="Frame" x="52" y="730" width="611" height="216">
+        <text id="14:735" name="Our Background" x="0" y="0" width="144" height="18" />
+        <text id="14:736" name="Engineering Excellence for Malaysia’s Telecommunication Future" x="0" y="42" width="611" height="174" />
+      </frame>
+      <text id="14:737" name="Today, our strength is built on practical engineering, in-house manufacturing capability, continuous R&amp;D and field-tested deployment experience. We remain committed to building a better-connected Malaysia through safe, customisable, cost-effective and reliable telecommunication infrastructure." x="1368" y="1354" width="502" height="180" />
+      <text id="94:490" name="Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel fabrication company specialising in turnkey infrastructure solutions. Our core focus includes telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems, portable BTS solutions, custom steel fabrication, project management and technical support. Over the years, Jitrapadu has grown from a steel structure and tower fabrication specialist into a one-stop solution partner for the telecommunications ecosystem. Our work supports telcos, tower owners, infrastructure providers, government-linked organisations and project partners that need reliable structures for network expansion, 5G rollout, smart city development and rural connectivity." x="817" y="730" width="1053" height="210" />
+      <rounded-rectangle id="94:489" name="Rectangle 12" x="817" y="990" width="501.5" height="544" />
+      <rounded-rectangle id="94:491" name="Rectangle 13" x="1368" y="990" width="501.5" height="314" />
+    </frame>
+    <frame id="60:604" name="Group 9" x="0" y="1564" width="1920" height="1000" hidden="true">
+      <rounded-rectangle id="60:605" name="Rectangle 7" x="0" y="1564" width="1920" height="1000" />
+      <frame id="60:606" name="Frame" x="0" y="1564" width="960" height="500">
+        <text id="60:607" name="Vision" x="100" y="161" width="760" height="58" />
+        <text id="60:608" name="To become Malaysia’s trusted leader in telecommunication steel infrastructure by driving innovation, safety and sustainable connectivity for the future." x="100" y="243" width="760" height="96" />
+      </frame>
+      <frame id="60:612" name="Frame" x="960" y="2064" width="960" height="500">
+        <text id="60:613" name="Mission" x="100" y="145" width="760" height="58" />
+        <text id="60:614" name="To provide customisable, cost-effective and reliable telecommunication infrastructure solutions through engineering excellence, in-house fabrication, continuous R&amp;D and professional project delivery." x="100" y="227" width="760" height="128" />
+      </frame>
+    </frame>
+    <frame id="149:676" name="Group 12" x="0" y="1614" width="1920" height="700">
+      <instance id="337:1527" name="Our Vision" x="0" y="1614" width="960" height="700" />
+      <instance id="337:1528" name="Our Mission" x="960" y="1614" width="960" height="700" />
+    </frame>
+    <frame id="184:719" name="Frame 2147225222" x="0" y="3809" width="1920" height="2534">
+      <rounded-rectangle id="68:913" name="Rectangle 7" x="0" y="109" width="1920" height="1034" />
+      <rounded-rectangle id="68:914" name="Rectangle 8" x="50" y="189" width="900" height="608" hidden="true" />
+      <frame id="184:718" name="Group 14" x="50" y="0" width="1820" height="2481.722412109375">
+        <frame id="184:716" name="sticky" x="50" y="0" width="613" height="519">
+          <frame id="112:594" name="Frame" x="0" y="189" width="611" height="330">
+            <text id="112:595" name="Certifications &amp; Compliance" x="0" y="0" width="249" height="18" />
+            <text id="112:596" name="Engineering Excellence for Malaysia’s Telecommunication Future" x="0" y="42" width="611" height="174" />
+            <text id="115:437" name="Our work is supported by recognised registrations, technical references, engineering standards and industry compliance documents that reflect our commitment to quality and reliability." x="0" y="240" width="611" height="90" />
+          </frame>
+        </frame>
+        <frame id="68:923" name="Frame 2147225196" x="817" y="189" width="1053" height="2292.722412109375">
+          <frame id="68:988" name="Frame" x="0" y="0" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:989" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:990" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:991" name="SIRIM QAS International Test Report" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:992" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1003" name="Frame" x="357.6666564941406" y="0" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:1004" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1005" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="52">
+              <text id="68:1006" name="TM Vendor" x="106.33332824707031" y="12" width="105" height="28" />
+              <text id="68:1007" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:993" name="Frame" x="715.3333129882812" y="0" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:994" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:995" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="52">
+              <text id="68:996" name="CIDB Grade G5: B / CE / ME" x="30.833328247070312" y="12" width="256" height="28" />
+              <text id="68:997" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1008" name="Frame" x="0" y="577.4299926757812" width="337.6666564941406" height="560.4324340820312">
+            <rounded-rectangle id="68:1009" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1010" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:1011" name="Ericsson Smart Pole Cabinet Reference" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1012" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1013" name="Frame" x="357.6666564941406" y="577.4299926757812" width="337.6666564941406" height="560.4324340820312">
+            <rounded-rectangle id="68:1014" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1015" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:1016" name="Chugoku Paints Qualified Painting Applicator" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1017" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1018" name="Frame" x="715.3333129882812" y="577.4299926757812" width="337.6666564941406" height="560.4324340820312">
+            <rounded-rectangle id="184:709" name="image 238" x="10" y="10" width="317.6700134277344" height="460.43243408203125" />
+            <frame id="68:1020" name="Frame 2147225193" x="10" y="470.43243408203125" width="317.6666564941406" height="80">
+              <text id="68:1021" name="DCA / CAAM-related tower paint colour approval" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1022" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1023" name="Frame" x="0" y="1154.8624267578125" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:1024" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1025" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="52">
+              <text id="68:1026" name="FGV Vendor Registration" x="41.83332824707031" y="12" width="234" height="28" />
+              <text id="68:1027" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1028" name="Frame" x="357.6666564941406" y="1154.8624267578125" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:1029" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1030" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:1031" name="Galvanising / Zinc Coating Certificate" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1032" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:983" name="Frame" x="715.3333129882812" y="1154.8624267578125" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:984" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:985" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:986" name="YTSB 5G Infrastructure Support Letter" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:987" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:924" name="Frame" x="0" y="1732.29248046875" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:981" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:930" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:931" name="edotco Malaysia Appreciation Letter" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:932" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:998" name="Frame" x="357.6666564941406" y="1732.29248046875" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:999" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1000" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:1001" name="Rendang Engineering Technical Endorsement Letter" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1002" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+          <frame id="68:1033" name="Frame" x="715.3333129882812" y="1732.29248046875" width="337.6666564941406" height="560.4299926757812">
+            <rounded-rectangle id="68:1034" name="Rectangle 8" x="10" y="10" width="317.6666564941406" height="460.42999267578125" />
+            <frame id="68:1035" name="Frame 2147225193" x="10" y="470.42999267578125" width="317.6666564941406" height="80">
+              <text id="68:1036" name="Steel Material Mill Test Certificate" x="12" y="12" width="293.6666564941406" height="56" />
+              <text id="68:1037" name="End-to-end project support." x="0" y="36" width="367.3333435058594" height="30" hidden="true" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="75:1077" name="Group 10" x="0" y="7053" width="1962" height="1018">
+      <rounded-rectangle id="75:1078" name="Rectangle 7" x="0" y="7053" width="1920" height="1018" />
+      <frame id="133:667" name="Frame" x="52" y="7133" width="611" height="158">
+        <text id="133:668" name="Our Milestones" x="0" y="0" width="135" height="18" />
+        <text id="133:669" name="Our Journey of Growth &amp; Innovation" x="0" y="42" width="611" height="116" />
+      </frame>
+      <line id="184:1234" name="Line 15" x="52" y="7459" width="1868" height="0.00016330575999745633" />
+      <frame id="184:1161" name="Frame 2147225224" x="52" y="7371" width="1910" height="620">
+        <frame id="184:1162" name="Frame" x="0" y="0" width="417.5" height="620">
+          <text id="184:1163" name="1999" x="170.75" y="0" width="76" height="40" />
+          <frame id="184:1209" name="Frame 2147225225" x="-0.25" y="64" width="418" height="442">
+            <frame id="184:1164" name="Frame" x="189" y="0" width="40" height="40">
+              <text id="184:1165" name="calendar" x="13" y="7" width="14" height="26" />
+            </frame>
+            <frame id="184:1166" name="Group 16" x="0" y="40" width="418" height="402">
+              <frame id="184:1167" name="Group 15" x="203.5" y="40" width="10" height="28" />
+              <rounded-rectangle id="184:1170" name="Rectangle 8" x="0" y="66" width="418" height="376" />
+            </frame>
+          </frame>
+          <text id="184:1171" name="Achievement" x="0" y="554" width="417.5" height="40" hidden="true" />
+          <text id="184:1172" name="Supplied monopole structures for Singtel Singapore, including 28m, 34m and 45m monopoles." x="0" y="530" width="417.5" height="90" />
+        </frame>
+        <frame id="184:1173" name="Frame" x="497.5" y="0" width="417.5" height="590">
+          <text id="184:1174" name="1999 to 2001" x="110.25" y="0" width="197" height="40" />
+          <frame id="184:1210" name="Frame 2147225226" x="-0.25" y="64" width="418" height="442">
+            <frame id="184:1175" name="Frame" x="189" y="0" width="40" height="40">
+              <text id="184:1176" name="calendar" x="13" y="7" width="14" height="26" />
+            </frame>
+            <frame id="184:1177" name="Group 16" x="0" y="40" width="418" height="402">
+              <frame id="184:1178" name="Group 15" x="203.5" y="40" width="10" height="28" />
+              <rounded-rectangle id="184:1181" name="Rectangle 8" x="0" y="66" width="418" height="376" />
+            </frame>
+          </frame>
+          <text id="184:1182" name="Achievement" x="0" y="554" width="417.5" height="40" hidden="true" />
+          <text id="184:1183" name="Delivered heavy-duty 4-legged tower projects for Telekom Malaysia in Central Malaysia." x="0" y="530" width="417.5" height="60" />
+        </frame>
+        <frame id="184:1184" name="Frame" x="995" y="0" width="417.5" height="590">
+          <text id="184:1185" name="2002 to 2004" x="104.75" y="0" width="208" height="40" />
+          <frame id="184:1211" name="Frame 2147225227" x="-0.25" y="64" width="418" height="442">
+            <frame id="184:1186" name="Frame" x="189" y="0" width="40" height="40">
+              <text id="184:1187" name="calendar" x="13" y="7" width="14" height="26" />
+            </frame>
+            <frame id="184:1188" name="Group 16" x="0" y="40" width="418" height="402">
+              <frame id="184:1189" name="Group 15" x="203.5" y="40" width="10" height="28" />
+              <rounded-rectangle id="184:1192" name="Rectangle 8" x="0" y="66" width="418" height="376" />
+            </frame>
+          </frame>
+          <text id="184:1193" name="Achievement" x="0" y="554" width="417.5" height="40" hidden="true" />
+          <text id="184:1194" name="Supported tower projects for Maxis and broadcast tower projects in Indonesia." x="0" y="530" width="417.5" height="60" />
+        </frame>
+        <frame id="184:1218" name="Frame" x="1492.5" y="0" width="417.5" height="620">
+          <text id="184:1219" name="2005 to 2014" x="107.75" y="0" width="202" height="40" />
+          <frame id="184:1220" name="Frame 2147225227" x="-0.25" y="64" width="418" height="442">
+            <frame id="184:1221" name="Frame" x="189" y="0" width="40" height="40">
+              <text id="184:1222" name="calendar" x="13" y="7" width="14" height="26" />
+            </frame>
+            <frame id="184:1223" name="Group 16" x="0" y="40" width="418" height="402">
+              <frame id="184:1224" name="Group 15" x="203.5" y="40" width="10" height="28" />
+              <rounded-rectangle id="184:1227" name="Rectangle 8" x="0" y="66" width="418" height="376" />
+            </frame>
+          </frame>
+          <text id="184:1228" name="Achievement" x="0" y="554" width="417.5" height="40" hidden="true" />
+          <text id="184:1229" name="Delivered multiple tower and pole projects for infrastructure partners including Shazan Alam Muda and Konsortium Jaringan Selangor." x="0" y="530" width="417.5" height="90" />
+        </frame>
+      </frame>
+      <frame id="184:1212" name="nav arrow" x="1710" y="7221" width="160" height="70">
+        <instance id="184:1213" name="left-arrow" x="0" y="0" width="70" height="70" />
+        <instance id="184:1214" name="right-arrow" x="90" y="0" width="70" height="70" />
+      </frame>
+    </frame>
+    <frame id="68:1041" name="Group 7" x="0" y="2314" width="1920" height="636">
+      <rounded-rectangle id="68:1042" name="Rectangle 7" x="0" y="2314" width="1920" height="636" />
+      <frame id="68:1068" name="Frame" x="357" y="2394" width="1206" height="58">
+        <text id="68:1069" name="Our Core Values" x="0" y="0" width="1206" height="58" />
+        <text id="68:1070" name="Jitrapadu is supported by a team of engineers, project managers, technical personnel, certified welders, skilled workers and site teams who work together from planning to completion. Our management approach is practical and hands-on. Engineering, fabrication, logistics, construction and project coordination are aligned early so that every structure is designed with real site conditions in mind. This helps us reduce delays, improve quality control and deliver solutions that are ready for actual deployment." x="0" y="82" width="1206" height="180" hidden="true" />
+      </frame>
+      <frame id="133:572" name="Frame 2147225196" x="50" y="2502" width="1820" height="354">
+        <frame id="247:691" name="icon box" x="0" y="0" width="437" height="354">
+          <frame id="247:692" name="Frame" x="24" y="32" width="100" height="100">
+            <frame id="247:693" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="247:694" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="247:695" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="247:696" name="Frame 2147225193" x="24" y="140" width="389" height="182">
+            <text id="247:697" name="Drive Innovation &amp; Continuous R&amp;D" x="0" y="0" width="389" height="80" />
+            <text id="247:698" name="Full turnkey solution to propel nationwide development telecommunication infrastructure." x="0" y="92" width="389" height="90" />
+          </frame>
+        </frame>
+        <frame id="133:582" name="Frame" x="461" y="0" width="437" height="354">
+          <frame id="180:929" name="Frame" x="24" y="32" width="100" height="100">
+            <frame id="180:930" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="180:931" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="180:932" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:588" name="Frame 2147225193" x="24" y="140" width="389" height="182">
+            <text id="133:589" name="Uncompromising Safety &amp; Reliability" x="0" y="0" width="389" height="80" />
+            <text id="133:590" name="Engineered for peace of mind, with a 10-year structural design warranty and dedicated technical support." x="0" y="92" width="389" height="90" />
+          </frame>
+        </frame>
+        <frame id="133:591" name="Frame" x="922" y="0" width="437" height="354">
+          <frame id="180:937" name="Frame" x="24" y="32" width="100" height="100">
+            <frame id="180:938" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="180:939" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="180:940" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:597" name="Frame 2147225193" x="24" y="140" width="389" height="152">
+            <text id="133:598" name="Delivering Tower Excellence" x="0" y="0" width="389" height="80" />
+            <text id="133:599" name="A decade of expertise crafting tailored solutions that meet diverse needs" x="0" y="92" width="389" height="60" />
+          </frame>
+        </frame>
+        <frame id="133:600" name="Frame" x="1383" y="0" width="437" height="354">
+          <frame id="180:933" name="Frame" x="24" y="32" width="100" height="100">
+            <frame id="180:934" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="180:935" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="180:936" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:606" name="Frame 2147225193" x="24" y="140" width="389" height="142">
+            <text id="133:607" name="Uphold Premium Quality" x="0" y="0" width="389" height="40" />
+            <text id="133:608" name="Precision-crafted solutions with uncompromising standards in every stage of fabrication and deployment" x="0" y="52" width="389" height="90" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="71:1071" name="Group 5" x="1" y="2950" width="1920" height="968">
+      <rounded-rectangle id="71:1072" name="Rectangle 7" x="1" y="2950" width="1920" height="968" />
+      <rounded-rectangle id="71:1073" name="Rectangle 8" x="511" y="3260" width="900" height="578" />
+      <rounded-rectangle id="159:736" name="Rectangle 9" x="1430" y="3260" width="440" height="578" />
+      <rounded-rectangle id="159:737" name="Rectangle 10" x="50" y="3260" width="438" height="578" />
+      <frame id="71:1074" name="Frame" x="51" y="3030" width="1809" height="180">
+        <frame id="133:647" name="Frame" x="0" y="0" width="611" height="158">
+          <text id="133:648" name="Our Team" x="0" y="0" width="80" height="18" />
+          <text id="133:649" name="Engineering Strength Through Collaboration" x="0" y="42" width="611" height="116" />
+        </frame>
+        <text id="71:1076" name="Jitrapadu is supported by a team of engineers, project managers, technical personnel, certified welders, skilled workers and site teams who work together from planning to completion. Our management approach is practical and hands-on. Engineering, fabrication, logistics, construction and project coordination are aligned early so that every structure is designed with real site conditions in mind. This helps us reduce delays, improve quality control and deliver solutions that are ready for actual deployment." x="756" y="0" width="1053" height="180" />
+      </frame>
+    </frame>
+    <instance id="133:1176" name="Footer with CTA" x="0" y="8071" width="1920" height="1093" />
+    <frame id="235:1193" name="Group 18" x="0" y="6343" width="1920" height="710">
+      <rounded-rectangle id="235:1194" name="Rectangle 8" x="0" y="6343" width="1920" height="710" />
+      <frame id="235:1195" name="Frame 2147225234" x="50" y="6445" width="611" height="232">
+        <frame id="235:1196" name="Frame" x="0" y="0" width="611" height="58">
+          <text id="235:1197" name="our Steps" x="0" y="0" width="86" height="18" hidden="true" />
+          <text id="235:1198" name="Our Achievements" x="0" y="0" width="611" height="58" />
+        </frame>
+        <text id="235:1199" name="Jitrapadu has a strong track record in delivering telecommunications infrastructure solutions across Malaysia and the region. Backed by proven expertise, robust manufacturing capabilities and a skilled in-house team, we support the reliable and efficient deployment of modern connectivity infrastructure." x="0" y="82" width="611" height="150" />
+      </frame>
+      <rounded-rectangle id="235:1200" name="Rectangle 8" x="50" y="6707" width="611" height="268" hidden="true" />
+      <frame id="235:1201" name="Achievement list" x="817" y="6415" width="1053" height="560">
+        <frame id="235:1202" name="Achievement row" x="0" y="0" width="1053" height="116">
+          <text id="235:1203" name="Index" x="0" y="0" width="34" height="26" />
+          <frame id="235:1204" name="Timeline structure" x="54" y="0" width="999" height="116">
+            <text id="235:1205" name="First SIRIM-Endorsed Smart Pole Innovation" x="21" y="21" width="651" height="40" />
+            <text id="235:1206" name="Jitrapadu&#39;s Smart Pole solution is positioned as the first smart pole endorsed by SIRIM, DBKL and major telco providers." x="21" y="73" width="957" height="22" />
+          </frame>
+        </frame>
+        <frame id="235:1207" name="Achievement row" x="0" y="148" width="1053" height="116">
+          <text id="235:1208" name="Index" x="0" y="0" width="34" height="26" />
+          <frame id="235:1209" name="Timeline structure" x="54" y="0" width="999" height="116">
+            <text id="235:1210" name="Pioneer of Rapid Deployment Solution (RDS)" x="21" y="21" width="658" height="40" />
+            <text id="235:1211" name="Developed a plug-and-play Rapid Deployment Solution designed to reduce installation time and allow relocation flexibility." x="21" y="73" width="957" height="22" />
+          </frame>
+        </frame>
+        <frame id="235:1212" name="Achievement row" x="0" y="296" width="1053" height="116">
+          <text id="235:1213" name="Index" x="0" y="0" width="34" height="26" />
+          <frame id="235:1214" name="Timeline structure" x="54" y="0" width="999" height="116">
+            <text id="235:1215" name="Trusted Telecom Infrastructure Partner" x="21" y="21" width="583" height="40" />
+            <text id="235:1216" name="Delivered telecom infrastructure solutions for major industry players and organisations, including telecom providers and infrastructure owners." x="21" y="73" width="957" height="22" />
+          </frame>
+        </frame>
+        <frame id="235:1217" name="Achievement row" x="0" y="444" width="1053" height="116">
+          <text id="235:1218" name="Index" x="0" y="0" width="34" height="26" />
+          <frame id="235:1219" name="Timeline structure" x="54" y="0" width="999" height="116">
+            <text id="235:1220" name="Regional Project Experience" x="21" y="21" width="418" height="40" />
+            <text id="235:1221" name="Completed projects across Malaysia and international markets including Singapore, Indonesia, Bangladesh and Australia." x="21" y="73" width="957" height="22" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="14:738" name="Header" x="0" y="0" width="1920" height="109" />
+  </frame>
+  <frame id="75:1299" name="Milestones content" x="10135" y="8842" width="1207" height="1055">
+    <frame id="78:337" name="Milestone_Row_0" x="0" y="0" width="1207" height="104">
+      <frame id="78:338" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:339" name="1999" x="164" y="0" width="76" height="40" />
+      </frame>
+      <frame id="78:340" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:341" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:342" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:343" name="Supplied monopole structures for Singtel Singapore, including 28m, 34m and 45m monopoles." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:344" name="Milestone_Row_1" x="0" y="103" width="1207" height="104">
+      <frame id="78:345" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:346" name="1999 to 2001" x="43" y="0" width="197" height="40" />
+      </frame>
+      <frame id="78:347" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:348" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:349" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:350" name="Delivered heavy-duty 4-legged tower projects for Telekom Malaysia in Central Malaysia." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:351" name="Milestone_Row_2" x="0" y="206" width="1207" height="104">
+      <frame id="78:352" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:353" name="2002 to 2004" x="32" y="0" width="208" height="40" />
+      </frame>
+      <frame id="78:354" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:355" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:356" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:357" name="Supported tower projects for Maxis and broadcast tower projects in Indonesia." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:358" name="Milestone_Row_3" x="0" y="309" width="1207" height="116">
+      <frame id="78:359" name="Frame" x="24" y="38" width="240" height="40">
+        <text id="78:360" name="2005 to 2014" x="38" y="0" width="202" height="40" />
+      </frame>
+      <frame id="78:361" name="Frame" x="296" y="52" width="12" height="12">
+        <ellipse id="78:362" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:363" name="Frame" x="340" y="32" width="843" height="52">
+        <text id="78:364" name="Delivered multiple tower and pole projects for infrastructure partners including Shazan Alam Muda and Konsortium Jaringan Selangor." x="0" y="0" width="843" height="52" />
+      </frame>
+    </frame>
+    <frame id="78:365" name="Milestone_Row_4" x="0" y="424" width="1207" height="104">
+      <frame id="78:366" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:367" name="2009 to 2010" x="38" y="0" width="202" height="40" />
+      </frame>
+      <frame id="78:368" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:369" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:370" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:371" name="Completed radar tower works for TUDM and PDRM-related sites." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:372" name="Milestone_Row_5" x="0" y="527" width="1207" height="104">
+      <frame id="78:373" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:374" name="2010 to 2012" x="44" y="0" width="196" height="40" />
+      </frame>
+      <frame id="78:375" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:376" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:377" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:378" name="Supported installation and commissioning of BTS equipment for Grameenphone in Bangladesh." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:379" name="Milestone_Row_6" x="0" y="630" width="1207" height="104">
+      <frame id="78:380" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:381" name="2010 to Present" x="3" y="0" width="237" height="40" />
+      </frame>
+      <frame id="78:382" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:383" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:384" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:385" name="Continued delivery of tower, pole and RDS-related projects for D&#39;Harmoni in Southern Malaysia." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:386" name="Milestone_Row_7" x="0" y="733" width="1207" height="104">
+      <frame id="78:387" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:388" name="2017 to 2019" x="46" y="0" width="194" height="40" />
+      </frame>
+      <frame id="78:389" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:390" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:391" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:392" name="Delivered a 35m 3-legged medium-duty tower project in Brisbane, Australia." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+    <frame id="78:393" name="Milestone_Row_8" x="0" y="836" width="1207" height="116">
+      <frame id="78:394" name="Frame" x="24" y="38" width="240" height="40">
+        <text id="78:395" name="2023" x="159" y="0" width="81" height="40" />
+      </frame>
+      <frame id="78:396" name="Frame" x="296" y="52" width="12" height="12">
+        <ellipse id="78:397" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:398" name="Frame" x="340" y="32" width="843" height="52">
+        <text id="78:399" name="Received SIRIM test recognition for Smart Pole-related components and Ericsson equipment fitting validation for Smart Pole cabinet works." x="0" y="0" width="843" height="52" />
+      </frame>
+    </frame>
+    <frame id="78:400" name="Milestone_Row_9" x="0" y="951" width="1207" height="104">
+      <frame id="78:401" name="Frame" x="24" y="32" width="240" height="40">
+        <text id="78:402" name="2025 to 2027" x="38" y="0" width="202" height="40" />
+      </frame>
+      <frame id="78:403" name="Frame" x="296" y="46" width="12" height="12">
+        <ellipse id="78:404" name="Ellipse" x="0" y="0" width="12" height="12" />
+      </frame>
+      <frame id="78:405" name="Frame" x="340" y="39" width="843" height="26">
+        <text id="78:406" name="CIDB Grade G5 registration renewed and active for B, CE and ME categories." x="0" y="0" width="843" height="26" />
+      </frame>
+    </frame>
+  </frame>
+  <symbol id="133:680" name="CTA" x="1628" y="9110" width="1920" height="682" />
+  <frame id="60:618" name="Our Solutions - Telecom Tower &amp; Monopole" x="11532" y="1467" width="1920" height="9496">
+    <frame id="60:619" name="Group 1" x="0" y="0" width="1920" height="650">
+      <rounded-rectangle id="60:620" name="Rectangle 1" x="0" y="0" width="1920" height="650" />
+      <rounded-rectangle id="60:621" name="Rectangle 2" x="0" y="330" width="1920" height="320" />
+      <frame id="60:622" name="Frame 2147225192" x="50" y="418" width="652" height="152">
+        <text id="60:623" name="Our solutions" x="0" y="0" width="898" height="18" hidden="true" />
+        <text id="60:624" name="Telecom Tower &amp; Monopole Solutions" x="0" y="0" width="652" height="152" />
+        <text id="60:625" name="Strong, reliable and customisable tower infrastructure for telco network expansion." x="0" y="176" width="699" height="64" hidden="true" />
+      </frame>
+    </frame>
+    <frame id="191:1297" name="Group 17" x="0" y="650" width="1920" height="732">
+      <rounded-rectangle id="60:626" name="Rectangle 7" x="0" y="650" width="1920" height="732" />
+      <rounded-rectangle id="196:1647" name="Rectangle 13" x="50" y="942" width="440" height="360" />
+      <frame id="60:627" name="Frame" x="50" y="734" width="1015" height="158">
+        <text id="60:628" name="Built for High-Performance Connectivity" x="0" y="0" width="367" height="18" />
+        <text id="60:629" name="Strong, Reliable and Customisable Tower Infrastructure for Telco Network Expansion" x="0" y="42" width="1015" height="116" />
+      </frame>
+      <text id="60:630" name="Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions. We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence." x="540" y="942" width="533" height="360" />
+    </frame>
+    <rounded-rectangle id="149:658" name="Rectangle 12" x="1123" y="734" width="747" height="568" />
+    <frame id="65:657" name="Group 7" x="0" y="1382" width="1920" height="1851">
+      <rounded-rectangle id="65:658" name="Rectangle 7" x="0" y="1382" width="1920" height="1851" />
+      <frame id="65:684" name="Frame" x="525" y="1464" width="870" height="142">
+        <text id="65:685" name="Product Range" x="0" y="0" width="870" height="58" />
+        <text id="65:686" name="Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond." x="0" y="82" width="870" height="60" />
+      </frame>
+      <frame id="65:703" name="Frame 2147225194" x="50" y="1667" width="1820" height="1486">
+        <frame id="191:1303" name="Frame" x="0" y="0" width="573.3333129882812" height="718">
+          <text id="191:1304" name="Angular Tower" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="191:1305" name="Rectangle 8" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1306" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="90">
+            <text id="191:1307" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1308" name="Lattice tower structures available in 3-legged and 4-legged configurations, ranging from 30m to 120m, with light, medium and heavy-duty classifications." x="0" y="0" width="525.3333129882812" height="90" />
+          </frame>
+        </frame>
+        <frame id="191:1309" name="Frame" x="623.3333129882812" y="0" width="573.3333129882812" height="718">
+          <text id="191:1310" name="Mono-pole" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="204:671" name="Rectangle 9" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1312" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="90">
+            <text id="191:1313" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1314" name="Single-legged tubular tapered structures designed for multi-telco installations, with common height options including 30m, 36m, 45m and 50m." x="0" y="0" width="525.3333129882812" height="90" />
+          </frame>
+        </frame>
+        <frame id="191:1315" name="Frame" x="1246.6666259765625" y="0" width="573.3333129882812" height="718">
+          <text id="191:1316" name="Rooftop Unipole" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="204:681" name="Rectangle 9" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1318" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="60">
+            <text id="191:1319" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1320" name="Compact rooftop structures for sites where ground space is limited but elevated telco coverage is required." x="0" y="0" width="525.3333129882812" height="60" />
+          </frame>
+        </frame>
+        <frame id="191:1365" name="Frame" x="0" y="768" width="573.3333129882812" height="718">
+          <text id="191:1366" name="Guyed Mast" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="204:684" name="Rectangle 9" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1368" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="90">
+            <text id="191:1369" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1370" name="A cost-effective tower option supported by guy wires, suitable for selected open-space or specialised deployment conditions." x="0" y="0" width="525.3333129882812" height="90" />
+          </frame>
+        </frame>
+        <frame id="191:1371" name="Frame" x="623.3333129882812" y="768" width="573.3333129882812" height="718">
+          <text id="191:1372" name="Radar and Broadcast Tower" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="204:682" name="Rectangle 9" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1374" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="60">
+            <text id="191:1375" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1376" name="Custom steel tower structures for radar, broadcast and communication-related applications." x="0" y="0" width="525.3333129882812" height="60" />
+          </frame>
+        </frame>
+        <frame id="191:1377" name="Frame" x="1246.6666259765625" y="768" width="573.3333129882812" height="718">
+          <text id="191:1378" name="Camouflage Pole" x="24" y="24" width="525.3333129882812" height="32" />
+          <rounded-rectangle id="204:683" name="Rectangle 9" x="24" y="80" width="525.3333129882812" height="500" />
+          <frame id="191:1380" name="Frame 2147225220" x="24" y="604" width="525.3333129882812" height="60">
+            <text id="191:1381" name="Cutting and Forming" x="0" y="0" width="525.3333740234375" height="40" hidden="true" />
+            <text id="191:1382" name="A telecom structure designed for urban areas where connectivity blends with the environment." x="0" y="0" width="525.3333129882812" height="60" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="83:1658" name="Group 8" x="0" y="5185" width="1920" height="1202">
+      <rounded-rectangle id="83:1659" name="Rectangle 7" x="0" y="5185" width="1920" height="1202" />
+      <frame id="83:1660" name="Frame 2147225194" x="50" y="5457" width="1820" height="850">
+        <frame id="103:479" name="Frame" x="0" y="0" width="417.5" height="850" />
+        <frame id="103:481" name="Frame" x="467.5" y="0" width="417.5" height="400" />
+        <frame id="103:483" name="Frame" x="935" y="0" width="417.5" height="400" />
+        <frame id="103:493" name="Frame" x="1402.5" y="0" width="417.5" height="400" />
+        <frame id="103:487" name="Frame" x="467.5" y="450" width="417.5" height="400" />
+        <frame id="103:489" name="Frame" x="935" y="450" width="417.5" height="400" />
+        <frame id="233:763" name="Frame" x="1402.5" y="450" width="417.5" height="400" />
+      </frame>
+      <frame id="83:1677" name="Frame" x="357" y="5265" width="1206" height="142">
+        <text id="83:1678" name="Applications &amp; Use Cases" x="0" y="0" width="1206" height="58" />
+        <text id="83:1679" name="Our telecom tower and monopole solutions are suitable for new network rollout, capacity expansion, infrastructure sharing and specialised communication needs." x="0" y="82" width="1206" height="60" />
+      </frame>
+    </frame>
+    <frame id="92:442" name="Group 4" x="0" y="7449" width="1920" height="954">
+      <rounded-rectangle id="92:443" name="Rectangle 7" x="0" y="7449" width="1920" height="954" />
+      <rounded-rectangle id="92:444" name="Rectangle 8" x="50" y="7529" width="900" height="608" hidden="true" />
+      <frame id="92:445" name="Frame" x="50" y="7529" width="1820" height="794">
+        <frame id="133:1002" name="Frame" x="604.5" y="0" width="611" height="100">
+          <text id="133:1003" name="FAQ" x="291" y="0" width="29" height="18" />
+          <text id="133:1004" name="Your Questions, Answered" x="0" y="42" width="611" height="58" />
+        </frame>
+        <frame id="92:449" name="Frame 2147225197" x="383.5" y="150" width="1053" height="644">
+          <frame id="92:450" name="Frame 2147225198" x="0" y="0" width="1053" height="196">
+            <frame id="96:554" name="Frame 2147225210" x="40" y="40" width="973" height="32">
+              <text id="92:451" name="What types of telecommunication towers does Jitrapadu provide?" x="0" y="0" width="945" height="32" />
+              <text id="96:556" name="arrow-up" x="955" y="0" width="18" height="32" />
+            </frame>
+            <text id="92:452" name="We provide angular towers, 3-legged towers, 4-legged towers, monopoles, rooftop unipoles, guyed masts and customised tower structures." x="40" y="96" width="973" height="60" />
+          </frame>
+          <frame id="96:557" name="Frame 2147225203" x="0" y="196" width="1053" height="112">
+            <frame id="96:558" name="Frame 2147225210" x="40" y="40" width="973" height="32">
+              <text id="96:559" name="What height range is available for angular towers?" x="0" y="0" width="945" height="32" />
+              <text id="96:560" name="arrow-down" x="955" y="0" width="18" height="32" />
+            </frame>
+            <text id="96:561" name="Our angular towers can range from 30m to 120m, depending on site requirements, load category and project specifications." x="0" y="56" width="1202" height="30" hidden="true" />
+          </frame>
+          <frame id="96:562" name="Frame 2147225204" x="0" y="308" width="1053" height="112">
+            <frame id="96:563" name="Frame 2147225210" x="40" y="40" width="973" height="32">
+              <text id="96:564" name="How many operators can a monopole support?" x="0" y="0" width="945" height="32" />
+              <text id="96:565" name="arrow-down" x="955" y="0" width="18" height="32" />
+            </frame>
+            <text id="96:566" name="Our monopoles can be designed for multi-telco installations. Based on the provided company profile, selected monopole designs can support up to six telecommunication operators." x="0" y="56" width="1202" height="60" hidden="true" />
+          </frame>
+          <frame id="96:567" name="Frame 2147225205" x="0" y="420" width="1053" height="112">
+            <frame id="96:568" name="Frame 2147225210" x="40" y="40" width="973" height="32">
+              <text id="96:569" name="Are the towers fabricated in-house?" x="0" y="0" width="945" height="32" />
+              <text id="96:570" name="arrow-down" x="955" y="0" width="18" height="32" />
+            </frame>
+            <text id="96:571" name="Yes. Core steel fabrication is handled through Jitrapadu’s in-house manufacturing facility in Klang, giving better control over quality and delivery." x="0" y="56" width="1202" height="60" hidden="true" />
+          </frame>
+          <frame id="96:572" name="Frame 2147225206" x="0" y="532" width="1053" height="112">
+            <frame id="96:573" name="Frame 2147225210" x="40" y="40" width="973" height="32">
+              <text id="96:574" name="What standards do your structures follow?" x="0" y="0" width="945" height="32" />
+              <text id="96:575" name="arrow-down" x="955" y="0" width="18" height="32" />
+            </frame>
+            <text id="96:576" name="Structures are designed to comply with recognised standards such as BS 5950, BS 6399, BS 8100 and TIA-222-G, depending on project requirements." x="0" y="56" width="1202" height="60" hidden="true" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="65:729" name="Group 2" x="0" y="3125" width="1920" height="2060">
+      <rounded-rectangle id="65:730" name="Rectangle 7" x="0" y="3233" width="1920" height="1952" />
+      <rounded-rectangle id="196:1464" name="Rectangle 8" x="0" y="3233" width="1920" height="980" />
+      <frame id="191:1433" name="Group 18" x="50" y="3125" width="1820" height="1980">
+        <line id="196:1501" name="Line 16" x="867" y="3314" width="0.00007671348612348083" height="1755" />
+        <frame id="65:736" name="Frame 2147225197" x="817" y="3313" width="1053" height="1792">
+          <frame id="65:737" name="Frame 2147225198" x="0" y="0" width="1053" height="136">
+            <frame id="191:1269" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1270" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1271" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1272" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1274" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1276" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="65:738" name="Step 1:" x="0" y="0" width="929" height="28" />
+                <text id="191:1275" name="Project Requirement Study" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="65:739" name="We begin by reviewing the client’s coverage objective, site location, operator load, required height, timeline and access conditions." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1277" name="Frame 2147225208" x="0" y="184" width="1053" height="136">
+            <frame id="191:1278" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1279" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1280" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1281" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1282" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1283" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1284" name="Step 2:" x="0" y="0" width="929" height="28" />
+                <text id="191:1285" name="Site and Structural Assessment" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1286" name="Our team evaluates the site constraints, available footprint, terrain, wind exposure, foundation requirements and surrounding environment." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1287" name="Frame 2147225209" x="0" y="368" width="1053" height="136">
+            <frame id="191:1288" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1289" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1290" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1291" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1292" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1293" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1294" name="Step 3:" x="0" y="0" width="929" height="28" />
+                <text id="191:1295" name="Engineering Design" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1296" name="The tower or monopole is designed according to the required height, loading category, telco-sharing capacity and applicable structural standards." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1383" name="Frame 2147225210" x="0" y="552" width="1053" height="136">
+            <frame id="191:1384" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1385" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1386" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1387" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1388" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1389" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1390" name="Step 4:" x="0" y="0" width="929" height="28" />
+                <text id="191:1391" name="Cost Baselining and Proposal" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1392" name="We prepare a practical solution with technical recommendations, estimated cost, fabrication timeline and deployment approach." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1393" name="Frame 2147225211" x="0" y="736" width="1053" height="136">
+            <frame id="191:1394" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1395" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1396" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1397" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1398" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1399" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1400" name="Step 5:" x="0" y="0" width="929" height="28" />
+                <text id="191:1401" name="In-House Fabrication" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1402" name="Approved designs move into fabrication at our Klang facility, where steel components are cut, formed, welded and prepared for finishing." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1403" name="Frame 2147225212" x="0" y="920" width="1053" height="136">
+            <frame id="191:1404" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1405" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1406" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1407" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1408" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1409" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1410" name="Step 6:" x="0" y="0" width="929" height="28" />
+                <text id="191:1411" name="Galvanising and Coating" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1412" name="Steel members are finished according to project specifications, including galvanising and aviation-related coating where required." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="191:1413" name="Frame 2147225213" x="0" y="1104" width="1053" height="136">
+            <frame id="191:1414" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="191:1415" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="191:1416" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="191:1417" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="191:1418" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="191:1419" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="191:1420" name="Step 7:" x="0" y="0" width="929" height="28" />
+                <text id="191:1421" name="Site Preparation and Foundation Works" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="191:1422" name="Depending on the structure type, the site is prepared for conventional concrete foundation or RDS-compatible footing solutions." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="196:1434" name="Frame 2147225214" x="0" y="1288" width="1053" height="136">
+            <frame id="196:1435" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1436" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1437" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1438" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1439" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="196:1440" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1441" name="Step 8:" x="0" y="0" width="929" height="28" />
+                <text id="196:1442" name="Delivery and Structure Erection" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1443" name="Fabricated components are delivered to site and erected by qualified teams, with safety and alignment checked throughout the process." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="196:1444" name="Frame 2147225215" x="0" y="1472" width="1053" height="136">
+            <frame id="196:1445" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1446" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1447" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1448" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1449" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="196:1450" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1451" name="Step 9:" x="0" y="0" width="929" height="28" />
+                <text id="196:1452" name="Equipment Integration Support" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1453" name="We coordinate with relevant telco or equipment teams for antenna, cabinet, cable and supporting infrastructure installation." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="196:1454" name="Frame 2147225216" x="0" y="1656" width="1053" height="136">
+            <frame id="196:1455" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1456" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1457" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1458" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1459" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="196:1460" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1461" name="Step 10:" x="0" y="0" width="929" height="28" />
+                <text id="196:1462" name="Inspection, Handover and Support" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1463" name="Final checks are carried out before handover, with technical support available for maintenance, optimisation or future upgrades." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="191:1423" name="sticky" x="50" y="3125" width="613" height="346">
+          <frame id="191:1429" name="Frame" x="0" y="189" width="611" height="158">
+            <text id="191:1430" name="our Steps" x="0" y="0" width="86" height="18" />
+            <text id="191:1431" name="Installation &amp; Deployment Workflow" x="0" y="42" width="611" height="116" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="133:1006" name="Group 11" x="0" y="6387" width="1920" height="1062">
+      <rounded-rectangle id="133:1007" name="Rectangle 7" x="0" y="6387" width="1920" height="1062" />
+      <frame id="133:1011" name="Frame 2147225197" x="50" y="6659" width="1820" height="700">
+        <frame id="133:1012" name="Frame" x="0" y="0" width="573.3333129882812" height="700">
+          <rounded-rectangle id="133:1013" name="Rectangle 8" x="0" y="0" width="573.3333129882812" height="568" />
+          <frame id="133:1014" name="Frame 2147225209" x="0" y="592" width="247" height="44">
+            <text id="133:1015" name="45m 3-legged light-duty tower" x="21" y="11" width="205" height="22" />
+          </frame>
+          <text id="133:1016" name="Teluk Muroh, Manjung, Perak" x="0" y="660" width="573.3333129882812" height="40" />
+        </frame>
+        <frame id="133:1017" name="Frame" x="623.3333129882812" y="0" width="573.3333740234375" height="700">
+          <rounded-rectangle id="133:1018" name="Rectangle 8" x="0" y="0" width="573.3333740234375" height="568" />
+          <frame id="133:1019" name="Frame 2147225209" x="0" y="592" width="247" height="44">
+            <text id="133:1020" name="45m 3-legged light-duty tower" x="21" y="11" width="205" height="22" />
+          </frame>
+          <text id="133:1021" name="Kg Permatang Tulang, Melaka" x="0.000030517578125" y="660" width="573.3333129882812" height="40" />
+        </frame>
+        <frame id="133:1022" name="Frame" x="1246.666748046875" y="0" width="573.3333740234375" height="700">
+          <rounded-rectangle id="133:1023" name="Rectangle 8" x="0" y="0" width="573.3333740234375" height="568" />
+          <frame id="133:1024" name="Frame 2147225209" x="0" y="592" width="261" height="44">
+            <text id="133:1025" name="36m monopole for 5 telco-sharer" x="21" y="11" width="219" height="22" />
+          </frame>
+          <text id="133:1026" name="KPM Ayer Molek, Melaka" x="0.000030517578125" y="660" width="573.3333129882812" height="40" />
+        </frame>
+      </frame>
+      <frame id="133:1036" name="Frame 2147225213" x="50" y="6467" width="1820" height="142">
+        <frame id="133:1037" name="Frame" x="0" y="0" width="731" height="142">
+          <text id="133:1038" name="Featured Projects" x="0" y="0" width="731" height="58" />
+          <text id="133:1039" name="Explore selected tower and monopole projects that show our ability to deliver reliable structures for different heights, locations, load requirements and site conditions." x="0" y="82" width="731" height="60" />
+        </frame>
+        <instance id="133:1040" name="Button" x="1579" y="96" width="241" height="46" />
+      </frame>
+    </frame>
+    <instance id="133:1179" name="Footer with CTA" x="0" y="8403" width="1920" height="1093" />
+    <instance id="60:631" name="Header" x="0" y="0" width="1920" height="109" />
+  </frame>
+  <rounded-rectangle id="235:797" name="WhatsApp Image 2025-09-05 at 16.33.18 1" x="2654" y="26121" width="765" height="773" />
+  <rounded-rectangle id="228:756" name="img1048 1" x="7205" y="23352" width="665" height="843" />
+  <rounded-rectangle id="228:751" name="Rectangle 34" x="5657" y="24446" width="715" height="681" />
+  <rounded-rectangle id="228:747" name="img1018 1" x="7943" y="23309" width="592" height="860" />
+  <rounded-rectangle id="228:697" name="img789 1" x="3026" y="24647" width="699" height="1039" />
+  <rounded-rectangle id="228:698" name="img782 1" x="4338" y="24647" width="726" height="1039" />
+  <rounded-rectangle id="214:830" name="Rectangle 19" x="5524" y="23427" width="623" height="623" />
+  <rounded-rectangle id="214:837" name="Rectangle 20" x="6188" y="23427" width="623" height="623" />
+  <rounded-rectangle id="214:845" name="Rectangle 22" x="7140" y="24446" width="623" height="623" />
+  <rounded-rectangle id="214:848" name="Rectangle 25" x="6458" y="24446" width="623" height="623" />
+  <rounded-rectangle id="214:846" name="Rectangle 23" x="7827" y="24446" width="623" height="623" />
+  <rounded-rectangle id="214:847" name="Rectangle 24" x="8489" y="24446" width="623" height="623" />
+  <rounded-rectangle id="235:771" name="Rectangle 35" x="5548" y="25370" width="934" height="631" />
+  <rounded-rectangle id="235:781" name="img1006 1" x="989" y="26077" width="1052" height="860" />
+  <frame id="196:1621" name="Group 17" x="16143" y="2322" width="1920" height="806">
+    <rounded-rectangle id="196:1622" name="Rectangle 7" x="16143" y="2322" width="1920" height="806" />
+    <rounded-rectangle id="196:1623" name="Rectangle 12" x="16193" y="2610" width="612" height="464" />
+    <rounded-rectangle id="196:1628" name="Rectangle 13" x="16859" y="2402" width="612" height="672" />
+    <text id="196:1625" name="Introduction" x="16193" y="2402" width="118" height="18" />
+    <text id="196:1626" name="Built for High-Performance Connectivity" x="16193" y="2444" width="612" height="116" />
+    <text id="196:1627" name="Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions. We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence." x="17507" y="2662" width="498" height="420" />
+  </frame>
+  <frame id="196:1636" name="Group 19" x="16143" y="1467" width="1920" height="806">
+    <rounded-rectangle id="196:1637" name="Rectangle 7" x="16143" y="1467" width="1920" height="806" />
+    <rounded-rectangle id="196:1638" name="Rectangle 12" x="16193" y="1675" width="612" height="544" />
+    <rounded-rectangle id="196:1639" name="Rectangle 13" x="16859" y="1755" width="612" height="464" />
+    <text id="196:1640" name="Introduction" x="16193" y="1547" width="118" height="18" />
+    <text id="196:1641" name="Built for High-Performance Connectivity" x="16193" y="1589" width="903" height="58" />
+    <text id="196:1642" name="Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions. We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence." x="17507" y="1807" width="498" height="420" />
+  </frame>
+  <frame id="196:1629" name="Group 18" x="16143" y="3177" width="1920" height="806">
+    <rounded-rectangle id="196:1630" name="Rectangle 7" x="16143" y="3177" width="1920" height="806" />
+    <rounded-rectangle id="196:1631" name="Rectangle 12" x="16193" y="3465" width="612" height="464" />
+    <rounded-rectangle id="196:1632" name="Rectangle 13" x="17399" y="3257" width="612" height="672" />
+    <frame id="196:1643" name="Frame 2147225232" x="16193" y="3257" width="612" height="158">
+      <text id="196:1633" name="Introduction" x="0" y="0" width="612" height="18" />
+      <text id="196:1634" name="Built for High-Performance Connectivity" x="0" y="42" width="612" height="116" />
+    </frame>
+    <text id="196:1635" name="Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions. We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence." x="16825" y="3465" width="547" height="360" />
+  </frame>
+  <symbol id="133:1170" name="Footer with CTA" x="1928" y="2846" width="1920" height="1093" />
+  <frame id="75:1179" name="Our Factory" x="13673" y="1467" width="1920" height="7569">
+    <frame id="75:1180" name="Group 1" x="0" y="0" width="1920" height="650">
+      <rounded-rectangle id="75:1181" name="Rectangle 1" x="1920" y="0" width="1920" height="650" />
+      <rounded-rectangle id="75:1182" name="Rectangle 2" x="0" y="48" width="1920" height="320" />
+      <frame id="75:1183" name="Frame 2147225192" x="50" y="494" width="648" height="76">
+        <text id="75:1184" name="Our Factory" x="0" y="0" width="648" height="18" hidden="true" />
+        <text id="75:1185" name="Our Factory" x="0" y="0" width="648" height="76" />
+      </frame>
+    </frame>
+    <frame id="142:2691" name="Group 13" x="-1" y="650" width="1920" height="648">
+      <rounded-rectangle id="75:1187" name="Rectangle 7" x="-1" y="650" width="1920" height="648" />
+      <frame id="142:2522" name="Frame" x="817" y="717" width="517" height="520">
+        <rounded-rectangle id="142:2529" name="Rectangle 9" x="517" y="0" width="517" height="314" />
+        <frame id="142:2531" name="Frame 2147225215" x="0" y="314" width="517" height="206">
+          <text id="142:2523" name="Designed and Manufactured by Local Professionals" x="24" y="24" width="469" height="64" />
+          <text id="142:2524" name="Our solutions are developed by Malaysian professionals who understand local telco requirements, authority expectations, climate conditions and deployment challenges." x="24" y="104" width="469" height="78" />
+        </frame>
+      </frame>
+      <frame id="75:1188" name="Frame" x="50" y="717" width="717" height="466">
+        <frame id="221:671" name="Frame 2147225233" x="0" y="0" width="717" height="172">
+          <text id="221:669" name="Built Locally, Delivered with Control" x="0" y="0" width="717" height="32" />
+          <text id="75:1190" name="In-house Steel Fabrication Capability, from Factory to Field" x="0" y="56" width="717" height="116" />
+        </frame>
+        <text id="75:1191" name="Jitrapadu’s factory in Jalan Kapar, Klang, is a key part of our strength as a telecommunication infrastructure partner. With in-house fabrication capability, we are able to manage quality, production timelines and technical requirements more closely from the beginning of each project. Our facility supports the manufacturing of towers, monopoles, smart poles, lamp poles, RDS structures and custom steel solutions. By combining engineering, fabrication and project execution under one coordinated process, we help clients move from design to deployment with fewer gaps and better accountability." x="0" y="196" width="717" height="270" />
+      </frame>
+    </frame>
+    <frame id="142:2532" name="Frame" x="1353" y="717" width="517" height="520">
+      <frame id="142:2534" name="Frame 2147225215" x="0" y="0" width="517" height="148">
+        <text id="142:2535" name="Klang-Based Manufacturing Facility" x="24" y="24" width="469" height="32" />
+        <text id="142:2536" name="Our factory is located in Jalan Kapar, Klang, with a covered facility of approximately 79,800 sq. ft." x="24" y="72" width="469" height="52" />
+      </frame>
+      <rounded-rectangle id="142:2533" name="Rectangle 9" x="0" y="148" width="517" height="372" />
+    </frame>
+    <frame id="83:1636" name="Group 7" x="0" y="5244" width="1920" height="700">
+      <rounded-rectangle id="83:1637" name="Background" x="0" y="5244" width="1920" height="700" />
+      <rounded-rectangle id="247:758" name="Background" x="0" y="5786" width="1920" height="158" />
+      <frame id="83:1655" name="Frame" x="52" y="5324" width="646" height="232">
+        <text id="83:1656" name="Quality Built into Every Stage" x="0" y="0" width="646" height="58" />
+        <text id="83:1657" name="From engineering design to fabrication and installation, our process is built around safety, reliability and long-term structural performance. Our structures are designed to comply with recognised engineering standards, while galvanising and coating requirements are handled according to project specifications." x="0" y="82" width="646" height="150" />
+      </frame>
+      <frame id="247:759" name="Group 22" x="50" y="5776" width="1820" height="352" hidden="true">
+        <text id="247:756" name="What Our Factory Means for Clients" x="50" y="5776" width="534" height="40" />
+        <frame id="247:722" name="Frame 2147225196" x="50" y="5846" width="1820" height="282">
+          <frame id="247:723" name="Frame" x="0" y="0" width="437" height="282">
+            <frame id="247:724" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="247:725" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="247:726" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="247:727" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="247:728" name="Frame 2147225193" x="24" y="132" width="389" height="96">
+              <text id="247:729" name="Better Quality Control" x="0" y="0" width="246" height="32" />
+              <text id="247:730" name="In-house fabrication allows closer monitoring of workmanship and technical requirements." x="0" y="36" width="389" height="60" />
+            </frame>
+          </frame>
+          <frame id="247:731" name="Frame" x="461" y="0" width="437" height="282">
+            <frame id="247:732" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="247:733" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="247:734" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="247:735" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="247:736" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+              <text id="247:737" name="Faster Coordination" x="0" y="0" width="231" height="32" />
+              <text id="247:738" name="Engineering, production and project teams can work together directly, reducing communication gaps." x="0" y="36" width="389" height="90" />
+            </frame>
+          </frame>
+          <frame id="247:739" name="Frame" x="922" y="0" width="437" height="282">
+            <frame id="247:740" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="247:741" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="247:742" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="247:743" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="247:744" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+              <text id="247:745" name="Greater Customisation" x="0" y="0" width="257" height="32" />
+              <text id="247:746" name="We can adjust structure designs to meet different site, load and deployment requirements." x="0" y="36" width="389" height="90" />
+            </frame>
+          </frame>
+          <frame id="247:747" name="Frame" x="1383" y="0" width="437" height="282">
+            <frame id="247:748" name="Frame" x="24" y="24" width="100" height="100">
+              <frame id="247:749" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="247:750" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="247:751" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="247:752" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+              <text id="247:753" name="More Reliable Delivery" x="0" y="0" width="253" height="32" />
+              <text id="247:754" name="Clearer control over production helps improve scheduling, delivery planning and project accountability." x="0" y="36" width="389" height="90" />
+            </frame>
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="133:1177" name="Footer with CTA" x="0" y="6476" width="1920" height="1093" />
+    <frame id="142:2666" name="Group 12" x="0" y="2249" width="1920" height="1591">
+      <rounded-rectangle id="142:2667" name="Rectangle 7" x="0" y="2249" width="1920" height="1591" />
+      <frame id="142:2671" name="Frame 2147225196" x="50" y="2610" width="1820" height="1150">
+        <frame id="266:854" name="Group 26" x="0" y="0" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:855" name="Rectangle 18" x="0" y="0" width="573" height="550" />
+          <frame id="266:856" name="Frame" x="0" y="416" width="573.3333740234375" height="134">
+            <text id="266:857" name="CNC Plasma Plate Cutting" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:858" name="Used for precision cutting of steel plates and components." x="30" y="74" width="513.3333740234375" height="30" />
+          </frame>
+        </frame>
+        <frame id="266:859" name="Group 23" x="623.3333129882812" y="0" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:860" name="Rectangle 18" x="623.3333129882812" y="0" width="573" height="550" />
+          <frame id="266:861" name="Frame" x="623.3333129882812" y="386" width="573.3333740234375" height="164">
+            <text id="266:862" name="Hydraulic Press Bending" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:863" name="Our smart pole solutions support 5G, sensors, surveillance and connected urban infrastructure." x="30" y="74" width="513.3333740234375" height="60" />
+          </frame>
+        </frame>
+        <frame id="266:864" name="Group 24" x="1246.6666259765625" y="0" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:865" name="Rectangle 18" x="1246.6666259765625" y="0" width="573" height="550" />
+          <frame id="266:866" name="Frame" x="1246.6666259765625" y="386" width="573.3333740234375" height="164">
+            <text id="266:867" name="Automatic Welding" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:868" name="Improves consistency and efficiency in selected welding processes." x="30" y="74" width="513.3333740234375" height="60" />
+          </frame>
+        </frame>
+        <frame id="266:869" name="Group 25" x="0" y="600" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:870" name="Rectangle 18" x="0" y="600" width="573" height="550" />
+          <frame id="266:871" name="Frame" x="0" y="956" width="573.3333740234375" height="194">
+            <text id="266:872" name="Hot-Dip Galvanising" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:873" name="Where specialised finishing is required, we coordinate with qualified third-party facilities to meet the required galvanising standards." x="30" y="74" width="513.3333740234375" height="90" />
+          </frame>
+        </frame>
+        <frame id="266:874" name="Group 21" x="623.3333129882812" y="600" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:875" name="Rectangle 18" x="623.3333129882812" y="600" width="573" height="550" />
+          <frame id="266:876" name="Frame" x="623.3333129882812" y="1016" width="573.3333740234375" height="134">
+            <text id="266:877" name="Angle Bar Stamping" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:878" name="Used for marking and preparation of tower components." x="30" y="74" width="513.3333740234375" height="30" />
+          </frame>
+        </frame>
+        <frame id="266:879" name="Group 22" x="1246.6666259765625" y="600" width="573.3333740234375" height="550">
+          <rounded-rectangle id="266:880" name="Rectangle 18" x="1246.6666259765625" y="600" width="573" height="550" />
+          <frame id="266:881" name="Frame" x="1246.6666259765625" y="986" width="573.3333740234375" height="164">
+            <text id="266:882" name="Certified Welding and Testing" x="30" y="30" width="513.3333740234375" height="32" />
+            <text id="266:883" name="Our fabrication process is supported by certified welders and non-destructive testing where required." x="30" y="74" width="513.3333740234375" height="60" />
+          </frame>
+        </frame>
+      </frame>
+      <frame id="204:810" name="Frame" x="357" y="2328" width="1206" height="232">
+        <text id="204:811" name="In-House Fabrication &amp; Manufacturing Capabilities" x="0" y="0" width="1206" height="58" />
+        <text id="204:812" name="Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond." x="0" y="140" width="573.3333129882812" height="90" hidden="true" />
+        <text id="204:813" name="Jitrapadu handles core steel fabrication work in-house, giving us greater control over production quality, design customisation and project delivery. Our fabrication team supports made-to-order and selected ready-stock structures based on project requirements and availability. Our facility is equipped with machinery and fabrication processes that support the production of telecom towers, poles, smart poles and custom steel structures." x="0" y="82" width="1206" height="150" />
+      </frame>
+    </frame>
+    <frame id="75:1426" name="Group 6" x="0" y="1298" width="1920" height="951">
+      <rounded-rectangle id="184:714" name="Rectangle 9" x="0" y="1298" width="1920" height="951" />
+      <rounded-rectangle id="75:1427" name="Rectangle 8" x="0" y="1298" width="1919" height="951" />
+      <frame id="75:1437" name="Frame 2147225199" x="50" y="1813" width="960" height="356">
+        <frame id="180:981" name="Frame" x="0" y="0" width="468" height="166">
+          <text id="180:982" name="10+" x="32" y="32" width="404" height="58" />
+          <text id="180:983" name="Certified Welders (CIDB/TWI)" x="32" y="106" width="404" height="28" />
+        </frame>
+        <frame id="180:990" name="Frame" x="492" y="0" width="468" height="166">
+          <text id="180:991" name="350–500 Tons" x="32" y="32" width="404" height="58" />
+          <text id="180:992" name="Production Capacity per Month" x="32" y="106" width="404" height="28" />
+        </frame>
+        <frame id="180:984" name="Frame" x="0" y="190" width="468" height="166">
+          <text id="180:985" name="2–4 Weeks" x="32" y="32" width="404" height="58" />
+          <text id="180:986" name="Average Turnaround from PO to Delivery" x="32" y="106" width="404" height="28" />
+        </frame>
+        <frame id="180:987" name="Frame" x="492" y="190" width="468" height="166">
+          <text id="180:988" name="60+" x="32" y="32" width="404" height="58" />
+          <text id="180:989" name="Skilled Workers" x="32" y="106" width="404" height="28" />
+        </frame>
+      </frame>
+      <frame id="149:660" name="Frame" x="50" y="1601" width="741" height="172">
+        <text id="149:661" name="Production Capacity &amp; Delivery" x="0" y="0" width="741" height="58" />
+        <text id="149:662" name="Jitrapadu’s production capability is supported by experienced manpower, efficient fabrication processes and structured project coordination to deliver reliable output within practical project timelines." x="0" y="82" width="741" height="90" />
+      </frame>
+    </frame>
+    <frame id="196:1502" name="Group 2" x="0" y="3732" width="1920" height="1512">
+      <rounded-rectangle id="196:1503" name="Rectangle 7" x="0" y="3840" width="1920" height="1404" />
+      <rounded-rectangle id="196:1504" name="Rectangle 8" x="0" y="3840" width="1920" height="980" />
+      <frame id="196:1505" name="Group 18" x="50" y="3732" width="1820" height="1432">
+        <line id="196:1506" name="Line 16" x="867" y="3921" width="0.00005398356370278634" height="1235" />
+        <frame id="196:1507" name="Frame 2147225197" x="817" y="3920" width="1053" height="1244">
+          <frame id="196:1508" name="Frame 2147225198" x="0" y="0" width="1053" height="136">
+            <frame id="196:1509" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1510" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1511" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1512" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1513" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="196:1514" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1515" name="Step 1:" x="0" y="0" width="929" height="28" />
+                <text id="196:1516" name="Technical Review" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1517" name="Project requirements, drawings, load needs and deployment expectations are reviewed before production begins." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="196:1518" name="Frame 2147225208" x="0" y="184" width="1053" height="106">
+            <frame id="196:1519" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1520" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1521" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1522" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1523" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1524" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1525" name="Step 2:" x="0" y="0" width="929" height="28" />
+                <text id="196:1526" name="Material Preparation" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1527" name="Steel materials are checked and prepared according to the approved fabrication requirements." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+          <frame id="196:1528" name="Frame 2147225209" x="0" y="338" width="1053" height="106">
+            <frame id="196:1529" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1530" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1531" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1532" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1533" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1534" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1535" name="Step 3:" x="0" y="0" width="929" height="28" />
+                <text id="196:1536" name="Cutting and Forming" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1537" name="Components are cut, stamped, shaped and bent using suitable machinery and production methods." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+          <frame id="196:1538" name="Frame 2147225210" x="0" y="492" width="1053" height="106">
+            <frame id="196:1539" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1540" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1541" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1542" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1543" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1544" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1545" name="Step 4:" x="0" y="0" width="929" height="28" />
+                <text id="196:1546" name="Welding and Assembly Preparation" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1547" name="We provide steel tower solutions for radar, broadcast and specialised communication infrastructure." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+          <frame id="196:1548" name="Frame 2147225211" x="0" y="646" width="1053" height="136">
+            <frame id="196:1549" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1550" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1551" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1552" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1553" name="Frame 2147225230" x="124" y="0" width="929" height="136">
+              <frame id="196:1554" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1555" name="Step 5:" x="0" y="0" width="929" height="28" />
+                <text id="196:1556" name="Galvanising and Coating" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1557" name="Components are finished according to the required protection standard, including galvanising and coating where applicable." x="0" y="76" width="929" height="60" />
+            </frame>
+          </frame>
+          <frame id="196:1558" name="Frame 2147225212" x="0" y="830" width="1053" height="106">
+            <frame id="196:1559" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1560" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1561" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1562" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1563" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1564" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1565" name="Step 6:" x="0" y="0" width="929" height="28" />
+                <text id="196:1566" name="Quality Inspection" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1567" name="Finished components are inspected for dimensional accuracy, fabrication quality and readiness for delivery." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+          <frame id="196:1568" name="Frame 2147225213" x="0" y="984" width="1053" height="106">
+            <frame id="196:1569" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1570" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1571" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1572" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1573" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1574" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1575" name="Step 7:" x="0" y="0" width="929" height="28" />
+                <text id="196:1576" name="Delivery to Site" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1577" name="Completed structures are packed, arranged and transported to the project site." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+          <frame id="196:1578" name="Frame 2147225214" x="0" y="1138" width="1053" height="106">
+            <frame id="196:1579" name="Frame" x="0" y="0" width="100" height="100">
+              <frame id="196:1580" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+                <rounded-rectangle id="196:1581" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+                <rounded-rectangle id="196:1582" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+              </frame>
+            </frame>
+            <frame id="196:1583" name="Frame 2147225230" x="124" y="0" width="929" height="106">
+              <frame id="196:1584" name="Frame 2147225231" x="0" y="0" width="929" height="64">
+                <text id="196:1585" name="Step 8:" x="0" y="0" width="929" height="28" />
+                <text id="196:1586" name="Installation and Handover" x="0" y="32" width="929" height="32" />
+              </frame>
+              <text id="196:1587" name="Our project team supports site erection, installation coordination and final handover." x="0" y="76" width="929" height="30" />
+            </frame>
+          </frame>
+        </frame>
+        <frame id="196:1608" name="sticky" x="50" y="3732" width="613" height="346">
+          <frame id="196:1609" name="Frame" x="0" y="189" width="611" height="100">
+            <text id="196:1610" name="Our Workflow" x="0" y="0" width="126" height="18" />
+            <text id="196:1611" name="Factory-to-Field Workflow" x="0" y="42" width="611" height="58" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <frame id="115:439" name="Group 10" x="0" y="5944" width="1920" height="532">
+      <rounded-rectangle id="115:440" name="Rectangle 7" x="0" y="5944" width="1920" height="532" />
+      <frame id="115:458" name="Frame" x="357" y="6024" width="1206" height="40">
+        <text id="115:459" name="What Our Factory Means for Clients" x="0" y="0" width="1206" height="40" />
+        <text id="115:460" name="From engineering design to fabrication and installation, our process is built around safety, reliability and long-term structural performance. Our structures are designed to comply with recognised engineering standards, while galvanising and coating requirements are handled according to project specifications." x="0" y="82" width="1206" height="90" hidden="true" />
+      </frame>
+      <frame id="133:496" name="Frame 2147225196" x="50" y="6114" width="1820" height="282">
+        <frame id="133:497" name="Frame" x="0" y="0" width="437" height="282">
+          <frame id="184:995" name="Frame" x="24" y="24" width="100" height="100">
+            <frame id="184:996" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="184:997" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="184:998" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:503" name="Frame 2147225193" x="24" y="132" width="389" height="96">
+            <text id="133:504" name="Better Quality Control" x="0" y="0" width="246" height="32" />
+            <text id="133:505" name="In-house fabrication allows closer monitoring of workmanship and technical requirements." x="0" y="36" width="389" height="60" />
+          </frame>
+        </frame>
+        <frame id="133:506" name="Frame" x="461" y="0" width="437" height="282">
+          <frame id="184:1007" name="Frame" x="24" y="24" width="100" height="100">
+            <frame id="184:1008" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="184:1009" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="184:1010" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:512" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+            <text id="133:513" name="Faster Coordination" x="0" y="0" width="231" height="32" />
+            <text id="133:514" name="Engineering, production and project teams can work together directly, reducing communication gaps." x="0" y="36" width="389" height="90" />
+          </frame>
+        </frame>
+        <frame id="133:515" name="Frame" x="922" y="0" width="437" height="282">
+          <frame id="184:999" name="Frame" x="24" y="24" width="100" height="100">
+            <frame id="184:1000" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="184:1001" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="184:1002" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:521" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+            <text id="133:522" name="Greater Customisation" x="0" y="0" width="257" height="32" />
+            <text id="133:523" name="We can adjust structure designs to meet different site, load and deployment requirements." x="0" y="36" width="389" height="90" />
+          </frame>
+        </frame>
+        <frame id="133:524" name="Frame" x="1383" y="0" width="437" height="282">
+          <frame id="184:1003" name="Frame" x="24" y="24" width="100" height="100">
+            <frame id="184:1004" name="Mask group" x="27.5" y="27.5" width="45" height="45">
+              <rounded-rectangle id="184:1005" name="Rectangle 14" x="27.5" y="27.5" width="45" height="45" />
+              <rounded-rectangle id="184:1006" name="Rectangle 15" x="27.5" y="27.5" width="45" height="45" />
+            </frame>
+          </frame>
+          <frame id="133:530" name="Frame 2147225193" x="24" y="132" width="389" height="126">
+            <text id="133:531" name="More Reliable Delivery" x="0" y="0" width="253" height="32" />
+            <text id="133:532" name="Clearer control over production helps improve scheduling, delivery planning and project accountability." x="0" y="36" width="389" height="90" />
+          </frame>
+        </frame>
+      </frame>
+    </frame>
+    <instance id="75:1192" name="Header" x="0" y="0" width="1920" height="109" />
+  </frame>
+  <instance id="196:1644" name="Button" x="17165" y="3883" width="199" height="46" />
+  <rounded-rectangle id="14:697" name="Jitrapadu Second logo-04 1" x="1916" y="942" width="189" height="41" />
+  <frame id="11:264" name="Thumbnail" x="-2086" y="0" width="1920" height="1080" />
+  <frame id="11:253" name="LOCUS-T Logo" x="-2846" y="0" width="661" height="674">
+    <symbol id="11:254" name="Property 1=Default" x="20" y="20" width="620.6060791015625" height="130" />
+    <symbol id="11:256" name="Property 1=Variant2" x="20" y="180" width="620.6060791015625" height="130" />
+    <symbol id="11:258" name="Property 1=Variant3" x="20" y="340" width="620.6060791015625" height="130" />
+    <symbol id="11:260" name="Property 1=Variant4" x="20" y="500" width="620.6060791015625" height="130" />
+  </frame>
+  <frame id="14:347" name="Mega Menu" x="1888" y="2371" width="1920" height="220">
+    <frame id="14:348" name="Frame 12413" x="0" y="0" width="366" height="220">
+      <frame id="14:349" name="Dropdown Menu" x="50" y="50" width="266" height="50">
+        <text id="14:350" name="Products" x="10" y="15" width="71" height="20" />
+        <frame id="14:351" name="Arrow Button" x="226" y="10" width="30" height="30">
+          <text id="14:352" name="icon" x="8" y="2" width="14" height="26" />
+        </frame>
+      </frame>
+      <frame id="14:353" name="Dropdown Menu" x="50" y="120" width="266" height="50">
+        <text id="14:354" name="Accreditation" x="10" y="15" width="106" height="20" />
+        <frame id="14:355" name="Arrow Button" x="226" y="10" width="30" height="30">
+          <text id="14:356" name="icon" x="8" y="2" width="14" height="26" />
+        </frame>
+      </frame>
+    </frame>
+    <frame id="14:357" name="Frame 12414" x="366" y="0" width="1554" height="220">
+      <frame id="55:321" name="Dropdown Menu" x="50" y="50" width="288.5" height="30">
+        <text id="55:322" name="Menu" x="0" y="2" width="59" height="20" />
+      </frame>
+      <frame id="55:315" name="Dropdown Menu" x="438.5" y="50" width="288.5" height="30">
+        <text id="55:316" name="Menu" x="0" y="2" width="156" height="20" />
+      </frame>
+      <frame id="55:313" name="Dropdown Menu" x="827" y="50" width="288.5" height="30">
+        <text id="55:314" name="Menu" x="0" y="2" width="50" height="20" />
+      </frame>
+      <frame id="55:311" name="Dropdown Menu" x="1215.5" y="50" width="288.5" height="30">
+        <text id="55:312" name="Menu" x="0" y="2" width="89" height="20" />
+      </frame>
+      <frame id="55:323" name="Dropdown Menu" x="50" y="135" width="288.5" height="26">
+        <text id="55:324" name="Menu" x="0" y="0" width="113" height="20" />
+      </frame>
+      <frame id="55:319" name="Dropdown Menu" x="438.5" y="135" width="288.5" height="26">
+        <text id="55:320" name="Menu" x="0" y="0" width="75" height="20" />
+      </frame>
+      <frame id="55:325" name="Dropdown Menu" x="827" y="135" width="288.5" height="26">
+        <text id="55:326" name="Menu" x="0" y="0" width="166" height="20" />
+      </frame>
+      <frame id="55:317" name="Dropdown Menu" x="1215.5" y="135" width="288.5" height="30">
+        <text id="55:318" name="Menu" x="0" y="2" width="117" height="20" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="14:366" name="Menu Item" x="1848" y="644" width="96" height="106">
+    <symbol id="14:367" name="State=Default" x="16" y="16" width="64" height="29" />
+    <symbol id="14:370" name="State=Hover" x="16" y="61" width="64" height="29" />
+  </frame>
+  <frame id="14:373" name="Underline button" x="1848" y="388" width="788" height="99">
+    <symbol id="14:374" name="Mode=Light, State=Default" x="32" y="32" width="118" height="35" />
+    <symbol id="14:379" name="Mode=Light, State=Hover" x="198" y="32" width="118" height="35" />
+    <symbol id="14:384" name="Mode=Dark, State=Default" x="364" y="32" width="118" height="35" />
+    <symbol id="14:389" name="Mode=Dark, State=Hover" x="530" y="32" width="118" height="35" />
+  </frame>
+  <frame id="14:394" name="Button" x="1848" y="89" width="930" height="110">
+    <symbol id="14:395" name="Mode=Light, State=Default" x="32" y="32" width="158" height="46" />
+    <symbol id="14:398" name="Mode=Light, State=Hover" x="222" y="32" width="158" height="46" />
+    <symbol id="14:401" name="Mode=Dark, State=Default" x="412" y="32" width="158" height="46" />
+    <symbol id="14:404" name="Mode=Dark, State=Hover" x="602" y="32" width="158" height="46" />
+  </frame>
+  <frame id="14:407" name="Footer" x="1608" y="9792" width="1960" height="556">
+    <symbol id="14:408" name="Property 1=Default" x="20" y="20" width="1920" height="516" />
+  </frame>
+  <frame id="14:507" name="Blue" x="3183" y="89" width="364" height="816">
+    <text id="14:508" name="Blue" x="32" y="32" width="51" height="40" />
+    <frame id="14:509" name="Swatches" x="32" y="88" width="300" height="704">
+      <frame id="14:510" name="Swatch" x="0" y="0" width="300" height="56">
+        <frame id="14:511" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:512" name="Name" x="176" y="2" width="34" height="20" />
+        <frame id="14:518" name="Dark Ratio" x="8" y="8" width="73" height="14">
+          <frame id="14:517" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:519" name="Large Text" x="16" y="2" width="38" height="10" />
+          <text id="14:520" name="Small Text" x="56" y="2" width="13" height="10" />
+        </frame>
+        <frame id="14:516" name="White Ratio" x="8" y="26" width="34" height="14">
+          <frame id="14:515" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:521" name="Large Text" x="16" y="2" width="14" height="10" />
+        </frame>
+        <text id="14:513" name="Hex" x="176" y="22" width="36" height="16" />
+        <text id="14:514" name="Rgb" x="176" y="38" width="90" height="16" />
+      </frame>
+      <frame id="14:522" name="Swatch" x="0" y="72" width="300" height="56">
+        <frame id="14:523" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:524" name="Name" x="176" y="2" width="80" height="20" />
+        <frame id="14:530" name="Dark Ratio" x="8" y="8" width="73" height="14">
+          <frame id="14:529" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:531" name="Large Text" x="16" y="2" width="38" height="10" />
+          <text id="14:532" name="Small Text" x="56" y="2" width="13" height="10" />
+        </frame>
+        <frame id="14:528" name="White Ratio" x="8" y="26" width="35" height="14">
+          <frame id="14:527" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:533" name="Large Text" x="16" y="2" width="15" height="10" />
+        </frame>
+        <text id="14:525" name="Hex" x="176" y="22" width="38" height="16" />
+        <text id="14:526" name="Rgb" x="176" y="38" width="87" height="16" />
+      </frame>
+      <frame id="14:534" name="Swatch" x="0" y="144" width="300" height="56">
+        <frame id="14:535" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:536" name="Name" x="176" y="2" width="82" height="20" />
+        <frame id="14:542" name="Dark Ratio" x="8" y="8" width="73" height="14">
+          <frame id="14:541" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:543" name="Large Text" x="16" y="2" width="38" height="10" />
+          <text id="14:544" name="Small Text" x="56" y="2" width="13" height="10" />
+        </frame>
+        <frame id="14:540" name="White Ratio" x="8" y="26" width="36" height="14">
+          <frame id="14:539" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:545" name="Large Text" x="16" y="2" width="16" height="10" />
+        </frame>
+        <text id="14:537" name="Hex" x="176" y="22" width="38" height="16" />
+        <text id="14:538" name="Rgb" x="176" y="38" width="86" height="16" />
+      </frame>
+      <frame id="14:546" name="Swatch" x="0" y="216" width="300" height="56">
+        <frame id="14:547" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:548" name="Name" x="176" y="2" width="49" height="20" />
+        <frame id="14:554" name="Dark Ratio" x="8" y="8" width="67" height="14">
+          <frame id="14:553" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:555" name="Large Text" x="16" y="2" width="36" height="10" />
+          <text id="14:556" name="Small Text" x="54" y="2" width="9" height="10" />
+        </frame>
+        <frame id="14:552" name="White Ratio" x="8" y="26" width="51" height="14">
+          <frame id="14:551" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:557" name="Large Text" x="16" y="2" width="31" height="10" />
+        </frame>
+        <text id="14:549" name="Hex" x="176" y="22" width="36" height="16" />
+        <text id="14:550" name="Rgb" x="176" y="38" width="74" height="16" />
+      </frame>
+      <frame id="14:558" name="Swatch" x="0" y="288" width="300" height="56">
+        <frame id="14:559" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:560" name="Name" x="176" y="2" width="94" height="20" />
+        <frame id="14:566" name="Dark Ratio" x="8" y="8" width="67" height="14">
+          <frame id="14:565" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:567" name="Large Text" x="16" y="2" width="36" height="10" />
+          <text id="14:568" name="Small Text" x="54" y="2" width="9" height="10" />
+        </frame>
+        <frame id="14:564" name="White Ratio" x="8" y="26" width="67" height="14">
+          <frame id="14:563" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:569" name="Large Text" x="16" y="2" width="36" height="10" />
+          <text id="14:570" name="Small Text" x="54" y="2" width="9" height="10" />
+        </frame>
+        <text id="14:561" name="Hex" x="176" y="22" width="43" height="16" />
+        <text id="14:562" name="Rgb" x="176" y="38" width="75" height="16" />
+      </frame>
+      <frame id="14:571" name="Swatch" x="0" y="360" width="300" height="56">
+        <frame id="14:572" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:573" name="Name" x="176" y="2" width="97" height="20" />
+        <frame id="14:579" name="Dark Ratio" x="8" y="8" width="50" height="14">
+          <frame id="14:578" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:580" name="Large Text" x="16" y="2" width="30" height="10" />
+        </frame>
+        <frame id="14:577" name="White Ratio" x="8" y="26" width="66" height="14">
+          <frame id="14:576" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:581" name="Large Text" x="16" y="2" width="35" height="10" />
+          <text id="14:582" name="Small Text" x="53" y="2" width="9" height="10" />
+        </frame>
+        <text id="14:574" name="Hex" x="176" y="22" width="43" height="16" />
+        <text id="14:575" name="Rgb" x="176" y="38" width="77" height="16" />
+      </frame>
+      <frame id="14:583" name="Swatch" x="0" y="432" width="300" height="56">
+        <frame id="14:584" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:585" name="Name" x="176" y="2" width="32" height="20" />
+        <frame id="14:591" name="Dark Ratio" x="8" y="8" width="51" height="14">
+          <frame id="14:590" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:592" name="Large Text" x="16" y="2" width="31" height="10" />
+        </frame>
+        <frame id="14:589" name="White Ratio" x="8" y="26" width="67" height="14">
+          <frame id="14:588" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:593" name="Large Text" x="16" y="2" width="36" height="10" />
+          <text id="14:594" name="Small Text" x="54" y="2" width="9" height="10" />
+        </frame>
+        <text id="14:586" name="Hex" x="176" y="22" width="39" height="16" />
+        <text id="14:587" name="Rgb" x="176" y="38" width="68" height="16" />
+      </frame>
+      <frame id="14:595" name="Swatch" x="0" y="504" width="300" height="56">
+        <frame id="14:596" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:597" name="Name" x="176" y="2" width="77" height="20" />
+        <frame id="14:603" name="Dark Ratio" x="8" y="8" width="38" height="14">
+          <frame id="14:602" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:604" name="Large Text" x="16" y="2" width="18" height="10" />
+        </frame>
+        <frame id="14:601" name="White Ratio" x="8" y="26" width="71" height="14">
+          <frame id="14:600" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:605" name="Large Text" x="16" y="2" width="36" height="10" />
+          <text id="14:606" name="Small Text" x="54" y="2" width="13" height="10" />
+        </frame>
+        <text id="14:598" name="Hex" x="176" y="22" width="44" height="16" />
+        <text id="14:599" name="Rgb" x="176" y="38" width="69" height="16" />
+      </frame>
+      <frame id="14:607" name="Swatch" x="0" y="576" width="300" height="56">
+        <frame id="14:608" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:609" name="Name" x="176" y="2" width="80" height="20" />
+        <frame id="14:615" name="Dark Ratio" x="8" y="8" width="36" height="14">
+          <frame id="14:614" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:616" name="Large Text" x="16" y="2" width="16" height="10" />
+        </frame>
+        <frame id="14:613" name="White Ratio" x="8" y="26" width="73" height="14">
+          <frame id="14:612" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:617" name="Large Text" x="16" y="2" width="38" height="10" />
+          <text id="14:618" name="Small Text" x="56" y="2" width="13" height="10" />
+        </frame>
+        <text id="14:610" name="Hex" x="176" y="22" width="44" height="16" />
+        <text id="14:611" name="Rgb" x="176" y="38" width="67" height="16" />
+      </frame>
+      <frame id="14:619" name="Swatch" x="0" y="648" width="300" height="56">
+        <frame id="14:620" name="Swatch" x="0" y="0" width="160" height="56" />
+        <text id="14:621" name="Name" x="176" y="2" width="45" height="20" />
+        <frame id="14:627" name="Dark Ratio" x="8" y="8" width="36" height="14">
+          <frame id="14:626" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:628" name="Large Text" x="16" y="2" width="16" height="10" />
+        </frame>
+        <frame id="14:625" name="White Ratio" x="8" y="26" width="75" height="14">
+          <frame id="14:624" name="Text Color" x="4" y="2" width="10" height="10" />
+          <text id="14:629" name="Large Text" x="16" y="2" width="40" height="10" />
+          <text id="14:630" name="Small Text" x="58" y="2" width="13" height="10" />
+        </frame>
+        <text id="14:622" name="Hex" x="176" y="22" width="43" height="16" />
+        <text id="14:623" name="Rgb" x="176" y="38" width="66" height="16" />
+      </frame>
+    </frame>
+  </frame>
+  <frame id="14:701" name="Header" x="1848" y="993" width="1960" height="140">
+    <symbol id="14:700" name="Property 1=Default" x="20" y="20" width="1920" height="109" />
+  </frame>
+  <frame id="133:1065" name="Dropdown - Solution" x="1847" y="1185" width="248" height="140">
+    <instance id="133:1066" name="Menu Item" x="16" y="16" width="216" height="20" />
+    <instance id="133:1081" name="Menu Item" x="16" y="60" width="206" height="20" />
+    <instance id="133:1084" name="Menu Item" x="16" y="104" width="186" height="20" />
+  </frame>
+  <frame id="133:1087" name="Dropdown - Resources" x="2134" y="1185" width="148" height="96">
+    <instance id="133:1088" name="Menu Item" x="16" y="16" width="116" height="20" />
+    <instance id="133:1089" name="Menu Item" x="16" y="60" width="33" height="20" />
+  </frame>
+  <frame id="133:1463" name="Card - Solution" x="1588" y="4291" width="680" height="1460">
+    <symbol id="133:1462" name="Property 1=Default" x="20" y="20" width="640" height="700" />
+    <symbol id="133:1464" name="Property 1=Variant2" x="20" y="740" width="640" height="700" />
+  </frame>
+  <frame id="133:1482" name="Card - Solution 2" x="2318" y="4291" width="680" height="1460">
+    <symbol id="133:1483" name="Property 1=Default" x="20" y="20" width="640" height="700" />
+    <symbol id="133:1490" name="Property 1=Variant2" x="20" y="740" width="640" height="700" />
+  </frame>
+  <rounded-rectangle id="214:907" name="WhatsApp Image 2026-06-26 at 3.09.08 PM (4) 1" x="7" y="27254" width="1071" height="1032" />
+  <rounded-rectangle id="214:892" name="WhatsApp Image 2026-06-26 at 3.24.28 PM (10) 1" x="-1212" y="23066" width="1258" height="1016" />
+  <frame id="133:1497" name="Card - Solution 3" x="3048" y="4291" width="680" height="1460">
+    <symbol id="133:1498" name="Property 1=Default" x="20" y="20" width="640" height="700" />
+    <symbol id="133:1505" name="Property 1=Variant2" x="20" y="740" width="640" height="700" />
+  </frame>
+  <rounded-rectangle id="180:945" name="image 236" x="1378" y="2599" width="275" height="80" />
+  <rounded-rectangle id="214:849" name="Rectangle 26" x="1146" y="27586" width="640" height="700" />
+  <rounded-rectangle id="214:850" name="Rectangle 27" x="1850" y="27586" width="640" height="700" />
+  <rounded-rectangle id="214:851" name="Rectangle 28" x="2554" y="27586" width="640" height="700" />
+  <frame id="184:1128" name="left-arrow" x="2760" y="2131" width="110" height="190">
+    <symbol id="184:1126" name="Property 1=Default" x="20" y="20" width="70" height="70" />
+    <symbol id="184:1129" name="Property 1=Variant2" x="20" y="100" width="70" height="70" />
+  </frame>
+  <frame id="184:1131" name="right-arrow" x="2888" y="2131" width="110" height="190">
+    <symbol id="184:1127" name="Property 1=Default" x="20" y="20" width="70" height="70" />
+    <symbol id="184:1132" name="Property 1=Variant2" x="20" y="100" width="70" height="70" />
+  </frame>
+  <rounded-rectangle id="214:852" name="cell-tower-on-verdant-hillside-with-cloudy-skies-2026-03-20-00-13-48-utc (1) 1" x="-1212" y="25978" width="1588" height="1059" />
+  <rounded-rectangle id="214:854" name="cell-tower-on-verdant-hillside-with-cloudy-skies-2026-03-20-00-13-48-utc (1) 2" x="659" y="23045" width="1588" height="1059" />
+  <rounded-rectangle id="214:856" name="WhatsApp Image 2026-06-26 at 3.09.08 PM 1" x="2860" y="22793" width="1753" height="1562" />
+  <rounded-rectangle id="214:878" name="image 239" x="-1212" y="24541" width="1338" height="1251" />
+  <rounded-rectangle id="214:890" name="image 240" x="739" y="24541" width="1674" height="1250" />
+  <rounded-rectangle id="228:708" name="Rectangle 29" x="3900" y="26150" width="657" height="657" />
+  <rounded-rectangle id="228:711" name="Rectangle 32" x="3900" y="26150" width="657" height="366" />
+  <rounded-rectangle id="228:709" name="Rectangle 30" x="3900" y="26656" width="657" height="151" />
+  <rounded-rectangle id="228:710" name="Rectangle 31" x="4144" y="26150" width="170" height="657" />
+  <text id="228:712" name="Smart pole" x="4605" y="26379" width="245" height="58" />
+  <rounded-rectangle id="228:729" name="Rectangle 33" x="-1217" y="27224" width="1092" height="1092" />
+  <text id="228:713" name="Street" x="4605" y="26529" width="139" height="58" />
+  <text id="228:714" name="Grass" x="4605" y="26703" width="133" height="58" />
+  <vector id="228:715" name="Arrow 1" x="4605" y="26558" width="89" height="0.000007780625310260803" />
+  <vector id="228:716" name="Arrow 2" x="4605" y="26408" width="291" height="0.00002544004746596329" />
+  <vector id="228:717" name="Arrow 3" x="4605" y="26732" width="44" height="0.000003846602339763194" />
+  <rounded-rectangle id="228:732" name="image 241" x="5502" y="24468" width="310" height="621" />
+  <frame id="242:693" name="icon box" x="5911" y="2757" width="477" height="768">
+    <symbol id="242:692" name="Property 1=Default" x="20" y="20" width="437" height="354" />
+    <symbol id="242:694" name="Property 1=Variant2" x="20" y="394" width="437" height="354" />
+  </frame>
+  <frame id="337:1507" name="Our Vision" x="1588" y="5960" width="1000" height="1460">
+    <symbol id="337:1505" name="Property 1=Default" x="20" y="20" width="960" height="700" />
+    <symbol id="337:1508" name="Property 1=Variant2" x="20" y="740" width="960" height="700" />
+  </frame>
+  <frame id="337:1517" name="Our Mission" x="2752" y="5960" width="1000" height="1460">
+    <symbol id="337:1506" name="Property 1=Default" x="20" y="20" width="960" height="700" />
+    <symbol id="337:1518" name="Property 1=Variant2" x="20" y="740" width="960" height="700" />
+  </frame>
+  <rounded-rectangle id="409:397" name="communications-tower-against-blue-sky-with-white-c-2026-03-23-23-27-40-utc 1" x="1881" y="32471" width="0" height="0" />
+  <rounded-rectangle id="409:398" name="communications-tower-against-blue-sky-with-white-c-2026-03-23-23-27-40-utc (1) 1" x="-3767" y="29622" width="2433" height="1620" />
+  <rounded-rectangle id="409:400" name="0d6e3432-f3f9-4df2-875a-e3704f07b374-2026-10-19 1" x="-1792" y="31419" width="4096" height="2731" />
+  <rounded-rectangle id="409:399" name="4eec842f-e4a5-45a9-85d1-c69370d98b30-2026-10-19 1" x="-1013" y="29546" width="2528" height="1696" />
+</canvas>

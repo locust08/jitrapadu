@@ -1,0 +1,900 @@
+const assetPathPrefix = "https://www.figma.com/api/mcp/asset/28bab61d-4171-4d4a-be97-cf4730ca9539";
+const imgProperty1Default = `${assetPathPrefix}/88663.png`;
+const imgJitrapaduSecondLogo041 = `${assetPathPrefix}/d777f.png`;
+const imgNavigationMainNavigation = `${assetPathPrefix}/a8339.png`;
+const imgFooterWithCta = `${assetPathPrefix}/e7d8f.png`;
+const imgFooterWithCta1 = `${assetPathPrefix}/90da0.png`;
+const imgImage236 = `${assetPathPrefix}/5607c.png`;
+const imgLine4 = `${assetPathPrefix}/c87ff.svg`;
+const imgLine1 = `${assetPathPrefix}/ce8f2.svg`;
+import { ShaderFill } from "./lib/custom-effect-runtime/index";
+import { setup as setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render as renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, manifest as manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 } from "./lib/custom-effects/CodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615";
+const imgRectangle1 = `${assetPathPrefix}/fa8df.png`;
+const imgRectangle2 = `${assetPathPrefix}/73b9c.png`;
+const imgRectangle13 = `${assetPathPrefix}/9c687.png`;
+const imgRectangle12 = `${assetPathPrefix}/4a624.png`;
+const imgRectangle8 = `${assetPathPrefix}/acfba.png`;
+const imgRectangle9 = `${assetPathPrefix}/abfaf.png`;
+const imgRectangle10 = `${assetPathPrefix}/0cb46.png`;
+const imgRectangle11 = `${assetPathPrefix}/3acd4.png`;
+const imgRectangle14 = `${assetPathPrefix}/2c6e1.png`;
+const imgRectangle15 = `${assetPathPrefix}/3feec.png`;
+const imgFrame = `${assetPathPrefix}/dd177.png`;
+const imgFrame1 = `${assetPathPrefix}/071f5.png`;
+const imgFrame2 = `${assetPathPrefix}/107b7.png`;
+const imgFrame3 = `${assetPathPrefix}/97607.png`;
+const imgFrame4 = `${assetPathPrefix}/49871.png`;
+const imgFrame5 = `${assetPathPrefix}/cbc14.png`;
+const imgFrame6 = `${assetPathPrefix}/a07fa.png`;
+const imgRectangle16 = `${assetPathPrefix}/7aa7e.png`;
+const imgRectangle17 = `${assetPathPrefix}/38685.png`;
+const imgRectangle18 = `${assetPathPrefix}/b84b2.png`;
+const imgRectangle19 = `${assetPathPrefix}/4234d.png`;
+const imgRectangle20 = `${assetPathPrefix}/2f0e9.png`;
+const imgRectangle21 = `${assetPathPrefix}/0a76a.png`;
+const imgRectangle22 = `${assetPathPrefix}/88807.png`;
+const imgRectangle23 = `${assetPathPrefix}/60a46.png`;
+const imgRectangle24 = `${assetPathPrefix}/36139.png`;
+const imgRectangle25 = `${assetPathPrefix}/9fde5.png`;
+const imgRectangle26 = `${assetPathPrefix}/7c4f4.png`;
+const imgRectangle27 = `${assetPathPrefix}/0bbc3.png`;
+const imgRectangle28 = `${assetPathPrefix}/42ef4.png`;
+const imgLine16 = `${assetPathPrefix}/15f15.svg`;
+
+type HeaderProps = {
+  className?: string;
+  property1?: "Default";
+};
+
+function Header({ className, property1 = "Default" }: HeaderProps) {
+  return (
+    <div className={className || "content-stretch flex items-center justify-between px-[50px] py-[var(--spacing-\\/-24,24px)] relative w-[1920px]"} data-node-id="14:700">
+      <img alt="" className="absolute backdrop-blur-[0px] inset-0 max-w-none object-cover pointer-events-none size-full" src={imgProperty1Default} />
+      <a className="block cursor-pointer h-[42.735px] relative shrink-0 w-[197px]" data-node-id="14:637" data-name="Jitrapadu Second logo-04 1">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img alt="" className="absolute h-[195.12%] left-[-14.32%] max-w-none top-[-47.56%] w-[126%]" src={imgJitrapaduSecondLogo041} />
+        </div>
+      </a>
+      <div className="content-stretch flex gap-[28px] items-center px-[var(--spacing-\/-32,32px)] py-[var(--spacing-\/-16,16px)] relative rounded-[50px] shrink-0" data-node-id="14:638" data-name="Navigation / Main Navigation">
+        <img alt="" className="absolute backdrop-blur-[10px] inset-0 max-w-none object-cover pointer-events-none rounded-[50px] size-full" src={imgNavigationMainNavigation} />
+        <a className="content-stretch cursor-pointer flex gap-[var(--spacing-\/-8,8px)] items-center relative shrink-0" data-node-id="14:680" data-name="Menu Item">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-primary,#102033)] text-left tracking-[0.1px] whitespace-nowrap" data-node-id="I14:680;14:368">
+            About Us
+          </p>
+        </a>
+        <button className="[word-break:break-word] content-stretch cursor-pointer flex gap-[var(--spacing-\/-8,8px)] items-center not-italic relative shrink-0 text-left whitespace-nowrap" data-node-id="14:684" data-name="Menu Item">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[20px] relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[0.1px]" data-node-id="I14:684;14:368">
+            Our Solution
+          </p>
+          <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body-large,18px)]" data-node-id="I14:684;14:369">
+            caret-down
+          </p>
+        </button>
+        <a className="content-stretch cursor-pointer flex gap-[var(--spacing-\/-8,8px)] items-center relative shrink-0" data-node-id="14:687" data-name="Menu Item">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-primary,#102033)] text-left tracking-[0.1px] whitespace-nowrap" data-node-id="I14:687;14:368">
+            Our Factory
+          </p>
+        </a>
+        <div className="content-stretch flex gap-[var(--spacing-\/-8,8px)] items-center relative shrink-0" data-node-id="133:1045" data-name="Menu Item">
+          <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[20px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[0.1px] whitespace-nowrap" data-node-id="I133:1045;14:368">
+            Portfolio
+          </p>
+        </div>
+        <button className="[word-break:break-word] content-stretch cursor-pointer flex gap-[var(--spacing-\/-8,8px)] items-center not-italic relative shrink-0 text-left whitespace-nowrap" data-node-id="14:690" data-name="Menu Item">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[20px] relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[0.1px]" data-node-id="I14:690;14:368">
+            Resources
+          </p>
+          <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body-large,18px)]" data-node-id="I14:690;14:369">
+            caret-down
+          </p>
+        </button>
+      </div>
+      <div className="[word-break:break-word] bg-[var(--color-\/-brand-\/-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center not-italic px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="14:693" data-name="Button">
+        <p className="font-['Inter:Semi_Bold'] font-semibold leading-[20px] relative shrink-0 tracking-[0.1px]" data-node-id="I14:693;14:396">
+          Send an Enquiry
+        </p>
+        <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0" data-node-id="I14:693;14:397">
+          envelope
+        </p>
+      </div>
+    </div>
+  );
+}
+
+function FooterWithCta({ className }: { className?: string }) {
+  return (
+    <div className={className || "content-stretch flex flex-col gap-[57px] items-start p-[50px] relative w-[1920px]"} data-node-id="133:1170" data-name="Footer with CTA">
+      <div aria-hidden className="absolute inset-0 pointer-events-none">
+        <div className="absolute bg-white inset-0" />
+        <div className="absolute inset-0 overflow-hidden">
+          <img alt="" className="absolute h-[112.49%] left-0 max-w-none top-[-12.5%] w-[116.32%]" src={imgFooterWithCta} />
+        </div>
+        <div className="absolute inset-0 overflow-hidden">
+          <img alt="" className="absolute h-[111.86%] left-0 max-w-none top-[-3.36%] w-[111.87%]" src={imgFooterWithCta1} />
+        </div>
+      </div>
+      <div className="[word-break:break-word] backdrop-blur-[10px] content-stretch flex flex-col gap-[var(--spacing-\/-40,40px)] h-[402px] items-start not-italic p-[var(--spacing-\/-40,40px)] relative rounded-[var(--spacing-\/-24,24px)] shrink-0 text-[color:var(--color-\/-text-\/-inverse,white)] w-[990px]" data-node-id="133:1099" data-name="Frame">
+        <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="133:1100">
+          <p className="font-['Inter:Bold'] font-bold leading-[76px] relative shrink-0 text-[68px] tracking-[-1.8px] w-full" data-node-id="133:1101">
+            Build Stronger Network Infrastructure with Jitrapadu
+          </p>
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[32px] relative shrink-0 text-[24px] tracking-[-0.3px] w-full" data-node-id="133:1102">
+            Tell us about your tower or monopole project and our team will recommend a structure that fits your site, load requirement and deployment timeline.
+          </p>
+        </div>
+        <div className="bg-[var(--color-\/-brand-\/-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] whitespace-nowrap" data-node-id="133:1103" data-name="Button">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[20px] relative shrink-0 tracking-[0.1px]" data-node-id="I133:1103;14:396">
+            Send an Enquiry
+          </p>
+          <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0" data-node-id="I133:1103;14:397">
+            envelope
+          </p>
+        </div>
+      </div>
+      <div className="backdrop-blur-[2.5px] bg-[rgba(9,42,84,0.9)] content-stretch flex flex-col items-start overflow-clip relative rounded-[var(--spacing-\/-24,24px)] shrink-0 w-full" data-node-id="133:1104" data-name="Footer">
+        <div className="content-stretch flex items-start relative shrink-0 w-full" data-node-id="133:1106">
+          <div className="content-stretch flex flex-[1_0_0] gap-[50px] items-start min-w-px p-[50px] relative" data-node-id="133:1126" data-name="footer-columns">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[50px] items-start min-w-px px-[5px] relative self-stretch" data-node-id="184:952" data-name="about">
+              <div className="content-stretch flex flex-col gap-[20px] items-start relative shrink-0" data-node-id="184:953">
+                <a className="block cursor-pointer h-[60px] relative shrink-0 w-[277px]" data-node-id="184:954" data-name="Jitrapadu Second logo-04 1">
+                  <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    <img alt="" className="absolute h-[195.12%] left-[-14.32%] max-w-none top-[-47.56%] w-[126%]" src={imgJitrapaduSecondLogo041} />
+                  </div>
+                </a>
+                <div className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-inverse,white)] tracking-[-0.3px] whitespace-nowrap" data-node-id="184:955">
+                  <p className="leading-[32px] mb-0">Engineering Excellence,</p>
+                  <p className="leading-[32px]">Powering Innovation</p>
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[15px] items-start min-w-px relative" data-node-id="133:1127" data-name="Quick Links">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-inverse,white)] w-[200px]" data-node-id="133:1128">
+                Quick Links
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="133:1129">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine4} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col font-['Inter:Regular'] font-normal gap-[10px] items-start not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] w-full" data-node-id="133:1130">
+                <a className="block cursor-pointer leading-[0] relative shrink-0 w-full" data-node-id="133:1131">
+                  <p className="leading-[26px]">About Us</p>
+                </a>
+                <a className="block cursor-pointer leading-[0] relative shrink-0 w-full" data-node-id="133:1132">
+                  <p className="leading-[26px]">Our Factory</p>
+                </a>
+                <p className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1173">
+                  Portfolio
+                </p>
+                <p className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1133">{`News & Events`}</p>
+                <p className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1134">
+                  CSR
+                </p>
+                <p className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1135">
+                  Contact Us
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[15px] items-start min-w-px relative" data-node-id="133:1136" data-name="Quick Links">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-inverse,white)] w-[200px]" data-node-id="133:1137">
+                Our Solutions
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="133:1138">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine4} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col font-['Inter:Regular'] font-normal gap-[10px] items-start leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)]" data-node-id="133:1139">
+                <p className="relative shrink-0 w-full" data-node-id="133:1140">{`Telecom Tower & Monopole`}</p>
+                <p className="relative shrink-0 w-full" data-node-id="133:1141">
+                  Rapid Deployment System
+                </p>
+                <p className="relative shrink-0 w-full" data-node-id="133:1142">{`Smart Pole & Lamp Pole`}</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[15px] items-start min-w-px relative" data-node-id="133:1143" data-name="Quick Links">
+              <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[26px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-inverse,white)] w-[200px]" data-node-id="133:1144">
+                Contacts
+              </p>
+              <div className="h-0 relative shrink-0 w-full" data-node-id="133:1145">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine4} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[10px] items-start not-italic relative shrink-0 w-full" data-node-id="133:1146" data-name="contact-items">
+                <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="133:1147" data-name="contact-row-0">
+                  <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body,16px)] text-justify whitespace-nowrap" data-node-id="133:1148">
+                    location-dot
+                  </p>
+                  <div className="flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-pre-wrap" data-node-id="133:1149">
+                    <p className="leading-[26px] mb-0">{`Lot 810 & 811, `}</p>
+                    <p className="leading-[26px] mb-0">{`Batu 3 ½ Jalan Kapar, `}</p>
+                    <p className="leading-[26px] mb-0">{`42100 Klang, Selangor, `}</p>
+                    <p className="leading-[26px]">Malaysia</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="133:1150" data-name="contact-row-1">
+                  <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body,16px)] text-justify whitespace-nowrap" data-node-id="133:1151">
+                    phone
+                  </p>
+                  <div className="flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)]" data-node-id="133:1152">
+                    <p className="leading-[26px] mb-0">03-3343 5663</p>
+                    <p className="leading-[26px]">017-7982984</p>
+                  </div>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1153" data-name="contact-row-2">
+                  <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body,16px)] text-justify whitespace-nowrap" data-node-id="133:1154">
+                    envelope
+                  </p>
+                  <p className="flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)]" data-node-id="133:1155">
+                    jitrapadu@gmail.com
+                  </p>
+                </div>
+                <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1156" data-name="contact-row-2">
+                  <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary,#007cf8)] text-[length:var(--font-size\/body,16px)] text-justify whitespace-nowrap" data-node-id="133:1157">
+                    fax
+                  </p>
+                  <p className="flex-[1_0_0] font-['Inter:Regular'] font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)]" data-node-id="133:1158">
+                    03-3343 5663
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="border-[rgba(230,240,235,0.3)] border-solid border-t content-stretch flex items-start justify-between px-[50px] py-[30px] relative shrink-0 w-full" data-node-id="133:1160" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1820 140' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-62.35 2.1307e-14 0.0000010153 -62.35 1820 70)'><stop stop-color='rgba(152,204,255,1)' offset='0.35209'/><stop stop-color='rgba(114,184,253,0.75)' offset='0.51406'/><stop stop-color='rgba(76,164,252,0.5)' offset='0.67604'/><stop stop-color='rgba(0,124,248,0)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="bottom-bar">
+          <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="184:919">
+            <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="133:1162">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="133:1163">
+                Disclaimer
+              </p>
+              <div className="flex h-[22px] items-center justify-center relative shrink-0 w-0" data-node-id="133:1164">
+                <div className="flex-none rotate-90">
+                  <div className="h-0 relative w-[22px]">
+                    <div className="absolute inset-[-1px_0_0_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="133:1165">
+                Privacy Policy
+              </p>
+              <div className="flex h-[22px] items-center justify-center relative shrink-0 w-0" data-node-id="133:1166">
+                <div className="flex-none rotate-90">
+                  <div className="h-0 relative w-[22px]">
+                    <div className="absolute inset-[-1px_0_0_0]">
+                      <img alt="" className="block max-w-none size-full" src={imgLine1} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="133:1167">{`Terms & Conditions`}</p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="133:1161">
+              <span className="leading-[26px]">{`Copyright © 2026 Jitrapadu Engineering Sdn. Bhd. `}</span>
+              <span className="leading-[26px] text-white">{`0779493A `}</span>
+              <span className="leading-[26px]">(200701021478) . All rights reserved.</span>
+            </p>
+          </div>
+          <div className="h-[80px] relative shrink-0 w-[275px]" data-node-id="184:913" data-name="image 236">
+            <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage236} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function OurSolutionsTelecomTowerMonopole() {
+  return (
+    <div className="bg-white relative size-full" data-node-id="60:618" data-name="Our Solutions - Telecom Tower & Monopole">
+      <div className="absolute contents left-0 top-0" data-node-id="60:619">
+        <div className="absolute h-[650px] left-0 top-0 w-[1920px]" data-node-id="60:620">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <img alt="" className="absolute max-w-none object-cover size-full" src={imgRectangle1} />
+            <div className="absolute inset-0 overflow-hidden">
+              <img alt="" className="absolute h-full left-[0.02%] max-w-none top-0 w-[99.98%]" src={imgRectangle2} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bg-gradient-to-b bottom-[8846px] from-[rgba(0,0,0,0)] h-[320px] left-0 to-[rgba(0,0,0,0.1)] w-[1920px]" data-node-id="60:621" />
+        <div className="absolute content-stretch flex flex-col gap-[24px] items-start left-[50px] top-[418px] w-[652px]" data-node-id="60:622">
+          <p className="[word-break:break-word] font-['Inter:Bold'] font-bold leading-[76px] min-w-full not-italic relative shrink-0 text-[68px] text-[color:var(--color-\/-text-\/-inverse,white)] tracking-[-1.8px] w-[min-content]" data-node-id="60:624">{`Telecom Tower & Monopole Solutions`}</p>
+        </div>
+      </div>
+      <div className="absolute contents left-0 top-[650px]" data-node-id="191:1297">
+        <div className="absolute bg-white h-[732px] left-0 top-[650px] w-[1920px]" data-node-id="60:626" />
+        <div className="absolute h-[360px] left-[50px] rounded-[var(--spacing-\/-12,12px)] top-[942px] w-[440px]" data-node-id="196:1647">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle13} />
+        </div>
+        <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start left-[50px] not-italic top-[734px] w-[1015px]" data-node-id="60:627" data-name="Frame">
+          <p className="font-['Inter:Semi_Bold'] font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="60:628">
+            Built for High-Performance Connectivity
+          </p>
+          <p className="font-['Inter:Bold'] font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="60:629">
+            Strong, Reliable and Customisable Tower Infrastructure for Telco Network Expansion
+          </p>
+        </div>
+        <div className="[word-break:break-word] absolute font-['Inter:Regular'] font-normal leading-[0] left-[calc(25%+60px)] not-italic text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] top-[942px] w-[533px] whitespace-pre-wrap" data-node-id="60:630">
+          <p className="leading-[30px] mb-0">Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions.</p>
+          <p className="leading-[30px] mb-0">​</p>
+          <p className="leading-[30px]">{`We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence. `}</p>
+        </div>
+      </div>
+      <div className="absolute h-[568px] left-[calc(58.33%+3px)] rounded-[var(--spacing-\/-12,12px)] top-[734px] w-[747px]" data-node-id="149:658">
+        <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle12} />
+      </div>
+      <div className="-translate-x-1/2 absolute contents left-1/2 top-[1382px]" data-node-id="65:657">
+        <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] h-[1851px] left-0 top-[1382px] w-[1920px]" data-node-id="65:658" />
+        <div className="-translate-x-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start left-1/2 not-italic text-center top-[1464px] w-[870px]" data-node-id="65:684" data-name="Frame">
+          <p className="font-['Inter:Bold'] font-bold leading-[58px] relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-full" data-node-id="65:685">
+            Product Range
+          </p>
+          <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="65:686">{`Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond. `}</p>
+        </div>
+        <div className="-translate-x-1/2 absolute gap-x-[50px] gap-y-[50px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[repeat(2,fit-content(100%))] left-1/2 top-[1667px] w-[1820px]" data-node-id="65:703">
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] self-start shrink-0" data-node-id="191:1303" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1304">
+              Angular Tower
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="191:1305">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[#f7f9fc] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <img alt="" className="absolute max-w-none object-contain rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle8} />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1306">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1308">
+                Lattice tower structures available in 3-legged and 4-legged configurations, ranging from 30m to 120m, with light, medium and heavy-duty classifications.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] self-start shrink-0" data-node-id="191:1309" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1310">
+              Mono-pole
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="204:671">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[#f7f9fc] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle9} />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1312">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1314">
+                Single-legged tubular tapered structures designed for multi-telco installations, with common height options including 30m, 36m, 45m and 50m.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[718px] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] self-start shrink-0" data-node-id="191:1315" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1316">
+              Rooftop Unipole
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="204:681">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <img alt="" className="absolute max-w-none object-contain rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle10} />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1318">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1320">
+                Compact rooftop structures for sites where ground space is limited but elevated telco coverage is required.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] self-start shrink-0" data-node-id="191:1365" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1366">
+              Guyed Mast
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="204:684">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <img alt="" className="absolute max-w-none object-contain rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle11} />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1368">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1370">
+                A cost-effective tower option supported by guy wires, suitable for selected open-space or specialised deployment conditions.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[718px] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] shrink-0" data-node-id="191:1371" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1372">
+              Radar and Broadcast Tower
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="204:682">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-\/-12,12px)]">
+                  <img alt="" className="absolute h-full left-[-20.43%] max-w-none top-[6.94%] w-[140.86%]" src={imgRectangle14} />
+                </div>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1374">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1376">
+                Custom steel tower structures for radar, broadcast and communication-related applications.
+              </p>
+            </div>
+          </div>
+          <div className="bg-[var(--color-\/-background-\/-primary,white)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[718px] items-start justify-self-stretch p-[var(--spacing-\/-24,24px)] relative rounded-[var(--spacing-\/-16,16px)] shrink-0" data-node-id="191:1377" data-name="Frame">
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1378">
+              Camouflage Pole
+            </p>
+            <div className="h-[500px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0 w-full" data-node-id="204:683">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <img alt="" className="absolute max-w-none object-contain rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle15} />
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[var(--spacing-\/-12,12px)] items-start relative shrink-0 w-full" data-node-id="191:1380">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1382">
+                A telecom structure designed for urban areas where connectivity blends with the environment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-0 top-[5185px]" data-node-id="83:1658">
+        <div className="absolute bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] h-[1202px] left-0 top-[5185px] w-[1920px]" data-node-id="83:1659" />
+        <div className="-translate-x-1/2 absolute gap-x-[50px] gap-y-[50px] grid grid-cols-[repeat(4,minmax(0,1fr))] grid-rows-[repeat(2,fit-content(100%))] left-1/2 top-[5457px] w-[1820px]" data-node-id="83:1660">
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[850px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] row-[span_2] self-start shrink-0" data-node-id="103:479" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-\/-12,12px)]">
+                <img alt="" className="absolute h-full left-[-100.95%] max-w-none top-0 w-[305.35%]" src={imgFrame} />
+              </div>
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="103:480">
+              Greenfield Telecommunication Deployment
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="103:481" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame1} />
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="103:482">
+              Multi-operator Telco-sharing Sites
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="103:483" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-\/-12,12px)]">
+                <img alt="" className="absolute h-[101.95%] left-[-2.05%] max-w-none top-[0.03%] w-[102%]" src={imgFrame2} />
+              </div>
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="103:484">
+              Rural and Suburban Network Expansion
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="103:493" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <div className="absolute bg-[var(--color-\/-background-\/-blue,#007cf8)] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+              <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-\/-12,12px)]">
+                <img alt="" className="absolute h-[100.01%] left-[0.06%] max-w-none top-0 w-[99.94%]" src={imgFrame3} />
+              </div>
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <div className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[0] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full whitespace-pre-wrap" data-node-id="103:494">
+              <p className="leading-[28px] mb-0">{`High-capacity Urban Coverage Sites `}</p>
+              <p className="leading-[28px]">​</p>
+            </div>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="103:487" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame4} />
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="103:488">
+              Radar and Broadcast Infrastructure
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="103:489" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame5} />
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame5} />
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="103:490">
+              Rooftop and Space-constrained Deployments
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] h-[400px] items-start justify-end justify-self-stretch p-[30px] relative rounded-[var(--spacing-\/-12,12px)] shrink-0" data-node-id="233:763" data-name="Frame">
+            <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame5} />
+              <img alt="" className="absolute max-w-none object-cover rounded-[var(--spacing-\/-12,12px)] size-full" src={imgFrame6} />
+              <div className="absolute bg-gradient-to-b from-[70.389%] from-[rgba(0,0,0,0)] inset-0 rounded-[var(--spacing-\/-12,12px)] to-[var(--color-\/-brand-\/-navy,rgba(16,44,76,0.85))]" />
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-\/-text-\/-inverse,white)] text-center tracking-[-0.2px] w-full" data-node-id="233:764">
+              Long-term 4G and 5G Infrastructure Support
+            </p>
+          </div>
+        </div>
+        <div className="-translate-x-1/2 [word-break:break-word] absolute content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start left-1/2 not-italic text-center top-[5265px] w-[1206px]" data-node-id="83:1677" data-name="Frame">
+          <p className="font-['Inter:Bold'] font-bold leading-[58px] relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-full" data-node-id="83:1678">{`Applications & Use Cases`}</p>
+          <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="83:1679">
+            Our telecom tower and monopole solutions are suitable for new network rollout, capacity expansion, infrastructure sharing and specialised communication needs.
+          </p>
+        </div>
+      </div>
+      <div className="absolute contents left-0 top-[7449px]" data-node-id="92:442">
+        <div className="absolute h-[954px] left-0 top-[7449px] w-[1920px]" data-node-id="92:443">
+          <div aria-hidden className="absolute inset-0 pointer-events-none">
+            <div className="absolute bg-white inset-0" />
+            <ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} />
+          </div>
+        </div>
+        <div className="absolute content-stretch flex flex-col gap-[50px] items-center left-[50px] top-[7529px] w-[1820px]" data-node-id="92:445" data-name="Frame">
+          <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-center not-italic relative shrink-0 text-center w-[611px]" data-node-id="133:1002" data-name="Frame">
+            <p className="font-['Inter:Semi_Bold'] font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="133:1003">
+              FAQ
+            </p>
+            <p className="font-['Inter:Bold'] font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="133:1004">
+              Your Questions, Answered
+            </p>
+          </div>
+          <div className="content-stretch flex flex-col items-start relative shrink-0 w-[1053px]" data-node-id="92:449">
+            <div className="[word-break:break-word] bg-[var(--color-\/-brand-\/-primary,#007cf8)] border-[var(--color-\/-border-\/-strong,#c5ced8)] border-b border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start not-italic p-[var(--spacing-\/-40,40px)] relative rounded-[var(--spacing-\/-16,16px)] shrink-0 w-full" data-node-id="92:450">
+              <div className="content-stretch flex gap-[10px] items-center justify-center leading-[32px] relative shrink-0 text-[24px] tracking-[-0.3px] w-full" data-node-id="96:554">
+                <p className="flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold min-w-px relative text-[color:var(--color-\/-text-\/-inverse,white)]" data-node-id="92:451">
+                  What types of telecommunication towers does Jitrapadu provide?
+                </p>
+                <p className="font-['Font_Awesome_6_Free:Solid'] relative shrink-0 text-[color:var(--color-\/-brand-\/-primary-light,#e8f3ff)] whitespace-nowrap" data-node-id="96:556">
+                  arrow-up
+                </p>
+              </div>
+              <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-inverse,white)] w-full" data-node-id="92:452">
+                We provide angular towers, 3-legged towers, 4-legged towers, monopoles, rooftop unipoles, guyed masts and customised tower structures.
+              </p>
+            </div>
+            <div className="border-[var(--color-\/-border-\/-strong,#c5ced8)] border-b border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start p-[var(--spacing-\/-40,40px)] relative shrink-0 w-full" data-node-id="96:557">
+              <div className="[word-break:break-word] content-stretch flex gap-[10px] items-center justify-center leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="96:558">
+                <p className="flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold min-w-px relative" data-node-id="96:559">
+                  What height range is available for angular towers?
+                </p>
+                <p className="font-['Font_Awesome_6_Free:Solid'] relative shrink-0 whitespace-nowrap" data-node-id="96:560">
+                  arrow-down
+                </p>
+              </div>
+            </div>
+            <div className="border-[var(--color-\/-border-\/-strong,#c5ced8)] border-b border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start p-[var(--spacing-\/-40,40px)] relative shrink-0 w-full" data-node-id="96:562">
+              <div className="[word-break:break-word] content-stretch flex gap-[10px] items-center justify-center leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="96:563">
+                <p className="flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold min-w-px relative" data-node-id="96:564">
+                  How many operators can a monopole support?
+                </p>
+                <p className="font-['Font_Awesome_6_Free:Solid'] relative shrink-0 whitespace-nowrap" data-node-id="96:565">
+                  arrow-down
+                </p>
+              </div>
+            </div>
+            <div className="border-[var(--color-\/-border-\/-strong,#c5ced8)] border-b border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start p-[var(--spacing-\/-40,40px)] relative shrink-0 w-full" data-node-id="96:567">
+              <div className="[word-break:break-word] content-stretch flex gap-[10px] items-center justify-center leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="96:568">
+                <p className="flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold min-w-px relative" data-node-id="96:569">
+                  Are the towers fabricated in-house?
+                </p>
+                <p className="font-['Font_Awesome_6_Free:Solid'] relative shrink-0 whitespace-nowrap" data-node-id="96:570">
+                  arrow-down
+                </p>
+              </div>
+            </div>
+            <div className="border-[var(--color-\/-border-\/-strong,#c5ced8)] border-b border-solid content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start p-[var(--spacing-\/-40,40px)] relative shrink-0 w-full" data-node-id="96:572">
+              <div className="[word-break:break-word] content-stretch flex gap-[10px] items-center justify-center leading-[32px] not-italic relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="96:573">
+                <p className="flex-[1_0_0] font-['Inter:Semi_Bold'] font-semibold min-w-px relative" data-node-id="96:574">{`What standards do your structures follow? `}</p>
+                <p className="font-['Font_Awesome_6_Free:Solid'] relative shrink-0 whitespace-nowrap" data-node-id="96:575">
+                  arrow-down
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-0 top-[3125px]" data-node-id="65:729">
+        <div className="absolute bg-white h-[1952px] left-0 top-[3233px] w-[1920px]" data-node-id="65:730" />
+        <div className="absolute bottom-0 h-[-1173px] left-0 pointer-events-none top-[3233px]" data-node-id="196:1464">
+          <div className="h-[980px] pointer-events-auto sticky top-0 w-[1920px]">
+            <div aria-hidden className="absolute inset-0 pointer-events-none">
+              <div className="absolute bg-white inset-0" />
+              <ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 0.8832286596298218, y: 64.27672576904297, radius: 28.776113510131836, angle: 0 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute contents left-[50px] top-[3125px]" data-node-id="191:1433">
+          <div className="absolute flex h-[1755px] items-center justify-center left-[calc(41.67%+67px)] top-[3314px] w-0" data-node-id="196:1501">
+            <div className="flex-none rotate-90">
+              <div className="h-0 relative w-[1755px]">
+                <div className="absolute inset-[-1px_0_0_0]">
+                  <img alt="" className="block max-w-none size-full" src={imgLine16} />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[var(--spacing-\/-48,48px)] items-start left-[calc(41.67%+17px)] top-[3313px] w-[1053px]" data-node-id="65:736">
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="65:737">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1269" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1270" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1272" style={{ maskImage: `url("${imgRectangle16}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1274">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1276">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="65:738">
+                    Step 1:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1275">
+                    Project Requirement Study
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="65:739">{`We begin by reviewing the client’s coverage objective, site location, operator load, required height, timeline and access conditions. `}</p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1277">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1278" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1279" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1281" style={{ maskImage: `url("${imgRectangle17}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1282">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1283">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1284">
+                    Step 2:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1285">
+                    Site and Structural Assessment
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1286">
+                  Our team evaluates the site constraints, available footprint, terrain, wind exposure, foundation requirements and surrounding environment.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1287">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1288" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1289" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1291" style={{ maskImage: `url("${imgRectangle18}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1292">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1293">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1294">
+                    Step 3:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1295">
+                    Engineering Design
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1296">
+                  The tower or monopole is designed according to the required height, loading category, telco-sharing capacity and applicable structural standards.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1383">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1384" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1385" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1387" style={{ maskImage: `url("${imgRectangle19}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1388">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1389">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1390">
+                    Step 4:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1391">
+                    Cost Baselining and Proposal
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1392">
+                  We prepare a practical solution with technical recommendations, estimated cost, fabrication timeline and deployment approach.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1393">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1394" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1395" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1397" style={{ maskImage: `url("${imgRectangle20}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1398">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1399">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1400">
+                    Step 5:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1401">
+                    In-House Fabrication
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1402">
+                  Approved designs move into fabrication at our Klang facility, where steel components are cut, formed, welded and prepared for finishing.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1403">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1404" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1405" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1407" style={{ maskImage: `url("${imgRectangle21}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1408">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1409">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1410">
+                    Step 6:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1411">
+                    Galvanising and Coating
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1412">
+                  Steel members are finished according to project specifications, including galvanising and aviation-related coating where required.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="191:1413">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="191:1414" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="191:1415" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="191:1417" style={{ maskImage: `url("${imgRectangle22}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="191:1418">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="191:1419">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="191:1420">
+                    Step 7:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="191:1421">
+                    Site Preparation and Foundation Works
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="191:1422">
+                  Depending on the structure type, the site is prepared for conventional concrete foundation or RDS-compatible footing solutions.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="196:1434">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="196:1435" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="196:1436" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="196:1438" style={{ maskImage: `url("${imgRectangle23}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="196:1439">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="196:1440">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="196:1441">
+                    Step 8:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="196:1442">
+                    Delivery and Structure Erection
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="196:1443">
+                  Fabricated components are delivered to site and erected by qualified teams, with safety and alignment checked throughout the process.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="196:1444">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="196:1445" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="196:1446" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="196:1448" style={{ maskImage: `url("${imgRectangle24}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="196:1449">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="196:1450">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="196:1451">
+                    Step 9:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="196:1452">
+                    Equipment Integration Support
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="196:1453">
+                  We coordinate with relevant telco or equipment teams for antenna, cabinet, cable and supporting infrastructure installation.
+                </p>
+              </div>
+            </div>
+            <div className="content-stretch flex gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-full" data-node-id="196:1454">
+              <div className="bg-[var(--color-\/-background-\/-secondary,#f7f9fc)] content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[100px]" data-node-id="196:1455" data-name="Frame">
+                <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0" data-node-id="196:1456" data-name="Mask group">
+                  <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="196:1458" style={{ maskImage: `url("${imgRectangle25}")` }} />
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-12,12px)] items-start min-w-px not-italic relative" data-node-id="196:1459">
+                <div className="content-stretch flex flex-col font-['Inter:Semi_Bold'] font-semibold gap-[var(--spacing-\/-4,4px)] items-start relative shrink-0 w-full" data-node-id="196:1460">
+                  <p className="leading-[28px] relative shrink-0 text-[20px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[-0.2px] w-full" data-node-id="196:1461">
+                    Step 10:
+                  </p>
+                  <p className="leading-[32px] relative shrink-0 text-[24px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.3px] w-full" data-node-id="196:1462">
+                    Inspection, Handover and Support
+                  </p>
+                </div>
+                <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="196:1463">
+                  Final checks are carried out before handover, with technical support available for maintenance, optimisation or future upgrades.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="absolute bottom-0 h-[-1145px] left-[50px] pointer-events-none top-[3125px]" data-node-id="191:1423">
+            <div className="h-[346px] overflow-clip pointer-events-auto sticky top-0 w-[613px]" data-name="sticky">
+              <div className="[word-break:break-word] absolute content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start left-0 not-italic top-[189px] w-[611px]" data-node-id="191:1429" data-name="Frame">
+                <p className="font-['Inter:Semi_Bold'] font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-\/-brand-\/-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="191:1430">
+                  our Steps
+                </p>
+                <div className="font-['Inter:Bold'] font-bold leading-[0] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="191:1431">
+                  <p className="leading-[58px] mb-0">{`Installation &`}</p>
+                  <p className="leading-[58px]">Deployment Workflow</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute contents left-0 top-[6387px]" data-node-id="133:1006">
+        <div className="absolute bg-[var(--color-\/-background-\/-primary,white)] h-[1062px] left-0 top-[6387px] w-[1920px]" data-node-id="133:1007" />
+        <div className="absolute content-stretch flex gap-[50px] items-start left-[50px] top-[6659px] w-[1820px]" data-node-id="133:1011">
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-24,24px)] h-[700px] items-start min-w-px relative" data-node-id="133:1012" data-name="Frame">
+            <div className="flex-[1_0_0] min-h-px relative rounded-[var(--spacing-\/-12,12px)] w-full" data-node-id="133:1013">
+              <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-\/-12,12px)] size-full" src={imgRectangle26} />
+            </div>
+            <div className="bg-[rgba(255,255,255,0.5)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex items-center justify-center px-[20px] py-[10px] relative rounded-[var(--spacing-\/-32,32px)] shrink-0" data-node-id="133:1014">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[22px] not-italic relative shrink-0 text-[14px] text-[color:var(--color-\/-text-\/-secondary,#495667)] whitespace-nowrap" data-node-id="133:1015">
+                45m 3-legged light-duty tower
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[40px] min-w-full not-italic relative shrink-0 text-[32px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.6px] w-[min-content]" data-node-id="133:1016">
+              Teluk Muroh, Manjung, Perak
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-24,24px)] h-[700px] items-start min-w-px relative" data-node-id="133:1017" data-name="Frame">
+            <div className="flex-[1_0_0] min-h-px relative rounded-[var(--spacing-\/-12,12px)] w-full" data-node-id="133:1018">
+              <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <div className="absolute bg-[#ff1d1d] inset-0 rounded-[var(--spacing-\/-12,12px)]" />
+                <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-\/-12,12px)]">
+                  <img alt="" className="absolute h-[107.85%] left-[0.04%] max-w-none top-[-7.87%] w-[107.65%]" src={imgRectangle27} />
+                </div>
+              </div>
+            </div>
+            <div className="bg-[rgba(255,255,255,0.5)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex items-center justify-center px-[20px] py-[10px] relative rounded-[var(--spacing-\/-32,32px)] shrink-0" data-node-id="133:1019">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[22px] not-italic relative shrink-0 text-[14px] text-[color:var(--color-\/-text-\/-secondary,#495667)] whitespace-nowrap" data-node-id="133:1020">
+                45m 3-legged light-duty tower
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[40px] min-w-full not-italic relative shrink-0 text-[32px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.6px] w-[min-content]" data-node-id="133:1021">
+              Kg Permatang Tulang, Melaka
+            </p>
+          </div>
+          <div className="content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-\/-24,24px)] h-[700px] items-start min-w-px relative" data-node-id="133:1022" data-name="Frame">
+            <div className="flex-[1_0_0] min-h-px relative rounded-[var(--spacing-\/-12,12px)] w-full" data-node-id="133:1023">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-\/-12,12px)]">
+                <img alt="" className="absolute h-[104.12%] left-[0.08%] max-w-none top-[-2.68%] w-[101.22%]" src={imgRectangle28} />
+              </div>
+            </div>
+            <div className="bg-[rgba(255,255,255,0.5)] border border-[var(--color-\/-border-\/-strong,#c5ced8)] border-solid content-stretch flex items-center justify-center px-[20px] py-[10px] relative rounded-[var(--spacing-\/-32,32px)] shrink-0" data-node-id="133:1024">
+              <p className="[word-break:break-word] font-['Inter:Regular'] font-normal leading-[22px] not-italic relative shrink-0 text-[14px] text-[color:var(--color-\/-text-\/-secondary,#495667)] whitespace-nowrap" data-node-id="133:1025">
+                36m monopole for 5 telco-sharer
+              </p>
+            </div>
+            <p className="[word-break:break-word] font-['Inter:Semi_Bold'] font-semibold leading-[40px] min-w-full not-italic relative shrink-0 text-[32px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-0.6px] w-[min-content]" data-node-id="133:1026">
+              KPM Ayer Molek, Melaka
+            </p>
+          </div>
+        </div>
+        <div className="[word-break:break-word] absolute content-stretch flex items-end justify-between left-[50px] not-italic top-[6467px] w-[1820px]" data-node-id="133:1036">
+          <div className="content-stretch flex flex-col gap-[var(--spacing-\/-24,24px)] items-start relative shrink-0 w-[731px]" data-node-id="133:1037" data-name="Frame">
+            <p className="font-['Inter:Bold'] font-bold leading-[58px] relative shrink-0 text-[48px] text-[color:var(--color-\/-text-\/-primary,#102033)] tracking-[-1.2px] w-full" data-node-id="133:1038">
+              Featured Projects
+            </p>
+            <p className="font-['Inter:Regular'] font-normal leading-[30px] relative shrink-0 text-[18px] text-[color:var(--color-\/-text-\/-secondary,#495667)] w-full" data-node-id="133:1039">
+              Explore selected tower and monopole projects that show our ability to deliver reliable structures for different heights, locations, load requirements and site conditions.
+            </p>
+          </div>
+          <div className="bg-[var(--color-\/-brand-\/-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] text-[color:var(--color-\/-text-\/-inverse,white)] whitespace-nowrap" data-node-id="133:1040" data-name="Button">
+            <p className="font-['Inter:Semi_Bold'] font-semibold leading-[20px] relative shrink-0 tracking-[0.1px]" data-node-id="I133:1040;14:396">
+              Explore More Projects
+            </p>
+            <p className="font-['Font_Awesome_6_Free:Solid'] leading-[1.6] relative shrink-0" data-node-id="I133:1040;14:397">
+              arrow-right
+            </p>
+          </div>
+        </div>
+      </div>
+      <FooterWithCta className="absolute content-stretch flex flex-col gap-[57px] items-start left-0 p-[50px] top-[8403px] w-[1920px]" />
+      <Header className="absolute content-stretch flex items-center justify-between left-0 px-[50px] py-[var(--spacing-\/-24,24px)] top-0 w-[1920px]" />
+    </div>
+  );
+}

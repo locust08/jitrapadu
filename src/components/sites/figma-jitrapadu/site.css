@@ -1,0 +1,82 @@
+@font-face { font-family: "Font Awesome 6 Free"; src: url("/sites/figma-jitrapadu/shared/fa-solid-900.woff2") format("woff2"); font-weight: 900; font-display: block; }
+@font-face { font-family: "Font Awesome 6 Brands"; src: url("/sites/figma-jitrapadu/shared/fa-brands-400.woff2") format("woff2"); font-weight: 400; font-display: block; }
+:root { --background:#fff; --foreground:#102033; --primary:#007cf8; --primary-foreground:#fff; --muted:#f7f9fc; --muted-foreground:#495667; --border:#dde4ec; --design-scale:1; }
+@theme inline { --font-sans: var(--font-inter), Arial, sans-serif; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:var(--font-inter),Arial,sans-serif; color:#102033; }
+.design-canvas .font-sans { font-family:var(--font-inter),Arial,sans-serif; }
+.design-canvas [id] { scroll-margin-top:130px; }
+.figma-icon { font-family:"Font Awesome 6 Free"; font-weight:900; font-style:normal; display:inline-block; line-height:1.6; }
+.design-frame { width:100%; overflow:clip; margin:auto; }
+.design-canvas { width:1920px; height:var(--canvas-height); zoom:var(--design-scale); margin:0 auto; overflow:clip; }
+.shader-fill { inset:0; width:100%; height:100%; pointer-events:none; }
+.site-header { position:fixed!important; top:0!important; left:50%!important; transform:translateX(-50%); width:1920px; z-index:100; padding:24px 50px!important; display:flex; justify-content:space-between; align-items:center; font-size:16px; background:transparent; }
+.main-navigation { background-image:url("/sites/figma-jitrapadu/shared/a8339.png"); background-size:100% 100%; }
+.site-logo { position:relative; display:block; width:197px; height:42.735px; overflow:hidden; flex-shrink:0; }
+.site-logo img { position:absolute; height:195.12%; width:126%; max-width:none; left:-14.32%; top:-47.56%; }
+.main-navigation { display:flex; align-items:center; gap:28px; padding:16px 32px; border-radius:50px; background-image:url("/sites/figma-jitrapadu/shared/a8339.png"); background-size:100% 100%; backdrop-filter:blur(20px); font-weight:600; line-height:20px; letter-spacing:.1px; }
+.main-navigation a,.main-navigation button { white-space:nowrap; transition:color .18s; cursor:pointer; }
+.main-navigation a:hover,.main-navigation button:hover { color:#007cf8; }
+.main-navigation button { display:flex; align-items:center; gap:8px; }
+.main-navigation .figma-icon { color:#007cf8; font-size:18px; }
+.nav-dropdown { position:relative; }
+.dropdown-panel { position:absolute; top:calc(100% + 32px); left:0; min-width:248px; display:flex; flex-direction:column; gap:24px; padding:16px; background:rgba(255,255,255,.88); backdrop-filter:blur(14px); border-radius:0 0 12px 12px; box-shadow:0 10px 25px #092a5410; }
+.resources-panel { min-width:148px; }
+.enquiry-button { display:inline-flex; align-items:center; justify-content:center; gap:15px; padding:10px 20px; border-radius:30px; background:#007cf8; color:#fff; font-weight:600; font-size:16px; line-height:20px; letter-spacing:.1px; white-space:nowrap; transition:background .3s ease-out; }
+.enquiry-button:hover { background:#0068d8; }
+.mobile-menu-toggle { display:none; }
+.design-canvas [data-name="Button"] { cursor:pointer; transition:background-color .3s ease-out; }
+.design-canvas [data-name="Button"]:hover { background-color:#0068d8; }
+.design-canvas a:focus-visible,.design-canvas button:focus-visible { outline:3px solid #007cf8; outline-offset:5px; }
+[data-node-id="1:2048"] { overflow:hidden; }
+.hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+[data-node-id="133:1462"],[data-node-id="133:1483"],[data-node-id="133:1498"] { overflow:hidden; cursor:pointer; }
+.solution-reveal { position:relative; padding:24px; display:flex; flex-direction:column; align-items:flex-end; gap:16px; background:rgba(255,255,255,.85); backdrop-filter:blur(5px); color:#495667; border-radius:8px; opacity:0; transition:opacity .3s ease-out; font-size:18px; line-height:30px; }
+.solution-arrow { display:flex; align-items:center; justify-content:center; width:50px; height:50px; background:#007cf8; color:white; border-radius:60px; font-size:20px; }
+[data-node-id="133:1462"]:hover .solution-reveal,[data-node-id="133:1483"]:hover .solution-reveal,[data-node-id="133:1498"]:hover .solution-reveal,
+[data-node-id="133:1462"]:focus-within .solution-reveal,[data-node-id="133:1483"]:focus-within .solution-reveal,[data-node-id="133:1498"]:focus-within .solution-reveal { opacity:1; }
+@media (min-width:1920px) { .design-frame { max-width:1920px; } }
+/* Figma positions these cards on one canvas; CSS Grid already supplies their offsets. */
+.design-factory [data-node-id="142:2671"] { grid-template-rows:repeat(2,550px); }
+.design-factory [data-node-id="142:2671"] > .inline-grid { display:block; width:100%; height:550px; overflow:hidden; border-radius:16px; }
+.design-factory [data-node-id="142:2671"] > .inline-grid > div { margin:0; width:100%; }
+.design-factory [data-node-id="142:2671"] > .inline-grid > .content-stretch { position:absolute; bottom:0; left:0; min-height:134px; }
+@media (prefers-reduced-motion:reduce) { html {scroll-behavior:auto;} *,*::before,*::after {transition:none!important;} }
+
+
+/* Live backdrop samples fade from the source's 40px top blur to a clear lower edge. */
+.header-blur { position:absolute; inset:0; pointer-events:none; z-index:0; }
+.header-blur > span { position:absolute; inset:0; }
+.header-blur::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(255,255,255,.8) 0%,rgba(255,255,255,.796) 8.07%,rgba(255,255,255,.783) 15.54%,rgba(255,255,255,.761) 22.5%,rgba(255,255,255,.732) 29.04%,rgba(255,255,255,.696) 35.26%,rgba(255,255,255,.652) 41.25%,rgba(255,255,255,.602) 47.1%,rgba(255,255,255,.545) 52.9%,rgba(255,255,255,.482) 58.75%,rgba(255,255,255,.414) 64.74%,rgba(255,255,255,.340) 70.96%,rgba(255,255,255,.261) 77.5%,rgba(255,255,255,.178) 84.46%,rgba(255,255,255,.091) 91.93%,transparent 100%); }
+.site-header > :not(.header-blur) { position:relative; z-index:1; }
+.site-header .main-navigation.mobile-open { position:absolute; }
+.partners-section { position:absolute; top:3472px; left:0; width:1920px; height:834px; padding-top:82px; background:#fff; }
+.partners-heading { width:870px; margin:0 auto 50px; text-align:center; }
+.partners-heading h2 { font-size:48px; font-weight:700; line-height:58px; letter-spacing:-1.2px; margin-bottom:24px; }
+.partners-heading p { font-size:18px; line-height:30px; color:#495667; }
+.partner-row { --row-offset:-70px; overflow:hidden; }
+.partner-row-1 { --row-offset:-280px; }
+.partner-track { display:flex; width:max-content; animation:partner-marquee 55s linear infinite; will-change:transform; }
+.partner-row-1 .partner-track { animation-direction:reverse; }
+.partner-group { display:flex; flex-shrink:0; }
+.partner-cell { display:flex; align-items:center; justify-content:center; width:440px; height:240px; flex-shrink:0; border:1px solid #c5ced8; background:#fff; }
+.partner-cell img { object-fit:contain; flex-shrink:0; max-width:calc(100% - 48px); }
+.partners-section:hover .partner-track,.partners-section:focus-within .partner-track { animation-play-state:paused; }
+.partners-section:focus-visible { outline:3px solid #007cf8; outline-offset:-3px; }
+@keyframes partner-marquee { from { transform:translateX(var(--row-offset)); } to { transform:translateX(calc(-50% + var(--row-offset))); } }
+@media (max-width:1023px) {
+  .design-canvas.design-home > .partners-section[data-node-id="40:1307"] { display:block!important; position:relative; top:auto; left:auto; width:calc(100% + 48px)!important; max-width:none!important; height:auto; margin:0 -24px; padding:0; }
+  .partners-heading { width:auto; margin:0 24px 32px; }
+  .partners-heading h2 { font-size:32px; line-height:40px; letter-spacing:-.8px; }
+  .partners-heading p { font-size:18px; line-height:28px; }
+  .partner-cell { width:220px; height:120px; }
+  .partner-cell img { max-height:80px; }
+  .partner-row { --row-offset:-35px; }
+  .partner-row-1 { --row-offset:max(-140px, calc(100vw - 1100px)); }
+  .partner-track { animation-duration:27.5s; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .partner-track { animation:none; transform:none; }
+  .partner-row { overflow-x:auto; }
+  .partner-group[aria-hidden="true"] { display:none; }
+}
