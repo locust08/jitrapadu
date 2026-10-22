@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
+import {usePublishedContent} from "./PublishedContentProvider";
 import { FigmaIcon } from "./FigmaIcon";
 
 const questions = [
@@ -27,12 +28,14 @@ const questions = [
 ];
 
 export function TowerFaq() {
+  const content=usePublishedContent();
+  const displayQuestions=content.faqs.length?content.faqs:questions;
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const id = useId();
 
   return (
     <div className="relative flex w-full shrink-0 flex-col items-start md:w-[1053px]" data-node-id="92:449">
-      {questions.map(({ question, answer }, index) => {
+      {displayQuestions.map(({ question, answer }, index) => {
         const open = openIndex === index;
         const questionId = `${id}-question-${index}`;
         const answerId = `${id}-answer-${index}`;

@@ -1,0 +1,30 @@
+Jitrapadu frontend evaluation — 21 October 2026
+
+Verdict: Not ready for full project submission. Four designed pages are implemented, but the discussion scope includes additional pages and functionality. No frontend fixes were made during this audit.
+
+Validation: npm run lint, npm run typecheck and npm run build all passed. The production route output confirms /, /about-us, /our-factory and /solutions/telecom-tower-monopole only. Browser checks used the in-app browser at 1280x720 and mobile homepage/menu at 390x844.
+
+Review steps and evidence
+1. Homepage — generally healthy visual baseline. Hero and branding render; source includes local video, counters, progressive header blur, reveals and opposing partner marquees with hover/focus pause. Evidence: 01-home.jpg. Motion timing and every scroll state were not exhaustively tested.
+2. Resources navigation — incomplete. News & Events click navigates to About Us; CSR points to the same destination. Evidence: 02-resources.jpg plus observed destination and Header.tsx:43.
+3. About Us certificates — needs correction. Certificate details are readable, contrary to the meeting requirement. Images are non-clickable, but backdrop blur on the card does not obscure its foreground document. The heading breaks Telecommunication mid-word and the description wraps into an extremely narrow column. Evidence: 03-about.jpg. About Us also exposes its title/section labels as text rather than semantic headings; source has no h1.
+4. Mobile homepage/menu — usable layout and working menu toggle. The header enquiry CTA disappears and no Contact/Enquiry item is present in the expanded menu; visitors must reach the lower-page CTA. Evidence: 04-mobile-home.jpg and 05-mobile-menu.jpg. Full mobile coverage of other pages remains outstanding.
+5. Telecom solution FAQ — accordion works; opening the second question closes the first. Expanded answer text is dark gray on blue and hard to read. tower-fluid.css:8 forces paragraph color #495667 despite the open card's white foreground. Evidence: 06-solution-faq.jpg. Featured Projects' Explore More Projects is a span rather than a link, so it looks actionable without a destination.
+6. Factory — renders, but copy needs correction. DOM contains Jitrapaduâ€™s in Production Capacity & Delivery. Hydraulic Press Bending uses smart-pole marketing copy, and Welding and Assembly Preparation uses radar/broadcast marketing copy rather than descriptions of those processes. Evidence: 07-factory.jpg for page rendering; observed page text and factory-design.tsx:35,36,80 for content defects. Heading levels skip from h2 to h4/h5.
+
+Highest-priority remaining work
+1. Build Rapid Deployment System and Smart Pole & Lamp Pole solution pages using the Telecom structure. Current cards are non-link articles and navigation points to homepage anchors.
+2. Build News & Events listing, News/Events sidebar filters, post detail pages (banner/body/related posts), and CSR equivalents; add appropriate content and replace About Us fallback links.
+3. Build Contact Us with contact form, details and Google Maps. Current contact/enquiry links use mailto only. Choose and verify the form submission destination and success/error handling.
+4. Confirm the required Products listing scope. A Telecom Product Range exists, but there is no standalone Products route or navigation. Do not build product detail pages; those were explicitly excluded.
+5. Blur/redact certificate details as requested. Prefer approved obscured asset derivatives when the original documents must not be publicly retrievable; CSS blur alone leaves original image URLs accessible.
+6. Fix About Us certificate-section widths/wrapping, FAQ answer contrast, missing About Us semantic headings, mobile contact discoverability and factory content defects.
+7. Resolve misleading controls: connect Explore More Projects to an agreed destination or remove the action treatment. Footer Disclaimer, Privacy Policy and Terms & Conditions are plain paragraphs; confirm required legal content/destinations.
+
+Dependencies and final checks
+- Confirm remaining solution imagery and the News & Events screenshot reference; their current delivery status was not checked in Drive.
+- Existing hero video is locally available; no missing video blocker was observed.
+- Confirm final copy against the copywriting document; this audit did not compare that document line by line.
+- Run full responsive, keyboard/focus, contrast and reduced-motion testing across all completed pages. Screenshots and basic interaction tests do not establish accessibility compliance.
+- Verify deployment and the final review/alignment session separately. No deployment, live form delivery, performance benchmark or current live-Figma pixel comparison was performed.
+- Retained existing Notion/project state; this report does not mark implementation tasks complete.

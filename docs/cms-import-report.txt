@@ -1,0 +1,52 @@
+Payload CMS original-site import — 21 October 2026
+
+Local implementation branch: codex/payload-draft-import
+Admin URL: http://localhost:3001/admin
+First administrator: owner creates account in the first-user screen. No permanent test credentials retained.
+
+Source scope: the five public sitemap URLs /, /services, /partners, /contact-us and /faq. Existing public frontend routes/content remain separate.
+
+Extraction/download reconciliation:
+- 5 HTML source snapshots and extracted page records.
+- 104 image source URLs and 2 MP4 video source URLs downloaded successfully.
+- 106 downloaded files, 20,669,206 bytes; 0 failed downloads.
+- 105 distinct SHA-256 checksums: one duplicated binary is represented by a single Media record with multiple source references.
+
+Initial Payload import:
+- Media: 105 created, all reviewStatus=pending.
+- Source Pages: 5 created as drafts.
+- Solutions: 5 source topics created as drafts.
+- FAQs: 4 created as drafts.
+- Partners: 19 logo candidates created as drafts, names unverified.
+- Site Settings: 1 global draft.
+- Failed imports: 0.
+
+Repeat import: created 0; skipped 105 media + 5 pages + 5 solutions + 4 FAQs + 19 partners + 1 settings global; failed 0. Existing keys are skipped to preserve reviewer edits.
+
+Review conflicts:
+- Original contact content mixes Jitrapadu's Klang details with Green Xperts' Cyberjaya address/email. The selected Jitrapadu details retain a conflict note.
+- Some source service copy is duplicated or unrelated to its heading. Compare with current approved copywriting.
+- Partner names derived from source filenames require manual verification.
+- Original endorsements/regulatory claims are source claims, not independently verified facts.
+- Cell on Wheels and Sea Freight are reusable source topics, not approval to add public routes.
+- No public News/Events/CSR articles or downloadable documents were discovered/imported.
+
+Storage:
+- temp/cms/payload.db: local SQLite data.
+- temp/cms/uploads/: private pending uploads served through Payload access control.
+- temp/original-site-import/: original snapshots, extracted content, original assets, checksums and JSON run reports.
+- .env: local random secret, never committed or included in reports.
+All of these runtime/source-bundle paths are ignored by Git; back them up together.
+
+Access verification:
+- Anonymous draft queries return 0 imported records, including attempts with draft=true.
+- Anonymous pending Media queries return 0 records.
+- Anonymous source writes, user creation, version-history reads and Site Settings reads are denied.
+- Authenticated reviewers can read drafts/pending media; editors cannot administer users.
+- Six automated tests cover access policies, draft-only writes, rerun/edit preservation, checksum/path failure and dependent-media retry behavior.
+- Final lint, TypeScript and production build passed. A cached sandbox CSS compilation failure was cleared before the successful final build.
+- Production HTTP checks: FAQ draft request returns 200 with zero documents; pending media file and Site Settings requests return 403.
+- Browser verified the production first-administrator screen and existing homepage. Review screenshot: docs/audit-2026-10-21/payload-admin.jpg.
+
+Limits:
+Local review setup only. Production database/storage/email, authenticated live preview, public frontend content conversion and publishing revalidation remain unconfigured. Upstream dependency audit reports remaining transitive advisories; sharp was updated to patched 0.35.5. Review dependency/security updates before production deployment; no forced downgrade audit fixes were applied.

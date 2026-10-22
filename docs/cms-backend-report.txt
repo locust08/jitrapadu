@@ -1,0 +1,43 @@
+Editorial/contact backend — 21 October 2026
+
+Local review database counts:
+{
+  "users": 1,
+  "source-pages": 5,
+  "solutions": 5,
+  "faqs": 4,
+  "partners": 19,
+  "products": 20,
+  "posts": 6,
+  "enquiries": 0,
+  "contact-rate-events": 0,
+  "media": 105,
+  "postDrafts": 6,
+  "postPublished": 0,
+  "mediaPending": 105,
+  "uploadFiles": 105
+}
+
+Schema upgrade: verified on copy, applied with all prior row contents preserved; zero foreign key violations and zero remaining schema statements.
+Backup: temp/cms/backups/editorial-contact-U1jvNw/before.db (ignored).
+Verification: 39 CMS tests, lint, typecheck and Webpack production build passed. Actual HTTP backend lifecycle, existing frontend 18 HTML checks and both SIGTERM cleanup checks passed.
+SMTP: tested only against fake/loopback transport; external delivery unverified. Recipient: hello@jitrapadu.com.
+No starter post published, no live test enquiries, no frontend design changes, merge, push or deployment.
+
+Independent review: two Important findings fixed, no Critical or deferred Minor findings. Regression tests include synchronized-schema FK corruption, contact save/commit rollback and SMTP acceptance followed by failed status persistence.
+
+Implementation decisions and limitations (execution audit):
+Ruling: Work in the existing checkout as explicitly approved by the plan and direct-in-chat execution, preserving uncommitted dependent CMS work — a new worktree would omit those dependencies — cost if wrong: less checkout isolation; disposable DB verification remains mandatory.
+Ruling: Scope commit review to changed backend files and baseline snapshot because existing prior-phase work is uncommitted; do not commit any work — approved plan preserves the checkout — cost if wrong: reviewer needs explicit file manifest instead of clean commit range.
+Task 5: Ruling: Use the driver's transaction promise with a scoped Payload session instead of Payload begin/commit — installed Payload lifted commit swallows commit errors; concurrent tests exposed created records missing after commit. The direct driver propagates commit failure, and every operation still uses one req.transactionID — cost if wrong: depends on Payload adapter session structure, pinned to3.91.0 and covered by real two-connection tests.
+Task 5: Ruling: Enable SQLite WAL for concurrent reads and writes — copy-first upgrade includes WAL-aware backup — cost if wrong: operational backup must include WAL; SQLite backup API does.
+Task 8: Ruling: Use `npm run build -- --webpack` for production verification — Turbopack worker port binding remained EPERM after escalation twice; official Next Webpack build uses the same routes and schemas — cost if wrong: default Turbopack build remains an environment-specific verification gap.
+Task 6: Ruling: Disable SMTP adapter startup verification (`skipVerify`) and use a nonlogging disabled adapter — installed nodemailer adapter logs raw verification errors and returns a Promise — wrapper preserves synchronous config interface and delivery-time bounded SMTP checks — cost if wrong: SMTP connectivity is established only during actual send/retry.
+Task 9: Ruling: Permit a bounded second schema pass only for the known locked-document relationship-table rebuild, with full old-row hashes and FK checks after each pass — installed kit initially adds columns without their FK definitions — cost if wrong: schema-upgrade tooling depends on pinned kit output and fails closed on unexpected changes.
+Task 9: Ruling: Reject unknown source tables before invoking Drizzle planning — the kit otherwise prompts interactively about table renames — cost if wrong: legitimate extra tables need manual review, rather than unattended upgrade.
+Final: Ruling: Standard review-package script rejected the empty commit range; supplied a filesystem manifest and evidence package for one fresh read-only reviewer — pre-existing work must remain uncommitted — cost if wrong: review scope requires explicit manifest rather than Git history.
+Final: Ruling: Defer public article/form/Maps implementation and operational notification scheduling/retention — excluded by approved phase — cost if wrong: these remain explicit follow-up work.
+Final: Ruling: External SMTP/sender verification remains unverified and exactly-once delivery is not promised — no production credentials supplied and SMTP acceptance cannot share a DB transaction — cost if wrong: real delivery must be checked operationally; a crash can cause a resend with stable Message-ID.
+Final: Ruling: Accept Webpack verification for the default Turbopack environment failure — production route lifecycle passed — cost if wrong: Turbopack-specific verification remains unavailable on this host.
+Final: Ruling: Owner database preservation is established by copy-first row hashes/FKs and live count checks rather than reviewer access — reviewer was deliberately read-only without private data — cost if wrong: private-data verification rests on the recorded automated evidence.
+Final: Ruling: Generated starters remain drafts pending client factual/wording approval — source/proposal labels are present; renewed external factual approval is not part of code review — cost if wrong: client must review before publication.

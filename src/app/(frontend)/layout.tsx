@@ -1,3 +1,6 @@
+import {getPublishedContent} from '@/cms/public-content';
+import {PublishedContentProvider} from '@/components/sites/figma-jitrapadu/shared/PublishedContentProvider';
+export const dynamic = 'force-dynamic';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,18 +19,19 @@ export const metadata: Metadata = {
   description: "Turnkey telecommunication infrastructure, steel towers, monopoles and in-house steel fabrication in Malaysia.",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const content = await getPublishedContent();
   return (
     <html
       lang="en"
       data-scroll-behavior="smooth"
       className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col"><PublishedContentProvider value={content}>{children}</PublishedContentProvider></body>
     </html>
   );
 }

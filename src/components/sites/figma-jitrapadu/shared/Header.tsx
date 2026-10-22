@@ -1,6 +1,8 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import {usePublicSettings} from "./PublishedContentProvider";
+import {contactHref} from "@/cms/public-model";
 import { useEffect, useRef, useState } from "react";
 import { FigmaIcon } from "./FigmaIcon";
 
@@ -10,6 +12,7 @@ const solutions = [
   ["Smart Pole & Lamp Pole", "/#smart-pole"],
 ];
 export function Header({ className = "" }: { className?: string }) {
+  const settings=usePublicSettings();
   const [open, setOpen] = useState<string | null>(null);
   const [mobileOpen, setMobileOpen] = useState(false);
   const root = useRef<HTMLElement>(null);
@@ -43,7 +46,7 @@ export function Header({ className = "" }: { className?: string }) {
         {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/about-us" onClick={() => {setOpen(null); setMobileOpen(false);}}>News &amp; Events</Link><Link href="/about-us" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
       </div>
     </nav>
-    <a className="enquiry-button" href="mailto:jitrapadu@gmail.com">Send an Enquiry <FigmaIcon name="envelope" /></a>
+    <a className="enquiry-button" href={contactHref("email",settings.email!)}>Send an Enquiry <FigmaIcon name="envelope" /></a>
   </header>;
 }
 

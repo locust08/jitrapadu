@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Angular Tower",
+    "slug": "telecom-tower-monopole-angular-tower",
+    "description": "Lattice tower structures available in 3-legged and 4-legged configurations, ranging from 30m to 120m, with light, medium and heavy-duty classifications.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 0,
+    "importKey": "client-copy:product:telecom-tower-monopole:angular-tower",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Monopole",
+    "slug": "telecom-tower-monopole-monopole",
+    "description": "Single-legged tubular tapered structures designed for multi-telco installations, with common height options including 30m, 36m, 45m and 50m.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 1,
+    "importKey": "client-copy:product:telecom-tower-monopole:monopole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Rooftop Unipole",
+    "slug": "telecom-tower-monopole-rooftop-unipole",
+    "description": "Compact rooftop structures for sites where ground space is limited but elevated telco coverage is required.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 2,
+    "importKey": "client-copy:product:telecom-tower-monopole:rooftop-unipole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Guyed Mast",
+    "slug": "telecom-tower-monopole-guyed-mast",
+    "description": "A cost-effective tower option supported by guy wires, suitable for selected open-space or specialised deployment conditions.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 3,
+    "importKey": "client-copy:product:telecom-tower-monopole:guyed-mast",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Radar and Broadcast Tower",
+    "slug": "telecom-tower-monopole-radar-and-broadcast-tower",
+    "description": "Custom steel tower structures for radar, broadcast and communication-related applications.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 4,
+    "importKey": "client-copy:product:telecom-tower-monopole:radar-and-broadcast-tower",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Tower Strengthening and Modification",
+    "slug": "telecom-tower-monopole-tower-strengthening-and-modification",
+    "description": "Engineering and structural support for existing towers that require strengthening, modification or load upgrades.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "service",
+    "displayOrder": 5,
+    "importKey": "client-copy:product:telecom-tower-monopole:tower-strengthening-and-modification",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Camouflage Pole",
+    "slug": "telecom-tower-monopole-camouflage-pole",
+    "description": "A telecom structure designed for urban areas where connectivity blends with the environment.",
+    "solutionGroup": "telecom-tower-monopole",
+    "entryType": "product",
+    "displayOrder": 6,
+    "importKey": "client-copy:product:telecom-tower-monopole:camouflage-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS Pole System",
+    "slug": "rapid-deployment-system-rds-pole-system",
+    "description": "Available across selected height ranges including 12m, 15m, 18m and 24m, depending on load category and operator requirement.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "product",
+    "displayOrder": 0,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-pole-system",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS Base Foundation",
+    "slug": "rapid-deployment-system-rds-base-foundation",
+    "description": "Steel-base foundation with interlocking concrete blocks, designed to reduce reliance on conventional cast-in-place foundation works.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "product",
+    "displayOrder": 1,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-base-foundation",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS for Single-Sharer Sites",
+    "slug": "rapid-deployment-system-rds-for-single-sharer-sites",
+    "description": "Suitable for selected light-duty deployments where one operator is required.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "configuration",
+    "displayOrder": 2,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-for-single-sharer-sites",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS for Double-Sharer Sites",
+    "slug": "rapid-deployment-system-rds-for-double-sharer-sites",
+    "description": "Medium-duty options can support selected two-operator deployment needs.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "configuration",
+    "displayOrder": 3,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-for-double-sharer-sites",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS for Triple-Sharer Sites",
+    "slug": "rapid-deployment-system-rds-for-triple-sharer-sites",
+    "description": "Selected 24m medium-duty configurations can be designed for higher sharing capacity.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "configuration",
+    "displayOrder": 4,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-for-triple-sharer-sites",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "RDS-Compatible Tower Structures",
+    "slug": "rapid-deployment-system-rds-compatible-tower-structures",
+    "description": "RDS footing solutions can be adapted for selected tower structures, including light-duty tower deployments.",
+    "solutionGroup": "rapid-deployment-system",
+    "entryType": "configuration",
+    "displayOrder": 5,
+    "importKey": "client-copy:product:rapid-deployment-system:rds-compatible-tower-structures",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Smart Pole",
+    "slug": "smart-pole-lamp-pole-smart-pole",
+    "description": "A compact, urban-friendly pole structure designed for telecommunication equipment, 5G deployment and smart city integration.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "product",
+    "displayOrder": 0,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:smart-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Double-Deck Smart Pole",
+    "slug": "smart-pole-lamp-pole-double-deck-smart-pole",
+    "description": "A smart pole configuration with additional cabinet or equipment storage capacity for more efficient maintenance and deployment.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "configuration",
+    "displayOrder": 1,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:double-deck-smart-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Smart Street Pole",
+    "slug": "smart-pole-lamp-pole-smart-street-pole",
+    "description": "A street-level integrated pole solution suitable for urban areas, public roads and municipal environments.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "configuration",
+    "displayOrder": 2,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:smart-street-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "Lamp Pole",
+    "slug": "smart-pole-lamp-pole-lamp-pole",
+    "description": "Slim and lightweight pole structures suitable for street-level telco coverage in dense or space-constrained locations.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "product",
+    "displayOrder": 3,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:lamp-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "12m, 15m and 18m Lamp Pole",
+    "slug": "smart-pole-lamp-pole-12m-15m-and-18m-lamp-pole",
+    "description": "Light-duty options suitable for selected single-sharer telco applications.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "configuration",
+    "displayOrder": 4,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:12m-15m-and-18m-lamp-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "24m Lamp Pole",
+    "slug": "smart-pole-lamp-pole-24m-lamp-pole",
+    "description": "Medium-duty options available for selected double-sharer or triple-sharer applications.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "configuration",
+    "displayOrder": 5,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:24m-lamp-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  },
+  {
+    "title": "IoT and Surveillance-Ready Pole",
+    "slug": "smart-pole-lamp-pole-iot-and-surveillance-ready-pole",
+    "description": "Smart pole structures can be designed to incorporate selected non-telco features such as CCTV, sensors or smart city equipment.",
+    "solutionGroup": "smart-pole-lamp-pole",
+    "entryType": "configuration",
+    "displayOrder": 6,
+    "importKey": "client-copy:product:smart-pole-lamp-pole:iot-and-surveillance-ready-pole",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "reviewNotes": "Client website copywriting; verify current availability, overlapping configurations and technical claims against January 2026 company profile. Image assignment pending; no verified image imported."
+  }
+]

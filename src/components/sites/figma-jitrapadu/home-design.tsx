@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import Link from "next/link";
+import Link from "next/link";
+import {usePublishedContent} from "./shared/PublishedContentProvider";
+import {solutionGroups} from "@/cms/content-types";
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
 import { TrustedPartners } from "./shared/TrustedPartners";
@@ -30,7 +32,9 @@ const solutions = [
   { title:"Rapid Deployment System, RDS", image:"6a0eb.png", description:"Fast-deployment infrastructure solutions designed for temporary, urgent or flexible network expansion with efficient installation and reliable structural performance.", id:"rapid-deployment-system", node:"133:1483" },
   { title:"Smart Pole & Lamp Pole", image:"f0e6b.png", description:"Multi-purpose pole solutions designed to support lighting, telecommunications, 5G, sensors, surveillance and modern smart city infrastructure requirements.", id:"smart-pole", node:"133:1498" },
 ];
-export function HomeDesign() {
+export function HomeDesign() {
+  const content=usePublishedContent();
+  const publicSolutions=solutions.map((slot,index)=>{const published=content.solutions[solutionGroups[index]];return {...slot,title:published?.title||slot.title,description:published?.summary||slot.description,imageUrl:published?.image?.url||base+slot.image};});
   return <div className="design-canvas fluid-page home-page">
     <Header />
     <section className="home-hero">
@@ -55,8 +59,8 @@ export function HomeDesign() {
         <Link className="primary-action" href="/about-us" data-reveal>Learn More <FigmaIcon name="arrow-right" /></Link>
       </div>
     </section>
-    <section className="home-solutions" id="solutions">{solutions.map(solution=>{
-      const content=<><img src={base+solution.image} alt="" /><h2>{solution.title}</h2><div className="solution-reveal"><p>{solution.description}</p><span className="solution-arrow"><FigmaIcon name="arrow-right" /></span></div></>;
+    <section className="home-solutions" id="solutions">{publicSolutions.map(solution=>{
+      const content=<><img src={solution.imageUrl} alt="" /><h2>{solution.title}</h2><div className="solution-reveal"><p>{solution.description}</p><span className="solution-arrow"><FigmaIcon name="arrow-right" /></span></div></>;
       const props={className:"home-solution",id:solution.id,"data-node-id":solution.node,"data-reveal":true};
       return solution.href?<Link {...props} href={solution.href} key={solution.id}>{content}</Link>:<article {...props} tabIndex={0} key={solution.id}>{content}</article>;
     })}</section>

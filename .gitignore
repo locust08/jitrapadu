@@ -51,3 +51,6 @@ temp/
 
 # Local browser inspection output
 .playwright-cli/
+
+# Local implementation ledger
+.superpowers/
