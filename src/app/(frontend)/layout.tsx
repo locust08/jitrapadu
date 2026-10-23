@@ -36,7 +36,7 @@ export default async function RootLayout({
         <PublishedContentProvider value={content}>{children}</PublishedContentProvider>
         <Script
           id="bugherd-sidebar"
-          src="https://www.bugherd.com/sidebarv2.js?apikey=8w0wxbo6yv16hqo0pnwzrg"
+          src="https://www.bugherd.com/sidebarv2.js?apikey=jcanhtjox8irokx9xiu0vw"
           strategy="afterInteractive"
           async
         />
@@ -44,3 +44,4 @@ export default async function RootLayout({
     </html>
   );
 }
+
