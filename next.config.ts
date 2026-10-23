@@ -1,8 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  output: "standalone",
+  output: process.env.CLOUDFLARE_STATIC_EXPORT === "true" ? "export" : "standalone",
 };
 
 export default nextConfig;
