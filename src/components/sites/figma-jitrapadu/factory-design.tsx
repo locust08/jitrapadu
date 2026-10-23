@@ -110,6 +110,6 @@ export function FactoryDesign() {
         <FactoryPattern variant={index + 1} /><FactoryIcon src={benefit.icon} /><h4>{benefit.title}</h4><p>{benefit.description}</p>
       </article>)}</div>
     </section>
-    <FooterWithCta />
+    <FooterWithCta className="site-footer" />
   </div>;
 }

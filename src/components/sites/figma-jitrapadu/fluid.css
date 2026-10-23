@@ -1,13 +1,27 @@
 /* Shared fluid page shell. Decorative Figma layers stay inside their sections. */
-.design-frame { width:100%; max-width:1820px!important; margin-inline:auto; overflow:visible; }
+.design-frame { width:100%; max-width:1920px!important; margin-inline:auto; overflow:visible; }
 .design-canvas.fluid-page { width:100%!important; height:auto!important; zoom:1!important; display:block!important; padding:0!important; gap:0!important; overflow:visible; position:relative; background:#fff; }
 .fluid-page { --page-gutter:clamp(24px,3vw,50px); --section-space:clamp(48px,5vw,80px); }
-.fluid-page .site-header { width:min(100%,1820px)!important; padding:24px var(--page-gutter)!important; }
+.fluid-page .site-header { width:min(100%,1920px)!important; padding:24px var(--page-gutter)!important; }
 .fluid-page .site-header,.fluid-page .site-header * { box-sizing:border-box; }
 .section-pad { position:relative; padding:var(--section-space) var(--page-gutter); }
 .fluid-page .eyebrow { font-size:13px; font-weight:600; line-height:18px; letter-spacing:1.5px; text-transform:uppercase; color:#007cf8; }
 .primary-action { display:inline-flex; align-items:center; justify-content:center; width:fit-content; gap:15px; padding:10px 20px; border-radius:30px; font-size:16px; line-height:26px; font-weight:600; color:#fff; background:#007cf8; transition:background-color .3s ease-out; }
 .primary-action:hover { background:#0068d8; }
+.fluid-page .primary-action { max-width:100%; white-space:normal; text-align:center; }
+.fluid-page :is(input,select,textarea) { min-width:0; max-width:100%; }
+.fluid-page :is(h1,h2,h3,h4,p,a,button,dd,address) { overflow-wrap:break-word; }
+.fluid-page .site-footer p { max-width:100%; min-width:0; }
+/* Switch before the desktop navigation can collide with the enquiry button. */
+@media(max-width:1199px) {
+ .fluid-page .site-header { height:80px!important; left:0!important; transform:none!important; padding:20px 24px!important; gap:16px; }
+ .fluid-page .site-logo { width:150px; height:33px; }
+ .fluid-page .mobile-menu-toggle { display:block; padding:8px; font-size:24px; }
+ .fluid-page .site-header>.enquiry-button,.fluid-page .main-navigation { display:none; }
+ .fluid-page .main-navigation.mobile-open { display:flex; position:absolute; top:72px; left:16px; right:16px; flex-direction:column; align-items:stretch; gap:24px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 12px 35px #092a5426; max-height:calc(100dvh - 96px); overflow-y:auto; }
+ .fluid-page .dropdown-panel { position:relative; top:auto; left:auto; min-width:0; padding:20px 0 0 12px; box-shadow:none; gap:16px; }
+ .fluid-page .main-navigation a { white-space:normal; }
+}
 .count-up { font-variant-numeric:tabular-nums; white-space:nowrap; }
 .count-up > [aria-hidden] { display:inline-block; }
 [data-motion="ready"] [data-reveal] { opacity:0; transition:opacity 240ms ease-out,translate 240ms ease-out,box-shadow 250ms ease-out,border-color 250ms ease-out,background-color 250ms ease-out; }
