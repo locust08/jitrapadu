@@ -8,7 +8,7 @@ const imgFooterWithCta1 = `${assetPathPrefix}/90da0.png`;
 const imgImage236 = `${assetPathPrefix}/5607c.png`;
 const imgLine4 = `${assetPathPrefix}/c87ff.svg`;
 const imgLine1 = `${assetPathPrefix}/ce8f2.svg`;
-export function FooterWithCta({ className }: { className?: string }) {
+export function FooterWithCta({ className, enquiryText }: { className?: string; enquiryText?: string }) {
   return (
     <div data-reveal className={className || "content-stretch flex flex-col gap-[57px] items-start p-[50px] relative w-[1920px]"} data-node-id="133:1170" data-name="Footer with CTA">
       <div aria-hidden className="absolute inset-0 pointer-events-none">
@@ -26,10 +26,10 @@ export function FooterWithCta({ className }: { className?: string }) {
             Build Stronger Network Infrastructure with Jitrapadu
           </p>
           <p className="font-sans font-semibold leading-[32px] relative shrink-0 text-[24px] tracking-[-0.3px] w-full" data-node-id="133:1102">
-            Tell us about your tower or monopole project and our team will recommend a structure that fits your site, load requirement and deployment timeline.
+            {enquiryText || "Tell us about your tower or monopole project and our team will recommend a structure that fits your site, load requirement and deployment timeline."}
           </p>
         </div>
-        <a className="bg-[var(--color-brand-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] whitespace-nowrap" data-node-id="133:1103" data-name="Button" href="mailto:jitrapadu@gmail.com">
+        <a className="bg-[var(--color-brand-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] whitespace-nowrap" data-node-id="133:1103" data-name="Button" href="/contact-us">
           <p className="font-sans font-semibold leading-[20px] relative shrink-0 tracking-[0.1px]" data-node-id="I133:1103;14:396">
             Send an Enquiry
           </p>
@@ -68,14 +68,14 @@ export function FooterWithCta({ className }: { className?: string }) {
                 <Link className="block cursor-pointer leading-[0] relative shrink-0 w-full" data-node-id="133:1132" href="/our-factory">
                   <p className="leading-[26px]">Our Factory</p>
                 </Link>
-                <Link className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1173" href="/solutions/telecom-tower-monopole#featured-projects">
+                <Link className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1173" href="/portfolio">
                   Portfolio
                 </Link>
-                <Link href="/about-us" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1133">{`News & Events`}</Link>
-                <Link href="/about-us" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1134">
+                <Link href="/news-events" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1133">{`News & Events`}</Link>
+                <Link href="/csr" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1134">
                   CSR
                 </Link>
-                <a className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1135" href="mailto:jitrapadu@gmail.com">
+                <a className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1135" href="/contact-us">
                   Contact Us
                 </a>
               </div>
@@ -93,10 +93,10 @@ export function FooterWithCta({ className }: { className?: string }) {
                 <Link className="block cursor-pointer leading-[0] relative shrink-0 w-full" data-node-id="133:1140" href="/solutions/telecom-tower-monopole">
                   <p className="leading-[26px]">{`Telecom Tower & Monopole`}</p>
                 </Link>
-                <Link href="/#rapid-deployment-system" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1141">
+                <Link href="/solutions/rapid-deployment-system" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1141">
                   Rapid Deployment System
                 </Link>
-                <Link href="/#smart-pole" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1142">{`Smart Pole & Lamp Pole`}</Link>
+                <Link href="/solutions/smart-pole-lamp-pole" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1142">{`Smart Pole & Lamp Pole`}</Link>
               </div>
             </div>
             <div className="content-stretch flex flex-[1_0_0] flex-col gap-[15px] items-start min-w-px relative" data-node-id="133:1143" data-name="Quick Links">
@@ -114,7 +114,8 @@ export function FooterWithCta({ className }: { className?: string }) {
                   <div className="flex-[1_0_0] font-sans font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-pre-wrap" data-node-id="133:1149">
                     <p className="leading-[26px] mb-0">{`Lot 810 & 811, `}</p>
                     <p className="leading-[26px] mb-0">{`Batu 3 ½ Jalan Kapar, `}</p>
-                    <p className="leading-[26px] mb-0">{`42100 Klang, Selangor, `}</p>
+                    <p className="leading-[26px] mb-0">42100 Klang,</p>
+                    <p className="leading-[26px] mb-0">Selangor Darul Ehsan,</p>
                     <p className="leading-[26px]">Malaysia</p>
                   </div>
                 </div>
@@ -122,13 +123,15 @@ export function FooterWithCta({ className }: { className?: string }) {
                   <FigmaIcon name="phone"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1151" />
                   <div className="flex-[1_0_0] font-sans font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1152">
                     <a href="tel:+60333435663" className="block leading-[26px]">03-3343 5663</a>
-                    <a href="tel:+60177982984" className="block leading-[26px]">017-7982984</a>
+                    <a href="tel:+60127285663" className="block leading-[26px]">Hazim: +6012 728 5663</a>
+                    <a href="tel:+60177982984" className="block leading-[26px]">Hazim: +6017 7982 984</a>
+                    <a href="tel:+60127673631" className="block leading-[26px]">Nazree: +6012 767 3631</a>
                   </div>
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1153" data-name="contact-row-2">
                   <FigmaIcon name="envelope"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1154" />
-                  <a className="flex-[1_0_0] font-sans font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1155" href="mailto:jitrapadu@gmail.com">
-                    jitrapadu@gmail.com
+                  <a className="flex-[1_0_0] font-sans font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1155" href="mailto:hello@jitrapadu.com">
+                    hello@jitrapadu.com
                   </a>
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1156" data-name="contact-row-2">
@@ -171,9 +174,9 @@ export function FooterWithCta({ className }: { className?: string }) {
               <p className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1167">{`Terms & Conditions`}</p>
             </div>
             <p className="[word-break:break-word] font-sans font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1161">
-              <span className="leading-[26px]">{`Copyright © 2026 Jitrapadu Engineering Sdn. Bhd. `}</span>
-              <span className="leading-[26px] text-white">{`0779493A `}</span>
-              <span className="leading-[26px]">(200701021478) . All rights reserved.</span>
+              <span className="footer-copyright-company">© 2026 Jitrapadu Engineering Sdn. Bhd.</span>{" "}
+              <span className="footer-copyright-registration">0779493A (200701021478).</span>{" "}
+              <span className="footer-copyright-rights">All rights reserved.</span>
             </p>
           </div>
           <div className="h-[80px] relative shrink-0 w-[275px]" data-node-id="184:913" data-name="image 236">

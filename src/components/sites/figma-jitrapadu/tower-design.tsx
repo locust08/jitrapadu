@@ -124,7 +124,7 @@ export function TowerDesign() {
         <div className="tower-projects">{projects.map((project) => <article key={project.title} data-card data-reveal><div className="tower-project-image" data-card-image><img src={project.image} alt={project.title} /></div><p className="tower-project-tag">{project.label}</p><h3>{project.title}</h3></article>)}</div>
       </section>
       <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2>{towerCopy["133:1004"]}</h2></div><TowerFaq /></div></section>
-      <FooterWithCta />
+      <FooterWithCta className="site-footer" />
     </div>
   );
 }

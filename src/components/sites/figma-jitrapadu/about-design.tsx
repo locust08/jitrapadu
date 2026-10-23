@@ -16,18 +16,18 @@ const imgRectangle2 = `${assetPathPrefix}/e7432.png`;
 const imgRectangle3 = `${assetPathPrefix}/270ae.png`;
 const imgRectangle12 = `${assetPathPrefix}/46788.png`;
 const imgRectangle13 = `${assetPathPrefix}/bfe35.png`;
-const imgRectangle9 = `${assetPathPrefix}/857fe.png`;
-const imgRectangle10 = `${assetPathPrefix}/cbcd2.png`;
-const imgRectangle11 = `${assetPathPrefix}/0b993.png`;
-const imgRectangle14 = `${assetPathPrefix}/f7ddc.png`;
-const imgRectangle16 = `${assetPathPrefix}/b23c8.png`;
-const imgImage238 = `${assetPathPrefix}/55b91.png`;
-const imgRectangle17 = `${assetPathPrefix}/1d7d6.png`;
-const imgRectangle18 = `${assetPathPrefix}/32e5c.png`;
-const imgRectangle19 = `${assetPathPrefix}/1393b.png`;
-const imgRectangle20 = `${assetPathPrefix}/031f5.png`;
-const imgRectangle21 = `${assetPathPrefix}/1c3f8.png`;
-const imgRectangle22 = `${assetPathPrefix}/bdb93.png`;
+const imgRectangle9 = `${assetPathPrefix}/857fe.png?privacy=20261022b`;
+const imgRectangle10 = `${assetPathPrefix}/cbcd2.png?privacy=20261022b`;
+const imgRectangle11 = `${assetPathPrefix}/0b993.png?privacy=20261022b`;
+const imgRectangle14 = `${assetPathPrefix}/f7ddc.png?privacy=20261022b`;
+const imgRectangle16 = `${assetPathPrefix}/b23c8.png?privacy=20261022b`;
+const imgImage238 = `${assetPathPrefix}/55b91.png?privacy=20261022b`;
+const imgRectangle17 = `${assetPathPrefix}/1d7d6.png?privacy=20261022b`;
+const imgRectangle18 = `${assetPathPrefix}/32e5c.png?privacy=20261022b`;
+const imgRectangle19 = `${assetPathPrefix}/1393b.png?privacy=20261022b`;
+const imgRectangle20 = `${assetPathPrefix}/031f5.png?privacy=20261022b`;
+const imgRectangle21 = `${assetPathPrefix}/1c3f8.png?privacy=20261022b`;
+const imgRectangle22 = `${assetPathPrefix}/bdb93.png?privacy=20261022b`;
 const imgRectangle23 = `${assetPathPrefix}/9c60b.png`;
 const imgRectangle24 = `${assetPathPrefix}/71610.png`;
 const imgRectangle25 = `${assetPathPrefix}/d6026.png`;
@@ -333,7 +333,7 @@ export function AboutDesign() {
                 </div>
                 <p className="font-sans font-normal leading-[30px] min-w-full relative shrink-0 text-[18px] text-[color:var(--color-text-secondary,#495667)] w-[min-content]" data-node-id="115:437">{`Our work is supported by recognised registrations, technical references, engineering standards and industry compliance documents that reflect our commitment to quality and reliability. `}</p>
               </div><div className="about-certificate-grid" data-node-id="68:923">
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:988" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:988" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:989">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
                   <img alt="" className="absolute h-[102.67%] left-[-2.11%] max-w-none top-[-2.51%] w-[103.69%]" src={imgRectangle9} />
@@ -343,7 +343,7 @@ export function AboutDesign() {
                 <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:991">{`SIRIM QAS International Test Report `}</p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1003" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1003" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1004">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle10} />
               </div>
@@ -353,7 +353,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:993" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:993" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:994">
                 <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-12,12px)]">
                   <div className="absolute bg-white inset-0 rounded-[var(--spacing-12,12px)]" />
@@ -368,7 +368,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1008" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1008" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1009">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
                   <img alt="" className="absolute h-[102.56%] left-[-2.57%] max-w-none top-[-2.62%] w-[105.13%]" src={imgRectangle14} />
@@ -380,7 +380,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1013" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1013" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1014">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle16} />
               </div>
@@ -390,7 +390,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1018" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1018" data-name="Frame" data-reveal>
               <div className="h-[460.432px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-[317.67px]" data-node-id="184:709" data-name="image 238">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgImage238} />
               </div>
@@ -400,7 +400,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1023" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1023" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1024">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle17} />
               </div>
@@ -410,7 +410,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1028" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1028" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1029">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle18} />
               </div>
@@ -420,7 +420,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:983" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:983" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:984">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle19} />
               </div>
@@ -430,7 +430,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:924" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:924" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:981">
                 <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle20} />
               </div>
@@ -440,7 +440,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:998" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:998" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:999">
                 <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle21} />
               </div>
@@ -450,7 +450,7 @@ export function AboutDesign() {
                 </p>
               </div>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1033" data-name="Frame" data-card data-reveal>
+            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1033" data-name="Frame" data-reveal>
               <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1034">
                 <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
                   <img alt="" className="absolute h-[101.65%] left-[-1.76%] max-w-none top-[-2.76%] w-[101.42%]" src={imgRectangle22} />
@@ -479,9 +479,9 @@ export function AboutDesign() {
             </p>
             <div className="bg-[var(--color-background-primary,white)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-[1_0_0] flex-col gap-[var(--spacing-12,12px)] items-start min-w-px p-[20px] relative rounded-[10px]" data-node-id="235:1204" data-name="Timeline structure">
               <p className="font-sans font-semibold leading-[40px] relative shrink-0 text-[#102033] text-[32px] tracking-[-0.6px] whitespace-nowrap" data-node-id="235:1205">
-                First SIRIM-Endorsed Smart Pole Innovation
+                Pioneering Smart Pole Innovation
               </p>
-              <p className="font-sans font-normal leading-[22px] min-w-full relative shrink-0 text-[#495667] text-[14px] w-[min-content]" data-node-id="235:1206">{`Jitrapadu's Smart Pole solution is positioned as the first smart pole endorsed by SIRIM, DBKL and major telco providers.`}</p>
+              <p className="font-sans font-normal leading-[22px] min-w-full relative shrink-0 text-[#495667] text-[14px] w-[min-content]" data-node-id="235:1206">{`Jitrapadu pioneered a smart pole solution endorsed by SIRIM, DBKL and major telecommunications providers.`}</p>
             </div>
           </div>
           <div className="content-stretch flex gap-[20px] items-start overflow-clip relative shrink-0 w-full" data-card data-reveal data-node-id="235:1207" data-name="Achievement row">
@@ -493,7 +493,7 @@ export function AboutDesign() {
                 Pioneer of Rapid Deployment Solution (RDS)
               </p>
               <p className="font-sans font-normal leading-[22px] min-w-full relative shrink-0 text-[#495667] text-[14px] w-[min-content]" data-node-id="235:1211">
-                Developed a plug-and-play Rapid Deployment Solution designed to reduce installation time and allow relocation flexibility.
+                Our plug-and-play Rapid Deployment Solution reduces installation time and allows structures to be relocated as network needs change.
               </p>
             </div>
           </div>
@@ -506,7 +506,7 @@ export function AboutDesign() {
                 Trusted Telecom Infrastructure Partner
               </p>
               <p className="font-sans font-normal leading-[22px] min-w-full relative shrink-0 text-[#495667] text-[14px] w-[min-content]" data-node-id="235:1216">
-                Delivered telecom infrastructure solutions for major industry players and organisations, including telecom providers and infrastructure owners.
+                We deliver reliable telecommunications infrastructure for network providers, tower owners and infrastructure partners.
               </p>
             </div>
           </div>
@@ -519,7 +519,7 @@ export function AboutDesign() {
                 Regional Project Experience
               </p>
               <p className="font-sans font-normal leading-[22px] min-w-full relative shrink-0 text-[#495667] text-[14px] w-[min-content]" data-node-id="235:1221">
-                Completed projects across Malaysia and international markets including Singapore, Indonesia, Bangladesh and Australia.
+                Our project experience spans Malaysia, Singapore, Indonesia, Bangladesh and Australia.
               </p>
             </div>
           </div>
@@ -625,7 +625,7 @@ export function AboutDesign() {
             </p>
           </div>
         </div></div></section>
-      <FooterWithCta />
+      <FooterWithCta className="site-footer" />
     </div>
   );
 }

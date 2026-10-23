@@ -27,8 +27,8 @@ const industries = [
 ];
 const solutions = [
   { title:"Telecom Tower & Monopole", image:"20e41.png", description:"Engineered steel structures designed to support reliable telecommunications networks across diverse site conditions, load requirements and deployment needs.", href:"/solutions/telecom-tower-monopole", id:"telecom-tower", node:"133:1462" },
-  { title:"Rapid Deployment System, RDS", image:"6a0eb.png", description:"Fast-deployment infrastructure solutions designed for temporary, urgent or flexible network expansion with efficient installation and reliable structural performance.", id:"rapid-deployment-system", node:"133:1483" },
-  { title:"Smart Pole & Lamp Pole", image:"f0e6b.png", description:"Multi-purpose pole solutions designed to support lighting, telecommunications, 5G, sensors, surveillance and modern smart city infrastructure requirements.", id:"smart-pole", node:"133:1498" },
+  { title:"Rapid Deployment System, RDS", image:"6a0eb.png", description:"Fast-deployment infrastructure solutions designed for temporary, urgent or flexible network expansion with efficient installation and reliable structural performance.", id:"rapid-deployment-system", href:"/solutions/rapid-deployment-system", node:"133:1483" },
+  { title:"Smart Pole & Lamp Pole", image:"f0e6b.png", description:"Multi-purpose pole solutions designed to support lighting, telecommunications, 5G, sensors, surveillance and modern smart city infrastructure requirements.", id:"smart-pole", href:"/solutions/smart-pole-lamp-pole", node:"133:1498" },
 ];
 export function HomeDesign() {
   return <div className="design-canvas fluid-page home-page">

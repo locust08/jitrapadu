@@ -26,13 +26,13 @@ const questions = [
   },
 ];
 
-export function TowerFaq() {
+export function TowerFaq({ items = questions }: { items?: { question: string; answer: string }[] }) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const id = useId();
 
   return (
     <div className="relative flex w-full shrink-0 flex-col items-start md:w-[1053px]" data-node-id="92:449">
-      {questions.map(({ question, answer }, index) => {
+      {items.map(({ question, answer }, index) => {
         const open = openIndex === index;
         const questionId = `${id}-question-${index}`;
         const answerId = `${id}-answer-${index}`;
