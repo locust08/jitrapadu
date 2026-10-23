@@ -88,7 +88,7 @@ async function buildReview() {
   await checkFiles(output)
   for (const route of manifest.routes) {
     const html = await readFile(path.join(output, route, 'index.html'), 'utf8')
-    if (!html.includes('www.bugherd.com/sidebarv2.js?apikey=8w0wxbo6yv16hqo0pnwzrg')) throw new Error('BugHerd script missing from review export')
+    if (!html.includes('www.bugherd.com/sidebarv2.js?apikey=jcanhtjox8irokx9xiu0vw')) throw new Error('BugHerd script missing from review export')
   }
   console.log(JSON.stringify({ output, ...manifest }, null, 2))
 }
