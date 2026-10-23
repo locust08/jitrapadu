@@ -1,0 +1,75 @@
+Product content sources — checked 21 October 2026
+
+Finding
+The client materials contain a January 2026 company profile, website copywriting,
+and named structure-photo folders. These are useful product-family sources. No
+maintained SKU catalogue, approved product master, or explicit final approval of
+every copywriting entry was established by this review.
+
+Technical source
+JITRAPADU ENGINEERING - Company Profile Jan 2026.pdf
+https://drive.google.com/file/d/1OtaaEO4EoDQt45aidooLjxbnmTPXSAXF/view
+Located in the client's Content & Materials folder:
+https://drive.google.com/drive/folders/1W7Vn3ijzKzKTnIlJ8QrvWvvaoGFDBZMa
+Readable PDF extraction identifies Angular Tower, Smart-Pole, Mono-Pole,
+Lamp-Pole, Rapid Deployment Solutions, Camouflage Pole/Pylon, Portable Base
+Transceiver Station and Cell-On-Wheel. It also names Guyed Mast, Rooftop
+Unipole, Off-grid Solar Connectivity and Minaret. Radar/broadcast structures
+appear in the project history. These represent families, configurations,
+applications and historical work; they must not be treated as interchangeable
+SKU records or proof of present availability.
+The profile includes height/load examples and selected engineering claims.
+Do not silently apply a specification from one configuration to another.
+
+Website wording and grouping
+CC - Jitrapadu Engineering Sdn Bhd
+https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit
+Connector reported last modification: 30 September 2026.
+Page 3 Product Range contains:
+- Angular Tower
+- Monopole
+- Rooftop Unipole
+- Guyed Mast
+- Radar and Broadcast Tower
+- Tower Strengthening and Modification
+- Camouflage Pole
+Tower Strengthening and Modification is a service entry and is absent from
+the current frontend's six-card Product Range. Keep this distinction visible
+in editorial review rather than assuming it is a manufactured product.
+Pages 4 and 5 supply separate RDS and Smart Pole/Lamp Pole product ranges.
+Some entries describe configurations or capabilities rather than distinct
+products. This document is the best identified source for website descriptions
+and grouping, subject to client review; its existence does not prove approval.
+
+Asset source
+Structure Photo
+https://drive.google.com/drive/folders/1zV83pD-kEjy0L3b_8KQPNK5dAS66WzpR
+Direct folder listing contains ten named structure/configuration folders:
+60m 3-legged slim tower S2; 44m slim tower G2A; 45m slim tower G2;
+45m tower J1+J3; 30m lamp pole; 24m lamp pole RDS; 24m smartpole with
+cabinet; 30m smartpole with cabinet; 18m smartpole with one cabinet;
+24m lamp pole. Individual images were not opened or downloaded during this
+review, so product-to-image matches are candidates, not verified assignments.
+
+Additional design-change evidence
+Website Changes - Jitrapadu Engineering Sdn Bhd
+https://docs.google.com/document/d/1wPEn0zom44Nw1ZUUFzU5B5XPZQG8tO_trm4AH0G4z94/edit
+Meeting date: 29 September 2026. Readable extraction includes design feedback
+and instructions to obscure certificate details except logos. Screenshot-only
+content may not be represented in the text extraction. This is not a product
+master and must not be used as one.
+
+Existing implementation and legacy content
+src/components/sites/figma-jitrapadu/tower-design.tsx hardcodes six cards.
+The original website https://www.jitrapadu.com/ supplies legacy source material;
+the prior import report records content/contact conflicts. Imported records
+are drafts and imported media are pending review. No product collection exists.
+
+Recommended authority
+Use the client profile to check technical facts, the copywriting document for
+website wording/grouping, and client photos for reviewed asset assignments.
+Record source URLs and review notes per entry. Resolve conflicts with the
+client before publishing affected claims. Payload should become the operational
+publishing source after review; it is currently a private draft repository.
+Figma and the hardcoded frontend establish presentation, not current technical
+availability. Never auto-publish imported content merely to exercise integration.

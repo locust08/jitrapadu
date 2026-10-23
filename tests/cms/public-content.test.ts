@@ -1,0 +1,57 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import { withTestPayload } from './fixtures.ts'
+import { readPublishedContent } from '../../src/cms/public-reader.ts'
+
+test('publication lifecycle excludes newer drafts, private fields and unsupported targets',()=>withTestPayload(async payload=>{
+  const solution=await payload.create({collection:'solutions',draft:true,data:{title:'DRAFT_A',slug:'telecom-tower-monopole',body:'Draft body',reviewNotes:'PRIVATE_REVIEW_NOTE',_status:'draft'}})
+  const product=await payload.create({collection:'products',draft:true,data:{title:'DRAFT_PRODUCT',slug:'test-product',description:'Description',solutionGroup:'telecom-tower-monopole',entryType:'product',_status:'draft'}})
+  const faq=await payload.create({collection:'faqs',draft:true,data:{question:'DRAFT_FAQ',answer:'Draft answer',solutionGroup:'telecom-tower-monopole',_status:'draft'}})
+  await payload.updateGlobal({slug:'site-settings',draft:true,data:{companyName:'DRAFT_COMPANY',_status:'draft'}})
+  assert.deepEqual((await readPublishedContent(payload)).products,[])
+  assert.equal((await readPublishedContent(payload)).siteSettings,null)
+  await payload.update({collection:'solutions',id:solution.id,data:{title:'PUBLIC_A',_status:'published'}})
+  await payload.update({collection:'products',id:product.id,data:{title:'PUBLIC_PRODUCT',_status:'published'}})
+  await payload.update({collection:'faqs',id:faq.id,data:{question:'PUBLIC_FAQ',_status:'published'}})
+  await payload.updateGlobal({slug:'site-settings',data:{companyName:'PUBLIC_COMPANY',_status:'published'}})
+  await payload.update({collection:'solutions',id:solution.id,draft:true,data:{title:'DRAFT_B'}})
+  await payload.update({collection:'products',id:product.id,draft:true,data:{title:'DRAFT_PRODUCT_B'}})
+  await payload.update({collection:'faqs',id:faq.id,draft:true,data:{question:'DRAFT_FAQ_B'}})
+  await payload.updateGlobal({slug:'site-settings',draft:true,data:{companyName:'DRAFT_COMPANY_B'}})
+  await payload.create({collection:'solutions',data:{title:'UNSUPPORTED',slug:'sea-freight-delivery',body:'Legacy',_status:'published'}})
+  await payload.create({collection:'faqs',data:{question:'WRONG_TARGET',answer:'RDS',solutionGroup:'rapid-deployment-system',_status:'published'}})
+  await payload.create({collection:'faqs',data:{question:'UNASSIGNED',answer:'Legacy',_status:'published'}})
+  let content=await readPublishedContent(payload)
+  assert.equal(content.solutions['telecom-tower-monopole']?.title,'PUBLIC_A')
+  assert.equal(content.siteSettings?.companyName,'PUBLIC_COMPANY')
+  assert.equal(content.products[0].title,'PUBLIC_PRODUCT');assert.equal(content.faqs.length,1)
+  for(const hidden of ['DRAFT_','PRIVATE_REVIEW_NOTE','UNSUPPORTED','WRONG_TARGET','UNASSIGNED']) assert.equal(JSON.stringify(content).includes(hidden),false)
+  await payload.update({collection:'solutions',id:solution.id,data:{title:'PUBLIC_B',_status:'published'}})
+  assert.equal((await readPublishedContent(payload)).solutions['telecom-tower-monopole']?.title,'PUBLIC_B')
+  await payload.update({collection:'solutions',id:solution.id,data:{_status:'draft'}})
+  await payload.update({collection:'products',id:product.id,data:{_status:'draft'}})
+  await payload.update({collection:'faqs',id:faq.id,data:{_status:'draft'}})
+  await payload.updateGlobal({slug:'site-settings',data:{_status:'draft'}})
+  content=await readPublishedContent(payload)
+  assert.deepEqual(content.solutions,{});assert.equal(content.products.length,0);assert.equal(content.faqs.length,0);assert.equal(content.siteSettings,null)
+}))
+
+test('approved image and verified partner requirements survive pagination and revocation',()=>withTestPayload(async payload=>{
+  const data=Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aXsQAAAAASUVORK5CYII=','base64')
+  const media=await payload.create({collection:'media',data:{label:'Reviewed logo',reviewStatus:'pending',reviewNotes:'PRIVATE_MEDIA'},file:{data,name:'logo.png',mimetype:'image/png',size:data.length}})
+  const partner=await payload.create({collection:'partners',data:{name:'Verified partner',logo:media.id,nameVerified:true,_status:'published'}})
+  for(let i=0;i<102;i++) await payload.create({collection:'products',data:{title:`Product ${i}`,slug:`p-${i}`,description:'Public',solutionGroup:'telecom-tower-monopole',entryType:'product',displayOrder:i>=100?0:i+1,image:media.id,_status:'published'}})
+  let content=await readPublishedContent(payload)
+  assert.equal(content.products.length,102);assert.equal(content.products[0].title,'Product 100');assert.equal(content.products[1].title,'Product 101')
+  assert.equal(content.products[0].image,undefined);assert.equal(content.partners.length,0)
+  await payload.update({collection:'media',id:media.id,data:{reviewStatus:'approved'}})
+  content=await readPublishedContent(payload)
+  assert.ok(content.products[0].image?.url);assert.equal(content.partners.length,1)
+  await payload.update({collection:'partners',id:partner.id,data:{nameVerified:false}})
+  assert.equal((await readPublishedContent(payload)).partners.length,0)
+  await payload.update({collection:'media',id:media.id,data:{reviewStatus:'rejected'}})
+  assert.equal((await readPublishedContent(payload)).products[0].image,undefined)
+  const original=payload.find.bind(payload)
+  payload.find=(async args=>{if(args.collection==='products')throw new Error('PRIVATE_ERROR_BODY');return original(args)}) as typeof payload.find
+  try{content=await readPublishedContent(payload);assert.deepEqual(content.products,[])}finally{payload.find=original}
+}))

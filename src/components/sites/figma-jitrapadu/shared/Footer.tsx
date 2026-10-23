@@ -1,5 +1,8 @@
+'use client';
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
+import {usePublicSettings} from "./PublishedContentProvider";
+import {contactHref} from "@/cms/public-model";
 import { FigmaIcon } from "./FigmaIcon";
 const assetPathPrefix="/sites/figma-jitrapadu/shared";
 const imgJitrapaduSecondLogo041 = `${assetPathPrefix}/d777f.png`;
@@ -9,6 +12,7 @@ const imgImage236 = `${assetPathPrefix}/5607c.png`;
 const imgLine4 = `${assetPathPrefix}/c87ff.svg`;
 const imgLine1 = `${assetPathPrefix}/ce8f2.svg`;
 export function FooterWithCta({ className, enquiryText }: { className?: string; enquiryText?: string }) {
+  const settings=usePublicSettings();
   return (
     <div data-reveal className={className || "content-stretch flex flex-col gap-[57px] items-start p-[50px] relative w-[1920px]"} data-node-id="133:1170" data-name="Footer with CTA">
       <div aria-hidden className="absolute inset-0 pointer-events-none">
@@ -112,32 +116,28 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="133:1147" data-name="contact-row-0">
                   <FigmaIcon name="location-dot"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1148" />
                   <div className="flex-[1_0_0] font-sans font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-pre-wrap" data-node-id="133:1149">
-                    <p className="leading-[26px] mb-0">{`Lot 810 & 811, `}</p>
-                    <p className="leading-[26px] mb-0">{`Batu 3 ½ Jalan Kapar, `}</p>
-                    <p className="leading-[26px] mb-0">42100 Klang,</p>
-                    <p className="leading-[26px] mb-0">Selangor Darul Ehsan,</p>
-                    <p className="leading-[26px]">Malaysia</p>
+                    {settings.address!.split(/\n/).map((line,index)=><p className="leading-[26px]" key={index}>{line}</p>)}
                   </div>
                 </div>
                 <div className="content-stretch flex gap-[8px] items-start relative shrink-0 w-full" data-node-id="133:1150" data-name="contact-row-1">
                   <FigmaIcon name="phone"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1151" />
                   <div className="flex-[1_0_0] font-sans font-normal leading-[0] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1152">
-                    <a href="tel:+60333435663" className="block leading-[26px]">03-3343 5663</a>
+                    <a href={contactHref("phone",settings.phone!)} className="block leading-[26px]">{settings.phone}</a>
+                    <a href={contactHref("phone",settings.mobile!)} className="block leading-[26px]">{settings.mobile}</a>
                     <a href="tel:+60127285663" className="block leading-[26px]">Hazim: +6012 728 5663</a>
-                    <a href="tel:+60177982984" className="block leading-[26px]">Hazim: +6017 7982 984</a>
                     <a href="tel:+60127673631" className="block leading-[26px]">Nazree: +6012 767 3631</a>
                   </div>
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1153" data-name="contact-row-2">
                   <FigmaIcon name="envelope"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1154" />
-                  <a className="flex-[1_0_0] font-sans font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1155" href="mailto:hello@jitrapadu.com">
-                    hello@jitrapadu.com
+                  <a className="flex-[1_0_0] font-sans font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1155" href={contactHref("email",settings.email!)}>
+                    {settings.email}
                   </a>
                 </div>
                 <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-node-id="133:1156" data-name="contact-row-2">
                   <FigmaIcon name="fax"  className=" leading-[1.6] relative shrink-0 text-[color:var(--color-brand-primary,#007cf8)] text-[length:var(--font-size-body,16px)] text-justify whitespace-nowrap" data-node-id="133:1157" />
                   <p className="flex-[1_0_0] font-sans font-normal leading-[26px] min-w-px relative text-[16px] text-[color:var(--color-text-inverse,white)]" data-node-id="133:1158">
-                    03-3343 5663
+                    {settings.fax}
                   </p>
                 </div>
               </div>
@@ -174,7 +174,7 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
               <p className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1167">{`Terms & Conditions`}</p>
             </div>
             <p className="[word-break:break-word] font-sans font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1161">
-              <span className="footer-copyright-company">© 2026 Jitrapadu Engineering Sdn. Bhd.</span>{" "}
+              <span className="footer-copyright-company">© 2026 {settings.companyName}</span>{" "}
               <span className="footer-copyright-registration">0779493A (200701021478).</span>{" "}
               <span className="footer-copyright-rights">All rights reserved.</span>
             </p>

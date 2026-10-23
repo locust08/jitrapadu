@@ -3,6 +3,8 @@
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
 import { FigmaIcon } from "./shared/FigmaIcon";
+import {usePublishedContent} from "./shared/PublishedContentProvider";
+import {towerProducts} from "@/cms/public-model";
 import { TowerFaq } from "./shared/TowerFaq";
 const assetPathPrefix = "/sites/figma-jitrapadu/shared";
 import { ShaderFill } from "./shared/ShaderFill";
@@ -90,25 +92,31 @@ const projects = [
 ];
 
 export function TowerDesign() {
+  const content=usePublishedContent();
+  const solution=content.solutions['telecom-tower-monopole'];
+  const publishedProducts=towerProducts(content);
+  const displayProducts=publishedProducts.length?publishedProducts.map(p=>({title:p.title,description:p.description,image:p.image?.url,alt:p.image?.alt||p.title})):products.map(p=>({...p,alt:p.title}));
   return (
     <div className="design-canvas fluid-page tower-page" data-name="Our Solutions - Telecom Tower & Monopole">
       <Header />
       <section className="tower-hero">
         <div className="tower-hero-images" aria-hidden="true"><img src={imgRectangle1} alt="" /><img src={imgRectangle2} alt="" /></div>
-        <div className="tower-shell"><h1 data-reveal>{towerCopy["60:624"]}</h1></div>
+        <div className="tower-shell"><h1 data-reveal>{solution?.title||towerCopy["60:624"]}</h1></div>
       </section>
       <section className="tower-shell tower-section tower-intro">
         <div className="tower-intro-copy" data-reveal><p className="tower-eyebrow">{towerCopy["60:628"]}</p><h2>{towerCopy["60:629"]}</h2></div>
         <div className="tower-intro-detail"><img data-reveal src={imgRectangle13} alt="Telecommunication tower infrastructure" /><div data-reveal>
+          {solution?.body ? solution.body.split(/\n\s*\n/).map((paragraph,index)=><p key={index}>{paragraph}</p>) : <>
           <p>Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions.</p>
           <p>​</p>
           <p>{`We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence. `}</p>
+          </>}
         </div></div>
         <div className="tower-intro-main" data-reveal><img src={imgRectangle12} alt="Jitrapadu tower structure" /></div>
       </section>
       <section className="tower-section tower-muted">
         <div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["65:685"]}</h2><p>{towerCopy["65:686"]}</p></div>
-          <div className="tower-products">{products.map((product) => <article className="tower-product" key={product.title} data-card data-reveal><h3>{product.title}</h3><div className="tower-product-image" data-card-image><img src={product.image} alt={product.title} /></div><p>{product.description}</p></article>)}</div>
+          <div className="tower-products">{displayProducts.map((product) => <article className="tower-product" key={product.title} data-card data-reveal><h3>{product.title}</h3>{product.image&&<div className="tower-product-image" data-card-image><img src={product.image} alt={product.alt} /></div>}<p>{product.description}</p></article>)}</div>
         </div>
       </section>
       <section className="tower-section tower-workflow">

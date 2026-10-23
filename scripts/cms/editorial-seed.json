@@ -1,0 +1,230 @@
+[
+  {
+    "title": "Engineering to deployment: a coordinated approach",
+    "slug": "engineering-to-deployment",
+    "category": "news",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Jitrapadu provides turnkey engineering support for telecommunications infrastructure and custom steel requirements. A coordinated approach connects the engineering brief, fabrication requirements and project delivery. Clients can discuss their site conditions and proposed application with the team so that the scope can be reviewed before a solution is confirmed.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Jitrapadu provides turnkey engineering support for telecommunications infrastructure and custom steel requirements.",
+    "reviewNotes": "Client-source facts: legacy services page describes turnkey telecommunications infrastructure and custom steel capabilities. Generated editorial wording; technical and client approval pending.",
+    "sourceUrl": "https://www.jitrapadu.com/services",
+    "importKey": "editorial:v1:engineering-to-deployment"
+  },
+  {
+    "title": "In-house fabrication at Jalan Kapar, Klang",
+    "slug": "in-house-fabrication-klang",
+    "category": "news",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Jitrapadu’s manufacturing base at Jalan Kapar, Klang supports steel structures for infrastructure projects. In-house fabrication brings engineering requirements and production coordination into the same project workflow. Contact the team to review a proposed structure, project requirements and practical delivery arrangements.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Jitrapadu’s manufacturing base at Jalan Kapar, Klang supports steel structures for infrastructure projects.",
+    "reviewNotes": "Client-source facts: legacy contact address identifies Jalan Kapar, Klang; client factory copy describes in-house fabrication. Generated editorial wording, pending client review.",
+    "sourceUrl": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit",
+    "importKey": "editorial:v1:in-house-fabrication-klang"
+  },
+  {
+    "title": "Proposed factory technical visit — draft programme",
+    "slug": "proposed-factory-technical-visit",
+    "category": "event",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Proposal for client review: a technical visit could introduce participants to the relationship between engineering requirements and steel fabrication. A possible programme would cover a project briefing, an overview of production coordination and a questions session. This activity is not confirmed. The client must approve participation, access arrangements, safety requirements, date and location before any invitation is issued.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Proposal for client review: a technical visit could introduce participants to the relationship between engineering requirements and steel fabrication.",
+    "reviewNotes": "Generated proposal, not evidence of a scheduled or completed event. No date, venue, participation or outcomes confirmed. Banners intentionally unset.",
+    "sourceUrl": null,
+    "importKey": "editorial:v1:proposed-factory-technical-visit"
+  },
+  {
+    "title": "Proposed telecom infrastructure briefing — draft programme",
+    "slug": "proposed-telecom-briefing",
+    "category": "event",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Proposal for client review: an infrastructure briefing could explain the project questions that inform a tower or pole solution, from application and site requirements to engineering coordination. A proposed agenda includes an introductory presentation, project scoping discussion and questions. This programme is not confirmed; speakers, date, location and attendance require client approval.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Proposal for client review: an infrastructure briefing could explain the project questions that inform a tower or pole solution, from application and site requirements to engineering coordination.",
+    "reviewNotes": "Generated proposal based on telecom engineering capability; no event or speaker confirmed and no past outcome claimed.",
+    "sourceUrl": null,
+    "importKey": "editorial:v1:proposed-telecom-briefing"
+  },
+  {
+    "title": "Proposed connectivity education initiative",
+    "slug": "proposed-connectivity-education",
+    "category": "csr",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Proposal for client review: Jitrapadu could explore an educational initiative that introduces communities or students to telecommunications infrastructure and the role of engineering. The proposed scope is an accessible explanation of connectivity, a discussion of careers and an opportunity for questions. Partners, audience, resources and any delivery arrangements remain to be agreed. No activity or impact is claimed.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Proposal for client review: Jitrapadu could explore an educational initiative that introduces communities or students to telecommunications infrastructure and the role of engineering.",
+    "reviewNotes": "Generated CSR proposal, not a completed or committed company programme. Client approval, partner agreement and scope confirmation required.",
+    "sourceUrl": null,
+    "importKey": "editorial:v1:proposed-connectivity-education"
+  },
+  {
+    "title": "Proposed responsible fabrication awareness programme",
+    "slug": "proposed-responsible-fabrication",
+    "category": "csr",
+    "body": {
+      "root": {
+        "type": "root",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "direction": null,
+        "children": [
+          {
+            "type": "paragraph",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "direction": null,
+            "children": [
+              {
+                "type": "text",
+                "version": 1,
+                "text": "Proposal for client review: an awareness programme could introduce responsible fabrication practices and the importance of planning, workmanship and resource care. A possible discussion would connect engineering choices with production coordination and practical awareness for participants. The client must confirm the scope, contributors and arrangements before this proposal becomes a public commitment. No delivery, certification or measured outcome is claimed.",
+                "detail": 0,
+                "format": 0,
+                "mode": "normal",
+                "style": ""
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "excerpt": "Proposal for client review: an awareness programme could introduce responsible fabrication practices and the importance of planning, workmanship and resource care.",
+    "reviewNotes": "Generated CSR proposal; no sustainability certification, programme commitment or achieved outcome established. Client review required.",
+    "sourceUrl": null,
+    "importKey": "editorial:v1:proposed-responsible-fabrication"
+  }
+]

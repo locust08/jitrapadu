@@ -1,0 +1,10 @@
+{
+  "name": "jitrapadu",
+  "account_id": "e7c515dde995479daacd82ad79dfc3e8",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "./temp/cloudflare-review/out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

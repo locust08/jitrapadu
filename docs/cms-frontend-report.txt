@@ -1,0 +1,84 @@
+Jitrapadu CMS frontend integration — verified 21 October 2026
+
+Available locally
+Website: http://localhost:3001/
+Product review: http://localhost:3001/admin/collections/products
+Existing administrator login is required. The owner's account was retained.
+
+Behavior
+Published Solutions update the three existing homepage cards; the tower
+Solution also updates its existing detail heading and introduction. Published
+tower-group Products and FAQs replace the matching tower sections. Published,
+name-verified Partners require approved image logos. Published Site Settings
+supply shared company/contact fields and enquiry links on all four routes.
+
+All four frontend routes render on request. Publishing appears on a full
+refresh without rebuilding. Saving a later draft leaves published values
+visible. Public page reads remain anonymous even with reviewer cookies present.
+Private review metadata and archival Source Pages are excluded. The raw Site
+Settings API remains protected. Local upload URLs use the website origin.
+
+Empty/unavailable CMS sections use existing checked-in content. Nonempty
+published lists replace static lists completely; they do not append omitted
+static entries. Unpublishing the last eligible list entry restores fallback.
+Unapproved images are omitted; partners also require verified names.
+
+Product sources and import
+The client website copywriting supplies the 20 descriptions and grouping.
+The January 2026 company profile is the technical reference; client structure
+photos remain candidates for human image assignment. Source URLs and review
+notes are retained privately on each entry. This is not a maintained SKU master.
+Source evidence: docs/audit-2026-10-21/product-content-sources.txt.
+
+First seed: created 20, skipped 0, failed 0.
+Verified rerun: created 0, skipped 20, failed 0.
+Groups: tower 7; RDS 6; Smart Pole/Lamp Pole 7. All remain drafts, with no
+unverified image assignments. Strengthening/modification is marked a service.
+
+Review database preservation
+Existing Source Pages 5, Solutions 5, FAQs 4 and Partners 19 remain draft.
+Existing Media 105 remain pending. No real review record was published or
+approved for testing. Existing administrator account retained. Online SQLite
+backups are under temp/cms/backups/ and are excluded from Git.
+The SQLite development sync emitted duplicate index statements during the
+schema update. A repair was tested on a copy, then applied transactionally
+with another backup. Every table's record contents matched its pre-repair
+backup; foreign-key checks found zero violations; the native schema planner
+then reported zero outstanding statements. The product CLI rerun succeeded.
+
+Verification
+- npm test: 14 passed, 0 failed. Actual Payload tests cover publishing, later
+  drafts, unpublishing, global behavior, editor draft access, private fields,
+  image/partner revocation, more than 100 products, ordering and seed retries.
+- npm run lint: passed.
+- npm run typecheck: passed.
+- npm run build: passed; four public routes are dynamic.
+- cms:verify-frontend: passed 18 HTML checks plus authenticated/anonymous REST,
+  file access, actual approved-image bytes/origin, reviewer-cookie isolation,
+  publishing/unpublishing without rebuild, and static fallback. Fixtures lived
+  in a disposable database/upload directory and were cleaned up afterward.
+- cms:verify-termination: passed. SIGTERM closes the owned production child and
+  removes its allocated fixture database/uploads. Regression observed failing
+  before the signal handler fix and passing afterward.
+- Fresh independent whole-change review completed. Phone dialing and signal
+  cleanup findings were fixed with regression tests; interactive fixture states
+  were corrected. Browser checks additionally caught and fixed local upload
+  origin handling, with a failing/passing model test and HTTP byte verification.
+- Browser: homepage, tower, About and Factory checked at desktop. Tower mobile
+  at 390px: page width 390px, no broken images, CMS product visible. FAQ toggles;
+  partner logo loads and duplicated marquee copy is accessibility-hidden.
+- Final real localhost checks: homepage 200; protected product review resolves
+  to login; anonymous /api/products?draft=true returns 0 documents.
+
+Screenshots show disposable published fixtures, not approved client content:
+docs/audit-2026-10-21/cms-published-tower.jpg
+docs/audit-2026-10-21/cms-published-mobile.jpg
+docs/audit-2026-10-21/cms-published-partners.jpg
+
+Limits
+General About/Factory copy, statistics, workflows, portfolio and other unmapped
+sections remain static. RDS/Smart Pole product entries are reviewable but those
+listing pages do not exist yet. No new routes, public draft preview, deployment
+or automatic publishing were added. Production database/storage/email/backup
+provisioning remains outside this local integration. Work remains on the
+existing feature branch; no commit, merge or push was performed.

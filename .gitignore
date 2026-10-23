@@ -54,3 +54,5 @@ temp/
 
 # Local Figma reference includes readable certificate documents.
 docs/research/figma-jitrapadu/audit-2026-10-22/about-figma.png
+# Local implementation ledger
+.superpowers/

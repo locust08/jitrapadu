@@ -1,0 +1,1329 @@
+{
+  "inspected_on": "2026-10-21",
+  "scope": "Five URLs listed in the public sitemap. HTML inventory only; no authenticated CMS export or media downloads. Distinct URLs include variants and decorative assets, not necessarily distinct subjects.",
+  "page_count": 5,
+  "distinct_image_src_urls": 104,
+  "distinct_video_source_urls": 4,
+  "pages": [
+    {
+      "url": "https://www.jitrapadu.com/",
+      "title": "Telecommunications Tower, Solar & Lighting Pole Manufacturer | Jitrapadu Engineering",
+      "platform_markers": {
+        "data-wf-domain": "www.jitrapadu.com",
+        "data-wf-page": "656fedfbbabef642cb7731e9",
+        "data-wf-site": "656fedfbbabef642cb7731ee"
+      },
+      "metadata": {
+        "description": "Jitrapadu is a Malaysian manufacturer and fabricator of telecommunication towers, telco poles, stadium lights, solar structures, steel poles and smart poles.",
+        "og:title": "Telecommunications Tower, Solar & Lighting Pole Manufacturer | Jitrapadu Engineering",
+        "og:description": "Jitrapadu is a Malaysian manufacturer and fabricator of telecommunication towers, telco poles, stadium lights, solar structures, steel poles and smart poles.",
+        "twitter:title": "Telecommunications Tower, Solar & Lighting Pole Manufacturer | Jitrapadu Engineering",
+        "twitter:description": "Jitrapadu is a Malaysian manufacturer and fabricator of telecommunication towers, telco poles, stadium lights, solar structures, steel poles and smart poles.",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "viewport": "width=device-width, initial-scale=1",
+        "google-site-verification": "google-site-verification=1ZZA8Nh-uXrz7XMggQXAzI-a5SaqCL07kZWFmTtVgQQ"
+      },
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png 4500w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77321a_image-footer-2.png",
+          "alt": "",
+          "width": "130",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853cd22dff626ace7dae4a0_JPD-poster-00001.jpg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6022af993a6b2191db3ed10c/628299f8aa233b83918e24fd_Pause.svg",
+          "alt": "Pause video",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/6022af993a6b2191db3ed10c/628298b20ae0236682d4b87f_Play-24.svg",
+          "alt": "Play video",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853ce9c47c88f48f9eb0b9c_0619-copy-poster-00001.jpg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6851194fa198963e4200eb6c_network.png",
+          "alt": "",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6851194fa198963e4200eb6c_network-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6851194fa198963e4200eb6c_network-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6851194fa198963e4200eb6c_network.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a46d63d56b320345839ec_complete%20infrastructure.png",
+          "alt": "",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a46d63d56b320345839ec_complete%20infrastructure-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a46d63d56b320345839ec_complete%20infrastructure-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a46d63d56b320345839ec_complete%20infrastructure.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b2b17d7b71b3ca655c_DIGI.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b2b17d7b71b3ca655c_DIGI-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b2b17d7b71b3ca655c_DIGI-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b2b17d7b71b3ca655c_DIGI.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1f68c68689ab2b892_MAXIS.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1f68c68689ab2b892_MAXIS-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1f68c68689ab2b892_MAXIS-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1f68c68689ab2b892_MAXIS.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1522886627e3fcc07_CELCOM.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1522886627e3fcc07_CELCOM-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1522886627e3fcc07_CELCOM-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1522886627e3fcc07_CELCOM.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b11a0cdf1794b3a485_UMOBILE.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b11a0cdf1794b3a485_UMOBILE-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b11a0cdf1794b3a485_UMOBILE-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b11a0cdf1794b3a485_UMOBILE.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b195788e61830cfcc8_MCMC.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b195788e61830cfcc8_MCMC-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b195788e61830cfcc8_MCMC-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b195788e61830cfcc8_MCMC.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0abe_84.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0abe_84-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0abe_84-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0abe_84.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaa_90.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaa_90-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaa_90-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaa_90.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ac3_83.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ac3_83-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ac3_83-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ac3_83.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab4_85.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab4_85-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab4_85-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab4_85.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685369e11797b9c4a133f6ce_XAIR.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685369e11797b9c4a133f6ce_XAIR-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685369e11797b9c4a133f6ce_XAIR-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685369e11797b9c4a133f6ce_XAIR.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab9_82.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab9_82-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab9_82-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0ab9_82.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaf_89.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaf_89-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaf_89-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/684fe55bb915b158d91b0aaf_89.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d19fa6978b413d070115_NIP%20GLOBAL%20LOGISTICA.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d19fa6978b413d070115_NIP%20GLOBAL%20LOGISTICA-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d19fa6978b413d070115_NIP%20GLOBAL%20LOGISTICA-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d19fa6978b413d070115_NIP%20GLOBAL%20LOGISTICA.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d27d9bcaf1fa959dc6db_PROMAJADI.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d27d9bcaf1fa959dc6db_PROMAJADI-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d27d9bcaf1fa959dc6db_PROMAJADI-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d27d9bcaf1fa959dc6db_PROMAJADI.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d08710a673ff82e1fb7e_NST%20DATA.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d08710a673ff82e1fb7e_NST%20DATA-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d08710a673ff82e1fb7e_NST%20DATA-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d08710a673ff82e1fb7e_NST%20DATA.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b13cf34f9a7806781b_PINS.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b13cf34f9a7806781b_PINS-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b13cf34f9a7806781b_PINS-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b13cf34f9a7806781b_PINS.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1259692c7db1555fe_KJS.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1259692c7db1555fe_KJS-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1259692c7db1555fe_KJS-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b1259692c7db1555fe_KJS.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b10a93e4807ae8536d_SKYLINE.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b10a93e4807ae8536d_SKYLINE-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b10a93e4807ae8536d_SKYLINE-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685917b10a93e4807ae8536d_SKYLINE.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d21f158142ed9a69c7e9_XAIR.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d21f158142ed9a69c7e9_XAIR-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d21f158142ed9a69c7e9_XAIR-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d21f158142ed9a69c7e9_XAIR.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d29ad6c941f268f0c91a_DHARMONI.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d29ad6c941f268f0c91a_DHARMONI-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d29ad6c941f268f0c91a_DHARMONI-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853d29ad6c941f268f0c91a_DHARMONI.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3cf72874683c8da592_rapid.png",
+          "alt": "Telco poles  Telecommunication Pole Telecommunication Tower Smart Pole Billboard poles ",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3cf72874683c8da592_rapid-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3cf72874683c8da592_rapid-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3cf72874683c8da592_rapid.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c9a2c54beaa8958f2_cow.png",
+          "alt": "Stadium lights  TNB poles  Light poles ",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c9a2c54beaa8958f2_cow-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c9a2c54beaa8958f2_cow-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c9a2c54beaa8958f2_cow.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c5f6444ab9a54442e_smart.png",
+          "alt": "Lampu Solar Lampu jalan Tiang solar Frame Solar",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c5f6444ab9a54442e_smart-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c5f6444ab9a54442e_smart-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3c5f6444ab9a54442e_smart.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3ce705e9e5503a08fb_sea.png",
+          "alt": "Steel poles Signage poles Steel fabricator Pole fabricato",
+          "width": "50",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3ce705e9e5503a08fb_sea-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3ce705e9e5503a08fb_sea-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685a0a3ce705e9e5503a08fb_sea.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbb2bcb307a5e5a34d_innovative.png",
+          "alt": "",
+          "width": "50",
+          "height": "50",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbb2bcb307a5e5a34d_innovative-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbb2bcb307a5e5a34d_innovative-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbb2bcb307a5e5a34d_innovative.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfe4fd20141096457_r%26d.png",
+          "alt": "",
+          "width": "50",
+          "height": "50",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfe4fd20141096457_r%26d-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfe4fd20141096457_r%26d-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfe4fd20141096457_r%26d.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fd6a593cf00b9e5a51_premium.png",
+          "alt": "",
+          "width": "50",
+          "height": "50",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fd6a593cf00b9e5a51_premium-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fd6a593cf00b9e5a51_premium-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fd6a593cf00b9e5a51_premium.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfb7001f33ec2c280_hassle.png",
+          "alt": "",
+          "width": "50",
+          "height": "50",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfb7001f33ec2c280_hassle-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfb7001f33ec2c280_hassle-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685223fbfb7001f33ec2c280_hassle.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO.png 758w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint.png",
+          "alt": "",
+          "width": "175",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint.png 566w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM.png",
+          "alt": "",
+          "width": "179",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM.png 757w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni.png",
+          "alt": "",
+          "width": "261",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni.png 855w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl.png",
+          "alt": "",
+          "width": "127",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl.png 880w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657038b2ce85b20bd68218fe_NGL.png",
+          "alt": "",
+          "width": "95",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657039ebc1084fd6ef3b2199_NST.jpg",
+          "alt": "",
+          "width": "148",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65703a4b700fa236055579d4_Promajadi.png",
+          "alt": "",
+          "width": "193",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77326b_Webclip.png",
+          "alt": "",
+          "width": "160",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65703ab1d3c7bf0b28e8d3f3_Primacell.png",
+          "alt": "",
+          "width": "90",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77326d_noun-technical-3959917%201.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/658ce50eee5d3bc14e64eec1_steering-wheel-xxl.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9c1b2db87ad28cb726c3_pole-flag-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9cc209502618313fefc6_cruise-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png",
+          "alt": "",
+          "width": "220",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png 3649w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png 1001w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bf9_001-facebook.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bfa_004-instagram.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png 1748w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b663a08197e3deea46c5b_bulb-education-idea-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b62de83f545731e5d7320_quality-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b6681c489a49f488f1925_flask-alt-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b64444361f0f138200b21_hassle-free.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65702e1ac9612ddd187a3287_Jitrapadu-01.png",
+          "alt": "",
+          "width": "71.5",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%25201%253DXPERTS%252C%2520Property%25202%253DAffiliate%2520(Website)%252C%2520Property%25203%253DColor-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png 1001w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/65c1915d0545c4e465691e8e/6864fee2312e9a06c06e8c7a_%23WeAreTheXPERTS.png",
+          "alt": "",
+          "width": "191",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68660da8fdd487144460650c_Screenshot%202022-12-03%20001054.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": ""
+        }
+      ],
+      "video_sources": [
+        "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853cd22dff626ace7dae4a0_JPD-transcode.mp4",
+        "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853cd22dff626ace7dae4a0_JPD-transcode.webm",
+        "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853ce9c47c88f48f9eb0b9c_0619-copy-transcode.mp4",
+        "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee%2F6853ce9c47c88f48f9eb0b9c_0619-copy-transcode.webm"
+      ],
+      "links": [
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/#about-us",
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/partners",
+        "https://www.jitrapadu.com/services",
+        "https://ul.waze.com/ul?place=ChIJoW8t4E5UzDERV89IljTAx1I&ll=3.06963010%2C101.41809230&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+        "https://www.facebook.com/pages/Jitrapadu-Engineering-SdnBhd/538043279630902",
+        "https://www.greenxperts.my",
+        "https://www.instagram.com/jitrapadu_engineering/",
+        "https://www.linkedin.com/in/jitrapadu-engineering-4b997a310/",
+        "https://www.xperts.my",
+        "mailto:info.greenxperts@xperts.my"
+      ]
+    },
+    {
+      "url": "https://www.jitrapadu.com/services",
+      "title": "Telecommunications Towers, Poles, Solar & Steel Fabrication Services | Jitrapadu",
+      "platform_markers": {
+        "data-wf-domain": "www.jitrapadu.com",
+        "data-wf-page": "656fedfbbabef642cb7731ed",
+        "data-wf-site": "656fedfbbabef642cb7731ee"
+      },
+      "metadata": {
+        "description": "Telecommunication Structures We design and fabricate telecommunication towers, telecommunication poles, telco poles, radar towers, radio towers, guide masts, rooftop unipoles, smart poles, and billboard poles for urban and industrial deployments. Lighting & High Mast Solutions Our lighting solutions include high mast systems, stadium lights, lamp poles, street lights, signage poles, TNB poles, tiang lampu, tiang jalan, and tiang TNB. Solar & Renewable Structures We provide solar structures, solar parking porches, solar frames, solar poles, lampu solar, tiang solar, and solar street lights for sustainable infrastructure projects. Steel Fabrication & Manufacturing As an experienced pole manufacturer and steel fabricator, we offer steel poles, tiang besi, fabrikasi besi, fabrikasi tiang, and custom pole fabrication services.",
+        "og:title": "Telecommunications Towers, Poles, Solar & Steel Fabrication Services | Jitrapadu",
+        "og:description": "Telecommunication Structures We design and fabricate telecommunication towers, telecommunication poles, telco poles, radar towers, radio towers, guide masts, rooftop unipoles, smart poles, and billboard poles for urban and industrial deployments. Lighting & High Mast Solutions Our lighting solutions include high mast systems, stadium lights, lamp poles, street lights, signage poles, TNB poles, tiang lampu, tiang jalan, and tiang TNB. Solar & Renewable Structures We provide solar structures, solar parking porches, solar frames, solar poles, lampu solar, tiang solar, and solar street lights for sustainable infrastructure projects. Steel Fabrication & Manufacturing As an experienced pole manufacturer and steel fabricator, we offer steel poles, tiang besi, fabrikasi besi, fabrikasi tiang, and custom pole fabrication services.",
+        "twitter:title": "Telecommunications Towers, Poles, Solar & Steel Fabrication Services | Jitrapadu",
+        "twitter:description": "Telecommunication Structures We design and fabricate telecommunication towers, telecommunication poles, telco poles, radar towers, radio towers, guide masts, rooftop unipoles, smart poles, and billboard poles for urban and industrial deployments. Lighting & High Mast Solutions Our lighting solutions include high mast systems, stadium lights, lamp poles, street lights, signage poles, TNB poles, tiang lampu, tiang jalan, and tiang TNB. Solar & Renewable Structures We provide solar structures, solar parking porches, solar frames, solar poles, lampu solar, tiang solar, and solar street lights for sustainable infrastructure projects. Steel Fabrication & Manufacturing As an experienced pole manufacturer and steel fabricator, we offer steel poles, tiang besi, fabrikasi besi, fabrikasi tiang, and custom pole fabrication services.",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "viewport": "width=device-width, initial-scale=1",
+        "google-site-verification": "google-site-verification=1ZZA8Nh-uXrz7XMggQXAzI-a5SaqCL07kZWFmTtVgQQ"
+      },
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png 4500w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png",
+          "alt": "",
+          "width": "130",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png 1246w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1134581fcf7b84a2e1_98.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1134581fcf7b84a2e1_98-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1134581fcf7b84a2e1_98-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1134581fcf7b84a2e1_98.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1176e3de8f9f604b00_99.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1176e3de8f9f604b00_99-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1176e3de8f9f604b00_99-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b1176e3de8f9f604b00_99.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a31125742db619eb_100.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a31125742db619eb_100-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a31125742db619eb_100-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a31125742db619eb_100.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a951a0c15e993593_101.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a951a0c15e993593_101-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a951a0c15e993593_101-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68537b11a951a0c15e993593_101.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620270_Services.png",
+          "alt": "",
+          "width": "Auto",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620270_Services-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620270_Services-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620270_Services.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620275_Telecommunications.png",
+          "alt": "",
+          "width": "Auto",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620275_Telecommunications-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620275_Telecommunications-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c620275_Telecommunications.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027a_Radio.png",
+          "alt": "",
+          "width": "Auto",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027a_Radio-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027a_Radio-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027a_Radio.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027f_Oil%20%26%20Gas.png",
+          "alt": "",
+          "width": "Auto",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027f_Oil%2520%2526%2520Gas-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027f_Oil%2520%2526%2520Gas-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853870cbf384e0d7c62027f_Oil%20%26%20Gas.png 1080w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fac081794869cad0ceff_factory1.1.png",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fac081794869cad0ceff_factory1.1-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fac081794869cad0ceff_factory1.1.png 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb30a65fbb814bd2bf93_factory2.2.png",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb30a65fbb814bd2bf93_factory2.2-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb30a65fbb814bd2bf93_factory2.2.png 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb7c27ed9b9b53516918_factory3.1.png",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb7c27ed9b9b53516918_factory3.1-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6597fb7c27ed9b9b53516918_factory3.1.png 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281992c8fd8630ffcc89a_construction1.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281992c8fd8630ffcc89a_construction1-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281992c8fd8630ffcc89a_construction1.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727d6b9b1da4fd89af87f8_product1.png",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727d6b9b1da4fd89af87f8_product1-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727d6b9b1da4fd89af87f8_product1.png 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657282aba970f11001658454_strengthening2.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657282aba970f11001658454_strengthening2-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657282aba970f11001658454_strengthening2.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572826227ee5db3eb6e3062_strengthening1.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572826227ee5db3eb6e3062_strengthening1-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572826227ee5db3eb6e3062_strengthening1.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e9f8fb7c772754ca821_product3.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e9f8fb7c772754ca821_product3-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e9f8fb7c772754ca821_product3.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773269_Column55.png",
+          "alt": "",
+          "width": "400",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773269_Column55-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773269_Column55.png 584w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714c44d2bc70c90fa07ebd_RDS2.png",
+          "alt": "",
+          "width": "397",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714c44d2bc70c90fa07ebd_RDS2-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714c44d2bc70c90fa07ebd_RDS2.png 584w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714dd5c7a70d62f6f45005_monopole.png",
+          "alt": "",
+          "width": "400",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714dd5c7a70d62f6f45005_monopole-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65714dd5c7a70d62f6f45005_monopole.png 584w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773267_Column.png",
+          "alt": "",
+          "width": "400",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773267_Column-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773267_Column.png 584w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7bcdac9629131744387c_Screenshot%202024-01-08%20123550.png",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7bcdac9629131744387c_Screenshot%202024-01-08%20123550-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7bcdac9629131744387c_Screenshot%202024-01-08%20123550-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7bcdac9629131744387c_Screenshot%202024-01-08%20123550-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7bcdac9629131744387c_Screenshot%202024-01-08%20123550.png 1499w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7d7e34f8cfe53271a6eb_donald-giannatti-Wj1D-qiOseE-unsplash_35.jpg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7d7e34f8cfe53271a6eb_donald-giannatti-Wj1D-qiOseE-unsplash_35-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7d7e34f8cfe53271a6eb_donald-giannatti-Wj1D-qiOseE-unsplash_35-p-800.jpg 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7d7e34f8cfe53271a6eb_donald-giannatti-Wj1D-qiOseE-unsplash_35-p-1080.jpg 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7d7e34f8cfe53271a6eb_donald-giannatti-Wj1D-qiOseE-unsplash_35.jpg 1725w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash.jpg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-800.jpg 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-1080.jpg 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-1600.jpg 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-2000.jpg 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-2600.jpg 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash-p-3200.jpg 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7fd9d30ee3a36717a79f_chris-liverani-XLFu0PM5Qsg-unsplash.jpg 3493w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1).jpeg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1)-p-500.jpeg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1)-p-800.jpeg 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1)-p-1080.jpeg 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1)-p-1600.jpeg 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1)-p-2000.jpeg 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659c9fbac55699270e771873_download%20(1).jpeg 2561w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e7e640ed6c298a41b39_product2.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e7e640ed6c298a41b39_product2-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727e7e640ed6c298a41b39_product2.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727f639604dd1bebfb32a1_product4.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727f639604dd1bebfb32a1_product4-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65727f639604dd1bebfb32a1_product4.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281208c20507415bac2bd_product5.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281208c20507415bac2bd_product5-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657281208c20507415bac2bd_product5.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572807da9e96d9055073a6d_product6.jpg",
+          "alt": "",
+          "width": "340",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572807da9e96d9055073a6d_product6-p-500.jpg 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6572807da9e96d9055073a6d_product6.jpg 770w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/65c1915d0545c4e465691e8e/6864fee2312e9a06c06e8c7a_%23WeAreTheXPERTS.png",
+          "alt": "",
+          "width": "191",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68660da8fdd487144460650c_Screenshot%202022-12-03%20001054.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png",
+          "alt": "",
+          "width": "220",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png 3649w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png 1001w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bf9_001-facebook.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bfa_004-instagram.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png 1748w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b663a08197e3deea46c5b_bulb-education-idea-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b62de83f545731e5d7320_quality-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b6681c489a49f488f1925_flask-alt-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b64444361f0f138200b21_hassle-free.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65702e1ac9612ddd187a3287_Jitrapadu-01.png",
+          "alt": "",
+          "width": "71.5",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%25201%253DXPERTS%252C%2520Property%25202%253DAffiliate%2520(Website)%252C%2520Property%25203%253DColor-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png 1001w"
+        }
+      ],
+      "video_sources": [],
+      "links": [
+        "https://www.jitrapadu.com/services",
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/#about-us",
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/partners",
+        "https://www.jitrapadu.com/services",
+        "https://ul.waze.com/ul?place=ChIJoW8t4E5UzDERV89IljTAx1I&ll=3.06963010%2C101.41809230&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+        "https://www.facebook.com/pages/Jitrapadu-Engineering-SdnBhd/538043279630902",
+        "https://www.greenxperts.my",
+        "https://www.instagram.com/jitrapadu_engineering/",
+        "https://www.linkedin.com/in/jitrapadu-engineering-4b997a310/",
+        "https://www.xperts.my",
+        "mailto:info.greenxperts@xperts.my"
+      ]
+    },
+    {
+      "url": "https://www.jitrapadu.com/partners",
+      "title": "Industry Partners in Telecommunication, Solar & Steel Fabrication | Jitrapadu",
+      "platform_markers": {
+        "data-wf-domain": "www.jitrapadu.com",
+        "data-wf-page": "656fedfbbabef642cb7731ec",
+        "data-wf-site": "656fedfbbabef642cb7731ee"
+      },
+      "metadata": {
+        "description": "We collaborate with contractors, utility providers, and solution partners in telecommunication towers, solar structures, stadium lighting, steel fabrication, and smart pole deployment across Malaysia.",
+        "og:title": "Industry Partners in Telecommunication, Solar & Steel Fabrication | Jitrapadu",
+        "og:description": "We collaborate with contractors, utility providers, and solution partners in telecommunication towers, solar structures, stadium lighting, steel fabrication, and smart pole deployment across Malaysia.",
+        "twitter:title": "Industry Partners in Telecommunication, Solar & Steel Fabrication | Jitrapadu",
+        "twitter:description": "We collaborate with contractors, utility providers, and solution partners in telecommunication towers, solar structures, stadium lighting, steel fabrication, and smart pole deployment across Malaysia.",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "viewport": "width=device-width, initial-scale=1",
+        "google-site-verification": "google-site-verification=1ZZA8Nh-uXrz7XMggQXAzI-a5SaqCL07kZWFmTtVgQQ"
+      },
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png 4500w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png",
+          "alt": "",
+          "width": "130",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png 1246w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657035b7975f7d5a9f1cba65_ECO.png 758w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint.png",
+          "alt": "",
+          "width": "160",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570361ffbcf1c7c279bda19_EdgePoint.png 566w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM.png",
+          "alt": "",
+          "width": "179",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570364c02c1aa3c4506db7d_TM.png 757w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni.png",
+          "alt": "",
+          "width": "261",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657036d0a9f8c0c0ee335518_DHarmoni.png 855w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657038b2ce85b20bd68218fe_NGL.png",
+          "alt": "",
+          "width": "104",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/657039ebc1084fd6ef3b2199_NST.jpg",
+          "alt": "",
+          "width": "148",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65703a4b700fa236055579d4_Promajadi.png",
+          "alt": "",
+          "width": "193",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77326b_Webclip.png",
+          "alt": "",
+          "width": "160",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65703ab1d3c7bf0b28e8d3f3_Primacell.png",
+          "alt": "",
+          "width": "90",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo.png",
+          "alt": "",
+          "width": "120",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5649b996a23858599982_MCMC_Logo.png 2642w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b588ba5a026456e93c5cf_digi%20png.png",
+          "alt": "",
+          "width": "113",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b588ba5a026456e93c5cf_digi%20png-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b588ba5a026456e93c5cf_digi%20png.png 545w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png.png",
+          "alt": "",
+          "width": "148",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5755e94344098dbde85d_maxis%20png.png 3000w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png.png",
+          "alt": "",
+          "width": "136",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b59727f8b7cf251fac634_celcom%20png.png 2560w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png.png",
+          "alt": "",
+          "width": "118",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5a38c489a49f4888c57f_umobile%20png.png 2000w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl.png",
+          "alt": "",
+          "width": "127",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6570384a8467b22d12eb672f_ytl.png 880w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b5aec34f8cfe5325ef67f_dnb-logo.svg",
+          "alt": "",
+          "width": "171",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7981264ad19f20b96d8f_skyline%20logo.png",
+          "alt": "",
+          "width": "133",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7981264ad19f20b96d8f_skyline%20logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7981264ad19f20b96d8f_skyline%20logo.png 639w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b79e85c622aebe36e07a8_PINS_logo.png",
+          "alt": "",
+          "width": "144",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b79e85c622aebe36e07a8_PINS_logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b79e85c622aebe36e07a8_PINS_logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b79e85c622aebe36e07a8_PINS_logo.png 1222w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7a18b26b3fb0cee85e18_KJS-logo.png",
+          "alt": "",
+          "width": "166",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7a18b26b3fb0cee85e18_KJS-logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7a18b26b3fb0cee85e18_KJS-logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7a18b26b3fb0cee85e18_KJS-logo-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b7a18b26b3fb0cee85e18_KJS-logo.png 1659w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/65c1915d0545c4e465691e8e/6864fee2312e9a06c06e8c7a_%23WeAreTheXPERTS.png",
+          "alt": "",
+          "width": "191",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68660da8fdd487144460650c_Screenshot%202022-12-03%20001054.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png",
+          "alt": "",
+          "width": "220",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png 3649w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png 1001w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bf9_001-facebook.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bfa_004-instagram.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png 1748w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b663a08197e3deea46c5b_bulb-education-idea-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b62de83f545731e5d7320_quality-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b6681c489a49f488f1925_flask-alt-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b64444361f0f138200b21_hassle-free.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65702e1ac9612ddd187a3287_Jitrapadu-01.png",
+          "alt": "",
+          "width": "71.5",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%25201%253DXPERTS%252C%2520Property%25202%253DAffiliate%2520(Website)%252C%2520Property%25203%253DColor-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png 1001w"
+        }
+      ],
+      "video_sources": [],
+      "links": [
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/#about-us",
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/partners",
+        "https://www.jitrapadu.com/services",
+        "https://ul.waze.com/ul?place=ChIJoW8t4E5UzDERV89IljTAx1I&ll=3.06963010%2C101.41809230&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+        "https://www.facebook.com/pages/Jitrapadu-Engineering-SdnBhd/538043279630902",
+        "https://www.greenxperts.my",
+        "https://www.instagram.com/jitrapadu_engineering/",
+        "https://www.linkedin.com/in/jitrapadu-engineering-4b997a310/",
+        "https://www.xperts.my",
+        "mailto:info.greenxperts@xperts.my"
+      ]
+    },
+    {
+      "url": "https://www.jitrapadu.com/contact-us",
+      "title": "Contact Jitrapadu | Telecommunication Tower & Pole Manufacturer Malaysia",
+      "platform_markers": {
+        "data-wf-domain": "www.jitrapadu.com",
+        "data-wf-page": "656fedfbbabef642cb7731eb",
+        "data-wf-site": "656fedfbbabef642cb7731ee"
+      },
+      "metadata": {
+        "description": "Contact Jitrapadu, a trusted telecommunication tower and pole manufacturer specializing in solar structures, street lighting, steel fabrication, and infrastructure solutions.",
+        "og:title": "Contact Jitrapadu | Telecommunication Tower & Pole Manufacturer Malaysia",
+        "og:description": "Contact Jitrapadu, a trusted telecommunication tower and pole manufacturer specializing in solar structures, street lighting, steel fabrication, and infrastructure solutions.",
+        "twitter:title": "Contact Jitrapadu | Telecommunication Tower & Pole Manufacturer Malaysia",
+        "twitter:description": "Contact Jitrapadu, a trusted telecommunication tower and pole manufacturer specializing in solar structures, street lighting, steel fabrication, and infrastructure solutions.",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "viewport": "width=device-width, initial-scale=1",
+        "google-site-verification": "google-site-verification=1ZZA8Nh-uXrz7XMggQXAzI-a5SaqCL07kZWFmTtVgQQ"
+      },
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png 4500w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png",
+          "alt": "",
+          "width": "130",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%2520Logo-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773223_Official%20Logo.png 1246w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773276_Frame%20(2).png",
+          "alt": "",
+          "width": "36",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327d_Frame%20(3).png",
+          "alt": "",
+          "width": "36",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb773279_Frame%20(5).png",
+          "alt": "",
+          "width": "36",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png",
+          "alt": "",
+          "width": "220",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6858f9eb71d0b7f24e5eafda_Jitrapadu%20Second%20logo-05.png 3649w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b77e18164af4b49e1c59_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DWhite.png 1001w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bf9_001-facebook.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/685240a3f26bfccdaaf78bfa_004-instagram.svg",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853c6e028a5c2052844bbf4_linked-02.png 1748w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/65c1915d0545c4e465691e8e/6864fee2312e9a06c06e8c7a_%23WeAreTheXPERTS.png",
+          "alt": "",
+          "width": "191",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68660da8fdd487144460650c_Screenshot%202022-12-03%20001054.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b663a08197e3deea46c5b_bulb-education-idea-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b62de83f545731e5d7320_quality-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b6681c489a49f488f1925_flask-alt-svgrepo-com.svg",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/659b64444361f0f138200b21_hassle-free.png",
+          "alt": "",
+          "width": "32",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/65702e1ac9612ddd187a3287_Jitrapadu-01.png",
+          "alt": "",
+          "width": "71.5",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png",
+          "alt": "",
+          "width": "170",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%25201%253DXPERTS%252C%2520Property%25202%253DAffiliate%2520(Website)%252C%2520Property%25203%253DColor-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/656fedfbbabef642cb77327e_Property%201%3DXPERTS%2C%20Property%202%3DAffiliate%20(Website)%2C%20Property%203%3DColor.png 1001w"
+        }
+      ],
+      "video_sources": [],
+      "links": [
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/#about-us",
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/partners",
+        "https://www.jitrapadu.com/services",
+        "https://api.whatsapp.com/send?phone=601118551538",
+        "https://ul.waze.com/ul?place=ChIJoW8t4E5UzDERV89IljTAx1I&ll=3.06963010%2C101.41809230&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location",
+        "https://www.facebook.com/pages/Jitrapadu-Engineering-SdnBhd/538043279630902",
+        "https://www.google.com/maps/place/Jitrapadu+Engineering+Sdn+Bhd/@3.0705801,101.4191679,15z/data=!4m6!3m5!1s0x31cc548ed183fdb1:0x2c30668214c9fadb!8m2!3d3.0705801!4d101.4191679!16s%2Fg%2F11bxg5rntl?entry=ttu",
+        "https://www.greenxperts.my",
+        "https://www.instagram.com/jitrapadu_engineering/",
+        "https://www.linkedin.com/in/jitrapadu-engineering-4b997a310/",
+        "https://www.xperts.my",
+        "mailto:info.greenxperts@xperts.my"
+      ]
+    },
+    {
+      "url": "https://www.jitrapadu.com/faq",
+      "title": "FAQ",
+      "platform_markers": {
+        "data-wf-domain": "www.jitrapadu.com",
+        "data-wf-page": "694b5ebbb352d21ee4da5381",
+        "data-wf-site": "656fedfbbabef642cb7731ee"
+      },
+      "metadata": {
+        "og:title": "FAQ",
+        "twitter:title": "FAQ",
+        "viewport": "width=device-width, initial-scale=1",
+        "google-site-verification": "google-site-verification=1ZZA8Nh-uXrz7XMggQXAzI-a5SaqCL07kZWFmTtVgQQ"
+      },
+      "images": [
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png",
+          "alt": "",
+          "width": "150",
+          "height": "",
+          "srcset": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-500.png 500w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-800.png 800w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1080.png 1080w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-1600.png 1600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2000.png 2000w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-2600.png 2600w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04-p-3200.png 3200w, https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/6853b7c6d5e7930e548646fb_Jitrapadu%20Second%20logo-04.png 4500w"
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/65c1915d0545c4e465691e8e/6864fee2312e9a06c06e8c7a_%23WeAreTheXPERTS.png",
+          "alt": "",
+          "width": "191",
+          "height": "",
+          "srcset": ""
+        },
+        {
+          "src": "https://cdn.prod.website-files.com/656fedfbbabef642cb7731ee/68660da8fdd487144460650c_Screenshot%202022-12-03%20001054.png",
+          "alt": "",
+          "width": "25",
+          "height": "25",
+          "srcset": ""
+        }
+      ],
+      "video_sources": [],
+      "links": [
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/",
+        "https://www.jitrapadu.com/contact-us",
+        "https://www.jitrapadu.com/faq",
+        "https://www.jitrapadu.com/partners",
+        "https://www.jitrapadu.com/services",
+        "https://www.facebook.com/pages/Jitrapadu-Engineering-SdnBhd/538043279630902",
+        "https://www.instagram.com/jitrapadu_engineering/",
+        "https://www.linkedin.com/in/jitrapadu-engineering-4b997a310/",
+        "https://www.xperts.my",
+        "mailto:info.greenxperts@xperts.my"
+      ]
+    }
+  ]
+}

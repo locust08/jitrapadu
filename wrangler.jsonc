@@ -3,7 +3,7 @@
   "name": "jitrapadu",
   "account_id": "e7c515dde995479daacd82ad79dfc3e8",
   "assets": {
-    "directory": "./out",
+    "directory": "./temp/cloudflare-review/out",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   },
