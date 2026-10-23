@@ -3,6 +3,7 @@ import {PublishedContentProvider} from '@/components/sites/figma-jitrapadu/share
 export const dynamic = 'force-dynamic';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 import "@/components/sites/figma-jitrapadu/site.css";
 import "@/components/sites/figma-jitrapadu/mobile.css";
@@ -31,7 +32,15 @@ export default async function RootLayout({
       data-scroll-behavior="smooth"
       className={`${inter.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><PublishedContentProvider value={content}>{children}</PublishedContentProvider></body>
+      <body className="min-h-full flex flex-col">
+        <PublishedContentProvider value={content}>{children}</PublishedContentProvider>
+        <Script
+          id="bugherd-sidebar"
+          src="https://www.bugherd.com/sidebarv2.js?apikey=8w0wxbo6yv16hqo0pnwzrg"
+          strategy="afterInteractive"
+          async
+        />
+      </body>
     </html>
   );
 }

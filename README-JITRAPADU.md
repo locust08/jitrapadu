@@ -276,3 +276,29 @@ keep normal full project/upload backups separately. Never reset the review DB.
 Public article pages, contact-form markup and Maps remain unwired in this phase;
 website design and existing page content are preserved. The APIs are ready for
 that later integration. No starter draft is published automatically.
+
+## Cloudflare frontend review deployment
+
+The existing Cloudflare Worker is `jitrapadu`; `wrangler.review.jsonc` deploys a
+static frontend review build to it. BugHerd loads once across the public website
+using the supplied project script and is not included in the Payload admin layout.
+
+```bash
+npm run test:review
+npm run review:build
+npm run review:deploy
+```
+
+The build uses an isolated workspace under ignored `temp/cloudflare-review/`,
+exports the four existing public pages with Next.js static export, and captures
+only the existing published-content projection when local Payload configuration
+is available. Without local CMS credentials it retains the site's static fallback
+content. Only approved referenced CMS images are copied from local uploads; private
+drafts, admin/API routes, local database, credentials and unapproved uploads are
+excluded. The normal standalone CMS application and its build remain separate.
+
+The review export has `X-Robots-Tag: noindex, nofollow, noarchive`. It has no live
+CMS/contact backend; publish edits locally and rebuild/redeploy to refresh the
+snapshot. Wrangler uses the existing account login and `--keep-vars`; no tokens
+are committed. The Worker remains an asset-only deployment with its existing
+HTML/404 handling. Full CMS hosting requires a separate backend deployment.

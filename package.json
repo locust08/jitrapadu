@@ -45,7 +45,10 @@
     "cms:seed-posts": "tsx --env-file=.env scripts/cms/seed-posts.ts",
     "cms:retry-notifications": "tsx --env-file=.env scripts/cms/retry-notifications.ts",
     "cms:verify-backend": "node --import tsx scripts/cms/verify-backend.ts",
-    "cms:verify-backend-termination": "node --import tsx scripts/cms/verify-termination.ts --backend"
+    "cms:verify-backend-termination": "node --import tsx scripts/cms/verify-termination.ts --backend",
+    "review:build": "node --env-file-if-exists=.env --import tsx scripts/cloudflare/build-review.ts",
+    "test:review": "node --import tsx --test --test-force-exit tests/cloudflare/*.test.ts",
+    "review:deploy": "npx --yes wrangler@4 deploy --config wrangler.review.jsonc --keep-vars"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
