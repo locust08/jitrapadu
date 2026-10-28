@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FigmaIcon } from "./FigmaIcon";
+import { portfolioOptions } from "../portfolio-options";
 
 const solutions = [
   ["Telecom Tower & Monopole", "/solutions/telecom-tower-monopole"],
@@ -37,7 +38,10 @@ export function Header({ className = "" }: { className?: string }) {
         {open === "solutions" && <div className="dropdown-panel">{solutions.map(([label, href]) => <Link key={label} href={href} onClick={() => {setOpen(null); setMobileOpen(false);}}>{label}</Link>)}</div>}
       </div>
       <Link href="/our-factory" onClick={() => setMobileOpen(false)}>Our Factory</Link>
-      <Link href="/portfolio" onClick={() => setMobileOpen(false)}>Portfolio</Link>
+      <div className="nav-dropdown">
+        <button type="button" aria-expanded={open === "portfolio"} onClick={() => setOpen(open === "portfolio" ? null : "portfolio")}>Portfolio <FigmaIcon name="caret-down" /></button>
+        {open === "portfolio" && <div className="dropdown-panel">{portfolioOptions.filter(option => option.id !== "all").map(option => <Link key={option.id} href={`/portfolio?solution=${option.id}`} onClick={() => {setOpen(null); setMobileOpen(false);}}>{option.label}</Link>)}</div>}
+      </div>
       <div className="nav-dropdown">
         <button type="button" aria-expanded={open === "resources"} onClick={() => setOpen(open === "resources" ? null : "resources")}>Resources <FigmaIcon name="caret-down" /></button>
         {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/resources" onClick={() => {setOpen(null); setMobileOpen(false);}}>Resources Overview</Link><Link href="/blog" onClick={() => {setOpen(null); setMobileOpen(false);}}>Blog</Link><Link href="/news-events" onClick={() => {setOpen(null); setMobileOpen(false);}}>News &amp; Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}

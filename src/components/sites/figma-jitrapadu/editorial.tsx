@@ -2,7 +2,7 @@
 "use client";
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { ArrowRight, CalendarDays, Newspaper, Grid2X2, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, Grid2X2, Newspaper, ChevronLeft, ChevronRight } from "lucide-react";
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
 import { editorialPosts, type EditorialKind, type EditorialPost } from "./editorial-data";
@@ -23,16 +23,16 @@ export function EditorialArchive({kind,blog=false}:{kind:EditorialKind;blog?:boo
   const results=useRef<HTMLDivElement>(null);
   const changePage=(next:number)=>{setPage(next);results.current?.scrollIntoView({behavior:window.matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth",block:"start"});};
   const csr=kind==="csr";
-  const categories=csr?["All","Community","Education","Environment"]:blog?["All"]:["All","News","Events"];
-  const filtered=editorialPosts[kind].filter(post=>(!blog||post.category==="News")&&(category==="All"||post.category===category));
+  const categories=csr?["All","Community","Education","Environment"]:blog?["All"]:["All","Article","News","Events"];
+  const filtered=editorialPosts[kind].filter(post=>(!blog||post.category==="Article")&&(category==="All"||post.category===category));
   const count=csr?4:5;
   const pages=Math.ceil(filtered.length/count);
   const visible=filtered.slice((page-1)*count,page*count);
   return <ResourceFrame>
     <section data-reveal className={`resource-hero ${csr?"csr-hero":"news-hero"}`}><img src={csr?"/sites/figma-jitrapadu/editorial/engineering-education.png":"/sites/figma-jitrapadu/shared/fa8df.png"} alt=""/><div className="resource-hero-copy"><p className="resource-eyebrow">{csr?"CSR — Community Stories":"Resources"}</p><h1>{csr?"CSR":blog?"Blog":"News & Events"}</h1><p>{csr?"Discover how Jitrapadu supports community development, safer infrastructure and a better-connected Malaysia through meaningful corporate social responsibility initiatives.":blog?"Read practical articles on telecommunication infrastructure, steel fabrication, smart poles, rapid deployment systems, 5G readiness and project planning.":"Follow our latest company updates, project announcements, industry participation, certifications and milestone achievements."}</p></div></section>
     <section className="resource-shell archive-layout" data-reveal>
-      <aside className="archive-sidebar" aria-label="Post filters"><h2>{csr?"Filter stories":"Filter by"}</h2><div className="archive-filters">{categories.map((item,index)=><button key={item} type="button" aria-pressed={category===item} onClick={()=>{setCategory(item);setPage(1);}}>{index===0?<Grid2X2 size={18}/>:item==="Events"?<CalendarDays size={18}/>:<Newspaper size={18}/>}<span>{item==="All"?(csr?"All initiatives":"All updates"):item}</span></button>)}</div><p className="archive-year-note">{csr?"Initiatives are proposed and undated.":"Dates will appear once editorial and event details are confirmed."}</p></aside>
-      <div className="archive-results" ref={results}><div className="editorial-notice"><p className="resource-eyebrow">{csr?"Proposed CSR stories — draft content":"Draft editorial content"}</p><p>{csr?"These stories explore potential initiatives. They do not report completed activities or verified outcomes. Imagery is illustrative.":"Articles and event ideas are drafts for review. Events are not scheduled and no bookings are being taken. Images are illustrative."}</p></div><p className="result-count" role="status">{filtered.length} {filtered.length===1?"story":"stories"}{category!=="All"?` in ${category}`:""}</p><div className="post-grid">{visible.map((post,index)=><PostCard post={post} kind={kind} key={post.slug} featured={!csr&&page===1&&category==="All"&&index===0}/>)}</div>
+      <aside className="archive-sidebar" aria-label="Post filters"><h2>{csr?"Filter stories":"Filter by"}</h2><div className="archive-filters">{categories.map((item,index)=><button key={item} type="button" aria-pressed={category===item} onClick={()=>{setCategory(item);setPage(1);}}>{csr&&(index===0?<Grid2X2 size={18}/>:<Newspaper size={18}/>)}<span>{item==="All"?(csr?"All initiatives":"All updates"):item}</span></button>)}</div><p className="archive-year-note">{csr?"Initiatives are proposed and undated.":"Dates will appear once editorial and event details are confirmed."}</p></aside>
+      <div className="archive-results" ref={results}><div className="editorial-notice"><p className="resource-eyebrow">{csr?"Proposed CSR stories — draft content":"Draft editorial content"}</p><p>{csr?"These stories explore potential initiatives. They do not report completed activities or verified outcomes. Imagery is illustrative.":"Articles and event ideas are drafts for review. Events are not scheduled and no bookings are being taken. Images are illustrative."}</p></div><p className="result-count" role="status">{filtered.length} {filtered.length===1?"story":"stories"}{category!=="All"?` in ${category}`:""}</p>{filtered.length===0&&<p className="archive-empty" role="status">No posts are available in this category yet.</p>}<div className="post-grid">{visible.map((post,index)=><PostCard post={post} kind={kind} key={post.slug} featured={!csr&&page===1&&category==="All"&&index===0}/>)}</div>
       {pages>1&&<nav className="archive-pagination" aria-label="Archive pagination"><button type="button" disabled={page===1} aria-label="Previous page" onClick={()=>changePage(page-1)}><ChevronLeft size={18}/></button>{Array.from({length:pages},(_,i)=><button key={i} aria-current={page===i+1?"page":undefined} onClick={()=>changePage(i+1)}>{i+1}</button>)}<button type="button" disabled={page===pages} aria-label="Next page" onClick={()=>changePage(page+1)}><ChevronRight size={18}/></button></nav>}</div>
     </section>
   </ResourceFrame>;

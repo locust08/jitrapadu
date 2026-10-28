@@ -62,3 +62,9 @@ body:has(.portfolio-dialog[open]) { overflow:hidden; }
 @media(max-width:760px) { .portfolio-hero { min-height:370px; padding:135px 24px 32px; } .portfolio-hero-copy>p:last-child { font-size:16px; } .portfolio-layout { display:block; padding:24px; } .portfolio-sidebar { position:static; margin-bottom:20px; } .portfolio-sidebar h2,.portfolio-filters { display:none; } .portfolio-mobile-filter { display:grid; gap:8px; font-size:14px; font-weight:600; } .portfolio-mobile-filter select { width:100%; padding:14px; border:1px solid #dce4ed; border-radius:8px; background:#f7f9fc; color:#102033; font-size:16px; } .portfolio-grid { gap:20px; } .portfolio-card { aspect-ratio:1/1.05; } .portfolio-card-description { font-size:14px; } .portfolio-enquiry { padding:32px 24px; flex-direction:column; align-items:flex-start; gap:24px; } .portfolio-enquiry p { font-size:15px; } .portfolio-dialog-layout { grid-template-columns:1fr; } .portfolio-dialog-photo { height:280px; } .portfolio-dialog-copy { padding:28px 24px; gap:18px; } .portfolio-dialog-copy h2 { font-size:26px; } }
 @media(max-width:540px) { .portfolio-grid { grid-template-columns:1fr; } .portfolio-card-title { font-size:20px; } }
 @media(prefers-reduced-motion:reduce) { .portfolio-card>img,.portfolio-view>span,.portfolio-filters button { transition:none; } .portfolio-card:hover>img,.portfolio-card:focus-visible>img { transform:none; } }
+
+.portfolio-empty { padding:40px 24px; border:1px solid #dde4ec; border-radius:12px; color:#495667; font-size:18px; line-height:1.6; }
+.portfolio-loading { min-height:100vh; padding:160px 24px; text-align:center; }
+.portfolio-category-intro { margin-bottom: 32px; }
+.portfolio-category-intro h2 { font-size: clamp(26px, 2.2vw, 36px); line-height: 1.2; font-weight: 700; margin-bottom: 16px; }
+.portfolio-category-intro p { color: #495667; font-size: 18px; line-height: 1.6; max-width: 850px; }

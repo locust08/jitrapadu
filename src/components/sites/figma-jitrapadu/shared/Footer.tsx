@@ -11,7 +11,7 @@ const imgFooterWithCta1 = `${assetPathPrefix}/90da0.png`;
 const imgImage236 = `${assetPathPrefix}/5607c.png`;
 const imgLine4 = `${assetPathPrefix}/c87ff.svg`;
 const imgLine1 = `${assetPathPrefix}/ce8f2.svg`;
-export function FooterWithCta({ className, enquiryText }: { className?: string; enquiryText?: string }) {
+export function FooterWithCta({ className, enquiryTitle, enquiryText, enquiryLabel }: { className?: string; enquiryTitle?: string; enquiryText?: string; enquiryLabel?: string }) {
   const settings=usePublicSettings();
   return (
     <div data-reveal className={className || "content-stretch flex flex-col gap-[57px] items-start p-[50px] relative w-[1920px]"} data-node-id="133:1170" data-name="Footer with CTA">
@@ -27,7 +27,7 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
       <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--spacing-40,40px)] h-[402px] items-start not-italic p-[var(--spacing-40,40px)] relative rounded-[var(--spacing-24,24px)] shrink-0 text-[color:var(--color-text-inverse,white)] w-[990px]" data-node-id="133:1099" data-name="Frame">
         <div className="content-stretch flex flex-col gap-[var(--spacing-24,24px)] items-start relative shrink-0 w-full" data-node-id="133:1100">
           <p className="font-sans font-bold leading-[76px] relative shrink-0 text-[68px] tracking-[-1.8px] w-full" data-node-id="133:1101">
-            Build Stronger Network Infrastructure with Jitrapadu
+            {enquiryTitle || "Build Stronger Network Infrastructure with Jitrapadu"}
           </p>
           <p className="font-sans font-semibold leading-[32px] relative shrink-0 text-[24px] tracking-[-0.3px] w-full" data-node-id="133:1102">
             {enquiryText || "Tell us about your tower or monopole project and our team will recommend a structure that fits your site, load requirement and deployment timeline."}
@@ -35,7 +35,7 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
         </div>
         <a className="bg-[var(--color-brand-primary,#007cf8)] content-stretch flex gap-[15px] items-center justify-center px-[20px] py-[10px] relative rounded-[30px] shrink-0 text-[16px] whitespace-nowrap" data-node-id="133:1103" data-name="Button" href="/contact-us">
           <p className="font-sans font-semibold leading-[20px] relative shrink-0 tracking-[0.1px]" data-node-id="I133:1103;14:396">
-            Send an Enquiry
+            {enquiryLabel || "Send an Enquiry"}
           </p>
           <FigmaIcon name="envelope"  className=" leading-[1.6] relative shrink-0" data-node-id="I133:1103;14:397" />
         </a>

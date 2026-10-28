@@ -25,7 +25,7 @@
 .additional-solution .solution-application-slots article { background:#f3f6fa; }
 .additional-solution .solution-application-slots article::after { background:linear-gradient(transparent 40%,#102c4cd9); }
 .additional-solution .solution-application-image { position:absolute; inset:0; z-index:-2; }
-/* RDS has eight use cases: retain the eighth as a full-width final tile. */
+/* Both solution pages have eight use cases: retain the eighth as a full-width final tile. */
 @media(min-width:1100px) { .additional-solution .solution-application-slots article:last-child { grid-column:1/-1; } }
 /* Task #26: three project slots and the same heading/link arrangement as Telecom. */
 .additional-solution .solution-featured-slot { min-width:0; padding:clamp(16px,1.4vw,24px); }

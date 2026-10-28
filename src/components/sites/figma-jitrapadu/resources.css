@@ -134,3 +134,4 @@
  .contact-map iframe { height:360px; }
  .contact-map { padding-bottom:48px; }
 }
+.archive-empty { padding: 32px 24px; border: 1px solid #dde4ec; border-radius: 12px; color: #495667; line-height: 1.6; }

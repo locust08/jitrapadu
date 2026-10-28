@@ -42,21 +42,20 @@ export function SolutionDesign({ solution }: { solution: SolutionKey }) {
     </div></section>
     <section className="tower-section tower-muted"><div className="tower-shell">
       <div className="tower-section-heading" data-reveal><h2>Applications &amp; Use Cases</h2><p>{data.applicationsIntro}</p></div>
-      {isRds ? <div className="tower-applications solution-application-slots">{data.applications.map(application => <article key={application} data-card data-reveal>
+      <div className="tower-applications solution-application-slots">{data.applications.map(application => <article key={application} data-card data-reveal>
         <div className="solution-application-image" aria-hidden="true" /><h3>{application}</h3>
-      </article>)}</div> : <ul className="solution-use-cases">{data.applications.map(application => <li key={application} data-card data-reveal>{application}</li>)}</ul>}
+      </article>)}</div>
     </div></section>
     <section className="tower-section tower-shell">
-      {isRds ? <>
         <div className="tower-featured-heading"><div data-reveal><h2>Featured Projects</h2><p>{data.featuredIntro}</p></div><Link className="tower-project-label" href="/portfolio">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
         <div className="tower-projects solution-featured-slots" aria-hidden="true">{[0, 1, 2].map(index => <div className="solution-featured-slot" key={index}><div className="tower-project-image solution-image-blank" /></div>)}</div>
-      </> : <><div className="tower-section-heading" data-reveal><h2>Featured Projects</h2><p>{data.featuredIntro}</p></div><div className="solution-project-blanks" aria-hidden="true"><div /><div /></div></>}
     </section>
-    <section className="tower-section tower-faq"><div className="tower-shell">
+    <section className="tower-section tower-faq">
+      {!isRds && <div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup, render, manifest, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } } }} /></div>}
+      <div className="tower-shell">
       <div className="tower-section-heading" data-reveal><p className="tower-eyebrow">FAQ</p><h2>Your Questions, Answered</h2></div>
       <TowerFaq items={data.questions} />
     </div></section>
-    <section className="solution-copy-cta tower-shell" data-reveal><h2>{data.ctaTitle}</h2><p>{data.ctaText}</p><Link className="primary-action" href="/contact-us">{data.ctaLabel}</Link></section>
-    <FooterWithCta className="site-footer solution-copy-footer" />
+    <FooterWithCta className="site-footer" enquiryTitle={data.ctaTitle} enquiryText={data.ctaText} />
   </div>;
 }
