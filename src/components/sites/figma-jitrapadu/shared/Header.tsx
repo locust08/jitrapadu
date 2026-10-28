@@ -44,7 +44,7 @@ export function Header({ className = "" }: { className?: string }) {
       </div>
       <div className="nav-dropdown">
         <button type="button" aria-expanded={open === "resources"} onClick={() => setOpen(open === "resources" ? null : "resources")}>Resources <FigmaIcon name="caret-down" /></button>
-        {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/resources" onClick={() => {setOpen(null); setMobileOpen(false);}}>Resources Overview</Link><Link href="/blog" onClick={() => {setOpen(null); setMobileOpen(false);}}>Blog</Link><Link href="/news-events" onClick={() => {setOpen(null); setMobileOpen(false);}}>News &amp; Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
+        {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/blog" onClick={() => {setOpen(null); setMobileOpen(false);}}>Article</Link><Link href="/news-events?category=News" onClick={() => {setOpen(null); setMobileOpen(false);}}>News</Link><Link href="/news-events?category=Events" onClick={() => {setOpen(null); setMobileOpen(false);}}>Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
       </div>
     </nav>
     <a className="enquiry-button" href="/contact-us">Send an Enquiry <FigmaIcon name="envelope" /></a>

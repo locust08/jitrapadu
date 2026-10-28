@@ -1,5 +1,5 @@
 export type EditorialKind = "news-events" | "csr";
-export type EditorialPost = { slug:string; category:string; title:string; excerpt:string; image:string; body:{ heading:string; text:string }[] };
+export type EditorialPost = { slug:string; completedYear?:number; category:string; title:string; excerpt:string; image:string; body:{ heading:string; text:string }[] };
 const asset = (name:string) => `/sites/figma-jitrapadu/shared/${name}.png`;
 export const editorialPosts: Record<EditorialKind, EditorialPost[]> = {
   "news-events": [
@@ -35,22 +35,22 @@ export const editorialPosts: Record<EditorialKind, EditorialPost[]> = {
     ]},
   ],
   csr:[
-    {slug:"young-minds-engineering",category:"Education",title:"Introducing Young Minds to Engineering",excerpt:"A proposed initiative to introduce students to engineering through practical demonstrations and shared knowledge.",image:"/sites/figma-jitrapadu/editorial/engineering-education.png",body:[
+    {slug:"young-minds-engineering",completedYear:2026,category:"Education",title:"Introducing Young Minds to Engineering",excerpt:"A proposed initiative to introduce students to engineering through practical demonstrations and shared knowledge.",image:"/sites/figma-jitrapadu/editorial/engineering-education.png",body:[
       {heading:"Our intent",text:"This proposed initiative explores how practical demonstrations could help students discover the ideas behind engineering and telecommunications. A safe, supervised learning environment would allow young people to ask questions and connect classroom subjects with real-world applications."},
       {heading:"Learning through discovery",text:"Possible activities include working with small structure models, discussing how communications networks connect communities and learning about different engineering roles. Any programme would be planned with appropriate educators and safeguarding arrangements."},
       {heading:"A proposed direction",text:"This story describes a concept, not a completed company activity. The programme, partners and delivery arrangements have not been confirmed. We welcome conversations with education partners who would like to explore responsible ways of sharing engineering knowledge."},
     ]},
-    {slug:"safer-workplaces-communities",category:"Community",title:"Safer Workplaces, Stronger Communities",excerpt:"Exploring opportunities to share practical safety awareness with communities and project partners.",image:"/sites/figma-jitrapadu/editorial/site-team.png",body:[
+    {slug:"safer-workplaces-communities",completedYear:2025,category:"Community",title:"Safer Workplaces, Stronger Communities",excerpt:"Exploring opportunities to share practical safety awareness with communities and project partners.",image:"/sites/figma-jitrapadu/editorial/site-team.png",body:[
       {heading:"Safety as a shared conversation",text:"This proposed initiative considers how teams could share practical awareness of safe working practices beyond an individual project. Conversations would focus on recognising hazards, communicating clearly and understanding the responsibilities of everyone involved."},
       {heading:"Working with others",text:"Potential activities could include guided discussions with suitable community or industry partners. Any activity would need a defined scope and the involvement of appropriately qualified people."},
       {heading:"Next steps",text:"No programme has been launched or completed under this draft story. Specific activities, partners and dates would be announced only after confirmation."},
     ]},
-    {slug:"responsible-material-use",category:"Environment",title:"Exploring Responsible Material Use",excerpt:"A proposed conversation about material stewardship, resource awareness and responsible fabrication practices.",image:"/sites/figma-jitrapadu/editorial/responsible-materials.png",body:[
+    {slug:"responsible-material-use",completedYear:2024,category:"Environment",title:"Exploring Responsible Material Use",excerpt:"A proposed conversation about material stewardship, resource awareness and responsible fabrication practices.",image:"/sites/figma-jitrapadu/editorial/responsible-materials.png",body:[
       {heading:"Understanding the materials we use",text:"Steel infrastructure depends on careful material planning. This proposed CSR direction explores how knowledge sharing could help people understand the role of materials, finishing and responsible resource use."},
       {heading:"Small decisions, wider awareness",text:"Possible topics include material identification, thoughtful planning and the importance of using appropriate waste-management channels. Specific environmental outcomes would need to be measured before any claims could be made."},
       {heading:"An idea for collaboration",text:"This is a proposed educational story and does not report a completed planting programme or verified environmental impact. The image is an AI-generated illustration. Partnerships and activities remain to be confirmed."},
     ]},
-    {slug:"connecting-shared-knowledge",category:"Community",title:"Connecting Through Shared Knowledge",excerpt:"Exploring collaboration between communities, educational institutions and infrastructure professionals.",image:"/sites/figma-jitrapadu/editorial/engineering-education.png",body:[
+    {slug:"connecting-shared-knowledge",completedYear:2025,category:"Community",title:"Connecting Through Shared Knowledge",excerpt:"Exploring collaboration between communities, educational institutions and infrastructure professionals.",image:"/sites/figma-jitrapadu/editorial/engineering-education.png",body:[
       {heading:"Create opportunities to learn",text:"Knowledge becomes more useful when people can share their experiences. This proposed initiative considers how engineering teams and local partners could exchange practical perspectives on infrastructure and connectivity."},
       {heading:"Listen before planning",text:"A useful programme begins by understanding the interests and needs of the people involved. Potential sessions would be developed with partners rather than assuming a single approach works for every community."},
       {heading:"Open to discussion",text:"This story outlines a possible direction, not a completed activity or formal partnership. Contact our team if your organisation would like to discuss a relevant opportunity."},

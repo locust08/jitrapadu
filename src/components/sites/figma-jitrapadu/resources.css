@@ -135,3 +135,9 @@
  .contact-map { padding-bottom:48px; }
 }
 .archive-empty { padding: 32px 24px; border: 1px solid #dde4ec; border-radius: 12px; color: #495667; line-height: 1.6; }
+.archive-category-intro { margin-bottom: 24px; }
+.archive-category-intro h2 { margin-bottom: 16px; }
+.archive-category-intro .editorial-draft-note { margin-top: 16px; font-size: 13px; }
+.archive-year-filter { display: grid; gap: 10px; padding-inline: 12px; font-size: 14px; font-weight: 600; }
+.archive-year-filter select { width: 100%; min-width: 0; padding: 12px; border: 1px solid #c5ced8; border-radius: 7px; color: #102033; background: #fff; font: inherit; }
+.archive-loading { min-height: 100vh; padding: 160px 24px; text-align: center; }
