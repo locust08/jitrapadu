@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import Link from "next/link";
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
 import { FigmaIcon } from "./shared/FigmaIcon";
@@ -108,7 +109,6 @@ export function TowerDesign() {
         <div className="tower-intro-detail"><img data-reveal src={imgRectangle13} alt="Telecommunication tower infrastructure" /><div data-reveal>
           {solution?.body ? solution.body.split(/\n\s*\n/).map((paragraph,index)=><p key={index}>{paragraph}</p>) : <>
           <p>Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions.</p>
-          <p>​</p>
           <p>{`We support tower owners, telcos, infrastructure providers and project partners with solutions that can be tailored by height, load capacity, operator requirements, foundation type and site constraints. With in-house fabrication and experienced project teams, we help clients move from engineering concept to field deployment with greater confidence. `}</p>
           </>}
         </div></div>
@@ -128,8 +128,8 @@ export function TowerDesign() {
       <section className="tower-section tower-muted"><div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["83:1678"]}</h2><p>{towerCopy["83:1679"]}</p></div>
         <div className="tower-applications">{applications.map((application) => <article key={application.title} data-card data-reveal><div data-card-image><img src={application.image} alt="" /></div><h3>{application.title}</h3></article>)}</div>
       </div></section>
-      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><span className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></span></div>
-        <div className="tower-projects">{projects.map((project) => <article key={project.title} data-card data-reveal><div className="tower-project-image" data-card-image><img src={project.image} alt={project.title} /></div><p className="tower-project-tag">{project.label}</p><h3>{project.title}</h3></article>)}</div>
+      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
+        <div className="tower-projects">{projects.map((project) => <article key={project.title} data-card data-reveal><div className="tower-project-image"><img data-card-image src={project.image} alt={project.title} /></div><p className="tower-project-tag">{project.label}</p><h3>{project.title}</h3></article>)}</div>
       </section>
       <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2>{towerCopy["133:1004"]}</h2></div><TowerFaq /></div></section>
       <FooterWithCta className="site-footer" />

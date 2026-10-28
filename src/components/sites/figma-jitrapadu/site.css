@@ -20,7 +20,7 @@ body { margin:0; font-family:var(--font-inter),Arial,sans-serif; color:#102033; 
 .main-navigation button { display:flex; align-items:center; gap:8px; }
 .main-navigation .figma-icon { color:#007cf8; font-size:18px; }
 .nav-dropdown { position:relative; }
-.dropdown-panel { position:absolute; top:calc(100% + 32px); left:0; min-width:248px; display:flex; flex-direction:column; gap:24px; padding:16px; background:rgba(255,255,255,.88); backdrop-filter:blur(14px); border-radius:0 0 12px 12px; box-shadow:0 10px 25px #092a5410; }
+.dropdown-panel { position:absolute; top:calc(100% + 32px); left:0; min-width:248px; display:flex; flex-direction:column; gap:24px; padding:16px; background:rgba(255,255,255,.88); backdrop-filter:blur(14px); border-radius:12px; box-shadow:0 10px 25px #092a5410; }
 .resources-panel { min-width:148px; }
 .enquiry-button { display:inline-flex; align-items:center; justify-content:center; gap:15px; padding:10px 20px; border-radius:30px; background:#007cf8; color:#fff; font-weight:600; font-size:16px; line-height:20px; letter-spacing:.1px; white-space:nowrap; transition:background .3s ease-out; }
 .enquiry-button:hover { background:#0068d8; }

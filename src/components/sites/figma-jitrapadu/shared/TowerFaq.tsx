@@ -43,7 +43,8 @@ export function TowerFaq({ items }: { items?: { question: string; answer: string
         return (
           <div
             key={question}
-            className={`tower-faq-row flex w-full flex-col gap-[24px] border-b border-solid border-[#c5ced8] p-[24px] font-sans md:p-[40px] ${open ? "rounded-[16px] bg-[#007cf8] text-white" : "text-[#102033]"}`}
+            data-open={open}
+            className={`tower-faq-row flex w-full flex-col gap-0 border-b border-solid border-[#c5ced8] p-[24px] font-sans md:p-[40px] ${open ? "rounded-[16px] bg-[#007cf8] text-white" : "text-[#102033]"}`}
           >
             <h3 className="w-full">
               <button
@@ -55,17 +56,21 @@ export function TowerFaq({ items }: { items?: { question: string; answer: string
                 className="flex w-full cursor-pointer items-center gap-[10px] text-left text-[18px] leading-[26px] font-semibold tracking-[-0.3px] focus-visible:outline-2 focus-visible:outline-offset-4 md:text-[24px] md:leading-[32px]"
               >
                 <span className="min-w-0 flex-1">{question}</span>
-                <FigmaIcon name={open ? "arrow-up" : "arrow-down"} className={`tower-faq-arrow shrink-0 ${open ? "text-[#e8f3ff]" : ""}`} />
+                <FigmaIcon name="arrow-down" className={`tower-faq-arrow shrink-0 ${open ? "text-[#e8f3ff]" : ""}`} />
               </button>
             </h3>
-            <p
+            <div
               id={answerId}
+              role="region"
               aria-labelledby={questionId}
-              hidden={!open}
-              className="tower-faq-answer w-full text-[16px] leading-[26px] font-normal md:text-[18px] md:leading-[30px]"
+              aria-hidden={!open}
+              inert={!open}
+              className={`tower-faq-panel w-full ${open ? "is-open" : ""}`}
             >
-              {answer}
-            </p>
+              <div className="tower-faq-panel-inner">
+                <p className="tower-faq-answer w-full text-[16px] leading-[26px] font-normal md:text-[18px] md:leading-[30px]">{answer}</p>
+              </div>
+            </div>
           </div>
         );
       })}

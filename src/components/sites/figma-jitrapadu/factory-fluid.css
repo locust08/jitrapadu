@@ -100,3 +100,19 @@
   .factory-page .factory-production { min-height:900px; }
 }
 .factory-page .factory-intro-photo > img { position:absolute; inset:0; }
+
+/* BugHerd #18: retain the original welder crop and a clear right-hand image. */
+.factory-page .factory-production::after { background:linear-gradient(90deg,#0000008a,#0000); }
+@media(min-width:1100px) {
+ .factory-page .factory-production-image { top:-22.69%; bottom:auto; height:auto; min-height:122.69%; object-position:center top; }
+}
+/* BugHerd #19 and #20: the prototype fades to white at the bottom; keep copy clear of the tower. */
+.factory-page .factory-quality { align-items:flex-start; padding-bottom:180px; }
+.factory-page .factory-quality::after { top:auto; height:158px; background:linear-gradient(180deg,#fff0 0%,#ffffff99 54.429%,#ffffffe0 77.214%,#fff 100%); }
+.factory-page .factory-quality > div { width:min(646px,45%); }
+@media(max-width:767px) {
+ .factory-page .factory-quality { display:flex; flex-direction:column; gap:32px; min-height:0; padding-bottom:0; color:#102033; }
+ .factory-page .factory-quality > div { width:100%; max-width:none; }
+ .factory-page .factory-quality p { color:#495667; }
+ .factory-page .factory-quality > img { position:relative; inset:auto; order:2; width:calc(100% + 2 * var(--factory-gutter)); max-width:none; height:320px; margin-inline:calc(-1 * var(--factory-gutter)); object-position:center; }
+}

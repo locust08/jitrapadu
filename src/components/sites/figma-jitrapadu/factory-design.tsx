@@ -77,7 +77,7 @@ export function FactoryDesign() {
     <section className="factory-production factory-section">
       <img className="factory-production-image" src={imgRectangle8} alt="Steel welding at the Jitrapadu factory" />
       <div className="factory-production-content">
-        <div data-reveal><h2>Production Capacity &amp; Delivery</h2><p>Jitrapaduâ€™s production capability is supported by experienced manpower, efficient fabrication processes and structured project coordination to deliver reliable output within practical project timelines.</p></div>
+        <div data-reveal><h2>Production Capacity &amp; Delivery</h2><p>Jitrapadu’s production capability is supported by experienced manpower, efficient fabrication processes and structured project coordination to deliver reliable output within practical project timelines.</p></div>
         <div className="factory-stats">
           <article data-card data-reveal><strong><CountUp value={10} suffix="+" /></strong><h5>Certified Welders (CIDB/TWI)</h5></article>
           <article data-card data-reveal><strong><CountUp value={350} />–<CountUp value={500} /> <small>Tons</small></strong><h5>Production Capacity per Month</h5></article>
