@@ -143,3 +143,9 @@
 .fluid-page .site-footer [data-node-id="133:1162"] a { white-space:normal; font-size:16px; line-height:26px; }
 .fluid-page .site-footer [data-node-id="133:1162"] a:is(:hover,:focus-visible) { text-decoration:underline; text-underline-offset:4px; }
 @media(max-width:600px) { .fluid-page .site-footer [data-node-id="133:1162"] a { font-size:12px; line-height:22px; white-space:nowrap; } }
+.fluid-page .mobile-contact-button { display: none; }
+@media(max-width:1199px) {
+ .fluid-page .main-navigation .mobile-contact-button { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 12px 20px; border-radius: 30px; background: #007cf8; color: #fff; }
+ .fluid-page .main-navigation .mobile-contact-button:is(:hover,:focus-visible) { background: #0068d8; }
+}
+.fluid-page .main-navigation .mobile-contact-button .figma-icon { color: inherit; }

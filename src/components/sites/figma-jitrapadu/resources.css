@@ -141,3 +141,7 @@
 .archive-year-filter { display: grid; gap: 10px; padding-inline: 12px; font-size: 14px; font-weight: 600; }
 .archive-year-filter select { width: 100%; min-width: 0; padding: 12px; border: 1px solid #c5ced8; border-radius: 7px; color: #102033; background: #fff; font: inherit; }
 .archive-loading { min-height: 100vh; padding: 160px 24px; text-align: center; }
+.contact-layout { max-width: 1420px; }
+.contact-introduction { grid-column: 1 / -1; text-align: center; display: grid; justify-items: center; gap: 16px; margin-bottom: 16px; }
+.contact-introduction h2 { font-size: clamp(32px, 3vw, 48px); }
+.contact-introduction p { max-width: 850px; font-size: 18px; }

@@ -83,7 +83,9 @@
 .about-page .about-values-grid > div:is(:hover,:focus-within) > :not([aria-hidden]) { color:#102033; }
 .about-page .about-values-grid > div > :not([aria-hidden]) { transition:color 250ms ease-out; }
 .about-page .enquiry-button:is(:hover,:focus-visible) { background:#69b2fc; color:#102033; }
-.about-page .about-milestone-arrows button:not(:disabled):is(:hover,:focus-visible) { background:#dceeff; }
+.about-page .about-milestone-arrows button { transition:background-color 250ms ease-out,color 250ms ease-out; }
+.about-page .about-milestone-arrows button:not(:disabled):is(:hover,:focus-visible) { background:#092a54; }
+.about-page .about-milestone-arrows button:not(:disabled):is(:hover,:focus-visible) .figma-icon { color:#fff; }
 @media (prefers-reduced-motion:reduce) {
  .about-page .about-values-grid > div > *, .about-page .about-values-grid > div > [aria-hidden] > div:first-child,
  .about-page .purpose-card [data-purpose-overlay] { transition:none!important; }

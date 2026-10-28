@@ -46,6 +46,7 @@ export function Header({ className = "" }: { className?: string }) {
         <button type="button" aria-expanded={open === "resources"} onClick={() => setOpen(open === "resources" ? null : "resources")}>Resources <FigmaIcon name="caret-down" /></button>
         {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/blog" onClick={() => {setOpen(null); setMobileOpen(false);}}>Article</Link><Link href="/news-events?category=News" onClick={() => {setOpen(null); setMobileOpen(false);}}>News</Link><Link href="/news-events?category=Events" onClick={() => {setOpen(null); setMobileOpen(false);}}>Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
       </div>
+      <Link className="mobile-contact-button" href="/contact-us" onClick={() => {setOpen(null); setMobileOpen(false);}}>Contact Us <FigmaIcon name="envelope" /></Link>
     </nav>
     <a className="enquiry-button" href="/contact-us">Send an Enquiry <FigmaIcon name="envelope" /></a>
   </header>;
