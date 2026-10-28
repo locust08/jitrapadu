@@ -1,0 +1,4 @@
+.legal-content { width:calc(100% - 48px); max-width:1000px; margin-inline:auto; padding:160px 0 80px; color:#102033; }
+.legal-content h1 { font-size:clamp(32px,4vw,48px); line-height:1.2; font-weight:700; letter-spacing:-1px; margin:0 0 32px; }
+.legal-content p { font-size:18px; line-height:1.8; color:#495667; margin:0 0 24px; overflow-wrap:break-word; }
+@media(max-width:767px) { .legal-content { padding-block:120px 48px; } .legal-content p { font-size:16px; line-height:1.7; } }

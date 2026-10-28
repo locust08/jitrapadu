@@ -24,7 +24,7 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
           <img alt="" className="absolute h-[111.86%] left-0 max-w-none top-[-3.36%] w-[111.87%]" src={imgFooterWithCta1} />
         </div>
       </div>
-      <div className="[word-break:break-word] backdrop-blur-[10px] content-stretch flex flex-col gap-[var(--spacing-40,40px)] h-[402px] items-start not-italic p-[var(--spacing-40,40px)] relative rounded-[var(--spacing-24,24px)] shrink-0 text-[color:var(--color-text-inverse,white)] w-[990px]" data-node-id="133:1099" data-name="Frame">
+      <div className="[word-break:break-word] content-stretch flex flex-col gap-[var(--spacing-40,40px)] h-[402px] items-start not-italic p-[var(--spacing-40,40px)] relative rounded-[var(--spacing-24,24px)] shrink-0 text-[color:var(--color-text-inverse,white)] w-[990px]" data-node-id="133:1099" data-name="Frame">
         <div className="content-stretch flex flex-col gap-[var(--spacing-24,24px)] items-start relative shrink-0 w-full" data-node-id="133:1100">
           <p className="font-sans font-bold leading-[76px] relative shrink-0 text-[68px] tracking-[-1.8px] w-full" data-node-id="133:1101">
             Build Stronger Network Infrastructure with Jitrapadu
@@ -147,9 +147,9 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
         <div className="border-[rgba(230,240,235,0.3)] border-solid border-t content-stretch flex items-start justify-between px-[50px] py-[30px] relative shrink-0 w-full" data-node-id="133:1160" style={{ backgroundImage: "url(\"data:image/svg+xml;utf8,<svg viewBox='0 0 1820 140' xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none'><rect x='0' y='0' height='100%' width='100%' fill='url(%23grad)' opacity='1'/><defs><radialGradient id='grad' gradientUnits='userSpaceOnUse' cx='0' cy='0' r='10' gradientTransform='matrix(-62.35 2.1307e-14 0.0000010153 -62.35 1820 70)'><stop stop-color='rgba(152,204,255,1)' offset='0.35209'/><stop stop-color='rgba(114,184,253,0.75)' offset='0.51406'/><stop stop-color='rgba(76,164,252,0.5)' offset='0.67604'/><stop stop-color='rgba(0,124,248,0)' offset='1'/></radialGradient></defs></svg>\")" }} data-name="bottom-bar">
           <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="184:919">
             <div className="content-stretch flex gap-[8px] items-center relative shrink-0" data-node-id="133:1162">
-              <p className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1163">
+              <Link className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1163" href="/disclaimer">
                 Disclaimer
-              </p>
+              </Link>
               <div className="flex h-[22px] items-center justify-center relative shrink-0 w-0" data-node-id="133:1164">
                 <div className="flex-none rotate-90">
                   <div className="h-0 relative w-[22px]">
@@ -159,9 +159,9 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
                   </div>
                 </div>
               </div>
-              <p className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1165">
+              <Link className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1165" href="/privacy-policy">
                 Privacy Policy
-              </p>
+              </Link>
               <div className="flex h-[22px] items-center justify-center relative shrink-0 w-0" data-node-id="133:1166">
                 <div className="flex-none rotate-90">
                   <div className="h-0 relative w-[22px]">
@@ -171,7 +171,7 @@ export function FooterWithCta({ className, enquiryText }: { className?: string; 
                   </div>
                 </div>
               </div>
-              <p className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1167">{`Terms & Conditions`}</p>
+              <Link className="[word-break:break-word] font-sans font-normal leading-[26px] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1167" href="/terms-and-conditions">{`Terms & Conditions`}</Link>
             </div>
             <p className="[word-break:break-word] font-sans font-normal leading-[0] not-italic relative shrink-0 text-[16px] text-[color:var(--color-text-inverse,white)] whitespace-nowrap" data-node-id="133:1161">
               <span className="footer-copyright-company">© 2026 {settings.companyName}</span>{" "}

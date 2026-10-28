@@ -550,7 +550,7 @@ export function AboutDesign() {
                 <div className="col-1 h-[28px] ml-[203.5px] mt-0 relative row-1 w-[10px]" data-node-id="184:1167">
                   <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
                 </div>
-                <div className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1170">
+                <div data-milestone-photo className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1170">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle23} />
                 </div>
               </div>
@@ -571,7 +571,7 @@ export function AboutDesign() {
                 <div className="col-1 h-[28px] ml-[203.5px] mt-0 relative row-1 w-[10px]" data-node-id="184:1178">
                   <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
                 </div>
-                <div className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1181">
+                <div data-milestone-photo className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1181">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle24} />
                 </div>
               </div>
@@ -592,7 +592,7 @@ export function AboutDesign() {
                 <div className="col-1 h-[28px] ml-[203.5px] mt-0 relative row-1 w-[10px]" data-node-id="184:1189">
                   <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
                 </div>
-                <div className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1192">
+                <div data-milestone-photo className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1192">
                   <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle25} />
                 </div>
               </div>
@@ -613,7 +613,7 @@ export function AboutDesign() {
                 <div className="col-1 h-[28px] ml-[203.5px] mt-0 relative row-1 w-[10px]" data-node-id="184:1224">
                   <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup15} />
                 </div>
-                <div className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1227">
+                <div data-milestone-photo className="col-1 h-[376px] ml-0 mt-[26px] relative rounded-[var(--spacing-12,12px)] row-1 w-[418px]" data-node-id="184:1227">
                   <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
                     <img alt="" className="absolute h-full left-[0.01%] max-w-none top-0 w-[99.99%]" src={imgRectangle26} />
                   </div>

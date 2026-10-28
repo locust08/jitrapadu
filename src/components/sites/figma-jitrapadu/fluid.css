@@ -1,8 +1,8 @@
 /* Shared fluid page shell. Decorative Figma layers stay inside their sections. */
-.design-frame { width:100%; max-width:1920px!important; margin-inline:auto; overflow:visible; }
+.design-frame { width:100%; max-width:none!important; margin-inline:auto; overflow:visible; }
 .design-canvas.fluid-page { width:100%!important; height:auto!important; zoom:1!important; display:block!important; padding:0!important; gap:0!important; overflow:visible; position:relative; background:#fff; }
-.fluid-page { --page-gutter:clamp(24px,3vw,50px); --section-space:clamp(48px,5vw,80px); }
-.fluid-page .site-header { width:min(100%,1920px)!important; padding:24px var(--page-gutter)!important; }
+.fluid-page { --page-gutter:max(clamp(24px,3vw,50px),calc((100% - 1820px)/2)); --section-space:clamp(48px,5vw,80px); }
+.fluid-page .site-header { width:100%!important; padding:24px var(--page-gutter)!important; }
 .fluid-page .site-header,.fluid-page .site-header * { box-sizing:border-box; }
 .section-pad { position:relative; padding:var(--section-space) var(--page-gutter); }
 .fluid-page .eyebrow { font-size:13px; font-weight:600; line-height:18px; letter-spacing:1.5px; text-transform:uppercase; color:#007cf8; }
@@ -36,7 +36,7 @@
 }
 [data-card]:focus-within [data-card-image] { transform:scale(1.03); }
 .fluid-page .partners-section { position:relative; inset:auto; width:100%; height:auto; padding:var(--section-space) 0; margin:0; }
-.fluid-page .partners-heading { width:min(870px,100%); padding:0 var(--page-gutter); margin:0 auto 50px; }
+.fluid-page .partners-heading { width:min(870px,100%); padding:0 clamp(24px,3vw,50px); margin:0 auto 50px; }
 .fluid-page .partner-row-1 { --row-offset:max(-280px,calc(100vw - 2200px)); }
 /* The shared source footer is intrinsically sized rather than positioned on a canvas. */
 .fluid-page .site-footer,[data-name="Footer with CTA"].site-footer { position:relative!important; inset:auto!important; translate:none!important; transform:none!important; width:100%!important; height:auto!important; display:flex; flex-direction:column; gap:57px; padding:var(--page-gutter)!important; overflow:hidden; }
@@ -126,3 +126,20 @@
  .fluid-page .site-footer [data-node-id="133:1166"] { display:none; }
  .fluid-page .site-footer [data-node-id="184:913"] { width:180px; }
 }
+
+/* BugHerd #5: full-width backgrounds with an 1820px content boundary. */
+@media(min-width:1921px) {
+ .fluid-page.about-page .about-section,.fluid-page.about-page .about-hero,
+ .fluid-page.portfolio-page > section,
+ .fluid-page.resource-page .resource-hero { padding-inline:var(--page-gutter); }
+ .fluid-page.factory-page { --factory-gutter:var(--page-gutter); }
+ .fluid-page .site-footer [data-node-id="133:1101"] { font-size:68px; }
+}
+/* BugHerd #9: retain the CTA blur only on tablet and mobile. */
+@media(max-width:1199px) {
+ .fluid-page .site-footer [data-node-id="133:1099"] { -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+}
+
+.fluid-page .site-footer [data-node-id="133:1162"] a { white-space:normal; font-size:16px; line-height:26px; }
+.fluid-page .site-footer [data-node-id="133:1162"] a:is(:hover,:focus-visible) { text-decoration:underline; text-underline-offset:4px; }
+@media(max-width:600px) { .fluid-page .site-footer [data-node-id="133:1162"] a { font-size:12px; line-height:22px; white-space:nowrap; } }

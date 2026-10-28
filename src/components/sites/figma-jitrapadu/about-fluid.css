@@ -79,7 +79,7 @@
 .about-page .about-achievement-list > div > div > p:last-child { font-size:16px; line-height:26px; }
 .about-page .about-purpose-panel:focus-visible { outline:3px solid #007cf8; outline-offset:-3px; }
 .about-page .about-values-grid > div > [aria-hidden] > div:first-child { transition:background-color 250ms ease-out; }
-.about-page .about-values-grid > div:is(:hover,:focus-within) > [aria-hidden] > div:first-child { background-color:#69b2fc; }
+.about-page .about-values-grid > div:is(:hover,:focus-within) > [aria-hidden] > div:first-child { background-color:#f7f9fc; }
 .about-page .about-values-grid > div:is(:hover,:focus-within) > :not([aria-hidden]) { color:#102033; }
 .about-page .about-values-grid > div > :not([aria-hidden]) { transition:color 250ms ease-out; }
 .about-page .enquiry-button:is(:hover,:focus-visible) { background:#69b2fc; color:#102033; }
@@ -88,3 +88,14 @@
  .about-page .about-values-grid > div > *, .about-page .about-values-grid > div > [aria-hidden] > div:first-child,
  .about-page .purpose-card [data-purpose-overlay] { transition:none!important; }
 }
+
+/* BugHerd #6: a solid hover surface, without the decorative shader. */
+.about-page .about-values-grid > div:is(:hover,:focus-within) > [aria-hidden] > canvas { opacity:0; }
+/* BugHerd #7: the numbered row does not cast a shadow; its white panel does. */
+.about-page .about-achievement-list > [data-card]:is(:hover,:focus-within) { box-shadow:none; }
+.about-page .about-achievement-list > [data-card] > div { transition:box-shadow 250ms ease-out; }
+.about-page .about-achievement-list > [data-card] > div:is(:hover,:focus-within) { box-shadow:0 12px 28px #092a5452,0 3px 8px #092a542e; }
+/* BugHerd #8: milestone hover shadows belong to the photo, excluding captions. */
+.about-page .about-milestone-track > [data-card]:is(:hover,:focus-within) { box-shadow:none; }
+.about-page .about-milestone-track [data-milestone-photo] { transition:box-shadow 250ms ease-out; }
+.about-page .about-milestone-track > [data-card]:is(:hover,:focus-within) [data-milestone-photo] { box-shadow:0 10px 26px #102c4c1a; }
