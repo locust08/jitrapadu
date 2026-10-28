@@ -44,7 +44,7 @@ export function Header({ className = "" }: { className?: string }) {
       </div>
       <div className="nav-dropdown">
         <button type="button" aria-expanded={open === "resources"} onClick={() => setOpen(open === "resources" ? null : "resources")}>Resources <FigmaIcon name="caret-down" /></button>
-        {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/blog" onClick={() => {setOpen(null); setMobileOpen(false);}}>Article</Link><Link href="/news-events?category=News" onClick={() => {setOpen(null); setMobileOpen(false);}}>News</Link><Link href="/news-events?category=Events" onClick={() => {setOpen(null); setMobileOpen(false);}}>Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
+        {open === "resources" && <div className="dropdown-panel resources-panel"><Link href="/blog/articles" onClick={() => {setOpen(null); setMobileOpen(false);}}>Article</Link><Link href="/blog/news" onClick={() => {setOpen(null); setMobileOpen(false);}}>News</Link><Link href="/blog/events" onClick={() => {setOpen(null); setMobileOpen(false);}}>Events</Link><Link href="/csr" onClick={() => {setOpen(null); setMobileOpen(false);}}>CSR</Link></div>}
       </div>
       <Link className="mobile-contact-button" href="/contact-us" onClick={() => {setOpen(null); setMobileOpen(false);}}>Contact Us <FigmaIcon name="envelope" /></Link>
     </nav>

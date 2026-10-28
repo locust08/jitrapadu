@@ -75,7 +75,7 @@ export function FooterWithCta({ className, enquiryTitle, enquiryText, enquiryLab
                 <Link className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1173" href="/portfolio">
                   Portfolio
                 </Link>
-                <Link href="/news-events" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1133">{`News & Events`}</Link>
+                <Link href="/blog" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1133">{`Blog`}</Link>
                 <Link href="/csr" className="leading-[26px] relative shrink-0 w-full" data-node-id="133:1134">
                   CSR
                 </Link>

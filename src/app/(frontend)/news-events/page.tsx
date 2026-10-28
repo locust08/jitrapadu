@@ -1,5 +1,7 @@
 import { Suspense } from "react";
-import { EditorialArchive } from "@/components/sites/figma-jitrapadu/editorial";
-import { DesignFrame } from "@/components/sites/figma-jitrapadu/shared/DesignFrame";
-export const metadata={title:"News & Events | Jitrapadu Engineering"};
-export default function Page(){return <Suspense fallback={<p className="archive-loading" role="status">Loading stories…</p>}><DesignFrame page="news-events" height={0}><EditorialArchive kind="news-events"/></DesignFrame></Suspense>;}
+import { LegacyBlogRedirect } from "@/components/sites/figma-jitrapadu/legacy-blog-redirect";
+
+export const metadata = { title: "Blog | Jitrapadu Engineering", robots: { index: false, follow: true } };
+export default function Page() {
+  return <Suspense fallback={<p className="archive-loading" role="status">Opening Blog…</p>}><LegacyBlogRedirect /></Suspense>;
+}
