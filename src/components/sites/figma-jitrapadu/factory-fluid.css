@@ -116,3 +116,9 @@
  .factory-page .factory-quality p { color:#495667; }
  .factory-page .factory-quality > img { position:relative; inset:auto; order:2; width:calc(100% + 2 * var(--factory-gutter)); max-width:none; height:320px; margin-inline:calc(-1 * var(--factory-gutter)); object-position:center; }
 }
+
+/* Task #21: solid light hover surface and the standard dark text palette. */
+.factory-page .factory-benefit-grid article:is(:hover,:focus-within) { background:#f7f9fc; color:#102033; }
+.factory-page .factory-benefit-grid article:is(:hover,:focus-within) p { color:#495667; }
+.factory-page .factory-benefit-grid article:is(:hover,:focus-within) > canvas { opacity:0; }
+.factory-page .factory-benefit-grid article p { transition:color 250ms ease-out; }
