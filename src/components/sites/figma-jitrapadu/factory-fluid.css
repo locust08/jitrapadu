@@ -122,3 +122,15 @@
 .factory-page .factory-benefit-grid article:is(:hover,:focus-within) p { color:#495667; }
 .factory-page .factory-benefit-grid article:is(:hover,:focus-within) > canvas { opacity:0; }
 .factory-page .factory-benefit-grid article p { transition:color 250ms ease-out; }
+/* Match the solution timeline while retaining factory steps and icons. */
+.factory-page .factory-steps { --step-icon-size:100px; gap:48px; }
+.factory-page .factory-steps li { grid-template-columns:var(--step-icon-size) minmax(0,1fr); gap:24px; }
+.factory-page .factory-steps li:not(:last-child)::after { top:calc(var(--step-icon-size)/2); left:calc(var(--step-icon-size)/2); bottom:calc(-48px - var(--step-icon-size)/2); width:1px; border:0; background:#c5ced8; z-index:0; }
+.factory-page .factory-icon { position:relative; z-index:1; width:var(--step-icon-size); height:var(--step-icon-size); }
+.factory-page .factory-icon > span { width:45px; height:45px; }
+.factory-page .factory-steps li > div { display:block; }
+.factory-page .factory-steps h4 { margin-bottom:12px; }
+@media(max-width:767px) { .factory-page .factory-steps { --step-icon-size:64px; } .factory-page .factory-steps li { gap:16px; } .factory-page .factory-icon > span { width:36px; height:36px; } }
+.factory-page .factory-steps h4 { font-size:clamp(22px,1.4vw,26px); line-height:1.35; letter-spacing:-.012em; }
+.factory-page .factory-step-number { line-height:1.67; }
+.factory-page .factory-steps li > div > p:last-child { font-size:clamp(16px,1.05vw,18px); line-height:1.67; }

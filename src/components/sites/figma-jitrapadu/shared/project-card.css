@@ -1,0 +1,8 @@
+.project-card { position:relative; min-width:0; display:flex; flex-direction:column; align-items:flex-start; gap:24px; padding:clamp(16px,1.4vw,24px); border-radius:12px; background:#fff; color:#102033; }
+.project-card-image { width:100%; height:clamp(300px,31vw,580px); overflow:hidden; border-radius:12px; }
+.project-card-image img { width:100%; height:100%; object-fit:cover; }
+.project-card .project-card-tag { margin:0; border:1px solid #c5ced8; border-radius:32px; padding:10px 20px; color:#495667; font-size:14px; line-height:1.5; }
+.project-card-heading { margin:0; font-size:clamp(24px,1.9vw,32px); font-weight:600; line-height:1.25; }
+.project-card-cta { display:flex; align-items:center; gap:12px; color:#007cf8; font-size:14px; font-weight:600; margin-top:auto; }
+.project-card-open { position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:12px; cursor:pointer; background:transparent; }
+.project-card-open:focus-visible { outline:3px solid #65b4ff; outline-offset:4px; }

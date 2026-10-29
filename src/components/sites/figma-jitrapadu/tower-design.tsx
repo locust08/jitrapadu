@@ -6,6 +6,8 @@ import { FooterWithCta } from "./shared/Footer";
 import { FigmaIcon } from "./shared/FigmaIcon";
 import {usePublishedContent} from "./shared/PublishedContentProvider";
 import {towerProducts} from "@/cms/public-model";
+import { projectsForSolution } from "./project-data";
+import { ProjectCard } from "./shared/ProjectCard";
 import { TowerFaq } from "./shared/TowerFaq";
 const assetPathPrefix = "/sites/figma-jitrapadu/shared";
 import { ShaderFill } from "./shared/ShaderFill";
@@ -37,9 +39,6 @@ const imgRectangle22 = `${assetPathPrefix}/88807.png`;
 const imgRectangle23 = `${assetPathPrefix}/60a46.png`;
 const imgRectangle24 = `${assetPathPrefix}/36139.png`;
 const imgRectangle25 = `${assetPathPrefix}/9fde5.png`;
-const imgRectangle26 = `${assetPathPrefix}/7c4f4.png`;
-const imgRectangle27 = `${assetPathPrefix}/0bbc3.png`;
-const imgRectangle28 = `${assetPathPrefix}/42ef4.png`;
 
 
 import "./tower-fluid.css";
@@ -86,12 +85,6 @@ const applications = [
 {title: "Rooftop and Space-constrained Deployments", image: imgFrame5},
 {title: "Long-term 4G and 5G Infrastructure Support", image: imgFrame6},
 ];
-const projects = [
-{label: "45m 3-legged light-duty tower", title: "Teluk Muroh, Manjung, Perak", image: imgRectangle26},
-{label: "45m 3-legged light-duty tower", title: "Kg Permatang Tulang, Melaka", image: imgRectangle27},
-{label: "36m monopole for 5 telco-sharer", title: "KPM Ayer Molek, Melaka", image: imgRectangle28},
-];
-
 export function TowerDesign() {
   const content=usePublishedContent();
   const solution=content.solutions['telecom-tower-monopole'];
@@ -128,8 +121,8 @@ export function TowerDesign() {
       <section className="tower-section tower-muted"><div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["83:1678"]}</h2><p>{towerCopy["83:1679"]}</p></div>
         <div className="tower-applications">{applications.map((application) => <article key={application.title} data-card data-reveal><div data-card-image><img src={application.image} alt="" /></div><h3>{application.title}</h3></article>)}</div>
       </div></section>
-      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
-        <div className="tower-projects">{projects.map((project) => <article key={project.title} data-card data-reveal><div className="tower-project-image"><img data-card-image src={project.image} alt={project.title} /></div><p className="tower-project-tag">{project.label}</p><h3>{project.title}</h3></article>)}</div>
+      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio?solution=telecom-tower-monopole" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
+        <div className="tower-projects">{projectsForSolution("telecom-tower-monopole").map(project => <ProjectCard key={project.title} project={project} />)}</div>
       </section>
       <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2>{towerCopy["133:1004"]}</h2></div><TowerFaq /></div></section>
       <FooterWithCta className="site-footer" />
