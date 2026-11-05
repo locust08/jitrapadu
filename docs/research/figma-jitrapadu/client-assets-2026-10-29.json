@@ -1,0 +1,654 @@
+{
+  "received": "2026-10-30",
+  "imageFolder": "https://drive.google.com/drive/folders/1qV7IWBSc6DeUtvSYQHtCQEa3wf3B80Yu",
+  "latestFigma": {
+    "name": "Jitra-Padu-29-10-2026",
+    "url": "https://www.figma.com/design/risedln33KP8sGOpDfRYpZ/Jitra-Padu-29-10-2026?m=dev",
+    "fileKey": "risedln33KP8sGOpDfRYpZ",
+    "page": "2:3",
+    "solutionFrames": {
+      "telecom": "60:618",
+      "rds": "479:396",
+      "smartPole": "479:728"
+    },
+    "about": "14:725"
+  },
+  "notes": [
+    "Use actual link destination for the latest Figma file; visible label refers to the older xTpPetri1XBx9CIiLoOFzX file.",
+    "Local solution and banner integration completed on 30 October 2026; see image-gap-review-2026-10-30.txt for task mapping. No push or deployment performed.",
+    "No dedicated About Us or milestone image folder found among supplied folders. Existing generated milestone illustrations remain for local review."
+  ],
+  "folders": [
+    {
+      "name": "Logos",
+      "files": [
+        {
+          "name": "image 251.png",
+          "id": "1h8BnwtNNhxH9MDu83YySWgBE4-hxal13",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1h8BnwtNNhxH9MDu83YySWgBE4-hxal13/view?usp=drivesdk"
+        },
+        {
+          "name": "Umobile.png",
+          "id": "1KbJr58d6hT2Z-BQAJFxRKfjJuCKC0MTi",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1KbJr58d6hT2Z-BQAJFxRKfjJuCKC0MTi/view?usp=drivesdk"
+        },
+        {
+          "name": "image 242.png",
+          "id": "1VAmvO9i7P9vRb_0WZJWiA_7rMAJey4hH",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1VAmvO9i7P9vRb_0WZJWiA_7rMAJey4hH/view?usp=drivesdk"
+        },
+        {
+          "name": "image 258.png",
+          "id": "1YjELdrGrS9kEiO-mEpe_CTrtalX9xTrp",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1YjELdrGrS9kEiO-mEpe_CTrtalX9xTrp/view?usp=drivesdk"
+        },
+        {
+          "name": "Maxis.png",
+          "id": "1t_EtIAtxrHkU9p16Y-wBQxjVtfWs0sTx",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1t_EtIAtxrHkU9p16Y-wBQxjVtfWs0sTx/view?usp=drivesdk"
+        },
+        {
+          "name": "image 257.png",
+          "id": "1p6m-ADI4_VnZTWKBy_exEcEZB991uav2",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1p6m-ADI4_VnZTWKBy_exEcEZB991uav2/view?usp=drivesdk"
+        },
+        {
+          "name": "image 256.png",
+          "id": "15aiwfM3I21tkFpWnkCJkzT2gxMH2lERe",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/15aiwfM3I21tkFpWnkCJkzT2gxMH2lERe/view?usp=drivesdk"
+        },
+        {
+          "name": "image 248.png",
+          "id": "1Lyeij_p3uq16C9rFPamHtzkkejyVddt2",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1Lyeij_p3uq16C9rFPamHtzkkejyVddt2/view?usp=drivesdk"
+        },
+        {
+          "name": "image 260.png",
+          "id": "1BhoZ3aghZj6Ebm2Z10fG6S1mqxFKTpFf",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1BhoZ3aghZj6Ebm2Z10fG6S1mqxFKTpFf/view?usp=drivesdk"
+        },
+        {
+          "name": "image 253.png",
+          "id": "1EaMCWhhQMBWiWlPT4vQ008FdMjpE1at9",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1EaMCWhhQMBWiWlPT4vQ008FdMjpE1at9/view?usp=drivesdk"
+        },
+        {
+          "name": "image 245.png",
+          "id": "1YVeHX7uxjyzq0gx99FjVF_s8v0WUjiiP",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1YVeHX7uxjyzq0gx99FjVF_s8v0WUjiiP/view?usp=drivesdk"
+        },
+        {
+          "name": "Celcom Digi.png",
+          "id": "1nOfa8zUbe0ibJGUUQWV--_Prsrm43Bq2",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1nOfa8zUbe0ibJGUUQWV--_Prsrm43Bq2/view?usp=drivesdk"
+        },
+        {
+          "name": "image 262.png",
+          "id": "14wchNuYp7KUWkkxIRr-OxX9hlehGfcAi",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/14wchNuYp7KUWkkxIRr-OxX9hlehGfcAi/view?usp=drivesdk"
+        },
+        {
+          "name": "image 255.png",
+          "id": "1YrskAuQxKNKjc3v5rXEyodyvzjLWGUGS",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1YrskAuQxKNKjc3v5rXEyodyvzjLWGUGS/view?usp=drivesdk"
+        },
+        {
+          "name": "image 247.png",
+          "id": "1q9rfwh_qkn8qOzr75mxNnDmuQy2VLnir",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1q9rfwh_qkn8qOzr75mxNnDmuQy2VLnir/view?usp=drivesdk"
+        },
+        {
+          "name": "image 259.png",
+          "id": "1PbIO7cQSZSM-cMU0f2B6vPeH1F6tJ0_E",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1PbIO7cQSZSM-cMU0f2B6vPeH1F6tJ0_E/view?usp=drivesdk"
+        },
+        {
+          "name": "image 250.png",
+          "id": "1q-d8urJULe7oluBmjPTLAVCuJQxDwVbA",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1q-d8urJULe7oluBmjPTLAVCuJQxDwVbA/view?usp=drivesdk"
+        },
+        {
+          "name": "image 244.png",
+          "id": "1Z8n-zevM0eTk4GMOJHV0ouLnGuvdyps6",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1Z8n-zevM0eTk4GMOJHV0ouLnGuvdyps6/view?usp=drivesdk"
+        },
+        {
+          "name": "D’Harmony Telco Infra Sdn Bhd.png",
+          "id": "1MhF4H3j4VTYUo2PyI0qa0qT5asscE9BZ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1MhF4H3j4VTYUo2PyI0qa0qT5asscE9BZ/view?usp=drivesdk"
+        },
+        {
+          "name": "image 261.png",
+          "id": "1mrYAg6X3E101X1Uv5AOH0b8zFttHy1ZM",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1mrYAg6X3E101X1Uv5AOH0b8zFttHy1ZM/view?usp=drivesdk"
+        },
+        {
+          "name": "image 254.png",
+          "id": "1f1tSrHma5FLcS1z0bUlJu6YQ5Iaxv8vk",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1f1tSrHma5FLcS1z0bUlJu6YQ5Iaxv8vk/view?usp=drivesdk"
+        },
+        {
+          "name": "image 246.png",
+          "id": "1brMh8BhSlhB1uZBnlUot8xK3Ve8a4V9Z",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1brMh8BhSlhB1uZBnlUot8xK3Ve8a4V9Z/view?usp=drivesdk"
+        },
+        {
+          "name": "image 263.png",
+          "id": "1qk0thYJcqT2iF11n39AokQtn06Gz6h0R",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1qk0thYJcqT2iF11n39AokQtn06Gz6h0R/view?usp=drivesdk"
+        },
+        {
+          "name": "image 249.png",
+          "id": "14UkmhiUn4VgAzD1f1OQyWvbzDTo2sJsP",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/14UkmhiUn4VgAzD1f1OQyWvbzDTo2sJsP/view?usp=drivesdk"
+        },
+        {
+          "name": "DCA Malaysia.png",
+          "id": "1aMecE9pZPGbfBEWxewA2hiznpuLqhzDX",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1aMecE9pZPGbfBEWxewA2hiznpuLqhzDX/view?usp=drivesdk"
+        },
+        {
+          "name": "image 243.png",
+          "id": "1riGFOZJvOx1P1rlKMgUG_ZyjmyOc3sDq",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1riGFOZJvOx1P1rlKMgUG_ZyjmyOc3sDq/view?usp=drivesdk"
+        },
+        {
+          "name": "Telekom Malaysia.png",
+          "id": "1CnWPSx_RutFPFRzyhw6JDISw0zAip_zQ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1CnWPSx_RutFPFRzyhw6JDISw0zAip_zQ/view?usp=drivesdk"
+        },
+        {
+          "name": "Majlis Keselamatan Negara.png",
+          "id": "1chC7GhuC1_qOg9y3JTUEGykuUDLAHLYZ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1chC7GhuC1_qOg9y3JTUEGykuUDLAHLYZ/view?usp=drivesdk"
+        },
+        {
+          "name": "Civil Aviation Authority of Malaysia.png",
+          "id": "1kriANTmJIcxDG4e76FNWiWGyGtdRX_uF",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1kriANTmJIcxDG4e76FNWiWGyGtdRX_uF/view?usp=drivesdk"
+        },
+        {
+          "name": "Digital Nasional.png",
+          "id": "1ZBmy-RNghbWPZXdy-ifnnwrOtYNyJOur",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1ZBmy-RNghbWPZXdy-ifnnwrOtYNyJOur/view?usp=drivesdk"
+        },
+        {
+          "name": "MCMC.png",
+          "id": "1qFkRayiZDSyii66d-g6tdW50MEq7U7Zr",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1qFkRayiZDSyii66d-g6tdW50MEq7U7Zr/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "name": "Page Banner",
+      "files": [
+        {
+          "name": "Banner - Article.jpg",
+          "id": "1C5iatOX431wOBG90vUlORbEEfxcvSo_k",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1C5iatOX431wOBG90vUlORbEEfxcvSo_k/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - News.jpg",
+          "id": "1Dt7OtrlAaJ1km7TUwESwBguVfB7wv48F",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1Dt7OtrlAaJ1km7TUwESwBguVfB7wv48F/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Events.png",
+          "id": "1B7axGg2glEg-P4yuuMW2a6wmWr55Unsf",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1B7axGg2glEg-P4yuuMW2a6wmWr55Unsf/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Contact Us-3.png",
+          "id": "1tgU6WvWBME6XATqBrhwvtq_Pd0MNTcBP",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1tgU6WvWBME6XATqBrhwvtq_Pd0MNTcBP/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Contact Us-2.png",
+          "id": "1xX9lEhCQcbiOfoZQ1J2gKxgRMqEPVyue",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1xX9lEhCQcbiOfoZQ1J2gKxgRMqEPVyue/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Contact Us-1.png",
+          "id": "1b79oPgcC_Z6KJicfJpp-Bvh7mVsWeXzi",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1b79oPgcC_Z6KJicfJpp-Bvh7mVsWeXzi/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Contact Us.png",
+          "id": "1Ug-Vwa5HePqW2iVkc5cVyMPu6ABXRC8L",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1Ug-Vwa5HePqW2iVkc5cVyMPu6ABXRC8L/view?usp=drivesdk"
+        },
+        {
+          "name": "Banner - Portfolio.png",
+          "id": "1QOjN1aKShJAg1wdhAa5_4BnCfYeU-odY",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1QOjN1aKShJAg1wdhAa5_4BnCfYeU-odY/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "name": "Our Solutions - Smart Pole & Lamp Pole",
+      "files": [
+        {
+          "name": "Rectangle 12.png",
+          "id": "1QPqP8ym35DJwizOMVY4uRfR5Thed4EHS",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1QPqP8ym35DJwizOMVY4uRfR5Thed4EHS/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 13.png",
+          "id": "1dnXHaCALAfFuiIgApWtn1BqS877nPcRY",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1dnXHaCALAfFuiIgApWtn1BqS877nPcRY/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 1.png",
+          "id": "1ihxn7AA7_OB1BSeSglsIcvlPTochVTLQ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1ihxn7AA7_OB1BSeSglsIcvlPTochVTLQ/view?usp=drivesdk"
+        },
+        {
+          "name": "5g.png",
+          "id": "10ooffEtXm5Vb9_IMS-pSsUmB9OATDg55",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/10ooffEtXm5Vb9_IMS-pSsUmB9OATDg55/view?usp=drivesdk"
+        },
+        {
+          "name": "smart pole.png",
+          "id": "1wKSzybsoxfKQlRFH0-avpmCVN16y-ybz",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1wKSzybsoxfKQlRFH0-avpmCVN16y-ybz/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 10-2.png",
+          "id": "1DqRKWsTvKq4IgmojCNbf74OJ5y_C0aCm",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1DqRKWsTvKq4IgmojCNbf74OJ5y_C0aCm/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 10-1.png",
+          "id": "1qXQcoQqq20vAMmzbX7Us5iOVQfGlOoPn",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1qXQcoQqq20vAMmzbX7Us5iOVQfGlOoPn/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 10.png",
+          "id": "10bh4uC2-h0wwYK35JuoihB4VBysoDltI",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/10bh4uC2-h0wwYK35JuoihB4VBysoDltI/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9-1.png",
+          "id": "1NrTpOGhoDKA5OIqyOf55Gmd8BNRYkGi6",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1NrTpOGhoDKA5OIqyOf55Gmd8BNRYkGi6/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9.png",
+          "id": "1Lnwed_-Lm0riwOjG5Jr5_DgiLRPJxASo",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1Lnwed_-Lm0riwOjG5Jr5_DgiLRPJxASo/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-7.png",
+          "id": "1nYN5QCV8RDHhYFyUP0Bcg6SPRi2ia5-1",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1nYN5QCV8RDHhYFyUP0Bcg6SPRi2ia5-1/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-6.png",
+          "id": "1cUK7TVyY-kxSRBsUxDS0rxP7uRHKzs6k",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1cUK7TVyY-kxSRBsUxDS0rxP7uRHKzs6k/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-5.png",
+          "id": "179kLN3tvwoNap0CdB_pnzYH2DN-TSigV",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/179kLN3tvwoNap0CdB_pnzYH2DN-TSigV/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-4.png",
+          "id": "1pWSNZyD5wUmQfY7QRkJ9i1jL6x4EyInx",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1pWSNZyD5wUmQfY7QRkJ9i1jL6x4EyInx/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-3.png",
+          "id": "1gUekKNbbkAAuwPcFkpFkCDchm3WaT9bU",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1gUekKNbbkAAuwPcFkpFkCDchm3WaT9bU/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-2.png",
+          "id": "18YwjQ6BP67EPngt64aOIxRR-hnprT_gD",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/18YwjQ6BP67EPngt64aOIxRR-hnprT_gD/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-1.png",
+          "id": "1oITDamyf99-DOV211E0aavRSKUog34c8",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1oITDamyf99-DOV211E0aavRSKUog34c8/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8-2.png",
+          "id": "1mumABT7KAJq0c5DdnwEVAPketsNhOcJQ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1mumABT7KAJq0c5DdnwEVAPketsNhOcJQ/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8-1.png",
+          "id": "1mG8TKS4fu4njrTt5ibXscNu-s4R6ZNoO",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1mG8TKS4fu4njrTt5ibXscNu-s4R6ZNoO/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8.png",
+          "id": "1h7GF9SAdEEf5qqsx0d_PE1rh25adq4pj",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1h7GF9SAdEEf5qqsx0d_PE1rh25adq4pj/view?usp=drivesdk"
+        },
+        {
+          "name": "icons",
+          "id": "1_nry2tJTQwPTfWB-AG-OS-rQvlajSVZz",
+          "type": "folder",
+          "url": "https://drive.google.com/drive/folders/1_nry2tJTQwPTfWB-AG-OS-rQvlajSVZz"
+        }
+      ]
+    },
+    {
+      "name": "Our Solutions - Rapid Deployment System",
+      "files": [
+        {
+          "name": "RDS_P3.jpg",
+          "id": "13g-46I7T4rXrnDJR3kzjRCCj0RSi0SLQ",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/13g-46I7T4rXrnDJR3kzjRCCj0RSi0SLQ/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_P2.jpg",
+          "id": "1V2pBTxgzIlzEOtrVuh32sjLb0RVEYG2q",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1V2pBTxgzIlzEOtrVuh32sjLb0RVEYG2q/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_P1.jpg",
+          "id": "1DdAZXHh5uJy92yWaed9uTB2IYRxH-RC0",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1DdAZXHh5uJy92yWaed9uTB2IYRxH-RC0/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-7.png",
+          "id": "1f_5OMrdsOLGmIaZA3wPOn_sqkJZpCjBo",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1f_5OMrdsOLGmIaZA3wPOn_sqkJZpCjBo/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-6.png",
+          "id": "1sL1ooBSmJ8x0mcV4unYpSUYW48rBMwqj",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1sL1ooBSmJ8x0mcV4unYpSUYW48rBMwqj/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-5.png",
+          "id": "1a6s5BCQWAMuFN9jQ4HOrDnejaV0sd4uS",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1a6s5BCQWAMuFN9jQ4HOrDnejaV0sd4uS/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-4.png",
+          "id": "1EcTE2YdfPhdgwwdIDIffKKaBtQzi5n0D",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1EcTE2YdfPhdgwwdIDIffKKaBtQzi5n0D/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-3.png",
+          "id": "1KgfGShTY9XAfefPTMIa4jSTarAieMKRI",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1KgfGShTY9XAfefPTMIa4jSTarAieMKRI/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-2.png",
+          "id": "1olS2HZ0FN51ns2fagl11y04beg6et5xL",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1olS2HZ0FN51ns2fagl11y04beg6et5xL/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-1.png",
+          "id": "1rYKO3AOXMs0rmwXWh__M1L6xEFFwJoXe",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1rYKO3AOXMs0rmwXWh__M1L6xEFFwJoXe/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame.png",
+          "id": "10DqK-Y7LcQ17490cmaL9aS-TeZEas1YK",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/10DqK-Y7LcQ17490cmaL9aS-TeZEas1YK/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_9.jpg",
+          "id": "1c-wI88yVW1rZf5BonRjymPgY6jBlK9bj",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1c-wI88yVW1rZf5BonRjymPgY6jBlK9bj/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_8.jpg",
+          "id": "1tlaLg540JIgRns3YVl_eneiy0D1Yv5TI",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1tlaLg540JIgRns3YVl_eneiy0D1Yv5TI/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_7.jpg",
+          "id": "1G1A3CwPuysyaXVXxL0AtgDjCkqC8TX0H",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1G1A3CwPuysyaXVXxL0AtgDjCkqC8TX0H/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_6.jpg",
+          "id": "1CP8hVWqtqRjJWmw1_KaTn42mEkHCF5dl",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1CP8hVWqtqRjJWmw1_KaTn42mEkHCF5dl/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_5.jpg",
+          "id": "1uIdf1QFeEczXEvtmOElCDI1pzE_wpvQO",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1uIdf1QFeEczXEvtmOElCDI1pzE_wpvQO/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_4.jpg",
+          "id": "1k8YX7vorBmh0ATlEgtMHjvTrL4Fw7AhE",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1k8YX7vorBmh0ATlEgtMHjvTrL4Fw7AhE/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_3.jpg",
+          "id": "1p6TM9bqDWb8lxoEcpqQ4Kdmt7zrCyXgK",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1p6TM9bqDWb8lxoEcpqQ4Kdmt7zrCyXgK/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_2.jpg",
+          "id": "1yq8-QIJOML9gmZVEkLMTzneAQBlj1FD1",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1yq8-QIJOML9gmZVEkLMTzneAQBlj1FD1/view?usp=drivesdk"
+        },
+        {
+          "name": "RDS_1.jpg",
+          "id": "1GS0kO4fI_SLXrjqPb-WlhaCSVcJ27-IA",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1GS0kO4fI_SLXrjqPb-WlhaCSVcJ27-IA/view?usp=drivesdk"
+        },
+        {
+          "name": "icons",
+          "id": "1L7qtv5cbfbdpYPX3p5vekUUShz0AL23S",
+          "type": "folder",
+          "url": "https://drive.google.com/drive/folders/1L7qtv5cbfbdpYPX3p5vekUUShz0AL23S"
+        }
+      ]
+    },
+    {
+      "name": "Our Solutions - Telecom Tower & Monopole",
+      "files": [
+        {
+          "name": "Frame22.png",
+          "id": "1jeEzF0cjWJpUWPV1HUktjfQwkMsT9uHg",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1jeEzF0cjWJpUWPV1HUktjfQwkMsT9uHg/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-6.png",
+          "id": "1WTGWdM9lLJCnefdSvkeBB42tmU21LJY9",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1WTGWdM9lLJCnefdSvkeBB42tmU21LJY9/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-5.png",
+          "id": "1rb9THt8LXEJQtQRzgKn6irvtlJsClF0K",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1rb9THt8LXEJQtQRzgKn6irvtlJsClF0K/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-4.png",
+          "id": "1VBVhsAhp6sQhfzuvUaCrnA2S73vpXMHh",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1VBVhsAhp6sQhfzuvUaCrnA2S73vpXMHh/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-3.png",
+          "id": "1uXzUwXSW8Fkyv6xp2ToEj33Jzi6oMZ3A",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1uXzUwXSW8Fkyv6xp2ToEj33Jzi6oMZ3A/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-2.png",
+          "id": "1ft9KuigBcq4Ek0h5HMDB6FUM2rCvdU3l",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1ft9KuigBcq4Ek0h5HMDB6FUM2rCvdU3l/view?usp=drivesdk"
+        },
+        {
+          "name": "Frame-1.png",
+          "id": "129_5hfSiDsaZZFqVXJKpd2VktfON9ykn",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/129_5hfSiDsaZZFqVXJKpd2VktfON9ykn/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8-3.png",
+          "id": "170wMFOPFdsmw4HvFUOov5e_DtglE8KwD",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/170wMFOPFdsmw4HvFUOov5e_DtglE8KwD/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8-2.png",
+          "id": "1eIx3p_dBZ2ZgAJ7wy7P1i4nmHHN0OQE0",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1eIx3p_dBZ2ZgAJ7wy7P1i4nmHHN0OQE0/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8-1.png",
+          "id": "1_AYtqWqTBCQNkT9rzsFZKAI2n_Zkc2na",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1_AYtqWqTBCQNkT9rzsFZKAI2n_Zkc2na/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9-4.png",
+          "id": "1H7BcLp0Ex-eD2dPyHV8zNrZ4uUuNvRb_",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1H7BcLp0Ex-eD2dPyHV8zNrZ4uUuNvRb_/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9-3.png",
+          "id": "1W4iVh3-lSBxrY5m7XW9xkEDcTOsx433X",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1W4iVh3-lSBxrY5m7XW9xkEDcTOsx433X/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9-2.png",
+          "id": "1bk4Es3k18H8qx5lWsZGKztNaPDzFz_VU",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1bk4Es3k18H8qx5lWsZGKztNaPDzFz_VU/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9-1.png",
+          "id": "1FlUpHFJ55tf0natSS5JzQgTbNhz7snw2",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1FlUpHFJ55tf0natSS5JzQgTbNhz7snw2/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 8.png",
+          "id": "1ceVMVsByF_Zl8pJcz68RrBv6YPapeLs7",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1ceVMVsByF_Zl8pJcz68RrBv6YPapeLs7/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 9.png",
+          "id": "1PuCQ0D2tAquQmk1GvmeKU1l6s_QY52do",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1PuCQ0D2tAquQmk1GvmeKU1l6s_QY52do/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 12.png",
+          "id": "15MVXQS7EJ-BV7jcmBHmkv7MVaG7nDQBp",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/15MVXQS7EJ-BV7jcmBHmkv7MVaG7nDQBp/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 13.png",
+          "id": "1XetsQvUuADAID4dq3TVncnuOUHPPwH4P",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/1XetsQvUuADAID4dq3TVncnuOUHPPwH4P/view?usp=drivesdk"
+        },
+        {
+          "name": "Rectangle 1.png",
+          "id": "16KjpVT0pGbXH1SCS2aMsICPM1l3gnb50",
+          "type": "file",
+          "url": "https://drive.google.com/file/d/16KjpVT0pGbXH1SCS2aMsICPM1l3gnb50/view?usp=drivesdk"
+        },
+        {
+          "name": "icons",
+          "id": "1BTwoPibTs9st8V5M0fSrq9TrAcDtcL8Y",
+          "type": "folder",
+          "url": "https://drive.google.com/drive/folders/1BTwoPibTs9st8V5M0fSrq9TrAcDtcL8Y"
+        }
+      ]
+    }
+  ]
+}

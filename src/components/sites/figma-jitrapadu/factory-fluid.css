@@ -126,7 +126,7 @@
 .factory-page .factory-steps { --step-icon-size:100px; gap:48px; }
 .factory-page .factory-steps li { grid-template-columns:var(--step-icon-size) minmax(0,1fr); gap:24px; }
 .factory-page .factory-steps li:not(:last-child)::after { top:calc(var(--step-icon-size)/2); left:calc(var(--step-icon-size)/2); bottom:calc(-48px - var(--step-icon-size)/2); width:1px; border:0; background:#c5ced8; z-index:0; }
-.factory-page .factory-icon { position:relative; z-index:1; width:var(--step-icon-size); height:var(--step-icon-size); }
+.factory-page .factory-steps .factory-icon { position:relative; z-index:1; width:var(--step-icon-size); height:var(--step-icon-size); }
 .factory-page .factory-icon > span { width:45px; height:45px; }
 .factory-page .factory-steps li > div { display:block; }
 .factory-page .factory-steps h4 { margin-bottom:12px; }

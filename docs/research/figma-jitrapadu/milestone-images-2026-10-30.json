@@ -1,0 +1,32 @@
+{
+  "source": "https://docs.google.com/document/d/13D7GQ_s-uHCLK_wcU5uR8bcUc_-38DXl2OkP_e2dNuk/edit?tab=t.3kdztldwf3zs",
+  "task": 75,
+  "method": "Built-in image_gen; illustrative supporting images, not project photographs",
+  "sharedPrompt": "Standalone landscape 4:3 editorial illustration for an engineering company's website milestone card. Polished realistic 3D architectural illustration, natural daylight, restrained steel grey, pale blue and green palette, grounded industrial detail. Compose the subject centrally to allow cropping to a nearly square card. No text, dates, watermark, logos, badges, official seals or borders. Illustrative imagery, not a documentary photograph.",
+  "images": [
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/radar-tower.png",
+      "scenePrompt": "A galvanized steel lattice radar tower topped by a simple radar dish at a tropical site, palms and low hills, no military insignia or identifiable real location."
+    },
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/bts-commissioning.png",
+      "scenePrompt": "Telecom technician in hard hat testing a base transceiver station equipment cabinet beside a lattice tower in a lush South Asian rural landscape, no branding or identifiable faces."
+    },
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/southern-deployment.png",
+      "scenePrompt": "A rapid deployment telecom monopole mounted on a compact steel base at a Malaysian infrastructure site, antennas, lush tropical vegetation, no branding."
+    },
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/brisbane-tower.png",
+      "scenePrompt": "A freestanding galvanized three-legged medium-duty telecommunications lattice tower in a subtropical Australian landscape near Brisbane, low shrubs and blue sky, no signs or logos."
+    },
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/smart-pole-validation.png",
+      "scenePrompt": "A telecom smart pole equipment cabinet in a clean engineering test workshop, neat cable management and unbranded electronic test instruments, no certificates or writing."
+    },
+    {
+      "file": "public/sites/figma-jitrapadu/milestones/engineering-registration.png",
+      "scenePrompt": "Neatly stacked galvanized structural steel members and a hard hat beside unmarked rolled engineering drawings in a bright Malaysian fabrication workshop, no paperwork text or logos."
+    }
+  ]
+}

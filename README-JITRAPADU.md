@@ -279,6 +279,12 @@ that later integration. No starter draft is published automatically.
 
 ## Cloudflare frontend review deployment
 
+The current review address is https://jitrapadu.sites.locus-t.com, deployed through
+Sites with public access and active HTTPS. The contact form remains disabled.
+See `docs/CLOUDFLARE_DEPLOYMENT.md` for the current project identity, optimized
+static export and publishing workflow. The Worker instructions below describe the
+legacy review deployment and do not update the new Sites address.
+
 The existing Cloudflare Worker is `jitrapadu`; `wrangler.review.jsonc` deploys a
 static frontend review build to it. BugHerd loads once across the public website
 using the supplied project script and is not included in the Payload admin layout.

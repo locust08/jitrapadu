@@ -56,3 +56,7 @@ temp/
 docs/research/figma-jitrapadu/audit-2026-10-22/about-figma.png
 # Local implementation ledger
 .superpowers/
+
+# Separate Sites deployment repository (public static export only)
+/sites/jitrapadu-review/
+/sites/jitrapadu-sites-source/

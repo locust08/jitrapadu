@@ -3,12 +3,12 @@
 .home-page p { font-size:18px; line-height:30px; }
 .home-page .home-hero { position:relative; min-height:945px; overflow:hidden; isolation:isolate; }
 .home-page .home-hero-overlay { position:absolute; inset:0; background:#ffffff66; }
-.home-hero-heading { position:relative; z-index:1; width:calc(min(100vw,1920px)/2 - 210px); padding-top:290px; margin-left:var(--page-gutter); }
+.home-hero-heading { position:relative; z-index:1; width:calc(min(100vw,1920px)/2 - 140px); max-width:745px; padding-top:150px; margin-left:var(--page-gutter); }
 .home-page .home-hero-heading>p { font-size:24px; line-height:32px; font-weight:600; }
-.home-page .home-hero-heading h1 { font-size:clamp(44px,3.6vw,66px); line-height:1.5; letter-spacing:-1.8px; color:#0068d8; font-weight:700; }
+.home-page .home-hero-heading h1 { font-size:clamp(48px,6.25vw,100px); line-height:1.2; letter-spacing:-1.8px; color:#0068d8; font-weight:700; }
 .home-tower { position:absolute; width:255px; height:818px; bottom:0; left:calc(50% - 127.5px); overflow:hidden; transform:scaleX(-1); }
-.home-tower img { position:absolute; height:114.6%; left:-235.36%; top:-14.6%; width:552.77%; max-width:none; }
-.home-hero-copy { position:relative; width:calc(min(100vw,1920px)/2 - 127.5px - 48px - min(3vw,50px)); margin:160px var(--page-gutter) 50px auto; font-weight:600; }
+.home-tower img { position:absolute; height:114.6%; left:50%; top:-14.6%; width:auto; max-width:none; transform:translateX(-51.62%); }
+.home-hero-copy { position:relative; width:calc(min(100vw,1920px)/2 - 127.5px - 48px - min(3vw,50px)); margin:56px var(--page-gutter) 50px auto; font-weight:600; }
 .home-page .home-hero-copy p { line-height:26px; }
 .home-hero-copy p+p { margin-top:24px; }
 .home-about { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr); gap:clamp(32px,6vw,120px); isolation:isolate; }
@@ -96,7 +96,7 @@
  .home-hero-heading { grid-column:1/-1; width:100%; padding:0; margin:0; }
  .home-page .home-hero-heading > p { max-width:none; font-size:clamp(16px,4vw,24px); line-height:1.35; }
  .home-page .home-hero-heading h1 { max-width:none; font-size:clamp(26px,6.8vw,40px); line-height:1.2; letter-spacing:-1px; }
- .home-tower { position:relative; grid-column:1; grid-row:2; width:100%; height:100%; min-height:clamp(500px,105vw,650px); left:auto; right:auto; bottom:auto; opacity:1; align-self:stretch; }
+ .home-tower { position:relative; grid-column:1; grid-row:2; width:100%; height:auto; min-height:0; max-height:650px; aspect-ratio:255/818; left:auto; right:auto; bottom:auto; opacity:1; align-self:end; }
  .home-hero-copy { grid-column:2; grid-row:2; width:100%; min-width:0; margin:0; padding-bottom:100px; align-self:start; }
  .home-page .home-hero-copy p { font-size:clamp(14px,3.2vw,18px); line-height:1.45; }
 }

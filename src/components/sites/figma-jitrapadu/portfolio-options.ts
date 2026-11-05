@@ -6,3 +6,9 @@ export const portfolioOptions = [
   { id: "rapid-deployment-system", label: "Rapid Deployment System", description: solutionData["rapid-deployment-system"].featuredIntro },
   { id: "smart-pole-lamp-pole", label: "Smart Pole & Lamp Pole", description: solutionData["smart-pole-lamp-pole"].featuredIntro },
 ] as const;
+
+export type PortfolioCategory = (typeof portfolioOptions)[number]["id"];
+
+export function portfolioPath(category: PortfolioCategory) {
+  return category === "all" ? "/portfolio/" : `/portfolio/${category}/`;
+}

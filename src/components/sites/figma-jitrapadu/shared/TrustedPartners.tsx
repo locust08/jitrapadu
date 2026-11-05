@@ -29,7 +29,7 @@ export function TrustedPartners() {
         <div className="partner-track" style={{animationDuration:`${partners.length * 11}s`}}>
           {[0, 1].map(copy => <div className="partner-group" key={copy} aria-hidden={copy === 1 ? true : undefined}>
             {partners.map(partner => <div className="partner-cell" key={partner.name}>
-              <img src={partner.file} alt={copy === 0 ? partner.name : ""} width={partner.width} height={partner.height} style={{ width: partner.width, height: partner.height }} />
+              <img src={partner.file} alt={copy === 0 ? partner.name : ""} width={partner.width} height={partner.height} />
             </div>)}
           </div>)}
         </div>

@@ -54,7 +54,7 @@ function FactoryIcon({ src }: { src: string }) {
 export function FactoryDesign() {
   return <div className="design-canvas fluid-page factory-page" data-name="Our Factory">
     <Header />
-    <section className="factory-hero">
+    <section className="factory-hero page-banner">
       <div className="factory-hero-image" aria-hidden="true"><img src={imgRectangle1} alt="" /><img src={imgRectangle2} alt="" /></div>
       <h1 data-reveal>Our Factory</h1>
     </section>

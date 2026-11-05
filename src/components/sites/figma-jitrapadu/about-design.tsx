@@ -41,6 +41,18 @@ const imgRectangle32 = `${assetPathPrefix}/d6c79.png`;
 const imgLine15 = `${assetPathPrefix}/ba425.svg`;
 const imgGroup15 = `${assetPathPrefix}/fe9be.svg`;
 
+
+// Remaining milestones from the client copywriting document, About Us / Key Milestones.
+// New images are generated illustrations rather than project photographs.
+const additionalMilestones = [
+  { year: "2009 to 2010", description: "Completed radar tower works for TUDM and PDRM-related sites.", image: "radar-tower", alt: "Illustration of a steel radar tower in a tropical landscape" },
+  { year: "2010 to 2012", description: "Supported installation and commissioning of BTS equipment for Grameenphone in Bangladesh.", image: "bts-commissioning", alt: "Illustration of a technician commissioning telecom equipment" },
+  { year: "2010 to Present", description: "Continued delivery of tower, pole and RDS-related projects for D’Harmoni in Southern Malaysia.", image: "southern-deployment", alt: "Illustration of a rapid deployment telecom monopole" },
+  { year: "2017 to 2019", description: "Delivered a 35m 3-legged medium-duty tower project in Brisbane, Australia.", image: "brisbane-tower", alt: "Illustration of a three-legged telecom tower in an Australian landscape" },
+  { year: "2023", description: "Received SIRIM test recognition for Smart Pole-related components and Ericsson equipment fitting validation for Smart Pole cabinet works.", image: "smart-pole-validation", alt: "Illustration of smart pole equipment in an engineering test workshop" },
+  { year: "2025 to 2027", description: "CIDB Grade G5 registration renewed and active for B, CE and ME categories.", image: "engineering-registration", alt: "Illustration of structural steel, engineering drawings and a hard hat" },
+];
+
 type RightArrowProps = {
   className?: string;
   property1?: "Default";
@@ -173,7 +185,7 @@ export function AboutDesign() {
   return (
     <div className="design-canvas fluid-page about-page" data-node-id="14:725" data-name="About Us">
       <Header />
-      <section className="about-hero" data-node-id="14:726"><div className="about-hero-art" data-node-id="14:727">
+      <section className="about-hero page-banner" data-node-id="14:726"><div className="about-hero-art" data-node-id="14:727">
           <div className="-scale-y-100 flex-none rotate-180">
             <div className="h-[650px] relative w-[1920px]">
               <div aria-hidden className="absolute inset-0 pointer-events-none">
@@ -196,10 +208,7 @@ export function AboutDesign() {
           <p className="font-sans font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-brand-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="14:735">
             Our Background
           </p>
-          <div className="font-sans font-bold leading-[0] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="14:736">
-            <p className="leading-[58px] mb-0">Engineering Excellence</p>
-            <p className="leading-[58px]">{`for Malaysia’s Telecommunication Future `}</p>
-          </div>
+          <h2 className="about-intro-title" data-node-id="14:736">Engineering Excellence for Malaysia’s Telecommunication Future</h2>
         </div><div className="about-intro-content"><div className="about-body" data-reveal data-node-id="94:490">
           <p className="leading-[30px] mb-0">Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel fabrication company specialising in turnkey infrastructure solutions. Our core focus includes telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems, portable BTS solutions, custom steel fabrication, project management and technical support.</p>
           <p className="leading-[30px]">Over the years, Jitrapadu has grown from a steel structure and tower fabrication specialist into a one-stop solution partner for the telecommunications ecosystem. Our work supports telcos, tower owners, infrastructure providers, government-linked organisations and project partners that need reliable structures for network expansion, 5G rollout, smart city development and rural connectivity.</p>
@@ -624,6 +633,21 @@ export function AboutDesign() {
               Delivered multiple tower and pole projects for infrastructure partners including Shazan Alam Muda and Konsortium Jaringan Selangor.
             </p>
           </div>
+          {additionalMilestones.map(milestone => <div className="content-stretch flex flex-col gap-[24px] items-center relative shrink-0 w-[417.5px]" data-card data-reveal key={milestone.year}>
+            <p className="font-sans font-semibold leading-[40px] text-[32px] tracking-[-0.6px]">{milestone.year}</p>
+            <div className="flex flex-col items-center relative shrink-0">
+              <div className="bg-[#007cf8] flex items-center justify-center relative rounded-[50px] shrink-0 size-[40px]">
+                <FigmaIcon name="calendar" className="text-white" />
+              </div>
+              <div className="flex flex-col items-center">
+                <div className="relative h-[28px] w-[10px]"><img alt="" className="absolute inset-0 size-full" src={imgGroup15} /></div>
+                <div data-milestone-photo className="relative rounded-[12px] overflow-hidden w-full h-[340px]">
+                  <img alt={milestone.alt} className="absolute inset-0 size-full object-cover" src={`/sites/figma-jitrapadu/milestones/${milestone.image}.png`} />
+                </div>
+              </div>
+            </div>
+            <p className="font-sans leading-[30px] text-[18px] text-[#495667]">{milestone.description}</p>
+          </div>)}
         </div></div></section>
       <FooterWithCta className="site-footer" />
     </div>

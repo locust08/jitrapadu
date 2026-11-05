@@ -9,6 +9,7 @@ import "@/components/sites/figma-jitrapadu/site.css";
 import "@/components/sites/figma-jitrapadu/mobile.css";
 import "@/components/sites/figma-jitrapadu/fluid.css";
 import "@/components/sites/figma-jitrapadu/home-fluid.css";
+import "@/components/sites/figma-jitrapadu/page-banner.css";
 
 const inter = Inter({
   variable: "--font-inter",

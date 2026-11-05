@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     ".template-bootstrap/**",
     "temp/**",
+    "sites/**",
     "src/components/sites/figma-jitrapadu/shared/CodeComponentId_*.ts",
   ]),
 ]);

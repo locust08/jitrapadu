@@ -48,6 +48,7 @@
 .about-page .about-milestone-arrows { display:flex; gap:20px; align-items:center; flex-shrink:0; }
 .about-page .about-milestone-track { position:relative; display:flex; gap:32px; align-items:flex-start; width:100%; overflow-x:auto; overscroll-behavior-inline:contain; scroll-snap-type:x mandatory; scrollbar-width:none; }
 .about-page .about-milestone-track>div { width:min(82vw,417.5px); min-width:0; flex-shrink:0; scroll-snap-align:start; }
+.about-page .about-milestone-track > [data-reveal-slide] { translate:none; }
 .about-page .about-milestone-track>div>p { width:100%; }
 .about-page .about-milestone-track>div>div { width:100%; }
 .about-page .about-milestone-track>div>div>div:last-child { display:flex; flex-direction:column; align-items:center; width:100%; }
@@ -67,6 +68,8 @@
 /* About-only corrections: source min-content widths must not constrain prose. */
 .about-page .about-heading > *, .about-page .about-section-heading > * { width:100%; min-width:0; }
 .about-page .about-heading p { overflow-wrap:normal; word-break:normal; }
+.about-page .about-intro > .about-heading { container-type:inline-size; }
+.about-page .about-intro-title { font-size:clamp(32px,10cqw,48px); line-height:1.21; letter-spacing:-.025em; font-weight:700; overflow-wrap:anywhere; }
 .about-page .about-certificate-grid { min-width:0; }
 .about-page .about-certificate-grid > div { cursor:default; }
 .about-page .about-certificate-grid > div:is(:hover,:focus-within) { box-shadow:none; border-color:#dde4ec; }

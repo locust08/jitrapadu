@@ -1,10 +1,48 @@
-# Cloudflare deployment
+# Review deployment
 
-Live site: https://jitrapadu.easondev.workers.dev
+Current review address: https://jitrapadu.sites.locus-t.com
+
+Deployed through Sites on 3 November 2026. The custom domain and HTTPS are active.
+The current Site audience is public (verified on 5 November 2026). Preserve its
+current access settings when publishing updates.
+
+Initial Sites publication, 3 November 2026:
+
+- Project: `appgprj_6ae940d67ad4819190013fa9d20fb7de`
+- Deployment: `appgdep_6ae94833e54c8191909fc756bc6f2ae3`
+- Pushed deployment source: `b98bc3c5cc63b57a0a2af0454bd2a7c7b1fae3bb`
+- Source checkout: ignored `sites/jitrapadu-sites-source/`
+- Static output: that checkout's `dist/`
+
+Run `npm run review:build`, then `node scripts/prepare-sites-review.mjs` to copy the
+review export and convert PNGs to WebP at quality 95, retaining dimensions and
+original source assets. The 3 November export contains 433 files, about 99 MB.
+Use the Sites source workflow helper to commit/push and package the output before
+deploying the exact returned source commit and archive. Source pushes have a
+64 MiB limit; split changed media into smaller pushes when necessary, and deploy
+only after the complete output is uploaded. Archives must stay below 256 MiB.
+The parent GitHub repository is separate. Commit and push approved source changes
+there before updating the Sites deployment checkout. `export-integrity.json` in
+that checkout records the parent source commit used for the publication.
+
+The approved 5 November update includes BugHerd #78–93. Keep those tasks in Ready
+for Review. Task #77 awaits additional photos for each selected project; its
+single-photo popup is retained. The contact form remains disabled for review.
+
+DNS in the `locus-t.com` zone uses a DNS-only CNAME from `jitrapadu.sites` to
+`custom-domains.chatgpt.site`, plus the verification TXT records returned by Sites.
+Preserve the Site identity in `.openai/hosting.json` for future publications.
+
+The contact form remains disabled until explicitly activated for publishing.
+Payload, its private drafts and uploads, and admin/API routes are excluded.
+
+## Legacy Cloudflare Worker
+
+Previous review address: https://jitrapadu.easondev.workers.dev
 
 Initial deployment verified on 23 October 2026. Version: `dfedd74c-000b-4405-a1f6-39af1a586fcb`.
 
-The website supports a static Next.js export. Current filters, animations, article pages and email-app enquiry preparation run in the browser and do not require a server.
+The website supports a static Next.js export. Current filters, animations and article pages run in the browser and do not require a server. The contact form remains inactive.
 
 ## Commands
 

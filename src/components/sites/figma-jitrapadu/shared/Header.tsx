@@ -40,7 +40,7 @@ export function Header({ className = "" }: { className?: string }) {
       <Link href="/our-factory" onClick={() => setMobileOpen(false)}>Our Factory</Link>
       <div className="nav-dropdown">
         <button type="button" aria-expanded={open === "portfolio"} onClick={() => setOpen(open === "portfolio" ? null : "portfolio")}>Portfolio <FigmaIcon name="caret-down" /></button>
-        {open === "portfolio" && <div className="dropdown-panel">{portfolioOptions.filter(option => option.id !== "all").map(option => <Link key={option.id} href={`/portfolio?solution=${option.id}`} onClick={() => {setOpen(null); setMobileOpen(false);}}>{option.label}</Link>)}</div>}
+        {open === "portfolio" && <div className="dropdown-panel">{portfolioOptions.filter(option => option.id !== "all").map(option => <Link key={option.id} href={`/portfolio/${option.id}/`} onClick={() => {setOpen(null); setMobileOpen(false);}}>{option.label}</Link>)}</div>}
       </div>
       <div className="nav-dropdown">
         <button type="button" aria-expanded={open === "resources"} onClick={() => setOpen(open === "resources" ? null : "resources")}>Resources <FigmaIcon name="caret-down" /></button>

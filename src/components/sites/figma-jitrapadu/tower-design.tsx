@@ -93,7 +93,7 @@ export function TowerDesign() {
   return (
     <div className="design-canvas fluid-page tower-page" data-name="Our Solutions - Telecom Tower & Monopole">
       <Header />
-      <section className="tower-hero">
+      <section className="tower-hero page-banner">
         <div className="tower-hero-images" aria-hidden="true"><img src={imgRectangle1} alt="" /><img src={imgRectangle2} alt="" /></div>
         <div className="tower-shell"><h1 data-reveal>{solution?.title||towerCopy["60:624"]}</h1></div>
       </section>
@@ -121,7 +121,7 @@ export function TowerDesign() {
       <section className="tower-section tower-muted"><div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["83:1678"]}</h2><p>{towerCopy["83:1679"]}</p></div>
         <div className="tower-applications">{applications.map((application) => <article key={application.title} data-card data-reveal><div data-card-image><img src={application.image} alt="" /></div><h3>{application.title}</h3></article>)}</div>
       </div></section>
-      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio?solution=telecom-tower-monopole" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
+      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio/telecom-tower-monopole/" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
         <div className="tower-projects">{projectsForSolution("telecom-tower-monopole").map(project => <ProjectCard key={project.title} project={project} />)}</div>
       </section>
       <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2>{towerCopy["133:1004"]}</h2></div><TowerFaq /></div></section>

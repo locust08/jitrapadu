@@ -153,3 +153,6 @@
 .csr-hero::after { display: none; }
 .csr-hero h1 { text-shadow: 0 2px 8px #10203399; }
 @media(max-width:600px) { .contact-form-panel form { grid-template-columns: minmax(0, 1fr); } }
+
+/* BugHerd #88: match the supplied pill CTA; submission stays disabled. */
+.contact-form-panel .resource-button { border-radius:999px; }

@@ -1,0 +1,27 @@
+LOCAL IMAGE GAP REVIEW — 30 October 2026
+
+Source: supplied Prototype images Drive folder (inventory in client-assets-2026-10-29.json)
+Latest Figma: https://www.figma.com/design/risedln33KP8sGOpDfRYpZ/Jitra-Padu-29-10-2026?m=dev
+RDS reference: 479:396. Smart Pole reference: 479:728.
+
+Resolved tasks:
+22: RDS introduction imagery. Installed the supplied introduction detail and main deployment photos, matched to Figma nodes 479:407 and 479:412.
+23: RDS product range imagery. Filled all six product cards with the supplied images, including the layered single-sharer composition from Figma.
+24: RDS workflow icons. Mapped all ten supplied step icons to the workflow. The prepared timeline and shader background remain in place.
+25: RDS application gallery. Filled all eight application images using their positions in the latest Figma; retained the 4x2 desktop grid.
+26: RDS featured projects. Added Kajang, Changkat Jong and Paka photos and the names/structure descriptions supplied in Figma. The same records appear in filtered Portfolio.
+29: Smart Pole introduction imagery. Installed the supplied introduction detail and main Smart Pole photos from the latest Figma.
+30: Smart Pole product range imagery. Filled all seven existing product cards. The generic Lamp Pole card and 12m/15m/18m Lamp Pole card share the supplied lamp-pole image; no new product claims added.
+31: Smart Pole application gallery. Filled all eight approved use-case image slots using the latest Figma assignments; retained the 4x2 desktop grid.
+32: Smart Pole featured projects. Added the supplied Juru, Senai and Jalan Telok Kumbar project photos, locations and structure descriptions. The same records appear in filtered Portfolio.
+72: Supplied solution and banner imagery. Filled the RDS and Smart Pole empty slots and installed category-aware Portfolio, Article, News, Events, CSR and Contact banners from the supplied reference.
+
+66 supplied source assets downloaded from the corresponding Figma image URLs and converted to WebP for local delivery (approximately 148 MB to 13.7 MB, with composition unchanged).
+Assets: public/sites/figma-jitrapadu/client-2026-10-29/
+Placement mapping: src/components/sites/figma-jitrapadu/solution-assets.ts
+Shared project records: src/components/sites/figma-jitrapadu/project-data.ts
+
+31 partner logos were already integrated under task 66; task 4 remains in Backlog per user instruction.
+Existing generated milestone illustrations from task 75 remain, as no dedicated milestone image folder was supplied.
+Tasks 74–76 remain local and Ready for Review. No push or deployment authorized for this batch.
+Contact submission remains disabled until publishing.
