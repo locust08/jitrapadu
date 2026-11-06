@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import { FoldText } from "./shared/FoldText";
 import { useEffect, useRef, useState } from "react";
 import "./about-fluid.css";
 import { Header } from "./shared/Header";
@@ -105,9 +106,9 @@ function OurMission({ className }: OurMissionProps) {
             <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="336:1498" style={{ maskImage: `url("${imgRectangle15}")` }} />
           </div>
         </div>
-        <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] text-center tracking-[-1.2px] w-[min-content]" data-node-id="336:1499">
+        <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] text-center tracking-[-1.2px] w-[min-content]" data-node-id="336:1499"><FoldText>
           Our Mission
-        </p>
+        </FoldText></p>
         <p data-purpose-description className="hidden text-center font-sans text-[24px] leading-[32px] font-semibold tracking-[-0.3px] text-white">To provide customisable, cost-effective and reliable telecommunication infrastructure solutions through engineering excellence, in-house fabrication, continuous R&D and professional project delivery.</p>
       </div>
       <style jsx>{`
@@ -144,9 +145,9 @@ function OurVision({ className }: OurVisionProps) {
             <div className="bg-[#1456a3] col-1 mask-alpha mask-intersect mask-no-clip mask-no-repeat mask-size-[45px_45px] ml-0 mt-0 relative row-1 size-[45px]" data-node-id="336:1467" style={{ maskImage: `url("${imgRectangle15}")` }} />
           </div>
         </div>
-        <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] text-center tracking-[-1.2px] w-[min-content]" data-node-id="336:1468">
+        <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] text-center tracking-[-1.2px] w-[min-content]" data-node-id="336:1468"><FoldText>
           Our Vision
-        </p>
+        </FoldText></p>
         <p data-purpose-description className="hidden text-center font-sans text-[24px] leading-[32px] font-semibold tracking-[-0.3px] text-white">To become Malaysia’s trusted leader in telecommunication steel infrastructure by driving innovation, safety and sustainable connectivity for the future.</p>
       </div>
       <style jsx>{`
@@ -200,15 +201,15 @@ export function AboutDesign() {
             </div>
           </div>
         </div><div className="about-hero-shade" /><div className="about-hero-title" data-node-id="14:729">
-          <p className="[word-break:break-word] font-sans font-bold leading-[76px] min-w-full not-italic relative shrink-0 text-[68px] text-[color:var(--color-text-inverse,white)] tracking-[-1.8px] w-[min-content]" data-node-id="14:731">
+          <p className="[word-break:break-word] font-sans font-bold leading-[76px] min-w-full not-italic relative shrink-0 text-[68px] text-[color:var(--color-text-inverse,white)] tracking-[-1.8px] w-[min-content]" data-node-id="14:731"><FoldText>
             About Jitrapadu Engineering Sdn Bhd
-          </p>
+          </FoldText></p>
         </div></section>
       <section className="about-section about-intro" data-node-id="214:839"><div className="about-heading" data-reveal data-node-id="14:734" data-name="Frame">
           <p className="font-sans font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-brand-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="14:735">
             Our Background
           </p>
-          <h2 className="about-intro-title" data-node-id="14:736">Engineering Excellence for Malaysia’s Telecommunication Future</h2>
+          <h2 className="about-intro-title" data-node-id="14:736"><FoldText>Engineering Excellence for Malaysia’s Telecommunication Future</FoldText></h2>
         </div><div className="about-intro-content"><div className="about-body" data-reveal data-node-id="94:490">
           <p className="leading-[30px] mb-0">Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel fabrication company specialising in turnkey infrastructure solutions. Our core focus includes telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems, portable BTS solutions, custom steel fabrication, project management and technical support.</p>
           <p className="leading-[30px]">Over the years, Jitrapadu has grown from a steel structure and tower fabrication specialist into a one-stop solution partner for the telecommunications ecosystem. Our work supports telcos, tower owners, infrastructure providers, government-linked organisations and project partners that need reliable structures for network expansion, 5G rollout, smart city development and rural connectivity.</p>
@@ -219,9 +220,9 @@ export function AboutDesign() {
         </div><p className="about-body" data-reveal data-node-id="14:737">{`Today, our strength is built on practical engineering, in-house manufacturing capability, continuous R&D and field-tested deployment experience. We remain committed to building a better-connected Malaysia through safe, customisable, cost-effective and reliable telecommunication infrastructure.`}</p></div></div></div></section>
       <section className="about-purpose" data-node-id="149:676"><OurVision className="about-purpose-panel" /><OurMission className="about-purpose-panel" /></section>
       <section className="about-section about-values" data-node-id="68:1041"><div className="about-section-heading" data-reveal data-node-id="68:1068" data-name="Frame">
-          <p className="[word-break:break-word] font-sans font-bold leading-[58px] not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-1.2px] w-full" data-node-id="68:1069">
+          <p className="[word-break:break-word] font-sans font-bold leading-[58px] not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-1.2px] w-full" data-node-id="68:1069"><FoldText>
             Our Core Values
-          </p>
+          </FoldText></p>
         </div><div className="about-values-grid" data-node-id="133:572">
           <div className="border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col gap-[var(--spacing-8,8px)] h-[354px] items-start px-[var(--spacing-24,24px)] py-[var(--spacing-32,32px)] relative rounded-[var(--spacing-12,12px)] shrink-0 w-[437px]" data-node-id="247:691" data-name="icon box" data-card data-reveal>
             <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-12,12px)]">
@@ -309,9 +310,9 @@ export function AboutDesign() {
             <p className="font-sans font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-brand-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="133:648">
               Our Team
             </p>
-            <p className="font-sans font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="133:649">
+            <p className="font-sans font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="133:649"><FoldText>
               Engineering Strength Through Collaboration
-            </p>
+            </FoldText></p>
           </div>
           <div className="font-sans font-normal leading-[0] relative shrink-0 text-[18px] text-[color:var(--color-text-secondary,#495667)] w-[1053px] whitespace-pre-wrap" data-node-id="71:1076">
             <p className="leading-[30px] mb-0">Jitrapadu is supported by a team of engineers, project managers, technical personnel, certified welders, skilled workers and site teams who work together from planning to completion.</p>
@@ -337,8 +338,8 @@ export function AboutDesign() {
         </div><div className="about-heading about-certificate-heading" data-reveal data-node-id="112:594" data-name="Frame">
                 <p className="font-sans font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-brand-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="112:595">{`Certifications & Compliance`}</p>
                 <div className="font-sans font-bold leading-[0] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="112:596">
-                  <p className="leading-[58px] mb-0">Engineering Excellence</p>
-                  <p className="leading-[58px]">{`for Malaysia’s Telecommunication Future `}</p>
+                  <p className="leading-[58px] mb-0"><FoldText>Engineering Excellence</FoldText></p>
+                  <p className="leading-[58px]"><FoldText>{`for Malaysia’s Telecommunication Future `}</FoldText></p>
                 </div>
                 <p className="font-sans font-normal leading-[30px] min-w-full relative shrink-0 text-[18px] text-[color:var(--color-text-secondary,#495667)] w-[min-content]" data-node-id="115:437">{`Our work is supported by recognised registrations, technical references, engineering standards and industry compliance documents that reflect our commitment to quality and reliability. `}</p>
               </div><div className="about-certificate-grid" data-node-id="68:923">
@@ -474,9 +475,9 @@ export function AboutDesign() {
           </div></section>
       <section className="about-section about-achievements" data-node-id="235:1193"><div className="about-heading" data-reveal data-node-id="235:1195">
           <div className="content-stretch flex flex-col gap-[var(--spacing-24,24px)] items-start relative shrink-0 w-full" data-node-id="235:1196" data-name="Frame">
-            <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] tracking-[-1.2px] w-[min-content]" data-node-id="235:1198">
+            <p className="[word-break:break-word] font-sans font-bold leading-[58px] min-w-full not-italic relative shrink-0 text-[48px] text-[color:var(--color-text-inverse,white)] tracking-[-1.2px] w-[min-content]" data-node-id="235:1198"><FoldText>
               Our Achievements
-            </p>
+            </FoldText></p>
           </div>
           <p className="[word-break:break-word] font-sans font-normal leading-[30px] not-italic relative shrink-0 text-[18px] text-[color:var(--color-text-inverse,white)] w-full" data-node-id="235:1199">
             Jitrapadu has a strong track record in delivering telecommunications infrastructure solutions across Malaysia and the region. Backed by proven expertise, robust manufacturing capabilities and a skilled in-house team, we support the reliable and efficient deployment of modern connectivity infrastructure.
@@ -542,7 +543,7 @@ export function AboutDesign() {
           <p className="font-sans font-semibold leading-[18px] relative shrink-0 text-[13px] text-[color:var(--color-brand-primary,#007cf8)] tracking-[1.5px] uppercase whitespace-nowrap" data-node-id="133:668">
             Our Milestones
           </p>
-          <p className="font-sans font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="133:669">{`Our Journey of Growth & Innovation`}</p>
+          <p className="font-sans font-bold leading-[58px] min-w-full relative shrink-0 text-[48px] text-[color:var(--color-text-primary,#102033)] tracking-[-1.2px] w-[min-content]" data-node-id="133:669"><FoldText>{`Our Journey of Growth & Innovation`}</FoldText></p>
         </div><div className="about-milestone-arrows" data-node-id="184:1212" data-name="nav arrow">
           <LeftArrow onClick={() => moveTimeline(-1)} disabled={timelineLimits.start} className="bg-[var(--color-background-primary,white)] border border-[var(--color-brand-primary,#007cf8)] border-solid content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[70px]" />
           <RightArrow onClick={() => moveTimeline(1)} disabled={timelineLimits.end} className="bg-[var(--color-background-primary,white)] border border-[var(--color-brand-primary,#007cf8)] border-solid content-stretch flex items-center justify-center relative rounded-[50px] shrink-0 size-[70px]" />

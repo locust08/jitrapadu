@@ -103,4 +103,10 @@
 /* BugHerd #8: milestone hover shadows belong to the photo, excluding captions. */
 .about-page .about-milestone-track > [data-card]:is(:hover,:focus-within) { box-shadow:none; }
 .about-page .about-milestone-track [data-milestone-photo] { transition:box-shadow 250ms ease-out; }
+.about-page .about-certificate-heading [class*="text-[48px]"] { width:100%; }
+/* Keep the Figma columns once the full-size title fits without collisions. */
+@media(max-width:1439px) {
+ .about-page .about-certificates { grid-template-columns:minmax(0,1fr); }
+ .about-page .about-certificate-heading { position:static; max-width:1100px; }
+}
 .about-page .about-milestone-track > [data-card]:is(:hover,:focus-within) [data-milestone-photo] { box-shadow:0 10px 26px #102c4c1a; }

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import { FoldText } from "./shared/FoldText";
 import Link from "next/link";
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
@@ -95,10 +96,10 @@ export function TowerDesign() {
       <Header />
       <section className="tower-hero page-banner">
         <div className="tower-hero-images" aria-hidden="true"><img src={imgRectangle1} alt="" /><img src={imgRectangle2} alt="" /></div>
-        <div className="tower-shell"><h1 data-reveal>{solution?.title||towerCopy["60:624"]}</h1></div>
+        <div className="tower-shell"><h1 data-reveal><FoldText>{solution?.title||towerCopy["60:624"]}</FoldText></h1></div>
       </section>
       <section className="tower-shell tower-section tower-intro">
-        <div className="tower-intro-copy" data-reveal><p className="tower-eyebrow">{towerCopy["60:628"]}</p><h2>{towerCopy["60:629"]}</h2></div>
+        <div className="tower-intro-copy" data-reveal><p className="tower-eyebrow">{towerCopy["60:628"]}</p><h2><FoldText>{towerCopy["60:629"]}</FoldText></h2></div>
         <div className="tower-intro-detail"><img data-reveal src={imgRectangle13} alt="Telecommunication tower infrastructure" /><div data-reveal>
           {solution?.body ? solution.body.split(/\n\s*\n/).map((paragraph,index)=><p key={index}>{paragraph}</p>) : <>
           <p>Jitrapadu designs and fabricates telecommunication towers and monopoles for diverse deployment needs, from rural coverage to high-capacity urban sites. Our structures are engineered for strength, durability and long-term performance across Malaysia’s climate and terrain conditions.</p>
@@ -108,23 +109,23 @@ export function TowerDesign() {
         <div className="tower-intro-main" data-reveal><img src={imgRectangle12} alt="Jitrapadu tower structure" /></div>
       </section>
       <section className="tower-section tower-muted">
-        <div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["65:685"]}</h2><p>{towerCopy["65:686"]}</p></div>
+        <div className="tower-shell"><div className="tower-section-heading" data-reveal><h2><FoldText>{towerCopy["65:685"]}</FoldText></h2><p>{towerCopy["65:686"]}</p></div>
           <div className="tower-products">{displayProducts.map((product) => <article className="tower-product" key={product.title} data-card data-reveal><h3>{product.title}</h3>{product.image&&<div className="tower-product-image" data-card-image><img src={product.image} alt={product.alt} /></div>}<p>{product.description}</p></article>)}</div>
         </div>
       </section>
       <section className="tower-section tower-workflow">
         <div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 0.8832286596298218, y: 64.27672576904297, radius: 28.776113510131836, angle: 0 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div>
-        <div className="tower-shell tower-workflow-layout"><div className="tower-workflow-heading"><div data-reveal><p className="tower-eyebrow">{towerCopy["191:1430"]}</p><h2>Installation &amp;<br />Deployment Workflow</h2></div></div>
+        <div className="tower-shell tower-workflow-layout"><div className="tower-workflow-heading"><div data-reveal><p className="tower-eyebrow">{towerCopy["191:1430"]}</p><h2><FoldText>Installation &amp;<br />Deployment Workflow</FoldText></h2></div></div>
           <ol className="tower-steps">{steps.map((step, index) => <li key={step.title} data-reveal><div className="tower-step-icon"><span style={{maskImage: `url("${step.image}")`}} /></div><div><p className="tower-step-number">Step {index + 1}:</p><h3>{step.title}</h3><p>{step.description}</p></div></li>)}</ol>
         </div>
       </section>
-      <section className="tower-section tower-muted"><div className="tower-shell"><div className="tower-section-heading" data-reveal><h2>{towerCopy["83:1678"]}</h2><p>{towerCopy["83:1679"]}</p></div>
+      <section className="tower-section tower-muted"><div className="tower-shell"><div className="tower-section-heading" data-reveal><h2><FoldText>{towerCopy["83:1678"]}</FoldText></h2><p>{towerCopy["83:1679"]}</p></div>
         <div className="tower-applications">{applications.map((application) => <article key={application.title} data-card data-reveal><div data-card-image><img src={application.image} alt="" /></div><h3>{application.title}</h3></article>)}</div>
       </div></section>
-      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2>{towerCopy["133:1038"]}</h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio/telecom-tower-monopole/" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
+      <section className="tower-section tower-shell" id="featured-projects"><div className="tower-featured-heading"><div data-reveal><h2><FoldText>{towerCopy["133:1038"]}</FoldText></h2><p>{towerCopy["133:1039"]}</p></div><Link href="/portfolio/telecom-tower-monopole/" className="tower-project-label">Explore More Projects <FigmaIcon name="arrow-right" /></Link></div>
         <div className="tower-projects">{projectsForSolution("telecom-tower-monopole").map(project => <ProjectCard key={project.title} project={project} />)}</div>
       </section>
-      <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2>{towerCopy["133:1004"]}</h2></div><TowerFaq /></div></section>
+      <section className="tower-section tower-faq"><div className="tower-pattern" aria-hidden="true"><ShaderFill className="absolute" shader={{ setup: setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render: renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, params: { falloff: 2.299999952316284, inverseFalloff: false, ringCount: 30, offset: 1, shape: 1, transform: { x: 50, y: 100, radius: 22.97724151611328, angle: -90 }, color: { r: 0.9450980424880981, g: 0.9450980424880981, b: 0.9450980424880981, a: 1 } }, manifest: manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 }} /></div><div className="tower-shell"><div className="tower-section-heading" data-reveal><p className="tower-eyebrow">{towerCopy["133:1003"]}</p><h2><FoldText>{towerCopy["133:1004"]}</FoldText></h2></div><TowerFaq /></div></section>
       <FooterWithCta className="site-footer" />
     </div>
   );

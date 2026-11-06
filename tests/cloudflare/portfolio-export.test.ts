@@ -19,7 +19,7 @@ test('portfolio export provides distinct category pages with scoped projects and
     assert.ok(existsSync(file), `Missing portfolio category page: ${slug}`)
     const html = readFileSync(file, 'utf8')
     const main = html.split('<main')[1].split('</main>')[0]
-    assert.equal(main.includes(introduction), false, `${slug} repeats the overview introduction`)
+    assert.equal(main.replace(/<[^>]*>/g, '').includes(introduction), false, `${slug} repeats the overview introduction`)
     assert.equal((main.match(/aria-label="View project:/g) || []).length, 3)
     assert.ok(main.includes(project), `${slug} is missing its own projects`)
     for (const [otherSlug, otherProject] of categories) {
@@ -28,6 +28,15 @@ test('portfolio export provides distinct category pages with scoped projects and
     }
   }
   const overview = readFileSync(path.join(output!, 'portfolio/index.html'), 'utf8').split('<main')[1].split('</main>')[0]
-  assert.ok(overview.includes(introduction))
+  assert.ok(overview.replace(/<[^>]*>/g, '').includes(introduction))
   assert.equal((overview.match(/aria-label="View project:/g) || []).length, 9)
+})
+
+test('all solution exports expose the same accessible project viewers as their portfolio category', { skip: !output }, () => {
+  for (const [slug, project] of categories) {
+    const html = readFileSync(path.join(output!, 'solutions', slug, 'index.html'), 'utf8')
+    const featured = html.split('<main')[1].split('</main>')[0]
+    assert.equal((featured.match(/aria-label="View project:/g) || []).length, 3, `${slug} project cards are not interactive`)
+    assert.ok(featured.includes(`aria-label="View project: ${project}`))
+  }
 })

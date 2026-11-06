@@ -1,5 +1,6 @@
 'use client';
 /* eslint-disable @next/next/no-img-element */
+import { FoldText } from "./FoldText";
 import {usePublishedContent} from "./PublishedContentProvider";
 import { clientPartnerLogos } from "../partner-logos";
 
@@ -21,7 +22,7 @@ export function TrustedPartners() {
   const displayRows=[partners.slice(0,middle),partners.slice(middle)].filter(row=>row.length);
   return <section className="partners-section" data-node-id="40:1307" aria-labelledby="partners-heading" tabIndex={0}>
     <div className="partners-heading" data-reveal>
-      <h2 id="partners-heading">Trusted by Industry Partners</h2>
+      <h2 id="partners-heading"><FoldText>Trusted by Industry Partners</FoldText></h2>
       <p>Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond.</p>
     </div>
     <div className="partner-rows">

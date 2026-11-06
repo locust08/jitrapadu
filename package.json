@@ -34,7 +34,7 @@
     "typecheck": "tsc --noEmit",
     "check": "npm run lint && npm run typecheck && npm run build",
     "preview": "node scripts/preview.mjs",
-    "test": "node --import tsx --test --test-force-exit tests/cms/*.test.ts",
+    "test": "node --import tsx --test --test-force-exit tests/cms/*.test.ts tests/frontend/*.test.ts",
     "cms:types": "payload generate:types",
     "cms:import-map": "payload generate:importmap",
     "cms:import": "tsx --env-file=.env scripts/cms/import-original.ts",

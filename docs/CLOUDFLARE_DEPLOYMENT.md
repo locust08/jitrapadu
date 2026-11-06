@@ -25,9 +25,10 @@ The parent GitHub repository is separate. Commit and push approved source change
 there before updating the Sites deployment checkout. `export-integrity.json` in
 that checkout records the parent source commit used for the publication.
 
-The approved 5 November update includes BugHerd #78–93. Keep those tasks in Ready
-for Review. Task #77 awaits additional photos for each selected project; its
-single-photo popup is retained. The contact form remains disabled for review.
+The approved 6 November update includes BugHerd #94–110. Keep those tasks in Ready
+for Review. Task #77 awaits additional photos for the remaining seven projects;
+Kajang and Changkat Jong now have verified extra gallery views, shared by portfolio
+and solution pages. The contact form remains disabled for review.
 
 DNS in the `locus-t.com` zone uses a DNS-only CNAME from `jitrapadu.sites` to
 `custom-domains.chatgpt.site`, plus the verification TXT records returned by Sites.

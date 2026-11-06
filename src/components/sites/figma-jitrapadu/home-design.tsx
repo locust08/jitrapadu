@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import { FoldText } from "./shared/FoldText";
 import Link from "next/link";
 import {usePublishedContent} from "./shared/PublishedContentProvider";
 import {solutionGroups} from "@/cms/content-types";
@@ -42,7 +43,7 @@ export function HomeDesign() {
       <div className="home-hero-overlay" />
       <div className="home-hero-heading" data-reveal>
         <p>We Are The XPERTS in Telecom Steel Infrastructure</p>
-        <h1>Engineering Excellence, Powering Innovation</h1>
+        <h1><FoldText>Engineering Excellence, Powering Innovation</FoldText></h1>
       </div>
       <div className="home-tower" aria-hidden="true"><img src={base+"16e03.png"} alt="" /></div>
       <div className="home-hero-copy" data-reveal>
@@ -52,7 +53,7 @@ export function HomeDesign() {
     </section>
     <section className="home-about section-pad">
       <ShaderFill className="absolute" shader={{ setup, render, manifest, params:{falloff:4,inverseFalloff:false,ringCount:30,offset:1,shape:1,transform:{x:21.67953109741211,y:100,radius:40.80624771118164,angle:0},color:{r:.9450980424880981,g:.9450980424880981,b:.9450980424880981,a:.800000011920929}} }} />
-      <div className="home-section-title" data-reveal><p className="eyebrow">About Us</p><h2>Building the Future of Malaysia’s Connectivity</h2></div>
+      <div className="home-section-title" data-reveal><p className="eyebrow">About Us</p><h2><FoldText>Building the Future of Malaysia’s Connectivity</FoldText></h2></div>
       <div className="home-about-body">
         <div className="prose" data-reveal><p>Jitrapadu Engineering Sdn Bhd is a Malaysian telecommunication engineering and steel structure specialist focused on turnkey infrastructure solutions. We design, fabricate and deploy telecommunication towers, monopoles, smart poles, lamp poles, rapid deployment systems and other custom steel structures.</p><p>Our strength lies in combining engineering knowledge, in-house manufacturing and field experience to deliver safe, reliable and cost-effective infrastructure. With continuous R&D and a strong understanding of telco requirements, we support clients in building networks that are ready for 5G, smart city development, IoT and future connectivity needs.</p></div>
         <div className="home-strengths">{strengths.map(([title,copy,icon])=><article className="home-strength" data-card data-reveal key={title}><div className="home-icon"><span style={{maskImage:`url("${base+icon}")`}} /></div><h3>{title}</h3><p>{copy}</p></article>)}</div>
@@ -60,16 +61,16 @@ export function HomeDesign() {
       </div>
     </section>
     <section className="home-solutions" id="solutions">{publicSolutions.map(solution=>{
-      const content=<><img src={solution.imageUrl} alt="" /><h2>{solution.title}</h2><div className="solution-reveal"><p>{solution.description}</p><span className="solution-arrow"><FigmaIcon name="arrow-right" /></span></div></>;
+      const content=<><img src={solution.imageUrl} alt="" /><h2><FoldText>{solution.title}</FoldText></h2><div className="solution-reveal"><p>{solution.description}</p><span className="solution-arrow"><FigmaIcon name="arrow-right" /></span></div></>;
       const props={className:"home-solution",id:solution.id,"data-node-id":solution.node,"data-reveal":true};
       return solution.href?<Link {...props} href={solution.href} key={solution.id}>{content}</Link>:<article {...props} tabIndex={0} key={solution.id}>{content}</article>;
     })}</section>
     <section className="home-factory section-pad">
       <div className="home-factory-photo" data-card data-reveal><img data-card-image src={base+"21909.png"} alt="Jitrapadu’s steel fabrication facility in Klang" /><div className="home-stat-stack"><div><strong><CountUp value={60} suffix="+" /></strong><p>Skilled Workers</p></div><div><strong><CountUp value={350} />–<CountUp value={500} /><small> Tons</small></strong><p>Production Capacity per Month</p></div></div></div>
-      <div className="home-factory-copy"><p className="eyebrow" data-reveal>Our Factory</p><h2 data-reveal>Built locally.<br />Delivered with control.</h2><p data-reveal>Our in-house factory in Klang gives us better control over fabrication quality, production timelines and project delivery, from steel processing to finished structure.</p><Link className="primary-action" href="/our-factory" data-reveal>See Our Capability <FigmaIcon name="arrow-right" /></Link></div>
+      <div className="home-factory-copy"><p className="eyebrow" data-reveal>Our Factory</p><h2 data-reveal><FoldText>Built locally.<br />Delivered with control.</FoldText></h2><p data-reveal>Our in-house factory in Klang gives us better control over fabrication quality, production timelines and project delivery, from steel processing to finished structure.</p><Link className="primary-action" href="/our-factory" data-reveal>See Our Capability <FigmaIcon name="arrow-right" /></Link></div>
     </section>
     <TrustedPartners />
-    <section className="home-industries section-pad"><div className="home-centered-heading" data-reveal><h2>Industries We Serve</h2><p>Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond.</p></div><div className="home-industry-grid">{industries.map(([title,copy,image])=><article className="home-industry" data-card data-reveal key={title}><img data-card-image src={base+image} alt="" /><div><h3>{title}</h3><p>{copy}</p></div></article>)}</div></section>
+    <section className="home-industries section-pad"><div className="home-centered-heading" data-reveal><h2><FoldText>Industries We Serve</FoldText></h2><p>Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond.</p></div><div className="home-industry-grid">{industries.map(([title,copy,image])=><article className="home-industry" data-card data-reveal key={title}><img data-card-image src={base+image} alt="" /><div><h3>{title}</h3><p>{copy}</p></div></article>)}</div></section>
     <FooterWithCta className="site-footer" />
   </div>;
 }

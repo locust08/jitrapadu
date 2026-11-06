@@ -140,6 +140,7 @@
 .archive-category-intro .editorial-draft-note { margin-top: 16px; font-size: 13px; }
 .archive-year-filter { display: grid; gap: 10px; padding-inline: 12px; font-size: 14px; font-weight: 600; }
 .archive-year-filter select { width: 100%; min-width: 0; padding: 12px; border: 1px solid #c5ced8; border-radius: 7px; color: #102033; background: #fff; font: inherit; }
+.archive-year-filter select { appearance:none; padding-right:44px; background-image:url('/sites/figma-jitrapadu/icons/chevron-down.svg'); background-repeat:no-repeat; background-size:16px; background-position:right 16px center; }
 .archive-loading { min-height: 100vh; padding: 160px 24px; text-align: center; }
 .contact-layout { max-width: 1420px; }
 .contact-introduction { grid-column: 1 / -1; text-align: center; display: grid; justify-items: center; gap: 16px; margin-bottom: 16px; }

@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
+import { FoldText } from "./shared/FoldText";
 import { Header } from "./shared/Header";
 import { FooterWithCta } from "./shared/Footer";
 const assetPathPrefix = "/sites/figma-jitrapadu/shared";
@@ -56,12 +57,12 @@ export function FactoryDesign() {
     <Header />
     <section className="factory-hero page-banner">
       <div className="factory-hero-image" aria-hidden="true"><img src={imgRectangle1} alt="" /><img src={imgRectangle2} alt="" /></div>
-      <h1 data-reveal>Our Factory</h1>
+      <h1 data-reveal><FoldText>Our Factory</FoldText></h1>
     </section>
     <section className="factory-intro factory-section">
       <div className="factory-intro-copy" data-reveal>
         <p className="factory-eyebrow-large">Built Locally, Delivered with Control</p>
-        <h2>In-house Steel Fabrication Capability, from Factory to Field</h2>
+        <h2><FoldText>In-house Steel Fabrication Capability, from Factory to Field</FoldText></h2>
 <p>Our facility supports the manufacturing of towers, monopoles, smart poles, lamp poles, RDS structures and custom steel solutions. By combining engineering, fabrication and project execution under one coordinated process, we help clients move from design to deployment with fewer gaps and better accountability.</p>
 
       </div>
@@ -77,7 +78,7 @@ export function FactoryDesign() {
     <section className="factory-production factory-section">
       <img className="factory-production-image" src={imgRectangle8} alt="Steel welding at the Jitrapadu factory" />
       <div className="factory-production-content">
-        <div data-reveal><h2>Production Capacity &amp; Delivery</h2><p>Jitrapadu’s production capability is supported by experienced manpower, efficient fabrication processes and structured project coordination to deliver reliable output within practical project timelines.</p></div>
+        <div data-reveal><h2><FoldText>Production Capacity &amp; Delivery</FoldText></h2><p>Jitrapadu’s production capability is supported by experienced manpower, efficient fabrication processes and structured project coordination to deliver reliable output within practical project timelines.</p></div>
         <div className="factory-stats">
           <article data-card data-reveal><strong><CountUp value={10} suffix="+" /></strong><h5>Certified Welders (CIDB/TWI)</h5></article>
           <article data-card data-reveal><strong><CountUp value={350} />–<CountUp value={500} /> <small>Tons</small></strong><h5>Production Capacity per Month</h5></article>
@@ -87,7 +88,7 @@ export function FactoryDesign() {
       </div>
     </section>
     <section className="factory-manufacturing factory-section">
-      <div className="factory-section-heading" data-reveal><h2>In-House Fabrication &amp; Manufacturing Capabilities</h2><p>Jitrapadu handles core steel fabrication work in-house, giving us greater control over production quality, design customisation and project delivery. Our fabrication team supports made-to-order and selected ready-stock structures based on project requirements and availability.</p><p>Our facility is equipped with machinery and fabrication processes that support the production of telecom towers, poles, smart poles and custom steel structures.</p></div>
+      <div className="factory-section-heading" data-reveal><h2><FoldText>In-House Fabrication &amp; Manufacturing Capabilities</FoldText></h2><p>Jitrapadu handles core steel fabrication work in-house, giving us greater control over production quality, design customisation and project delivery. Our fabrication team supports made-to-order and selected ready-stock structures based on project requirements and availability.</p><p>Our facility is equipped with machinery and fabrication processes that support the production of telecom towers, poles, smart poles and custom steel structures.</p></div>
       <div className="factory-capability-grid">{capabilities.map(item => <article className="factory-capability-card" key={item.title} data-card data-reveal>
         <img data-card-image src={item.image} alt={item.title} />
         <div className="factory-capability-copy"><h4>{item.title}</h4><p>{item.description}</p></div>
@@ -95,14 +96,14 @@ export function FactoryDesign() {
     </section>
     <section className="factory-workflow factory-section">
       <FactoryPattern />
-      <div className="factory-workflow-heading" data-reveal><p className="factory-eyebrow">Our Workflow</p><h2>Factory-to-Field Workflow</h2></div>
+      <div className="factory-workflow-heading" data-reveal><p className="factory-eyebrow">Our Workflow</p><h2><FoldText>Factory-to-Field Workflow</FoldText></h2></div>
       <ol className="factory-steps">{workflow.map((step, index) => <li key={step.title} data-reveal>
         <FactoryIcon src={step.icon} /><div><p className="factory-step-number">Step {index + 1}:</p><h4>{step.title}</h4><p>{step.description}</p></div>
       </li>)}</ol>
     </section>
     <section className="factory-quality factory-section">
       <img src={imgBackground} alt="Factory quality assurance" />
-      <div data-reveal><h2>Quality Built into Every Stage</h2><p>From engineering design to fabrication and installation, our process is built around safety, reliability and long-term structural performance. Our structures are designed to comply with recognised engineering standards, while galvanising and coating requirements are handled according to project specifications.</p></div>
+      <div data-reveal><h2><FoldText>Quality Built into Every Stage</FoldText></h2><p>From engineering design to fabrication and installation, our process is built around safety, reliability and long-term structural performance. Our structures are designed to comply with recognised engineering standards, while galvanising and coating requirements are handled according to project specifications.</p></div>
     </section>
     <section className="factory-benefits factory-section">
       <h3 data-reveal>What Our Factory Means for Clients</h3>

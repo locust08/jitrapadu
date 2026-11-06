@@ -8,7 +8,7 @@ export function PageMotion({ root }: { root: RefObject<HTMLDivElement | null> })
     const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
     const elements = new Set<HTMLElement>();
     const added = new Set<HTMLElement>();
-    const selector = "[data-reveal], [data-card], .post-card, .portfolio-card";
+    const selector = "[data-reveal], [data-card], .post-card, .portfolio-card, h1 + p, h2 + p, .home-hero-copy";
     const observer = new IntersectionObserver(entries => {
       let entering = 0;
       // DOM order keeps left-to-right card sequences stable between observer batches.
@@ -18,7 +18,9 @@ export function PageMotion({ root }: { root: RefObject<HTMLDivElement | null> })
         if (entry.isIntersecting) {
           const siblings = element.parentElement ? Array.from(element.parentElement.children).filter(child => child.matches(selector)) : [];
           const index = Math.max(entering++, siblings.indexOf(element));
-          element.style.setProperty("--reveal-delay", `${Math.min(index, 4) * 85}ms`);
+          const heading = element.matches("p") && element.previousElementSibling?.matches("h1,h2") ? element.previousElementSibling : null;
+          const titleDelay = heading ? 750 + Math.min((heading.textContent || "").trim().split(/\s+/).length, 20) * 45 : 0;
+          element.style.setProperty("--reveal-delay", `${element.matches(".home-hero-copy") ? 1100 : Math.max(titleDelay, Math.min(index, 4) * 85)}ms`);
         } else {
           element.style.setProperty("--reveal-delay", "0ms");
         }
@@ -34,7 +36,7 @@ export function PageMotion({ root }: { root: RefObject<HTMLDivElement | null> })
         if (elements.has(element) || element.closest("dialog")) continue;
         if (!element.hasAttribute("data-reveal")) { element.dataset.reveal = ""; added.add(element); }
         // Slide only content/cards, never section ancestors containing sticky navigation.
-        if (element.matches("[data-card], .post-card, .portfolio-card, .about-heading, .home-section-title, .article-body>section, h1[data-reveal], .contact-form-panel, .contact-details, .tower-section-heading, .tower-intro-copy, .factory-steps>li, .tower-steps>li")) element.dataset.revealSlide = "true";
+        if (element.matches("[data-card], .post-card, .portfolio-card, .about-heading, .home-section-title, .article-body>section, h1[data-reveal], .contact-form-panel, .contact-details, .tower-section-heading, .tower-intro-copy, .factory-steps>li, .tower-steps>li, h1 + p, h2 + p, .home-hero-copy")) element.dataset.revealSlide = "true";
         element.dataset.visible = "false";
         elements.add(element);
         observer.observe(element);

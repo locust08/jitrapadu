@@ -60,7 +60,7 @@ body { margin:0; font-family:var(--font-inter),Arial,sans-serif; color:#102033; 
 .partner-row-1 .partner-track { animation-direction:reverse; }
 .partner-group { display:flex; flex-shrink:0; }
 .partner-cell { display:flex; align-items:center; justify-content:center; width:440px; height:240px; flex-shrink:0; border:1px solid #c5ced8; background:#fff; }
-.partner-cell img { object-fit:contain; flex-shrink:0; width:calc(100% - 48px); height:calc(100% - 40px); max-width:none; }
+.partner-cell img { object-fit:contain; flex-shrink:0; width:100%; height:100%; max-width:none; }
 .partners-section:hover .partner-track,.partners-section:focus-within .partner-track { animation-play-state:paused; }
 .partners-section:focus-visible { outline:3px solid #007cf8; outline-offset:-3px; }
 @keyframes partner-marquee { from { transform:translateX(var(--row-offset)); } to { transform:translateX(calc(-50% + var(--row-offset))); } }
