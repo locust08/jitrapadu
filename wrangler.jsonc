@@ -1,6 +1,11 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "jitrapadu",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "jitrapadu.sites.locus-t.com/*", "zone_id": "505c3ab8007c8a0ef1c1b2b19df4a4f9" }
+  ],
   "account_id": "e7c515dde995479daacd82ad79dfc3e8",
   "assets": {
     "directory": "./temp/cloudflare-review/out",

@@ -2,6 +2,11 @@
   "name": "jitrapadu",
   "account_id": "e7c515dde995479daacd82ad79dfc3e8",
   "compatibility_date": "2026-10-23",
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "jitrapadu.sites.locus-t.com/*", "zone_id": "505c3ab8007c8a0ef1c1b2b19df4a4f9" }
+  ],
   "assets": {
     "directory": "./temp/cloudflare-review/out",
     "html_handling": "auto-trailing-slash",

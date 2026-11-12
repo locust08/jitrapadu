@@ -12,23 +12,9 @@ const imgRectangle15 = `${assetPathPrefix}/d3b69.png`;
 const imgRectangle7 = `${assetPathPrefix}/bc58c.png`;
 import { ShaderFill } from "./shared/ShaderFill";
 import { setup as setupCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, render as renderCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615, manifest as manifestCodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615 } from "./shared/CodeComponentId_c2b302fbdfce8a1ec92a5a80b10a5916ab506ed7_615";
-const imgRectangle1 = `${assetPathPrefix}/4ac91.png`;
-const imgRectangle2 = `${assetPathPrefix}/e7432.png`;
 const imgRectangle3 = `${assetPathPrefix}/270ae.png`;
 const imgRectangle12 = `${assetPathPrefix}/46788.png`;
 const imgRectangle13 = `${assetPathPrefix}/bfe35.png`;
-const imgRectangle9 = `${assetPathPrefix}/857fe.png?review=20261029-original`;
-const imgRectangle10 = `${assetPathPrefix}/cbcd2.png?review=20261029-original`;
-const imgRectangle11 = `${assetPathPrefix}/0b993.png?review=20261029-original`;
-const imgRectangle14 = `${assetPathPrefix}/f7ddc.png?review=20261029-original`;
-const imgRectangle16 = `${assetPathPrefix}/b23c8.png?review=20261029-original`;
-const imgImage238 = `${assetPathPrefix}/55b91.png?review=20261029-original`;
-const imgRectangle17 = `${assetPathPrefix}/1d7d6.png?review=20261029-original`;
-const imgRectangle18 = `${assetPathPrefix}/32e5c.png?review=20261029-original`;
-const imgRectangle19 = `${assetPathPrefix}/1393b.png?review=20261029-original`;
-const imgRectangle20 = `${assetPathPrefix}/031f5.png?review=20261029-original`;
-const imgRectangle21 = `${assetPathPrefix}/1c3f8.png?review=20261029-original`;
-const imgRectangle22 = `${assetPathPrefix}/bdb93.png?review=20261029-original`;
 const imgRectangle23 = `${assetPathPrefix}/9c60b.png`;
 const imgRectangle24 = `${assetPathPrefix}/71610.png`;
 const imgRectangle25 = `${assetPathPrefix}/d6026.png`;
@@ -190,10 +176,6 @@ export function AboutDesign() {
           <div className="-scale-y-100 flex-none rotate-180">
             <div className="h-[650px] relative w-[1920px]">
               <div aria-hidden className="absolute inset-0 pointer-events-none">
-                <img alt="" className="absolute max-w-none object-cover size-full" src={imgRectangle1} />
-                <div className="absolute inset-0 overflow-hidden">
-                  <img alt="" className="absolute h-[213.28%] left-0 max-w-none top-[-83.84%] w-full" src={imgRectangle2} />
-                </div>
                 <div className="absolute inset-0 overflow-hidden">
                   <img alt="" className="absolute h-[213.28%] left-0 max-w-none top-[-76.02%] w-full" src={imgRectangle3} />
                 </div>
@@ -343,134 +325,41 @@ export function AboutDesign() {
                 </div>
                 <p className="font-sans font-normal leading-[30px] min-w-full relative shrink-0 text-[18px] text-[color:var(--color-text-secondary,#495667)] w-[min-content]" data-node-id="115:437">{`Our work is supported by recognised registrations, technical references, engineering standards and industry compliance documents that reflect our commitment to quality and reliability. `}</p>
               </div><div className="about-certificate-grid" data-node-id="68:923">
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:988" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:989">
-                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
-                  <img alt="" className="absolute h-[102.67%] left-[-2.11%] max-w-none top-[-2.51%] w-[103.69%]" src={imgRectangle9} />
-                </div>
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:990">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:991">{`SIRIM QAS International Test Report `}</p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="sirim">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/sirim.webp" alt="SIRIM QAS International Test Report" width={600} height={870} />
+              <p>SIRIM QAS International Test Report</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1003" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1004">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle10} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1005">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] tracking-[-0.2px] whitespace-nowrap" data-node-id="68:1006">
-                  TM Vendor
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="tm-vendor">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/tm-vendor.webp" alt="TM Vendor" width={600} height={870} />
+              <p>TM Vendor</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:993" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:994">
-                <div aria-hidden className="absolute inset-0 pointer-events-none rounded-[var(--spacing-12,12px)]">
-                  <div className="absolute bg-white inset-0 rounded-[var(--spacing-12,12px)]" />
-                  <div className="absolute inset-0 overflow-hidden rounded-[var(--spacing-12,12px)]">
-                    <img alt="" className="absolute h-[93.79%] left-[1.94%] max-w-none top-[3.28%] w-[96.07%]" src={imgRectangle11} />
-                  </div>
-                </div>
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:995">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] tracking-[-0.2px] whitespace-nowrap" data-node-id="68:996">
-                  CIDB Grade G5: B / CE / ME
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="ericsson">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/ericsson.webp" alt="Ericsson Smart Pole Cabinet Reference" width={600} height={870} />
+              <p>Ericsson Smart Pole Cabinet Reference</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1008" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1009">
-                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
-                  <img alt="" className="absolute h-[102.56%] left-[-2.57%] max-w-none top-[-2.62%] w-[105.13%]" src={imgRectangle14} />
-                </div>
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1010">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1011">
-                  Ericsson Smart Pole Cabinet Reference
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="chugoku">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/chugoku.webp" alt="Chugoku Paints Qualified Painting Applicator" width={600} height={870} />
+              <p>Chugoku Paints Qualified Painting Applicator</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1013" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1014">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle16} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1015">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1016">
-                  Chugoku Paints Qualified Painting Applicator
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="fgv">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/fgv.webp" alt="FGV Vendor Registration" width={600} height={870} />
+              <p>FGV Vendor Registration</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1018" data-name="Frame" data-reveal>
-              <div className="h-[460.432px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-[317.67px]" data-node-id="184:709" data-name="image 238">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgImage238} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1020">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1021">
-                  DCA / CAAM-related tower paint colour approval
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="ytsb">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/ytsb.webp" alt="YTSB 5G Infrastructure Support Letter" width={600} height={870} />
+              <p>YTSB 5G Infrastructure Support Letter</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1023" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1024">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle17} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1025">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] tracking-[-0.2px] whitespace-nowrap" data-node-id="68:1026">
-                  FGV Vendor Registration
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="edotco">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/edotco.webp" alt="edotco Malaysia Appreciation Letter" width={600} height={870} />
+              <p>edotco Malaysia Appreciation Letter</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1028" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1029">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle18} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1030">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1031">
-                  Galvanising / Zinc Coating Certificate
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="rendang">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/rendang.webp" alt="Rendang Engineering Technical Endorsement Letter" width={600} height={870} />
+              <p>Rendang Engineering Technical Endorsement Letter</p>
             </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:983" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:984">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle19} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:985">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:986">
-                  YTSB 5G Infrastructure Support Letter
-                </p>
-              </div>
-            </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:924" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:981">
-                <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle20} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:930">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:931">
-                  edotco Malaysia Appreciation Letter
-                </p>
-              </div>
-            </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:998" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:999">
-                <img alt="" className="absolute inset-0 max-w-none object-contain pointer-events-none rounded-[var(--spacing-12,12px)] size-full" src={imgRectangle21} />
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1000">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1001">
-                  Rendang Engineering Technical Endorsement Letter
-                </p>
-              </div>
-            </div>
-            <div className="backdrop-blur-[5px] bg-[rgba(255,255,255,0.2)] border border-[var(--color-border-default,#dde4ec)] border-solid content-stretch flex flex-col items-start justify-self-stretch p-[10px] relative rounded-[var(--spacing-12,12px)] self-stretch shrink-0" data-node-id="68:1033" data-name="Frame" data-reveal>
-              <div className="h-[460.43px] relative rounded-[var(--spacing-12,12px)] shrink-0 w-full" data-node-id="68:1034">
-                <div className="absolute inset-0 overflow-hidden pointer-events-none rounded-[var(--spacing-12,12px)]">
-                  <img alt="" className="absolute h-[101.65%] left-[-1.76%] max-w-none top-[-2.76%] w-[101.42%]" src={imgRectangle22} />
-                </div>
-              </div>
-              <div className="content-stretch flex flex-col gap-[var(--spacing-4,4px)] items-center p-[var(--spacing-12,12px)] relative shrink-0 w-full" data-node-id="68:1035">
-                <p className="[word-break:break-word] font-sans font-semibold leading-[28px] not-italic relative shrink-0 text-[20px] text-[color:var(--color-text-primary,#102033)] text-center tracking-[-0.2px] w-full" data-node-id="68:1036">
-                  Steel Material Mill Test Certificate
-                </p>
-              </div>
+            <div className="about-certificate-card" data-reveal key="steel-mill">
+              <img src="/sites/figma-jitrapadu/certificates/review-2026-11-12/steel-mill.webp" alt="Steel Material Mill Test Certificate" width={600} height={882} />
+              <p>Steel Material Mill Test Certificate</p>
             </div>
           </div></section>
       <section className="about-section about-achievements" data-node-id="235:1193"><div className="about-heading" data-reveal data-node-id="235:1195">

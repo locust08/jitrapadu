@@ -20,12 +20,12 @@ export function TrustedPartners() {
   const partners=[...partnersByName.values()];
   const middle=Math.ceil(partners.length/2);
   const displayRows=[partners.slice(0,middle),partners.slice(middle)].filter(row=>row.length);
-  return <section className="partners-section" data-node-id="40:1307" aria-labelledby="partners-heading" tabIndex={0}>
+  return <section className="partners-section" data-node-id="40:1307" aria-labelledby="partners-heading">
     <div className="partners-heading" data-reveal>
       <h2 id="partners-heading"><FoldText>Trusted by Industry Partners</FoldText></h2>
       <p>Jitrapadu has worked with telecommunication providers, infrastructure owners, public sector organisations and industry partners across Malaysia and beyond.</p>
     </div>
-    <div className="partner-rows">
+    <div className="partner-rows" tabIndex={0} role="region" aria-label="Partner logos; focus to pause scrolling">
       {displayRows.map((partners, index) => <div className={`partner-row partner-row-${index}`} key={index}>
         <div className="partner-track" style={{animationDuration:`${partners.length * 11}s`}}>
           {[0, 1].map(copy => <div className="partner-group" key={copy} aria-hidden={copy === 1 ? true : undefined}>
